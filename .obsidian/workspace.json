@@ -208,8 +208,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77f40f6835b8ab28",
+  "active": "9bafdecc0443aa8a",
   "lastOpenFiles": [
+    "New Text Document.txt",
+    "CANONICAL/BEHAVIOR-PATTERNS.md",
+    "gitignore.md",
     "BRAIN-ENTRIES/BE-20260422-BRAINOS-live-sync-vault-financial-setup.md",
     "CANONICAL/FINANCIAL-SNAPSHOT.md",
     "INDEX/OPEN-QUESTIONS.md",
@@ -226,7 +229,6 @@
     "CANONICAL",
     "INDEX/Master Index - File-Domain-Status-KeyFact-OpenQuestion.md",
     "04.20.2026 Daily Note.md",
-    "CANONICAL/BEHAVIOR-PATTERNS.md",
     "INDEX/Master Index.pdf",
     "INDEX/Master Index - File-Domain-Status-KeyFact-OpenQuestion.csv",
     "INDEX/Unconfirmed 841663.crdownload",
@@ -243,8 +245,6 @@
     "BRAIN-ENTRIES/Brain_Entry_006.md",
     "BRAIN-ENTRIES/Brain_Entry_005.md",
     "BRAIN-ENTRIES/Brain_Entry_004.md",
-    "BRAIN-ENTRIES/Brain_Entry_003.md",
-    "BRAIN-ENTRIES/Brain_Entry_001.md",
     "CANONICAL-FILES",
     "TOOLS-AND-INFRASTRUCTURE/DEVICE-INVENTORY"
   ]
