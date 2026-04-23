@@ -11,14 +11,10 @@
             "id": "a3408f13bc794fff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BRAIN-ENTRIES/Brain_Entry_003.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Brain_Entry_003"
+              "title": "New tab"
             }
           }
         ]
@@ -190,11 +186,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "BRAIN-ENTRIES/Brain_Entry_003.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for Brain_Entry_003"
+              "title": "File properties"
             }
           }
         ],
@@ -206,7 +200,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "google-drive-sync:Push to Google Drive": false,
       "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -223,8 +216,8 @@
   },
   "active": "a3408f13bc794fff",
   "lastOpenFiles": [
-    "BRAIN-ENTRIES/Brain_Entry_006.md",
     "BRAIN-ENTRIES/Brain_Entry_003.md",
+    "BRAIN-ENTRIES/Brain_Entry_006.md",
     "BRAIN-ENTRIES/BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
     "BRAIN-ENTRIES/BE-20260318-MIXED-ctrlplusyou-pivot-brand-docs.md",
     "INDEX/MASTER-INDEX.md",
