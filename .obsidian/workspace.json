@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "8085b1fabd197c14",
+    "id": "2b8cd4cc42d11af7",
     "type": "split",
     "children": [
       {
-        "id": "292e750e1021009a",
+        "id": "1c0d15db3e89f723",
         "type": "tabs",
         "children": [
           {
-            "id": "a3408f13bc794fff",
+            "id": "b565744f765778e2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CANONICAL/BRAINOS-SYSTEM.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "BRAINOS-SYSTEM"
             }
           }
         ]
@@ -23,20 +27,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a51b4740343f8470",
+    "id": "03ed39d7b9ecbac0",
     "type": "split",
     "children": [
       {
-        "id": "8ec21f9da301fd1a",
+        "id": "0565f3fdaa0585b0",
         "type": "tabs",
         "children": [
           {
-            "id": "9bafdecc0443aa8a",
+            "id": "e406d8f0221d09d1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "cf130d3ecededf2a",
+            "id": "ade1223c8d2f7b2e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "26f88eae2a4e90d9",
+            "id": "e1a8ff546aada677",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,20 +81,19 @@
     "width": 300
   },
   "right": {
-    "id": "c9b965f2a4104e05",
+    "id": "d857ea50c848ff53",
     "type": "split",
     "children": [
       {
-        "id": "20adbfe18adc8a1e",
+        "id": "0afd824492df165e",
         "type": "tabs",
         "children": [
           {
-            "id": "d37fbeba46454988",
+            "id": "db28fa24de2cf13b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CANONICAL/BEHAVIOR-PATTERNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for BEHAVIOR-PATTERNS"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "21c273d131fbfb3f",
+            "id": "46b484f28cd61717",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CANONICAL/BEHAVIOR-PATTERNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from BEHAVIOR-PATTERNS"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "be430703c6fedd02",
+            "id": "9d9bee20be440fe1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,7 +135,7 @@
             }
           },
           {
-            "id": "b1bc51ef547fc40b",
+            "id": "f403f23e1c5fbf33",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,60 +149,28 @@
             }
           },
           {
-            "id": "aaec9eb3580c6176",
+            "id": "271118c94ccc2bfe",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "BRAIN-ENTRIES/BE_OpenSource_011.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of BE_OpenSource_011"
-            }
-          },
-          {
-            "id": "48c90012e241cc34",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
-            }
-          },
-          {
-            "id": "1a7d61929e958bbf",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "1044b477798c3fd7",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {},
-              "icon": "lucide-info",
-              "title": "File properties"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -208,50 +178,50 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
+      "google-drive-sync:Push to Google Drive": false,
+      "obsidian-git:Open Git source control": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Connections: Open random connection": false,
-      "smart-connections:Smart Lookup: Open lookup view": false,
-      "obsidian-git:Open Git source control": false
+      "smart-connections:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "a3408f13bc794fff",
+  "active": "b565744f765778e2",
   "lastOpenFiles": [
-    "BRAIN-ENTRIES/Brain_Entry_003.md",
-    "BRAIN-ENTRIES/Brain_Entry_006.md",
-    "BRAIN-ENTRIES/BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
-    "BRAIN-ENTRIES/BE-20260318-MIXED-ctrlplusyou-pivot-brand-docs.md",
-    "INDEX/MASTER-INDEX.md",
-    "BRAIN-ENTRIES/BE-20260422-BRAINOS-live-sync-vault-financial-setup.md",
-    "BRAIN-ENTRIES/BE_OpenSource_011.md",
-    "New Text Document.txt",
-    "CANONICAL/BEHAVIOR-PATTERNS.md",
-    "gitignore.md",
-    "CANONICAL/FINANCIAL-SNAPSHOT.md",
-    "INDEX/OPEN-QUESTIONS.md",
-    "BRAIN-ENTRIES/BrainOS-Open-Questions-Worksheet.md",
-    "CANONICAL/AI-WORKFLOW-RULES.md",
-    "INDEX/MASTER-INDEX.csv",
-    "INDEX/MASTER-INDEX 1.csv",
-    "CANONICAL/BRAYDEN-IDENTITY.md",
+    "CANONICAL/HOME-PROJECTS.md",
+    "CANONICAL/BRAINOS-SYSTEM.md",
     "RESEARCH-AND-LOGS/Rule.md",
-    "CANONICAL/BRAYDEN-PROFILE.md",
     "RESEARCH-AND-LOGS",
+    "PROJECTS/YOUTUBE",
+    "PROJECTS/HOMESTEAD",
+    "PROJECTS/GLWC",
+    "PROJECTS/ELECTRICIAN",
+    "PROJECTS/CTRL-YOU",
+    "PROJECTS",
+    "INDEX/MASTER-INDEX.csv",
+    "INDEX/OPEN-QUESTIONS.md",
+    "INDEX/MASTER-INDEX.md",
+    "INDEX",
+    "CANONICAL/YOUTUBE-CONTENT.md",
+    "CANONICAL/SKILLS-EDUCATION.md",
+    "CANONICAL/MAKER-3DPRINT-LOG.md",
+    "CANONICAL/HARDWARE-AND-TOOLS.md",
+    "CANONICAL/GLWC-UNION.md",
+    "CANONICAL/FINANCIAL-SNAPSHOT.md",
     "CANONICAL/DEVICE-INVENTORY.md",
+    "CANONICAL/BRAYDEN-IDENTITY.md",
+    "CANONICAL/BEHAVIOR-PATTERNS.md",
+    "CANONICAL/AI-WORKFLOW-RULES.md",
     "CANONICAL",
-    "INDEX/Master Index - File-Domain-Status-KeyFact-OpenQuestion.md",
-    "04.20.2026 Daily Note.md",
-    "INDEX/Master Index.pdf",
-    "INDEX/Master Index - File-Domain-Status-KeyFact-OpenQuestion.csv",
-    "INDEX/Unconfirmed 841663.crdownload",
-    "INDEX/Master Index.csv",
-    "BRAIN-ENTRIES/Brain_Entry_002.md",
-    "BRAIN-ENTRIES/BE-20260226-MIXED-hub-v4-cashflow-localstorage.md",
-    "Untitled.canvas",
     "BRAIN-ENTRIES/Brain_Entry_010.md",
     "BRAIN-ENTRIES/Brain_Entry_009.md",
     "BRAIN-ENTRIES/Brain_Entry_008.md",
     "BRAIN-ENTRIES/Brain_Entry_007.md",
+    "BRAIN-ENTRIES/Brain_Entry_006.md",
     "BRAIN-ENTRIES/Brain_Entry_005.md",
-    "CANONICAL-FILES"
+    "BRAIN-ENTRIES/Brain_Entry_004.md",
+    "BRAIN-ENTRIES/Brain_Entry_003.md",
+    "BRAIN-ENTRIES/Brain_Entry_002.md",
+    "BRAIN-ENTRIES/Brain_Entry_001.md",
+    "BRAIN-ENTRIES/BrainOS-Open-Questions-Worksheet.md"
   ]
 }
