@@ -11,10 +11,14 @@
             "id": "97782f49d77d91f0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "INDEX/MASTER-INDEX.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "MASTER-INDEX"
             }
           }
         ]
@@ -186,9 +190,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "INDEX/MASTER-INDEX.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for MASTER-INDEX"
             }
           }
         ],
@@ -215,7 +221,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be430703c6fedd02",
+  "active": "97782f49d77d91f0",
   "lastOpenFiles": [
     "INDEX/MASTER-INDEX.md",
     "BRAIN-ENTRIES/BE-20260422-BRAINOS-live-sync-vault-financial-setup.md",
