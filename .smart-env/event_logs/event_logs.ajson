@@ -94,3 +94,4 @@
 "event_logs:embedding:progress": {"key":"embedding:progress","ct":48,"first_at":1776952867687,"last_at":1776970939533,"class_name":"EventLog","event_sources":{"process_embed_queue":48}},
 "event_logs:embedding:completed": {"key":"embedding:completed","ct":9,"first_at":1776952929829,"last_at":1776970939533,"class_name":"EventLog","event_sources":{"process_embed_queue":9}},
 "event_logs:sources:deleted": {"key":"sources:deleted","ct":86,"first_at":1776952917947,"last_at":1776970941113,"class_name":"EventLog","event_sources":{"obsidian:vault.delete":86}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":78,"first_at":1776396938037,"last_at":1776988171355,"class_name":"EventLog","event_sources":{"active-leaf-change":78}},
