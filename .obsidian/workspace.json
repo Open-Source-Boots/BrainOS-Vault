@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CANONICAL/BRAINOS-SYSTEM.md",
+                "file": "BRAIN-ENTRIES/BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BRAINOS-SYSTEM"
+              "title": "BE-20260423-BRAINOS-git-gdrive-sync-completed"
             }
           }
         ]
@@ -187,8 +187,9 @@
   },
   "active": "b565744f765778e2",
   "lastOpenFiles": [
-    "CANONICAL/HOME-PROJECTS.md",
     "CANONICAL/BRAINOS-SYSTEM.md",
+    "BRAIN-ENTRIES/BE-20260423-BRAINOS-fullstack-sync-n8n-install.md",
+    "CANONICAL/HOME-PROJECTS.md",
     "RESEARCH-AND-LOGS/Rule.md",
     "RESEARCH-AND-LOGS",
     "PROJECTS/YOUTUBE",
@@ -221,7 +222,6 @@
     "BRAIN-ENTRIES/Brain_Entry_004.md",
     "BRAIN-ENTRIES/Brain_Entry_003.md",
     "BRAIN-ENTRIES/Brain_Entry_002.md",
-    "BRAIN-ENTRIES/Brain_Entry_001.md",
-    "BRAIN-ENTRIES/BrainOS-Open-Questions-Worksheet.md"
+    "BRAIN-ENTRIES/Brain_Entry_001.md"
   ]
 }
