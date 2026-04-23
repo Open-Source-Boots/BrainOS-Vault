@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "72c4b62fd118002c",
+        "id": "292e750e1021009a",
         "type": "tabs",
         "children": [
           {
-            "id": "97782f49d77d91f0",
+            "id": "a3408f13bc794fff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BRAIN-ENTRIES/GOOGLE-TEST-BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
+                "file": "BRAIN-ENTRIES/BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GOOGLE-TEST-BE-20260423-BRAINOS-git-gdrive-sync-completed"
+              "title": "BE-20260423-BRAINOS-git-gdrive-sync-completed"
             }
           }
         ]
@@ -191,10 +191,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "BRAIN-ENTRIES/GOOGLE-TEST-BE-20260423-BRAINOS-git-gdrive-sync-completed.md"
+                "file": "BRAIN-ENTRIES/BE-20260423-BRAINOS-git-gdrive-sync-completed.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for GOOGLE-TEST-BE-20260423-BRAINOS-git-gdrive-sync-completed"
+              "title": "File properties for BE-20260423-BRAINOS-git-gdrive-sync-completed"
             }
           }
         ],
@@ -221,10 +221,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "97782f49d77d91f0",
+  "active": "a3408f13bc794fff",
   "lastOpenFiles": [
+    "BRAIN-ENTRIES/BE-20260318-MIXED-ctrlplusyou-pivot-brand-docs.md",
+    "BRAIN-ENTRIES/BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
     "INDEX/MASTER-INDEX.md",
-    "BRAIN-ENTRIES/GOOGLE-TEST-BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
     "BRAIN-ENTRIES/BE-20260422-BRAINOS-live-sync-vault-financial-setup.md",
     "BRAIN-ENTRIES/BE_OpenSource_011.md",
     "New Text Document.txt",
@@ -250,7 +251,6 @@
     "INDEX/Master Index.csv",
     "BRAIN-ENTRIES/Brain_Entry_002.md",
     "BRAIN-ENTRIES/BE-20260226-MIXED-hub-v4-cashflow-localstorage.md",
-    "BRAIN-ENTRIES/BE-20260318-MIXED-ctrlplusyou-pivot-brand-docs.md",
     "Untitled.canvas",
     "BRAIN-ENTRIES/Brain_Entry_010.md",
     "BRAIN-ENTRIES/Brain_Entry_009.md",
