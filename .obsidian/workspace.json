@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BRAIN-ENTRIES/BE-20260423-BRAINOS-fullstack-sync-n8n-install.md",
+                "file": "CANONICAL/AI-WORKFLOW-RULES.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BE-20260423-BRAINOS-fullstack-sync-n8n-install"
+              "title": "AI-WORKFLOW-RULES"
             }
           }
         ]
@@ -187,11 +187,11 @@
   },
   "active": "b565744f765778e2",
   "lastOpenFiles": [
+    "CANONICAL/BRAINOS-SYSTEM.md",
+    "BRAIN-ENTRIES/BE-20260423-BRAINOS-fullstack-sync-n8n-install.md",
     "BRAIN-ENTRIES/BE-20260306-PROJECT-ctrlplusyou-founding-session.md",
     "BRAIN-ENTRIES/BrainOS-Open-Questions-Worksheet.md",
-    "BRAIN-ENTRIES/BE-20260423-BRAINOS-fullstack-sync-n8n-install.md",
     "BRAIN-ENTRIES/BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
-    "CANONICAL/BRAINOS-SYSTEM.md",
     "CANONICAL/HOME-PROJECTS.md",
     "RESEARCH-AND-LOGS/Rule.md",
     "RESEARCH-AND-LOGS",
