@@ -2,5 +2,6 @@
   "google-drive-sync",
   "obsidian-git",
   "dataview",
-  "smart-connections"
+  "smart-connections",
+  "obsidian-local-rest-api"
 ]
