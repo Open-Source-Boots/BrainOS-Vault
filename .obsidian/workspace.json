@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a1fddc271be23e7b",
+        "id": "73357d8544ff0932",
         "type": "tabs",
         "children": [
           {
-            "id": "5b6fa3682f13be11",
+            "id": "c8403fd882501817",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BRAIN-ENTRIES/BE-20260226-MIXED-caregiving-wav-spaces-rules.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "BE-20260226-MIXED-caregiving-wav-spaces-rules"
             }
           }
         ]
@@ -177,11 +181,14 @@
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
-      "google-drive-sync:Push to Google Drive": false
+      "google-drive-sync:Push to Google Drive": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b6fa3682f13be11",
+  "active": "c8403fd882501817",
   "lastOpenFiles": [
+    "00-INBOX/GIT AND GOOGLE ARE PISSING ME OFF.md",
+    "Untitled.md",
     "00-INBOX/test-entry.md",
     "00-INBOX/Will this go to my laptop.md",
     "00-INBOX/Will this go to my iphone.md",
@@ -215,8 +222,6 @@
     "PROJECTS/CTRL-YOU",
     "CANONICAL/YOUTUBE-CONTENT.md",
     "CANONICAL/SKILLS-EDUCATION.md",
-    "CANONICAL/MAKER-3DPRINT-LOG.md",
-    "CANONICAL/HARDWARE-AND-TOOLS.md",
-    "CANONICAL/GLWC-UNION.md"
+    "CANONICAL/MAKER-3DPRINT-LOG.md"
   ]
 }
