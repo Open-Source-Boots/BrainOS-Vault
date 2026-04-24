@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1c0d15db3e89f723",
+        "id": "0fc07ef2a06db3af",
         "type": "tabs",
         "children": [
           {
-            "id": "b565744f765778e2",
+            "id": "ced8bfc4b4b761d1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "00-INBOX/tester filer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tester filer"
             }
           }
         ]
@@ -181,12 +185,13 @@
       "smart-connections:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "e406d8f0221d09d1",
+  "active": "ced8bfc4b4b761d1",
   "lastOpenFiles": [
+    "00-INBOX/BE-20260424-BRAINOS-full-build-session.md",
+    "BE-20260424-BRAINOS-full-build-session.md",
+    "00-INBOX/tester filer.md",
     "99-OUTBOX/workflow-log",
     "99-OUTBOX",
-    "00-INBOX/BE-20260424-BRAINOS-full-build-session.md",
-    "00-INBOX/tester filer.md",
     "BRAIN-ENTRIES/BE_OpenSource_011.md",
     "00-INBOX/Test File.md",
     "00-INBOX/New Text Document.txt",
@@ -206,7 +211,6 @@
     "PROJECTS/ELECTRICIAN",
     "PROJECTS/CTRL-YOU",
     "PROJECTS",
-    "INDEX/MASTER-INDEX.csv",
     "INDEX/OPEN-QUESTIONS.md",
     "INDEX/MASTER-INDEX.md",
     "CANONICAL/YOUTUBE-CONTENT.md",
