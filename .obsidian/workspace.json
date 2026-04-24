@@ -181,8 +181,9 @@
       "smart-connections:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "b565744f765778e2",
+  "active": "e406d8f0221d09d1",
   "lastOpenFiles": [
+    "Untitled",
     "00-INBOX/BE-20260424-BRAINOS-full-build-session.md",
     "00-INBOX/tester filer.md",
     "BRAIN-ENTRIES/BE_OpenSource_011.md",
@@ -217,7 +218,6 @@
     "CANONICAL/DEVICE-INVENTORY.md",
     "CANONICAL/BRAYDEN-IDENTITY.md",
     "CANONICAL/BEHAVIOR-PATTERNS.md",
-    "BRAIN-ENTRIES/Brain_Entry_010.md",
-    "BRAIN-ENTRIES/Brain_Entry_009.md"
+    "BRAIN-ENTRIES/Brain_Entry_010.md"
   ]
 }

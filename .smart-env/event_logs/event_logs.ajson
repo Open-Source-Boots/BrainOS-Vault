@@ -134,3 +134,4 @@
 "event_logs:item:embedded": {"key":"item:embedded","ct":3317,"first_at":1776952867686,"last_at":1777059245679,"class_name":"EventLog"},
 "event_logs:embedding:progress": {"key":"embedding:progress","ct":50,"first_at":1776952867687,"last_at":1777059245680,"class_name":"EventLog","event_sources":{"process_embed_queue":50}},
 "event_logs:embedding:completed": {"key":"embedding:completed","ct":10,"first_at":1776952929829,"last_at":1777059245680,"class_name":"EventLog","event_sources":{"process_embed_queue":10}},
+"event_logs:sources:created": {"key":"sources:created","ct":166,"first_at":1776382389540,"last_at":1777059887303,"class_name":"EventLog","event_sources":{"obsidian:vault.create":166}},
