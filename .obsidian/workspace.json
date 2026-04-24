@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-INBOX/test-entry.md",
+                "file": "00-INBOX/Will this go to my iphone.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test-entry"
+              "title": "Will this go to my iphone"
             }
           }
         ]
@@ -187,14 +187,17 @@
   },
   "active": "ced8bfc4b4b761d1",
   "lastOpenFiles": [
+    "99-OUTBOX/please be in google.md",
+    "00-INBOX/Will this go to my laptop.md",
+    "00-INBOX/~syncthing~Will this go to my laptop.md.tmp",
+    "00-INBOX/Will this go to my iphone.md",
+    "00-INBOX/test-entry.md",
     "00-INBOX/BE-20260424-BRAINOS-full-build-session.md",
     "00-INBOX/tester filer.md",
     "INDEX/OPEN-QUESTIONS.md",
     "INDEX/MASTER-INDEX.md",
-    "00-INBOX/test-entry.md",
     "00-INBOX/BE-20260226-MIXED-caregiving-wav-spaces-rules.md",
     "BE-20260424-BRAINOS-full-build-session.md",
-    "99-OUTBOX/please be in google.md",
     "99-OUTBOX/workflow-log",
     "99-OUTBOX",
     "BRAIN-ENTRIES/BE_OpenSource_011.md",
@@ -215,13 +218,10 @@
     "PROJECTS/GLWC",
     "PROJECTS/ELECTRICIAN",
     "PROJECTS/CTRL-YOU",
-    "PROJECTS",
     "CANONICAL/YOUTUBE-CONTENT.md",
     "CANONICAL/SKILLS-EDUCATION.md",
     "CANONICAL/MAKER-3DPRINT-LOG.md",
     "CANONICAL/HARDWARE-AND-TOOLS.md",
-    "CANONICAL/GLWC-UNION.md",
-    "CANONICAL/FINANCIAL-SNAPSHOT.md",
-    "CANONICAL/DEVICE-INVENTORY.md"
+    "CANONICAL/GLWC-UNION.md"
   ]
 }
