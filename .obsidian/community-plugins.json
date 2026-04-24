@@ -1,5 +1,7 @@
 [
   "dataview",
   "smart-connections",
-  "obsidian-local-rest-api"
+  "obsidian-local-rest-api",
+  "google-drive-sync",
+  "obsidian-git"
 ]

@@ -11,14 +11,10 @@
             "id": "8631e84572bf4ce8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-INBOX/Will this go to my laptop.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Will this go to my laptop"
+              "title": "New tab"
             }
           }
         ]
@@ -173,7 +169,9 @@
   },
   "active": "8631e84572bf4ce8",
   "lastOpenFiles": [
-    "00-INBOX/Will this go to my iphone.md",
-    "00-INBOX/Will this go to my laptop.md"
+    "00-INBOX/Will this go to my laptop.md",
+    "BRAIN-ENTRIES/BE-20260226-MIXED-caregiving-wav-spaces-rules.md",
+    "BRAIN-ENTRIES/BE-20260424-BRAINOS-full-build-session.md",
+    "00-INBOX/Will this go to my iphone.md"
   ]
 }
