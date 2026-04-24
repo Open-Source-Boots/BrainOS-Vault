@@ -185,8 +185,11 @@
       "smart-connections:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "b565744f765778e2",
+  "active": "e406d8f0221d09d1",
   "lastOpenFiles": [
+    "00-INBOX/New Text Document.txt",
+    "00-INBOX/Untitled.md",
+    "BRAIN-ENTRIES/BE_OpenSource_011.md",
     "CANONICAL/AI-WORKFLOW-RULES.md",
     "00-INBOX/DL.GL_705a_ANE_Rights_Summary.md",
     "CANONICAL/BRAINOS-SYSTEM.md",
@@ -219,9 +222,6 @@
     "CANONICAL",
     "BRAIN-ENTRIES/Brain_Entry_010.md",
     "BRAIN-ENTRIES/Brain_Entry_009.md",
-    "BRAIN-ENTRIES/Brain_Entry_008.md",
-    "BRAIN-ENTRIES/Brain_Entry_007.md",
-    "BRAIN-ENTRIES/Brain_Entry_006.md",
-    "BRAIN-ENTRIES/Brain_Entry_005.md"
+    "BRAIN-ENTRIES/Brain_Entry_008.md"
   ]
 }
