@@ -11,10 +11,14 @@
             "id": "8631e84572bf4ce8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "INDEX/OPEN-QUESTIONS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "OPEN-QUESTIONS"
             }
           }
         ]
