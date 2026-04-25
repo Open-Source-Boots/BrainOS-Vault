@@ -11,10 +11,14 @@
             "id": "ce742487275b881f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02-BRAIN-ENTRIES/BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "BE-20260411-PROJECT-goodlife-housing-contract-risk-map"
             }
           }
         ]
@@ -181,7 +185,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ce742487275b881f",
+  "active": "e406d8f0221d09d1",
   "lastOpenFiles": [
     "04-CANONICAL/ACTIVE-PROJECTS.md",
     "04-CANONICAL/DEVICE-ECOSYSTEM.md",
