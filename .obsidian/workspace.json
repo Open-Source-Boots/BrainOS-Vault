@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-BRAIN-ENTRIES/BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
+                "file": "02-BRAIN-ENTRIES/BE_OpenSource_011.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BE-20260423-BRAINOS-git-gdrive-sync-completed"
+              "title": "BE_OpenSource_011"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
+                "query": "BE_OpenSource_011.md",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-BRAIN-ENTRIES/BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
+                "file": "02-BRAIN-ENTRIES/BE_OpenSource_011.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for BE-20260423-BRAINOS-git-gdrive-sync-completed"
+              "title": "Backlinks for BE_OpenSource_011"
             }
           },
           {
@@ -189,6 +189,13 @@
   },
   "active": "3ba0ed91958b2239",
   "lastOpenFiles": [
+    "02-BRAIN-ENTRIES/BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md",
+    "02-BRAIN-ENTRIES/BE-20260306-PROJECT-ctrlplusyou-founding-session.md",
+    "02-BRAIN-ENTRIES/BEUNASSIGNED_20260221_SKILL_peaslee-tech-career-path-eval.md",
+    "02-BRAIN-ENTRIES/BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
+    "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-architecture-sync-fixes.md",
+    "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-full-build-session.md",
+    "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-full-build-session 1.md",
     "02-BRAIN-ENTRIES/BE_OpenSource_011.md",
     "99-OUTBOX/workflow-log/desktop.ini",
     "03-PROJECTS/CTRL-YOU/desktop.ini",
@@ -200,7 +207,6 @@
     "06-ATTACH/desktop.ini",
     "03-PROJECTS/ELECTRICIAN/desktop.ini",
     "99-OUTBOX/desktop.ini",
-    "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-architecture-sync-fixes.md",
     "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-master-index-audit-redesign.md",
     "05-INDEX/MASTER-INDEX.md",
     "00-INBOX/BE-20260425-BRAINOS-master-index-migration-complete.md",
@@ -211,7 +217,6 @@
     "04-CANONICAL/DEVICE-ECOSYSTEM.md",
     "04-CANONICAL/BEHAVIOR-PATTERNS.md",
     "00-INBOX/GIT AND GOOGLE ARE PISSING ME OFF.md",
-    "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-full-build-session 1.md",
     "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-triage-shiftmind-founding.md",
     "99-OUTBOX/Ok I want to see this little fucker move around.md",
     "PROJECTS/test-entry.md",
@@ -219,10 +224,6 @@
     "Untitled.md",
     "00-INBOX/Will this go to my laptop.md",
     "00-INBOX/Will this go to my iphone.md",
-    "99-OUTBOX/please be in google.md",
-    "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-full-build-session.md",
-    "00-INBOX/tester filer.md",
-    "05-INDEX/OPEN-QUESTIONS.md",
-    "BE-20260424-BRAINOS-full-build-session.md"
+    "99-OUTBOX/please be in google.md"
   ]
 }
