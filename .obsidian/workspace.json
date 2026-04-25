@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-INDEX/BRAINOS-CHECKPOINT-LOG.md",
+                "file": "02-BRAIN-ENTRIES/BrainOS-Open-Questions-Worksheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BRAINOS-CHECKPOINT-LOG"
+              "title": "BrainOS-Open-Questions-Worksheet"
             }
           }
         ]
@@ -187,6 +187,7 @@
   },
   "active": "c113a22d7a21076f",
   "lastOpenFiles": [
+    "05-INDEX/BRAINOS-CHECKPOINT-LOG.md",
     "00-INBOX/BE-20260425-BRAINOS-master-index-migration-complete.md",
     "04-CANONICAL/DEVICE-ECOSYSTEM.md",
     "04-CANONICAL/BRAYDEN-IDENTITY.md",
@@ -218,7 +219,6 @@
     "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-master-index-audit-redesign.md",
     "05-INDEX/MASTER-INDEX.md",
     "conflict-files-obsidian-git.md",
-    "05-INDEX/BRAINOS-CHECKPOINT-LOG.md",
     "04-CANONICAL/BEHAVIOR-PATTERNS.md",
     "00-INBOX/GIT AND GOOGLE ARE PISSING ME OFF.md",
     "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-triage-shiftmind-founding.md",

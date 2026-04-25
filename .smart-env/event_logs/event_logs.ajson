@@ -42,3 +42,4 @@
 "event_logs:sources:import_progress": {"key":"sources:import_progress","ct":20,"first_at":1776707157651,"last_at":1777151724124,"class_name":"EventLog","event_sources":{"process_source_import_queue":20}},
 "event_logs:blocks:cleaned": {"key":"blocks:cleaned","ct":22,"first_at":1776382156736,"last_at":1777151726201,"class_name":"EventLog"},
 "event_logs:sources:import_completed": {"key":"sources:import_completed","ct":20,"first_at":1776707161382,"last_at":1777151726185,"class_name":"EventLog","event_sources":{"process_source_import_queue":20}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":161,"first_at":1776396938037,"last_at":1777156263647,"class_name":"EventLog","event_sources":{"active-leaf-change":161}},
