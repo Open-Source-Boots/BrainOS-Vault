@@ -6,7 +6,8 @@ source_thread_title: "GoodLife Union Space — Document review, contract analysi
   organizing context"
 entry_type: project / financial / identity (mixed, PROJECT dominant)
 chronological_position: UNKNOWN — to be placed during Obsidian compilation session
-status: draft
+status: active
+compilation_status: canonical files updated 2026-04-25
 supersedes: UNKNOWN — cannot confirm without seeing other entries
 superseded_by: none
 canonical_file: GOODLIFE-UNION (primary), FINANCIAL-SNAPSHOT (secondary), 
@@ -405,35 +406,13 @@ Only facts explicitly stated in this thread. Nothing inferred.
 ---
 
 ## OPEN QUESTIONS
+> Structured questions are tracked in frontmatter above and surface automatically 
+> in OPEN-QUESTIONS.md via Dataview. The questions below are contextual notes 
+> only — not tracked in the automated system.
 
-- What are the exact surviving terms of the Live-In Manager MOU 
-  non-compete — is it still legally active?
-- What specific language constitutes "impairing GoodLife's image" in 
-  the SL contract — is public union organizing explicitly or implicitly 
-  covered?
-- What is the exact geographic scope and covered roles of the 
-  non-compete clause?
-- Does the arbitration clause in the SL contract extend to DSP 
-  employment disputes or only PFT-specific disputes?
-- Is Brayden's PFT contractor status legally classifiable as an 
-  employee under NLRB multi-factor tests given the level of control 
-  GoodLife exercises (housing, inspection rights, immediate termination 
-  of lease, behavioral rules)?
-- What is the current membership and activity level of the GLWC 
-  Discord server?
-- Has any contact been made with any external union, labor org, 
-  or legal resource?
-- What is Brayden's specific home/program assignment as Elite DSP — 
-  which coworkers are natural organizing contacts?
-- Are the 10 non-billable days per calendar year pro-rated if the 
-  contract starts mid-year?
-- What tier or extraordinary funding classification explains Kyle's 
-  $187.37/day rate being above the Tier 1 ceiling on the MOU rate table?
-- What are the full terms of the TLLA — does it give Kyle any 
-  explicit rights that would survive PFT contract termination?
-- Has Brayden confirmed the household income figures against actual 
-  pay records (the thread figures are AI-derived estimates)?
-
+- [CONTEXTUAL] Is Brayden's PFT contractor status legally classifiable as an employee under NLRB multi-factor tests given GoodLife's level of control?
+- [CONTEXTUAL] What is Brayden's specific home/program assignment as Elite DSP — which coworkers are natural organizing contacts?
+- [CONTEXTUAL] Has Brayden confirmed household income figures against actual pay records?
 ---
 
 ## CROSS-REFERENCES
@@ -491,26 +470,3 @@ Cross-references to be confirmed during compilation session.
 
 > "Nevermind, I figured out how to access the documents I had signed."
   — Brayden, resolving the Dropbox Sign access concern
-
-STEP 3 — POST-ENTRY REPORT
-1. Canonical files to update:
-
-GOODLIFE-UNION — primary; extensive new contract analysis, risk map, organizing strategy, and legal protection framework
-
-FINANCIAL-SNAPSHOT — confirmed PFT rate, stipend, rent mechanism, household income structure (figures need Brayden verification)
-
-BRAYDEN-IDENTITY — role history completed, household composition confirmed
-
-2. New file needed?
-Possibly. A LEGAL-RISK-MAP file may be warranted — a dedicated document that tracks every active contractual clause that creates personal exposure for Brayden (non-compete, NDAs, image clause, arbitration, lease termination trigger) with their current status, verification need, and mitigation notes. This is distinct from the broader organizing strategy in GOODLIFE-UNION and would serve as an ongoing legal tracking document. Flag for Brayden to decide.
-
-3. Potential conflicts with other entries:
-
-The $187.37/day rate may conflict with any prior entry that used the MOU tier table rates as estimates. If any prior entry contains a PFT income estimate derived from the tier table, it should be updated to reflect $187.37 confirmed.
-
-The "third-party landlord" assumption may have been carried into prior entries or the GOODLIFE-UNION canonical file. Any prior mention of a third-party landlord should be corrected to GoodLife Innovations, Inc.
-
-The utility coverage explanation (attributed to "the waiver" vs. confirmed lease language) may conflict with prior entries referencing the waiver as the source of utility coverage.
-
-4. One-line cross-reference tag:
-BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md — Contract analysis and housing risk deep-dive establishing GoodLife as landlord, confirming $187.37/day PFT rate, mapping lease/SL contract clauses, and laying GLWC personal protection framework.

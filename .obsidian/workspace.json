@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-BRAIN-ENTRIES/BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md",
-                "mode": "preview",
+                "file": "07-TEMPLATE/BE-TEMPLATE.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BE-20260411-PROJECT-goodlife-housing-contract-risk-map"
+              "title": "BE-TEMPLATE"
             }
           }
         ]
@@ -187,9 +187,13 @@
   },
   "active": "ce742487275b881f",
   "lastOpenFiles": [
+    "07-TEMPLATE/desktop.ini",
+    "02-BRAIN-ENTRIES/BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md",
+    "07-TEMPLATE/BE-TEMPLATE.md",
+    "07-TEMPLATE",
+    "06-ATTACH/Untitled",
     "04-CANONICAL/DEVICE-ECOSYSTEM.md",
     "05-INDEX/OPEN-QUESTIONS.md",
-    "02-BRAIN-ENTRIES/BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md",
     "04-CANONICAL/~syncthing~ACTIVE-PROJECTS.md.tmp",
     "04-CANONICAL/ACTIVE-PROJECTS.md",
     "04-CANONICAL/SKILLS-EDUCATION.md",
@@ -217,11 +221,7 @@
     "03-PROJECTS/YOUTUBE/desktop.ini",
     "00-INBOX/desktop.ini",
     "04-CANONICAL/desktop.ini",
-    "06-ATTACH/desktop.ini",
-    "03-PROJECTS/ELECTRICIAN/desktop.ini",
     "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-master-index-audit-redesign.md",
-    "05-INDEX/MASTER-INDEX.md",
-    "conflict-files-obsidian-git.md",
-    "04-CANONICAL/BEHAVIOR-PATTERNS.md"
+    "05-INDEX/MASTER-INDEX.md"
   ]
 }
