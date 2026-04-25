@@ -32,7 +32,7 @@ status: CANONICAL
 | **Garage organization** | In progress | Raised bed, fold-down workbench, ceiling tote — all unbuilt |
 | **Comic holder wall mount** | Stalled | Printed successfully, wall mount failed — two baskets exist but not hung |
 
-## Permanently Shelved / Superseded
+##  Shelved / Superseded
 
 - Kray Studios brand (superseded by Ctrl+You March 14, 2026)
 - Dropshipping model (deprecated March 18, 2026)

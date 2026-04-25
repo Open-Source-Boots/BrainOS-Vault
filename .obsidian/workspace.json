@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "02-BRAIN-ENTRIES/BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -185,8 +185,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e406d8f0221d09d1",
+  "active": "ce742487275b881f",
   "lastOpenFiles": [
+    "04-CANONICAL/~syncthing~ACTIVE-PROJECTS.md.tmp",
     "04-CANONICAL/ACTIVE-PROJECTS.md",
     "04-CANONICAL/DEVICE-ECOSYSTEM.md",
     "04-CANONICAL/SKILLS-EDUCATION.md",
@@ -221,7 +222,6 @@
     "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-master-index-audit-redesign.md",
     "05-INDEX/MASTER-INDEX.md",
     "conflict-files-obsidian-git.md",
-    "04-CANONICAL/BEHAVIOR-PATTERNS.md",
-    "00-INBOX/GIT AND GOOGLE ARE PISSING ME OFF.md"
+    "04-CANONICAL/BEHAVIOR-PATTERNS.md"
   ]
 }
