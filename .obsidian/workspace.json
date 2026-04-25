@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "73357d8544ff0932",
+        "id": "411257cb680e60fb",
         "type": "tabs",
         "children": [
           {
-            "id": "c8403fd882501817",
+            "id": "ff7d12a1e38d795c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-INDEX/MASTER-INDEX.md",
+                "file": "04-CANONICAL/BRAYDEN-IDENTITY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MASTER-INDEX"
+              "title": "BRAYDEN-IDENTITY"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-INDEX/MASTER-INDEX.md",
+                "file": "04-CANONICAL/BRAYDEN-IDENTITY.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MASTER-INDEX"
+              "title": "Backlinks for BRAYDEN-IDENTITY"
             }
           },
           {
@@ -186,15 +186,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c8403fd882501817",
+  "active": "ff7d12a1e38d795c",
   "lastOpenFiles": [
+    "05-INDEX/MASTER-INDEX.md",
     "conflict-files-obsidian-git.md",
     "~syncthing~conflict-files-obsidian-git.md.tmp",
     "00-INBOX/BE-20260425-BRAINOS-architecture-sync-fixes.md",
     "05-INDEX/BRAINOS-CHECKPOINT-LOG.md",
-    "05-INDEX/MASTER-INDEX.md",
     "04-CANONICAL/ACTIVE-PROJECTS.md",
-    "05-INDEX/MASTER-INDEX.md",
     "04-CANONICAL/DEVICE-ECOSYSTEM.md",
     "04-CANONICAL/BEHAVIOR-PATTERNS.md",
     "00-INBOX/GIT AND GOOGLE ARE PISSING ME OFF.md",
