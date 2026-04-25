@@ -1,3 +1,7 @@
 .smart-env/
 .obsidian/workspace.json
 .obsidian/plugins/google-drive-sync/
+.tmp.driveupload/
+.smart-env/
+desktop.ini
+Thumbs.db
