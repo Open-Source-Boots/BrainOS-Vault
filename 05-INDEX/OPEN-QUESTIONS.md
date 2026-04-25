@@ -1,0 +1,1 @@
+At some point, I'm going to need a way to get this to automatically update, and adjust values based on my answers, and then removing the question that was answered from this list

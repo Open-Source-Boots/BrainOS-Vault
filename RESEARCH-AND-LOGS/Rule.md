@@ -1,1 +1,0 @@
-Research, reference material, and logs that don't belong to a specific project

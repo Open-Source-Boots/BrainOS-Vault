@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "309ef73f1321a0c4",
+        "id": "dbb2b31ecfb5ed38",
         "type": "tabs",
         "children": [
           {
-            "id": "755bc7460abecb54",
+            "id": "c113a22d7a21076f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "05-INDEX/BRAINOS-CHECKPOINT-LOG.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "BRAINOS-CHECKPOINT-LOG"
             }
           }
         ]
@@ -181,8 +185,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e406d8f0221d09d1",
+  "active": "c113a22d7a21076f",
   "lastOpenFiles": [
+    "00-INBOX/BE-20260425-BRAINOS-master-index-migration-complete.md",
+    "04-CANONICAL/DEVICE-ECOSYSTEM.md",
+    "04-CANONICAL/BRAYDEN-IDENTITY.md",
+    "04-CANONICAL/BRAINOS-SYSTEM.md",
+    "05-INDEX/OPEN-QUESTIONS.md",
+    "04-CANONICAL/ACTIVE-PROJECTS.md",
     "02-BRAIN-ENTRIES/Brain_Entry_010.md",
     "02-BRAIN-ENTRIES/Brain_Entry_005.md",
     "02-BRAIN-ENTRIES/Brain_Entry_004.md",
@@ -207,17 +217,11 @@
     "99-OUTBOX/desktop.ini",
     "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-master-index-audit-redesign.md",
     "05-INDEX/MASTER-INDEX.md",
-    "00-INBOX/BE-20260425-BRAINOS-master-index-migration-complete.md",
-    "04-CANONICAL/BRAYDEN-IDENTITY.md",
     "conflict-files-obsidian-git.md",
     "05-INDEX/BRAINOS-CHECKPOINT-LOG.md",
-    "04-CANONICAL/ACTIVE-PROJECTS.md",
-    "04-CANONICAL/DEVICE-ECOSYSTEM.md",
     "04-CANONICAL/BEHAVIOR-PATTERNS.md",
     "00-INBOX/GIT AND GOOGLE ARE PISSING ME OFF.md",
     "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-triage-shiftmind-founding.md",
-    "99-OUTBOX/Ok I want to see this little fucker move around.md",
-    "PROJECTS/test-entry.md",
-    "02-BRAIN-ENTRIES/BE-20260226-MIXED-caregiving-wav-spaces-rules.md"
+    "99-OUTBOX/Ok I want to see this little fucker move around.md"
   ]
 }
