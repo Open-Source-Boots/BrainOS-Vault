@@ -27,6 +27,7 @@ note: "This is a canonical file. Updates flow INTO it from brain entries, not ou
 | **Education**                 | Some college; meets Peaslee Tech diploma/equivalent requirement                                                                                     |
 | **Brand**                     | Ctrl+You (ctrlplusyou.com, generalized online business, maybe Shopify, maybe something else entirely, registered March 6 2026, renews March 6 2027) |
 | **ADHD**                      | Confirmed — entire system design is built around ADHD execution patterns                                                                            |
+| **Girlfriend** | Samantha Beaty (confirmed name — previously unlabeled as "girlfriend") |
 
 ## Household
 
@@ -63,7 +64,20 @@ note: "This is a canonical file. Updates flow INTO it from brain entries, not ou
 | July 8, 2025 | Elite Superimposed DSP (Days) signed |
 | August 1, 2025 | PFT co-provider / Shared Living co-contractor (with Samantha Beaty) effective |
 | Current | Elite DSP + PFT co-provider at 602 N. Wrigley |
+## GoodLife Legal Status — Confirmed Answers (April 17, 2026)
 
+| Question                                   | Answer                                                       | Confidence  |
+| ------------------------------------------ | ------------------------------------------------------------ | ----------- |
+| Legal employer name                        | GoodLife Innovations — canonical, not GoodLife Fitness       | ✅ CONFIRMED |
+| PFT contractor classification              | Independent contractor, not W-2 employee                     | ✅ CONFIRMED |
+| Live-in Manager MOU status                 | No longer active — Brayden is not an SFT/Live-In Manager     | ✅ CONFIRMED |
+| "Impairing GoodLife's image" clause        | Language is vague by design — exact trigger undefined        | ⚠️ SOFT     |
+| Non-compete geographic scope               | Probably covers other residential caregiving/support roles   | ⚠️ SOFT     |
+| Arbitration clause extends to DSP disputes | Unknown                                                      | ❌ OPEN      |
+| Lease NDA vs. NLRA Section 7               | Unknown                                                      | ❌ OPEN      |
+| TLLA full terms                            | Unknown — believe Kyle's health/safety supersedes most terms | ❌ OPEN      |
+| Kyle's $187.37/day funding tier            | Unclear — wage-sharing may be prohibited in PFT contract     | ❌ OPEN      |
+| Utility coverage source                    | Likely flows from disability waiver housing classification   | ⚠️ SOFT     |
 ## Two-Hat Principle (Verbatim)
 
 > *"Everything I'm trying to do with GLWC needs to be protected from retaliation on my role as a PFT provider, but I'm not inherently trying to unionize or even change anything about the PFT program, I just know that I'm vulnerable on that front."*
@@ -135,6 +149,7 @@ High energy wants to do everything at once; when momentum drops, nothing moves. 
 | YouTube (BrayDonDon)                    | Planned, not started                                      | 2 — marathon project                       |
 | YouTube (Track A / Kray Studios)        | Planned, not started                                      | 2 — income infrastructure                  |
 | Ctrl+You (Online business of some kind) | Paused — site exists, no clients, no built infrastructure | 3 — resuming after brain compile           |
+| Electrician / Peaslee Tech | Waitlist Order #4394 confirmed. October 27–March 11, Tue/Thu 5–9PM. $2,625 tuition. Payment not yet made — seat not secured until payment or WIOA voucher received. Peaslee Promise scholarship not pursued yet. WIOA call to Phyllis Gingette (785-840-9675) not yet made. HVAC formally eliminated as a path (not documented previously). Robotics is a future interest, not a current track. |
 
 ---
 

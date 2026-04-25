@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dbb2b31ecfb5ed38",
+        "id": "5d5c280e6cb47317",
         "type": "tabs",
         "children": [
           {
-            "id": "c113a22d7a21076f",
+            "id": "ce742487275b881f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-BRAIN-ENTRIES/BrainOS-Open-Questions-Worksheet.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "BrainOS-Open-Questions-Worksheet"
+              "title": "New tab"
             }
           }
         ]
@@ -185,19 +181,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c113a22d7a21076f",
+  "active": "ce742487275b881f",
   "lastOpenFiles": [
+    "04-CANONICAL/ACTIVE-PROJECTS.md",
+    "04-CANONICAL/DEVICE-ECOSYSTEM.md",
+    "04-CANONICAL/SKILLS-EDUCATION.md",
+    "04-CANONICAL/FINANCIAL-SNAPSHOT.md",
+    "04-CANONICAL/BRAYDEN-IDENTITY.md",
+    "02-BRAIN-ENTRIES/BrainOS-Open-Questions-Worksheet.md",
     "05-INDEX/BRAINOS-CHECKPOINT-LOG.md",
     "00-INBOX/BE-20260425-BRAINOS-master-index-migration-complete.md",
-    "04-CANONICAL/DEVICE-ECOSYSTEM.md",
-    "04-CANONICAL/BRAYDEN-IDENTITY.md",
     "04-CANONICAL/BRAINOS-SYSTEM.md",
     "05-INDEX/OPEN-QUESTIONS.md",
-    "04-CANONICAL/ACTIVE-PROJECTS.md",
     "02-BRAIN-ENTRIES/Brain_Entry_010.md",
     "02-BRAIN-ENTRIES/Brain_Entry_005.md",
     "02-BRAIN-ENTRIES/Brain_Entry_004.md",
-    "02-BRAIN-ENTRIES/BrainOS-Open-Questions-Worksheet.md",
     "02-BRAIN-ENTRIES/BE_OpenSource_011.md",
     "02-BRAIN-ENTRIES/BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md",
     "02-BRAIN-ENTRIES/BE-20260306-PROJECT-ctrlplusyou-founding-session.md",
@@ -220,8 +218,6 @@
     "05-INDEX/MASTER-INDEX.md",
     "conflict-files-obsidian-git.md",
     "04-CANONICAL/BEHAVIOR-PATTERNS.md",
-    "00-INBOX/GIT AND GOOGLE ARE PISSING ME OFF.md",
-    "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-triage-shiftmind-founding.md",
-    "99-OUTBOX/Ok I want to see this little fucker move around.md"
+    "00-INBOX/GIT AND GOOGLE ARE PISSING ME OFF.md"
   ]
 }

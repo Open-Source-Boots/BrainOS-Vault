@@ -53,6 +53,30 @@ standing-rule: Unless Brayden explicitly states otherwise, every payment is made
 
 > [UNCONFIRMED] Rent, food, utilities, and transportation costs are real but unstated. Actual breathing room is less than $338.16. Do not estimate — ask when relevant.
 
+## Confirmed Variable Costs (April 17, 2026)
+
+| Category | Amount | Notes |
+|---|---|---|
+| Gas / Transportation | ~$100/month | Soft estimate — varies with driving, fuel prices |
+| Food (Brayden out-of-pocket) | ~$50/month | Fast food, personal meals; Samantha covers ~100% of groceries |
+| Rent | $0 from DSP income | Deducted at source from PFT stipend |
+| Utilities | $0 from DSP income | Covered through disability waiver housing classification |
+
+> True discretionary after bills + gas + food: **~$188/month** (~$47/week) on a 4-Thursday month.
+> This is the real number. Use this for planning, not $338.16.
+
+## Confirmed One-Time Items (April 17, 2026)
+
+- **SoFi savings balance:** $0 — as of April 17, 2026, bank balance was $88.00 (not $600)
+- **v3 Google Drive docs** (Master Context, Cash Flow, Command Hub): deleted, irrelevant, do not reference
+- **Samantha PFT gross income:** ~$5,702/month (includes stipend) — soft confirm, not verified against documents
+- **Toyota Sienna WAV:** Purchased ~March 25, 2026. Samantha is paying $650/month out of the PFT gross income. Allstate premium $253.95/month confirmed, this comes out of Brayden's personal income.
+- **CRV repair:** $870 for wheel bearings + rear brakes. FIMC reimbursement NOT yet submitted — action required.
+- **Dave Financial:** Borrowed via paycheck advance. Repayment $239.63 due April 27, 2026.
+
+## Standing Rule — Payment Assumptions
+Unless Brayden explicitly states otherwise, every payment is made in full on its due date.
+Calculate remaining Affirm balances by applying monthly payments against stated balances on a rolling calendar basis.
 ---
 
 ## Debt Balances (Confirmed — April 2026)

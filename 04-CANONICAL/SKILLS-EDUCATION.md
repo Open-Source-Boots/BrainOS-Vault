@@ -1,15 +1,25 @@
-\# SKILLS-EDUCATION.md  
-Last updated: April 10, 2026 | Canonical \- update in place
+> ⚠️ Last structure review: April 10, 2026. Local SEO and Google Ads sections below reflect a paused business direction. Electrician path is the confirmed primary track as of April 17, 2026.
 
-\#\# Peaslee Tech \- Residential Electrician Program
+## Peaslee Tech — Residential Electrician Program
+**Status: ON WAITLIST — seat NOT secured**
 
-\- Contact: Charlie at Peaslee Tech, Lawrence KS  
-\- Program: Residential electrician certification  
-\- Schedule: Tuesdays and Thursdays at 5pm  
-\- June classes: FULL \- cannot enroll  
-\- October classes: OPEN \- can sign up now  
-\- Cost: $2,625  
-\- Status: Brayden intends to enroll for October start
+| Field | Value |
+|---|---|
+| Program | Residential Electrician |
+| Schedule | Tue/Thu, 5–9 PM, Oct 27, 2026 – Mar 11, 2027 |
+| Cost | $2,625 |
+| Waitlist position | Order #4394 |
+| Cohort | October 2026 (June is full) |
+| Contact at Peaslee | Charlie (in-person visit March 18, 2026) |
+| Funding contact | Phyllis Gingette, Lawrence Workforce Center — 785-840-9675 |
+| WIOA call made? | ❌ No — highest priority action for this track |
+| Peaslee Promise scholarship pursued? | ❌ No — should follow up |
+| Payment made? | ❌ No — seat not secured until payment or authorized voucher |
+| HVAC path | ❌ Formally eliminated — Brayden confirmed he wouldn't enjoy it |
+| Robotics path | 💡 Future interest only — Phase 2 after electrician credential |
+| WIOA + RISE stacking | ❓ Unknown — not confirmed with Phyllis yet |
+
+**Next action:** Call Phyllis Gingette at 785-840-9675. Ask specifically about WIOA voucher for Peaslee Tech October 2026 cohort and whether RISE can stack with it.
 
 \#\#\# WIOA Funding (Lawrence Workforce Center)  
 \- Visit/call Lawrence Workforce Center with a clear story  
