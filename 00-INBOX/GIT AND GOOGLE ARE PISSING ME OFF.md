@@ -1,1 +1,0 @@
-It's stupid, these platforms should just fucking work!
