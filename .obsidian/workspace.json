@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "04b91608cda9bd59",
+        "id": "309ef73f1321a0c4",
         "type": "tabs",
         "children": [
           {
-            "id": "3ba0ed91958b2239",
+            "id": "755bc7460abecb54",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-INDEX/MASTER-INDEX.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "MASTER-INDEX"
+              "title": "New tab"
             }
           }
         ]
@@ -182,11 +178,10 @@
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
-      "google-drive-sync:Push to Google Drive": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3ba0ed91958b2239",
+  "active": "e406d8f0221d09d1",
   "lastOpenFiles": [
     "02-BRAIN-ENTRIES/Brain_Entry_010.md",
     "02-BRAIN-ENTRIES/Brain_Entry_005.md",
