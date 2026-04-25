@@ -2,5 +2,7 @@
   "dataview",
   "smart-connections",
   "obsidian-local-rest-api",
-  "obsidian-git"
+  "google-drive-sync",
+  "obsidian-git",
+  "templater-obsidian"
 ]
