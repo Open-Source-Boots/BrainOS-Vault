@@ -196,17 +196,17 @@ Brayden's primary audience for creative work is **his future self.** The channel
 
 *Full specs → see DEVICE-ECOSYSTEM.md (to be created). Summary kept here until that file exists.*
 
-| Device              | Specs / Notes                                                                                                                           |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Desktop             | AMD Ryzen 7 7700X, RTX 3060 12GB VRAM, 64GB RAM, Windows 11                                                                             |
-| Laptop              | Intel Iris Xe integrated, 8GB RAM, Windows — partially set up                                                                           |
-| iPhone 15           | 128GB — minimal setup                                                                                                                   |
-| iPad 5th gen (2017) | 64GB — A9 chip INFERRED [UNCONFIRMED]; Procreate + Procreate Dreams confirmed owned                                                     |
-| Spacedesk           | Working as second monitor from iPad                                                                                                     |
-| External HDD        | 2TB + 1TB                                                                                                                               |
-| Bambu Lab P1S       | 3D printer — current location Bedroom on the floor. Garage would be better, but the garage still needs organized, and the changes in he |
-| 2015 Honda CRV      | Primary vehicle, owned by Brayden Boots, making payments to mom                                                                         |
-| Toyota Sienna WAV   | Wheelchair-accessible vehicle, purchased, costs Sam ~$650/month until paid off — Allstate premium $253.95/month                         |
+| Device              | Specs / Notes                                                                                                                                                                                          |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Desktop             | AMD Ryzen 7 7700X, RTX 3060 12GB VRAM, 64GB RAM, Windows 11                                                                                                                                            |
+| Laptop              | Intel Iris Xe integrated, 8GB RAM, Windows                                                                                                                                                             |
+| iPhone 15           | 128GB                                                                                                                                                                                                  |
+| iPad 5th gen (2017) | 64GB — A9 chip; Procreate + Procreate Dreams confirmed owned                                                                                                                                           |
+| Spacedesk           | Working as second monitor from iPad                                                                                                                                                                    |
+| External HDD        | 2TB + 1TB, basic USB                                                                                                                                                                                   |
+| Bambu Lab P1S       | 3D printer — current location Bedroom on the floor. Garage would be better, but the garage still needs organized, and the changes in heat and humidity may not be safe as the garage stands right now. |
+| 2015 Honda CRV      | Primary vehicle, owned by Brayden Boots, making payments to mom                                                                                                                                        |
+| Toyota Sienna WAV   | Wheelchair-accessible vehicle, purchased, costs Sam ~$650/month until paid off — Allstate premium $253.95/month, insurance is a cost out of Brayden's personal income                                  |
 
 
 ---
@@ -221,27 +221,3 @@ Brayden's primary audience for creative work is **his future self.** The channel
 6. **The burst pattern is real.** Re-entry after gaps is hard. Keep entries clean enough to reload context in under 5 minutes.
 7. **Never fabricate financial figures.** Mark unknowns as [UNCONFIRMED]. He will catch it.
 8. **He learns by doing.** When he hits a wall in planning, the right answer is usually "try something small and come back."
-
----
-
-## 🚩 Open Questions (Unresolved as of 2026-04-25)
-
-- [ ] iPad chip — A9 confirmed or still inferred?
-- [ ] Actual monthly gas/transport cost — never stated; discretionary income is less than $338.16 but exact amount UNCONFIRMED
-- [ ] Has Brayden formally called Phyllis/Gingette at Lawrence Workforce Center (785-840-9675) for WIOA funding?
-- [ ] P1S printer — currently in garage or bedroom?
-- [ ] Honda CRV FIMC repair — completed? DIY or mechanic?
-- [ ] Has any content been uploaded to any YouTube channel?
-- [ ] Has the $100K/year income goal been made into a concrete plan?
-- [ ] Has the Discord server been opened to GLWC members beyond Brayden?
-- [ ] CtrlYou first sale goal — ever met?
-
----
-
-## 📁 Cross-References
-
-- **GOODLIFE-UNION.md** — GLWC strategy, Two-Hat risk map, Kyle Jewell care context
-- **FINANCIAL-SNAPSHOT.md** — Full debt table, DMP details, cashflow (Brain Entry 007 canonical)
-- **DEVICE-ECOSYSTEM.md** — Full hardware specs (to be created; pull hardware table here once it exists)
-- **ACTIVE-PROJECTS.md** — Current project statuses
-- **BRAINOS-SYSTEM.md** — Vault architecture and sync rules
