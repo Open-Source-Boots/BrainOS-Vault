@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "411257cb680e60fb",
+        "id": "04b91608cda9bd59",
         "type": "tabs",
         "children": [
           {
-            "id": "ff7d12a1e38d795c",
+            "id": "3ba0ed91958b2239",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-INDEX/MASTER-INDEX.md",
+                "file": "02-BRAIN-ENTRIES/BE_OpenSource_011.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MASTER-INDEX"
+              "title": "BE_OpenSource_011"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-INDEX/MASTER-INDEX.md",
+                "file": "02-BRAIN-ENTRIES/BE_OpenSource_011.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MASTER-INDEX"
+              "title": "Backlinks for BE_OpenSource_011"
             }
           },
           {
@@ -188,41 +188,41 @@
   },
   "active": "e406d8f0221d09d1",
   "lastOpenFiles": [
+    "99-OUTBOX/workflow-log/desktop.ini",
+    "03-PROJECTS/CTRL-YOU/desktop.ini",
+    "03-PROJECTS/HOMESTEAD/desktop.ini",
+    "03-PROJECTS/GLWC/desktop.ini",
+    "03-PROJECTS/YOUTUBE/desktop.ini",
+    "00-INBOX/desktop.ini",
+    "04-CANONICAL/desktop.ini",
+    "06-ATTACH/desktop.ini",
+    "03-PROJECTS/ELECTRICIAN/desktop.ini",
+    "99-OUTBOX/desktop.ini",
+    "01-DAILY/desktop.ini",
+    "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-architecture-sync-fixes.md",
+    "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-master-index-audit-redesign.md",
+    "05-INDEX/MASTER-INDEX.md",
     "00-INBOX/BE-20260425-BRAINOS-master-index-migration-complete.md",
     "04-CANONICAL/BRAYDEN-IDENTITY.md",
-    "05-INDEX/MASTER-INDEX.md",
     "conflict-files-obsidian-git.md",
-    "~syncthing~conflict-files-obsidian-git.md.tmp",
-    "00-INBOX/BE-20260425-BRAINOS-architecture-sync-fixes.md",
     "05-INDEX/BRAINOS-CHECKPOINT-LOG.md",
     "04-CANONICAL/ACTIVE-PROJECTS.md",
     "04-CANONICAL/DEVICE-ECOSYSTEM.md",
     "04-CANONICAL/BEHAVIOR-PATTERNS.md",
     "00-INBOX/GIT AND GOOGLE ARE PISSING ME OFF.md",
-    "06-ATTACH",
-    "01-DAILY",
-    "00-INBOX/BE-20260424-BRAINOS-full-build-session.md",
-    "00-INBOX/BE-20260425-BRAINOS-triage-shiftmind-founding.md",
+    "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-full-build-session 1.md",
+    "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-triage-shiftmind-founding.md",
     "99-OUTBOX/Ok I want to see this little fucker move around.md",
     "PROJECTS/test-entry.md",
-    "00-INBOX/BE-20260424-BRAINOS-master-index-audit-redesign.md",
     "02-BRAIN-ENTRIES/BE-20260226-MIXED-caregiving-wav-spaces-rules.md",
     "Untitled.md",
     "00-INBOX/Will this go to my laptop.md",
     "00-INBOX/Will this go to my iphone.md",
     "99-OUTBOX/please be in google.md",
-    "00-INBOX/~syncthing~Will this go to my laptop.md.tmp",
     "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-full-build-session.md",
     "00-INBOX/tester filer.md",
     "05-INDEX/OPEN-QUESTIONS.md",
     "BE-20260424-BRAINOS-full-build-session.md",
-    "99-OUTBOX/workflow-log",
-    "99-OUTBOX",
-    "02-BRAIN-ENTRIES/BE_OpenSource_011.md",
-    "00-INBOX/Test File.md",
-    "00-INBOX/New Text Document.txt",
-    "RESEARCH-AND-LOGS",
-    "03-PROJECTS/YOUTUBE",
-    "03-PROJECTS/HOMESTEAD"
+    "02-BRAIN-ENTRIES/BE_OpenSource_011.md"
   ]
 }
