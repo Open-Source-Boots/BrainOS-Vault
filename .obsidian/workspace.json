@@ -11,10 +11,14 @@
             "id": "c8403fd882501817",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "04-CANONICAL/DEVICE-ECOSYSTEM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DEVICE-ECOSYSTEM"
             }
           }
         ]
@@ -90,16 +94,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "file": "04-CANONICAL/DEVICE-ECOSYSTEM.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for DEVICE-ECOSYSTEM"
             }
           },
           {
@@ -181,43 +186,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e406d8f0221d09d1",
+  "active": "c8403fd882501817",
   "lastOpenFiles": [
+    "04-CANONICAL/BEHAVIOR-PATTERNS.md",
+    "00-INBOX/GIT AND GOOGLE ARE PISSING ME OFF.md",
+    "06-ATTACH",
+    "01-DAILY",
     "00-INBOX/BE-20260424-BRAINOS-full-build-session.md",
     "00-INBOX/BE-20260425-BRAINOS-triage-shiftmind-founding.md",
     "99-OUTBOX/Ok I want to see this little fucker move around.md",
     "PROJECTS/test-entry.md",
     "00-INBOX/BE-20260424-BRAINOS-master-index-audit-redesign.md",
-    "00-INBOX/GIT AND GOOGLE ARE PISSING ME OFF.md",
-    "BRAIN-ENTRIES/BE-20260226-MIXED-caregiving-wav-spaces-rules.md",
+    "02-BRAIN-ENTRIES/BE-20260226-MIXED-caregiving-wav-spaces-rules.md",
     "Untitled.md",
     "00-INBOX/Will this go to my laptop.md",
     "00-INBOX/Will this go to my iphone.md",
     "99-OUTBOX/please be in google.md",
     "00-INBOX/~syncthing~Will this go to my laptop.md.tmp",
-    "BRAIN-ENTRIES/BE-20260424-BRAINOS-full-build-session.md",
+    "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-full-build-session.md",
     "00-INBOX/tester filer.md",
-    "INDEX/OPEN-QUESTIONS.md",
-    "INDEX/MASTER-INDEX.md",
+    "05-INDEX/OPEN-QUESTIONS.md",
+    "05-INDEX/MASTER-INDEX.md",
     "BE-20260424-BRAINOS-full-build-session.md",
     "99-OUTBOX/workflow-log",
     "99-OUTBOX",
-    "BRAIN-ENTRIES/BE_OpenSource_011.md",
+    "02-BRAIN-ENTRIES/BE_OpenSource_011.md",
     "00-INBOX/Test File.md",
     "00-INBOX/New Text Document.txt",
-    "CANONICAL/AI-WORKFLOW-RULES.md",
+    "04-CANONICAL/AI-WORKFLOW-RULES.md",
     "00-INBOX/DL.GL_705a_ANE_Rights_Summary.md",
-    "CANONICAL/BRAINOS-SYSTEM.md",
-    "BRAIN-ENTRIES/BE-20260423-BRAINOS-fullstack-sync-n8n-install.md",
-    "BRAIN-ENTRIES/BE-20260306-PROJECT-ctrlplusyou-founding-session.md",
-    "BRAIN-ENTRIES/BrainOS-Open-Questions-Worksheet.md",
-    "BRAIN-ENTRIES/BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
-    "CANONICAL/HOME-PROJECTS.md",
+    "04-CANONICAL/BRAINOS-SYSTEM.md",
+    "02-BRAIN-ENTRIES/BE-20260423-BRAINOS-fullstack-sync-n8n-install.md",
+    "02-BRAIN-ENTRIES/BE-20260306-PROJECT-ctrlplusyou-founding-session.md",
+    "02-BRAIN-ENTRIES/BrainOS-Open-Questions-Worksheet.md",
+    "02-BRAIN-ENTRIES/BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
     "RESEARCH-AND-LOGS",
-    "PROJECTS/YOUTUBE",
-    "PROJECTS/HOMESTEAD",
-    "PROJECTS/GLWC",
-    "PROJECTS/ELECTRICIAN",
-    "PROJECTS/CTRL-YOU"
+    "03-PROJECTS/YOUTUBE",
+    "03-PROJECTS/HOMESTEAD",
+    "03-PROJECTS/GLWC"
   ]
 }
