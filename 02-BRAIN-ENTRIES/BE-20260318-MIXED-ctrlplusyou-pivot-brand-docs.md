@@ -3,11 +3,11 @@ open_questions:
   - id: OQ-20260318-001
     question: "Decide: resume local SEO or permanently shelve"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260318-002
     question: "resolve canonical brand palette before resuming"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 ---
 ## STEP 1 — Pre-Entry Classification
 

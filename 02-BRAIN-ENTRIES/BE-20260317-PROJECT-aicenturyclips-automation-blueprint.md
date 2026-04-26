@@ -14,7 +14,7 @@ open_questions:
   - id: OQ-20260317-001
     question: "Revisit when n8n workflows resume and Ollama is running on desktop"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 ---
 # Brain Entry — AI Faceless Clip Channel Automation Blueprint (Mar 17 2026)
 
