@@ -1,6 +1,6 @@
 ---
-skill: mdfinancial
-version: 1.0
+name: mdfinancial
+version: 1.1
 created: 2026-04-26
 canonical_targets: [FINANCIAL-SNAPSHOT.md]
 generates_questions: false
@@ -8,6 +8,7 @@ question_range: [0, 0]
 financial_questions: false
 output_folder: 02-BRAIN-ENTRIES
 filename_pattern: "BE-[YYYYMMDD]-FINANCIAL-[slug].md"
+label_vocabulary: [CONFIRMED, UNCONFIRMED, DISCREPANCY, NOTE]
 ---
 
 # SKILL — /mdfinancial
@@ -31,7 +32,7 @@ User types `/mdfinancial` with a document attached or content pasted.
 - [CONFIRMED] = number appears explicitly in the source document
 - [UNCONFIRMED] = number was calculated, estimated, or inferred
 - If a pay stub shows gross and net, list both — never assume which applies
-- Rent deduction mechanism: $500 deducted at source per pay period (2x/month = $1,000/month total) — flag if this does not match document
+- Rent is not paid out of Brayden's personal income, separate from the PFT income, but immensely supported by.
 - Do not round figures — preserve exact cents
 - Flag any figure that differs from FINANCIAL-SNAPSHOT.md by more than $50
 ## Output Frontmatter (exact order, every file)
@@ -49,3 +50,11 @@ generated_by_skill:
 skill_version:
 tags: []
 open_questions: []
+
+[CONFIRMED] — fact verified in source document
+[UNCONFIRMED] — fact inferred, estimated, or not directly stated
+[RISK] — creates personal exposure
+[PROTECTION] — mitigates exposure
+[CONTRADICTION] — conflicts with existing canonical file
+[DECISION] — explicit choice stated by Brayden
+[NOTE] — requires human attention before acting

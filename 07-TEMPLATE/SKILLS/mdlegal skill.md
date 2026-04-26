@@ -1,13 +1,14 @@
 ---
-skill: mdlegal
-version: 1.0
+name: mdlegal
+version: 1.1
 created: 2026-04-26
 canonical_targets: [GLWC-PROJECT.md, BRAYDEN-IDENTITY.md]
 generates_questions: true
 question_range: [5, 10]
-financial_questions: false
+financial_questions: true
 output_folder: 02-BRAIN-ENTRIES
 filename_pattern: "BE-[YYYYMMDD]-LEGAL-[slug].md"
+label_vocabulary: [CONFIRMED, UNCONFIRMED, RISK, PROTECTION, CONTRADICTION, NOTE]
 ---
 
 # SKILL — /mdlegal
@@ -54,3 +55,11 @@ generated_by_skill:
 skill_version:
 tags: []
 open_questions: []
+
+[CONFIRMED] — fact verified in source document
+[UNCONFIRMED] — fact inferred, estimated, or not directly stated
+[RISK] — creates personal exposure
+[PROTECTION] — mitigates exposure
+[CONTRADICTION] — conflicts with existing canonical file
+[DECISION] — explicit choice stated by Brayden
+[NOTE] — requires human attention before acting

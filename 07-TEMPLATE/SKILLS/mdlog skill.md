@@ -51,3 +51,11 @@ generated_by_skill:
 skill_version:
 tags: []
 open_questions: []
+
+[CONFIRMED] — fact verified in source document
+[UNCONFIRMED] — fact inferred, estimated, or not directly stated
+[RISK] — creates personal exposure
+[PROTECTION] — mitigates exposure
+[CONTRADICTION] — conflicts with existing canonical file
+[DECISION] — explicit choice stated by Brayden
+[NOTE] — requires human attention before acting
