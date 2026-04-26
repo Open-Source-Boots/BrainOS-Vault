@@ -10,7 +10,7 @@ canonical_file: BRAINOS-SYSTEM.md (primary), ACTIVE-PROJECTS.md (secondary)
 tags: [brainos, obsidian, dataview, templater, python, automation, open-questions, git, vault-build]
 open_questions:
   - id: OQ-20260425-001
-    question: "Have the 06-ANSWERS staged files been pushed into canonical files yet?"
+    question: "Have the 06-ANSWERS staged files been reviewed and pushed into canonical files?"
     canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260425-002
@@ -24,6 +24,30 @@ open_questions:
   - id: OQ-20260425-004
     question: "Has the duplicate row issue in OPEN-QUESTIONS.md Dataview query been fully resolved?"
     canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-005
+    question: "Who is the paying customer for CommonGrounds — care home owner, DSP staff, or the agency?"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260425-006
+    question: "When will Block 3 questions be answered — desktop accessibility, Affirm freed cash plan, follow-through self-assessment?"
+    canonical_target: BRAYDEN-IDENTITY.md
+    status: OPEN
+  - id: OQ-20260425-007
+    question: "Has the financial inbox pipeline been scoped as a named n8n workflow?"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-008
+    question: "Has CommonGrounds been added to ACTIVE-PROJECTS.md as a named project with a stub file?"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260425-009
+    question: "Has the BrainOS YouTube documentation concept been logged as an active project track?"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260425-010
+    question: "Has Brayden confirmed the $100K target has a breakdown — which income streams close the gap?"
+    canonical_target: BRAYDEN-IDENTITY.md
     status: OPEN
 ---
 

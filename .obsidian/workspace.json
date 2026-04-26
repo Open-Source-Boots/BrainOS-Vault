@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md.md",
+                "file": "07-TEMPLATE/SKILLS/mdreference skill.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BE-20260425-BRAINOS-open-questions-automation-quiz-build.md"
+              "title": "mdreference skill"
             }
           }
         ],
@@ -203,11 +203,12 @@
   },
   "active": "4f82fe708cffcd73",
   "lastOpenFiles": [
-    "07-TEMPLATE/SKILLS/mdlegal skill.md",
-    "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md.md",
+    "07-TEMPLATE/be-template.md",
     "07-TEMPLATE/SKILLS/mdreference skill.md",
     "07-TEMPLATE/SKILLS/mdlog skill.md",
+    "07-TEMPLATE/SKILLS/mdlegal skill.md",
     "07-TEMPLATE/SKILLS/mdfinancial skill.md",
+    "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md.md",
     "06-ANSWERS/DEVICE-ECOSYSTEM/DEVICE-ECOSYSTEM-answers.md",
     "06-ANSWERS/BRAYDEN-IDENTITY/BRAYDEN-IDENTITY-answers.md",
     "06-ANSWERS/BRAINOS-SYSTEM/GOODLIFE-UNION-answers.md",
@@ -221,7 +222,6 @@
     "07-TEMPLATE/SKILLS",
     "07-TEMPLATE/New folder",
     "03-PROJECTS/COMMONGROUNDS/CommonGrounds.md",
-    "07-TEMPLATE/be-template.md",
     "07-TEMPLATE/PROMPTS/desktop.ini",
     "07-TEMPLATE/PROMPTS",
     "03-PROJECTS/COMMONGROUNDS/desktop.ini",

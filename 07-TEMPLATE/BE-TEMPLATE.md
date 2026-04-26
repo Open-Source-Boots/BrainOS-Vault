@@ -1,4 +1,6 @@
 ---
+generated_by_skill:
+skill_version:
 date_logged: {{date}}
 source_thread_date: 
 source_thread_title: ""
