@@ -1,9 +1,21 @@
 ---
+filename: BE-20260227-PROJECT-kray-studios-brand-shopify-income-architecture.md
+thread_date: 2026-02-27
+domain: ONLINE-BUSINESS
+status: SUPERSEDED
+priority: 3
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: FINANCIAL-SNAPSHOT.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260227-001
     question: "None — brand deprecated March 14 2026"
     canonical_target: ACTIVE-PROJECTS.md
     status: OPEN
+notes: Kray Studios survives only as parent company name; CtrlYou is the active consumer brand
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-02-27

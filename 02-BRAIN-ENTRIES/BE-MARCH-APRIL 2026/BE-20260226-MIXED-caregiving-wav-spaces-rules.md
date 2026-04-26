@@ -1,9 +1,21 @@
 ---
+filename: BE-20260226-MIXED-caregiving-wav-spaces-rules.md
+thread_date: 2026-02-26
+domain: BRAYDEN-IDENTITY
+status: ACTIVE
+priority: 2
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAYDEN-IDENTITY.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260226-001
     question: "Has Brayden or Samantha contacted any WAV funding programs (VRS / ATK / KCDC / PASS)?"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
+notes: Also seeds AI-WORKFLOW-RULES re: Spaces file structure; WAV purchased by April 2026 (Allstate $253.95/mo) — partially resolves open question
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-02-26

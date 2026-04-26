@@ -1,22 +1,15 @@
 ---
-date_logged: 2026-04-16
-source_thread_date: 2026-02-24 to 2026-02-25 (confirmed via system-reminder timestamps throughout thread)
-source_thread_title: "Debt management, InCharge DMP quote review, nonprofit credit counseling research, income generation, surplus correction, Fiverr/Cults3D setup"
-entry_type: financial (dominant) / project (secondary) / tool (secondary)
-chronological_position: UNKNOWN — to be placed during Obsidian compilation session
+filename: BE-20260224-FINANCIAL-incharge-dmp-debt-surplus-income.md
+thread_date: 2026-02-24
+domain: FINANCIAL
 status: draft
+priority: 3
+compilation_status: pending
 supersedes: UNKNOWN — cannot confirm without seeing other entries; likely predates Brain_Entry_007.md (April 11, 2026) and BE-20260227 (Feb 27, 2026)
 superseded_by: none at time of generation
-canonical_file: FINANCIAL-SNAPSHOT (primary) / BRAYDEN-IDENTITY (behavioral) / [NEW FILE NEEDED — INCOME-EXPERIMENTS]
-context_available: |
-  Space files visible and read during this archiving session:
-  - BRAYDEN-IDENTITY.md (file:153)
-  - Brain_Entry_007.md (file:156) — canonical financial snapshot as of April 11, 2026
-  - Brain_Entry_006.md (file:157) — data integrity incident log
-  - BE-20260226-MIXED-hub-v4-cashflow-localstorage.md (file:170) — Feb 26 hub build with partial financials
-  - BE-20260227-PROJECT-kray-studios-brand-shopify-income-architecture.md (file:185) — Feb 27 thread with debt snowball
-  Thread attachments: all 10 images expired — not readable at archiving time
-tags: [debt, DMP, InCharge, BestEgg, OneMain, Affirm, WAV, K-Loan, Fiverr, Cults3D, income-generation, ADHD-systems, Peaslee-Tech, surplus-correction, nonprofit, credit-counseling, GreenPath-warning, 100pct-payment-history, perfectionism, fear-of-change]
+canonical_file: "FINANCIAL-SNAPSHOT (primary) / BRAYDEN-IDENTITY (behavioral) / [NEW FILE NEEDED — INCOME-EXPERIMENTS]"
+generated_by_skill: manual
+tags: ['debt', 'DMP', 'InCharge', 'BestEgg', 'OneMain', 'Affirm', 'WAV', 'K-Loan', 'Fiverr', 'Cults3D', 'income-generation', 'ADHD-systems', 'Peaslee-Tech', 'surplus-correction', 'nonprofit', 'credit-counseling', 'GreenPath-warning', '100pct-payment-history', 'perfectionism', 'fear-of-change']
 open_questions:
   - id: OQ-20260224-001
     question: "None — superseded"
@@ -26,6 +19,20 @@ open_questions:
     question: "flag Affirm gap ($2585 Feb vs $3309 Apr) for Brayden to explain"
     canonical_target: FINANCIAL-SNAPSHOT.md
     status: OPEN
+date_logged: 2026-04-16
+source_thread_date: 2026-02-24 to 2026-02-25 (confirmed via system-reminder timestamps throughout thread)
+source_thread_title: Debt management, InCharge DMP quote review, nonprofit credit counseling research, income generation, surplus correction, Fiverr/Cults3D setup
+entry_type: financial (dominant) / project (secondary) / tool (secondary)
+chronological_position: UNKNOWN — to be placed during Obsidian compilation session
+context_available: Space files visible and read during this archiving session:
+- BRAYDEN-IDENTITY.md (file:153)
+- Brain_Entry_007.md (file:156) — canonical financial snapshot as of April 11, 2026
+- Brain_Entry_006.md (file:157) — data integrity incident log
+- BE-20260226-MIXED-hub-v4-cashflow-localstorage.md (file:170) — Feb 26 hub build with partial financials
+- BE-20260227-PROJECT-kray-studios-brand-shopify-income-architecture.md (file:185) — Feb 27 thread with debt snowball
+Thread attachments: all 10 images expired — not readable at archiving time
+
+notes: Superseded by Entry 007; behavioral note: fear of change + anti-perfectionism confirmed in this thread
 ---
 # Brain Entry — Debt Management Deep Dive: InCharge DMP Quote, Surplus Correction, Fiverr/Cults3D Launch Attempt (Feb 24–25, 2026)
 

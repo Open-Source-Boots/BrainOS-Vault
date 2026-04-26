@@ -1,9 +1,21 @@
 ---
+filename: BE-20260228-SKILL-shopify-free-sales-playbook.md
+thread_date: 2026-02-28
+domain: SKILLS-EDUCATION
+status: ACTIVE
+priority: 2
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: ACTIVE-PROJECTS.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260228-001
     question: "No immediate action — reference when any store goes active"
     canonical_target: SKILLS-EDUCATION.md
     status: CLOSED
+notes: Principles apply to CtrlYou or any future store; no store-specific action taken since Feb 28
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-02-28

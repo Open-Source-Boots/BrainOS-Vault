@@ -1,20 +1,27 @@
 ---
-date_logged: 2026-04-16
-source_thread_date: 2026-02-26 to 2026-02-27
-source_thread_title: "Kray Studios Hub v10/v11 Build Thread — HTML Dashboard Development, Cashflow Tracker, Shopify Design Studio"
-entry_type: project / tool / mixed
-chronological_position: UNKNOWN — to be placed during Obsidian compilation session
+filename: BE-20260226-PROJECT-kray-studios-hub-v10v11-build.md
+thread_date: 2026-02-26
+domain: ONLINE-BUSINESS
 status: draft
+priority: 3
+compilation_status: pending
 supersedes: UNKNOWN — cannot confirm without seeing other entries
 superseded_by: none
 canonical_file: KRAY-STUDIOS-CONTENT / AI-WORKFLOW-RULES
-context_available: Hub-Version-Spec.md, Monthly-Expenses-Cashflow.md, MASTER-CONTEXT.md, Swatch-Name-Hex-Role.csv, Supplier-Shipping-Cost-BestFor.csv, Tool-Cost-UsedFor.csv, CreditUnion-WhoResponded-Signal-NextAction.csv — all visible as Space Files in this thread
-tags: [kray-studios, hub, shopify, html, dashboard, cashflow, design-studio, dropshipping, v10, v11]
+generated_by_skill: manual
+tags: ['kray-studios', 'hub', 'shopify', 'html', 'dashboard', 'cashflow', 'design-studio', 'dropshipping', 'v10', 'v11']
 open_questions:
   - id: OQ-20260226-001
     question: "None — fully superseded by CtrlYou pivot March 14"
     canonical_target: ACTIVE-PROJECTS.md
     status: OPEN
+date_logged: 2026-04-16
+source_thread_date: 2026-02-26 to 2026-02-27
+source_thread_title: Kray Studios Hub v10/v11 Build Thread — HTML Dashboard Development, Cashflow Tracker, Shopify Design Studio
+entry_type: project / tool / mixed
+chronological_position: UNKNOWN — to be placed during Obsidian compilation session
+context_available: Hub-Version-Spec.md, Monthly-Expenses-Cashflow.md, MASTER-CONTEXT.md, Swatch-Name-Hex-Role.csv, Supplier-Shipping-Cost-BestFor.csv, Tool-Cost-UsedFor.csv, CreditUnion-WhoResponded-Signal-NextAction.csv — all visible as Space Files in this thread
+notes: Standing rule: always download hub HTML via code-tool link — Download as HTML button unreliable; Ctrl+U grabs React not hub
 ---
 # Brain Entry — Kray Studios Hub v10/v11 build: interactive HTML dashboard with cashflow tracker, product research tools, and Shopify design studio
 

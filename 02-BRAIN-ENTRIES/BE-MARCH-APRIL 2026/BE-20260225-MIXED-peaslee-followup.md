@@ -1,4 +1,15 @@
 ---
+filename: BE-20260225-MIXED-peaslee-followup.md
+thread_date: 2026-02-25
+domain: SKILLS-EDUCATION
+status: ACTIVE
+priority: 2
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAYDEN-IDENTITY.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260225-001
     question: "Call Phyllis/Gingette at Lawrence Workforce Center 785-840-9675 for WIOA"
@@ -8,6 +19,7 @@ open_questions:
     question: "confirm Peaslee Tech replied to Feb 25 email"
     canonical_target: SKILLS-EDUCATION.md
     status: CLOSED
+notes: Waitlist Order #4394 Oct 2026 cohort confirmed in later thread
 ---
 FILENAME: BE-20260225-MIXED-peaslee-followup.md
 

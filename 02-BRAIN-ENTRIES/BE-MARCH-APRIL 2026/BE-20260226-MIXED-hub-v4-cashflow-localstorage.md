@@ -1,29 +1,16 @@
 ---
-date_logged: 2026-04-16
-source_thread_date: 2026-02-26
-source_thread_title: "Yes generate 5 reference images that can be used for POD, using the exact brainstormed ideas you gave." [opening message, thread continues through HTML hub builds and Chrome download troubleshooting]
-entry_type: mixed
-chronological_position: UNKNOWN — to be placed during Obsidian compilation session
-status: draft
-supersedes: UNKNOWN — cannot confirm without seeing other entries
+filename: BE-20260226-MIXED-hub-v4-cashflow-localstorage.md
+thread_date: 2026-02-26
+domain: AI-WORKFLOW-RULES
+status: SUPERSEDED
+priority: 3
+compilation_status: pending
+supersedes: none
 superseded_by: none
-canonical_file: KRAY-STUDIOS-CONTENT, FINANCIAL-SNAPSHOT, AI-WORKFLOW-RULES
-context_available: |
-  Thread-attached files (all expired — images only, not readable):
-  IMG_2255.jpeg, IMG_2254.jpeg, Template-info.jpg, Embroidery-info.jpg,
-  Center/Large/Left/Right/Left_Chest Embroidery Templates,
-  multiple image.jpg attachments (hub screenshots, mockups)
-  Space files visible but not read for this entry — treated as isolated.
-tags: [kray-studios, hub-build, localStorage, cashflow, debt-snowball, HTML, chrome-download, POD-deprecated, v3-v4, brand-identity]
-open_questions:
-  - id: OQ-20260226-001
-    question: "None — fully superseded"
-    canonical_target: FINANCIAL-SNAPSHOT.md
-    status: OPEN
-  - id: OQ-20260226-002
-    question: "no action required"
-    canonical_target: FINANCIAL-SNAPSHOT.md
-    status: OPEN
+canonical_file: FINANCIAL-SNAPSHOT.md
+generated_by_skill: manual
+tags: []
+notes: Predates CtrlYou pivot; hub concept evolved into v10/v11 the next day
 ---
 # Brain Entry — Kray Studios Owner Hub build sessions (v3→v4), cashflow calculation, localStorage persistence, and Chrome download fix
 
