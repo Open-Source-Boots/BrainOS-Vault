@@ -7,7 +7,7 @@ open_questions:
   - id: OQ-20260325-002
     question: "confirm current CRV mechanical status"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-25

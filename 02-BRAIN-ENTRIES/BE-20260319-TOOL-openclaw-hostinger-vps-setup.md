@@ -3,11 +3,11 @@ open_questions:
   - id: OQ-20260319-001
     question: "Confirm if OpenClaw ever deployed"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260319-002
     question: "confirm if VPS is being used for n8n or other tools"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-19

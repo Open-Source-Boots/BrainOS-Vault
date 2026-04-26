@@ -7,7 +7,7 @@ open_questions:
   - id: OQ-20260327-002
     question: "organizing paused pending Samantha conversation"
     canonical_target: GOODLIFE-UNION.md
-    status: OPEN
+    status: CLOSED
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-27
