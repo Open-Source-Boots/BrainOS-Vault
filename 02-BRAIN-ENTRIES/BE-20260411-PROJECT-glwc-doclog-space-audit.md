@@ -24,7 +24,7 @@ open_questions:
   - id: OQ-20260411-001
     question: "Create KYLE-JEWELL-CARE-PROFILE.md"
     canonical_target: GOODLIFE-UNION.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260411-002
     question: "decide on LEGAL-RISK-MAP.md"
     canonical_target: GOODLIFE-UNION.md

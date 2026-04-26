@@ -40,3 +40,57 @@
 **Question:** resolve canonical brand palette before resuming
 **Answer:** Yeah, this isn't important or relevant at all right now. I think I want to eventually make a website, a blog, a brand, "ctrl+you" is a domain I own for now, might as well move forward on that, but I think that we're not needing to figure that all right now in this phase.
 **Status:** CLOSED
+
+## OQ-20260328-001 — 2026-04-25 23:42
+**Source:** BE-20260328-PROJECT-lived-experience-log-lex-naming.md
+**Question:** Confirm all 7 GLWC form templates are saved and accessible in Drive or vault
+**Answer:** [NOTE — not closed] I need to make it anonymous, still think it's worth packaging and distributing to everyone. Almost want to do a big mass email to everyone in the company. I did make the email, but I should talk to NLRB or other agencies before doing something risky. The email I have, and the access I have working at goodlife, to everyone's emails. I still want to do it. Even if it means I can't let anyone, not even my girlfriend, know that I'm the person who started it.
+**Status:** NOTE
+
+## OQ-20260330-001 — 2026-04-25 23:43
+**Source:** BE-20260330-PROJECT-garden-garage-home-builds.md
+**Question:** Assemble raised bed
+**Answer:** Not yet, the garden and the BrainOS and the work and the family and the taking care of myself and the eating 3 meals a day and the saving all the money and the not getting paid as much as I probably deserve and the bleeding caused by debt...
+**Status:** CLOSED
+
+## OQ-20260330-002 — 2026-04-25 23:44
+**Source:** BE-20260330-PROJECT-garden-garage-home-builds.md
+**Question:** build fold-down workbench
+**Answer:** [NOTE — not closed] That does sound cool, I would love to...Another reason I want more money to be able to spend on things like that. I'd either have to find, or buy wood, and I don't even feel safe or comfortable spending on anything that I don't feel like I need. But I kinda need a fold-down workbench
+**Status:** NOTE
+
+## OQ-20260330-003 — 2026-04-25 23:45
+**Source:** BE-20260330-PROJECT-garden-garage-home-builds.md
+**Question:** confirm ceiling tote rail installed
+**Answer:** [NOTE — not closed] No, that's still a very long ways away. Can't even buy some fuckin wood.
+**Status:** NOTE
+
+## OQ-20260404-001 — 2026-04-25 23:46
+**Source:** BE-20260404-PROJECT-share-your-story-post-draft.md
+**Question:** Confirm post published to GLWC Discord
+**Answer:** Yeah, lots of things published to an empty discord server. It feels like it was a lot, but then I look at everything I managed to make with it and I just feel like it's not quite what I envisioned. Then again, I hadn't started it really. Every one I mentioned it to at work was completely about the idea, they sounded interested and then I chickened out.
+**Status:** CLOSED
+
+## OQ-20260404-002 — 2026-04-25 23:47
+**Source:** BE-20260404-PROJECT-share-your-story-post-draft.md
+**Question:** confirm Discord opened to members beyond Brayden
+**Answer:** No, I've only let my best friend Nic join and try out the server functions, but didn't actually have any connection or involvement to Goodlife.
+**Status:** CLOSED
+
+## OQ-20260412-001 — 2026-04-25 23:49
+**Source:** BE-20260412-PROJECT-garage-audit-zone-plan.md
+**Question:** Assemble raised bed
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260412-002 — 2026-04-25 23:49
+**Source:** BE-20260412-PROJECT-garage-audit-zone-plan.md
+**Question:** build fold-down workbench
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260412-003 — 2026-04-25 23:49
+**Source:** BE-20260412-PROJECT-garage-audit-zone-plan.md
+**Question:** install ceiling tote rail
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE

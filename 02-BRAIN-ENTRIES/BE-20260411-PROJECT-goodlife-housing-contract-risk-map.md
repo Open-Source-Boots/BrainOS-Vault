@@ -43,7 +43,7 @@ open_questions:
   - id: OQ-20260411-002
     question: "confirm Live-In Manager MOU surviving clauses"
     canonical_target: GOODLIFE-UNION.md
-    status: OPEN
+    status: CLOSED
 ---
 # Brain Entry — GoodLife contract/housing deep-dive and GLWC organizing 
   strategy foundation (April 11, 2026)

@@ -17,7 +17,7 @@ open_questions:
   - id: OQ-20260330-001
     question: "Assemble raised bed"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260330-002
     question: "build fold-down workbench"
     canonical_target: ACTIVE-PROJECTS.md

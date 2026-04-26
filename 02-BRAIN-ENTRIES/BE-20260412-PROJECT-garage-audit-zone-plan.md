@@ -17,15 +17,15 @@ open_questions:
   - id: OQ-20260412-001
     question: "Assemble raised bed"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260412-002
     question: "build fold-down workbench"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260412-003
     question: "install ceiling tote rail"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260412-004
     question: "test closet cabinet doors (landlord leftovers)"
     canonical_target: ACTIVE-PROJECTS.md
