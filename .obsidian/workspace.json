@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07-TEMPLATE/BE-TEMPLATE.md",
+                "file": "05-INDEX/OPEN-QUESTIONS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BE-TEMPLATE"
+              "title": "OPEN-QUESTIONS"
             }
           }
         ]
@@ -188,11 +188,12 @@
   },
   "active": "ce742487275b881f",
   "lastOpenFiles": [
+    "05-INDEX/MASTER-INDEX.md",
+    "07-TEMPLATE/BE-TEMPLATE.md",
     "05-INDEX/inject_open_questions_log.txt",
     "inject_open_questions.py",
     "07-TEMPLATE/desktop.ini",
     "02-BRAIN-ENTRIES/BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md",
-    "07-TEMPLATE/BE-TEMPLATE.md",
     "07-TEMPLATE",
     "06-ATTACH/Untitled",
     "04-CANONICAL/DEVICE-ECOSYSTEM.md",
@@ -221,8 +222,6 @@
     "03-PROJECTS/CTRL-YOU/desktop.ini",
     "03-PROJECTS/HOMESTEAD/desktop.ini",
     "03-PROJECTS/GLWC/desktop.ini",
-    "03-PROJECTS/YOUTUBE/desktop.ini",
-    "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-master-index-audit-redesign.md",
-    "05-INDEX/MASTER-INDEX.md"
+    "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-master-index-audit-redesign.md"
   ]
 }
