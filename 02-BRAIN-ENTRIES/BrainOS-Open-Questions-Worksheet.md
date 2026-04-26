@@ -1,3 +1,10 @@
+---
+open_questions:
+  - id: OQ-20260425-001
+    question: "Push all confirmed answers to canonical files — this worksheet IS the update source"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+---
 **BrainOS Open Questions Worksheet**
 
 **Purpose:** Answer these questions in one session to close all unresolved gaps across the full brain archive. Every question here is unique and non-repeating — duplicates and questions already answered by later entries have been removed. Grouped by domain for efficient answering. Leave blank \= still unknown. Fill in \= ready for compilation.

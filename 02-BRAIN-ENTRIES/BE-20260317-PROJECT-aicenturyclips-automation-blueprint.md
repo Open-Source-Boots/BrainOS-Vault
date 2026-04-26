@@ -11,6 +11,11 @@ canonical_file: KRAY-STUDIOS-CONTENT / AI-WORKFLOW-RULES
 context_available: none — isolated thread
 tags: [n8n, control-browser, tiktok, faceless-channel, automation, google-drive, elevenlabs, heygen, shotstack, aicenturyclips, script-generation]
 
+open_questions:
+  - id: OQ-20260317-001
+    question: "Revisit when n8n workflows resume and Ollama is running on desktop"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
 ---
 
 # Brain Entry — AI Faceless Clip Channel Automation Blueprint (Mar 17 2026)

@@ -1,3 +1,10 @@
+---
+open_questions:
+  - id: OQ-20260227-001
+    question: "None — brand deprecated March 14 2026"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+---
 date_logged: 2026-04-16
 source_thread_date: 2026-02-27
 source_thread_title: "If I asked you to completely build Cray Studios' brand website — everything that we've talked about during this space"

@@ -13,6 +13,19 @@ context_available: |
   - BE-20260310-TOOL-p1s-maintenance-kit-rules.md (visible in repo — P1S filament and hardware rules)
   - Thread-attached images: IMG_2577 (TikTok fold-down workbench screenshot), IMG_2578 (TikTok workbench deployed), IMG_2554 (Brayden's actual garage photo), image.jpeg (Home Depot 1x12 lumber shelf tag)
 tags: [3d-printing, p1s, garden, backyard, garage, DIY, PLA, PETG, Kansas, Lawrence, raised-bed, fold-down-workbench, ceiling-storage, Home-Depot, Aldi, filament, makerworld, outdoor-prints]
+open_questions:
+  - id: OQ-20260330-001
+    question: "Assemble raised bed"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260330-002
+    question: "build fold-down workbench"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260330-003
+    question: "confirm ceiling tote rail installed"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
 ---
 
 # Brain Entry — Backyard garden launch, garage workbench + ceiling storage builds, and outdoor 3D printing material rules — March 30, 2026 shopping run

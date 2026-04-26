@@ -1,3 +1,14 @@
+---
+open_questions:
+  - id: OQ-20260221-001
+    question: "Confirm HVAC silently eliminated as path — never documented"
+    canonical_target: SKILLS-EDUCATION.md
+    status: OPEN
+  - id: OQ-20260221-002
+    question: "confirm Robotics internship availability with Peaslee directly"
+    canonical_target: SKILLS-EDUCATION.md
+    status: OPEN
+---
 entry_id: [UNASSIGNED — assign when compiled with other entries]
 date_logged: 2026-04-16
 source_thread_date: 2026-02-21

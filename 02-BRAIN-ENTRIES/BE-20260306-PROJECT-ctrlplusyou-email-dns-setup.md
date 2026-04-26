@@ -1,3 +1,14 @@
+---
+open_questions:
+  - id: OQ-20260306-001
+    question: "Confirm all 5 DNS records show green in Zoho"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260306-002
+    question: "confirm Zoho username is 'support' not 'braydenboots'"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+---
 ## STEP 1 — PRE-ENTRY ASSESSMENT
 
 **1. Approximate date of this thread:**

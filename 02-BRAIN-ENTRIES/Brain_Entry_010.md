@@ -9,6 +9,15 @@ supersedes: nothing — this is new infrastructure detail not in prior entries
 superseded_by: none
 canonical_file: AI-WORKFLOW-RULES, BRAINOS-SYSTEM, SKILLS-EDUCATION, BRAYDEN-IDENTITY (device specs)
 tags: [open-source, local-ai, lm-studio, ollama, obsidian, devices, infrastructure, second-brain, tools]
+open_questions:
+  - id: OQ-20260425-001
+    question: "Create DEVICE-ECOSYSTEM.md — this entry + BE_OpenSource_011 are co-equal seed sources"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-002
+    question: "complete laptop remaining tasks in order (Ollama confirm → LocalSend → LibreOffice → HuggingFace → KrayVault → Smart Connections → Syncthing)"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
 ---
 
 # Brain Entry 010 — Open-Source AI Stack, Device Ecosystem & Second Brain Infrastructure

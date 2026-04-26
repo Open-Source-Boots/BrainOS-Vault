@@ -11,6 +11,15 @@ superseded_by: none
 canonical_file: CTRL-YOU-STATUS, AI-WORKFLOW-RULES, FINANCIAL-SNAPSHOT (correction only), BRAINOS-SYSTEM
 context_available: Brain_Entry_001 through Brain_Entry_010 visible in this space — used for contradiction-flagging only, not for injecting facts into this entry
 tags: [ctrl-you, n8n, perplexity, terminal-app, ai-limits, data-fabrication, google-drive-docs, capability-map, adhd-systems, second-brain, financial-correction, outreach-assets]
+open_questions:
+  - id: OQ-20260317-001
+    question: "Flag or delete 3 v3 Drive docs (DRAFT-CONTAINS-ERRORS)"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+  - id: OQ-20260317-002
+    question: "confirm GoodLife Fitness vs Innovations — RESOLVED: Innovations is canonical"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
 ---
 
 # Brain Entry [UNASSIGNED] — ctrl+you Capability Map, Terminal Request, Google Drive Rewrite Attempt & Financial Fabrication Correction

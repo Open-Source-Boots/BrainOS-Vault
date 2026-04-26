@@ -7,6 +7,19 @@ slug: triage-shiftmind-founding
 status: ACTIVE
 canonicalfile: "BRAINOS-SYSTEM.md"
 tags: [brainos, triage, vision, shiftmind, whisper, local-ai, residential-care, obsidian, groundwork, naming, python, voice-transcription, hipaa, goodlife, proof-of-concept, business]
+open_questions:
+  - id: OQ-20260425-001
+    question: "Run first Whisper test"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-002
+    question: "create COMMONGROUNDS-PROJECT.md"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-003
+    question: "update all canonical files from this session"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
 ---
 Key Facts
 BrainOS diagnosis confirmed: System was growing laterally (more files, more schemas, more tools) without growing deeper into actual use; no declared endgame existed until this thread

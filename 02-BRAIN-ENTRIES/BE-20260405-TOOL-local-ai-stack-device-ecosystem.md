@@ -18,6 +18,11 @@ tags: [open-source-ai, local-models, lm-studio, ollama, obsidian,
        adhd-workflow, tool-stack, kray-vault, brainos, full-circle,
        lm-link, gemma, flux, wan2gp, whisper, syncthing, localsend,
        spacedesk, pinokio, pocketpal, mobius-sync, hugging-face]
+open_questions:
+  - id: OQ-20260405-001
+    question: "Create DEVICE-ECOSYSTEM.md canonical file — pull hardware inventory out of BRAYDEN-IDENTITY into it"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
 ---
 
 # Brain Entry — Local open-source AI stack established on laptop;

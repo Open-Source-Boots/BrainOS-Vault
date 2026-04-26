@@ -1,3 +1,14 @@
+---
+open_questions:
+  - id: OQ-20260404-001
+    question: "Confirm post published to GLWC Discord"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260404-002
+    question: "confirm Discord opened to members beyond Brayden"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+---
 ## STEP 1 — PRE-ENTRY QUESTIONS
 
 **1. Approximate date of this thread:**

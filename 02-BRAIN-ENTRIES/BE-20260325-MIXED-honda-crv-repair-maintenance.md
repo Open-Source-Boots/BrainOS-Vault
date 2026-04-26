@@ -1,3 +1,14 @@
+---
+open_questions:
+  - id: OQ-20260325-001
+    question: "Confirm FIMC repair completed or still pending"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260325-002
+    question: "confirm current CRV mechanical status"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-25
 source_thread_title: "I need advice for maintenance, repairs, etc for 2015 Honda CRV in Lawrence Kansas..."

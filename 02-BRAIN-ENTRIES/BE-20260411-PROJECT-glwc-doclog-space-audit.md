@@ -20,6 +20,15 @@ context_available:
   - D_Kyle_Jewell_updated_PCSP__25.pdf (file:49) — retrieved for cross-reference
   - Jewell._Beaty-Boots_Lease_Agreement_8.1.2025.pdf (file:44) — retrieved for cross-reference
 tags: [goodlife, glwc, union-organizing, doc-log, pft, dsp, kyle-jewell, brayden-boots, hcbs, kansas-medicaid, sunflower, colleen-helm]
+open_questions:
+  - id: OQ-20260411-001
+    question: "Create KYLE-JEWELL-CARE-PROFILE.md"
+    canonical_target: GOODLIFE-UNION.md
+    status: OPEN
+  - id: OQ-20260411-002
+    question: "decide on LEGAL-RISK-MAP.md"
+    canonical_target: GOODLIFE-UNION.md
+    status: OPEN
 ---
 
 # Brain Entry — GLWC Doc-Log Processing Thread: Five Space files extracted, four doc-log summaries saved, new thread handoff file created

@@ -1,3 +1,10 @@
+---
+open_questions:
+  - id: OQ-20260328-001
+    question: "Confirm all 7 GLWC form templates are saved and accessible in Drive or vault"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-28 to 2026-03-29
 source_thread_title: "Lets do lived-experience-log"

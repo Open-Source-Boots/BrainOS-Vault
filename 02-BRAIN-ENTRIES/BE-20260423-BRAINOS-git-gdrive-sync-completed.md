@@ -7,6 +7,19 @@ slug: git-gdrive-sync-completed
 status: ACTIVE
 canonicalfile: BE-20260405-TOOL-local-ai-stack-device-ecosystem.md
 tags: [obsidian-git, github, google-drive-sync, ogd-sync, vault-sync, automation, brainos, open-source, standing-rule]
+open_questions:
+  - id: OQ-20260423-001
+    question: "Confirm Drive folder fully populated with all subfolders"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260423-002
+    question: "delete empty Obsidian folder in Drive"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260423-003
+    question: "install Local REST API plugin"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
 ---
 KEY FACTS ESTABLISHED THIS THREAD
 Git — COMPLETED ✓

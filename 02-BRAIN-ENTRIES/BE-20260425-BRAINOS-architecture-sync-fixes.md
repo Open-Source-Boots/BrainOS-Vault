@@ -7,6 +7,23 @@ slug: architecture-sync-fixes
 status: ACTIVE
 canonicalfile: BRAINOS-SYSTEM.md
 tags: [brainos, vault-structure, master-index, raw-wiki-output, obsidian, git, syncthing, token, n8n, dataview, CommonGrounds]
+open_questions:
+  - id: OQ-20260425-001
+    question: "Create MASTER-INDEX.md Dataview dashboard"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-002
+    question: "create 99-OUTBOX/ folder"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-003
+    question: "create COMMONGROUNDS-PROJECT.md stub"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-004
+    question: "rename legacy Google Sheet to MASTER-INDEX-LEGACY in Drive"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
 ---
 Key Facts:
 

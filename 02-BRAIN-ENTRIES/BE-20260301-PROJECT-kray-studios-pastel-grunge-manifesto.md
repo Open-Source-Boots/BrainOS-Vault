@@ -25,6 +25,15 @@ context_available: |
     - image.jpg (file:1) — Kray Studios neon graffiti logo on dark purple background
     - KRAY-STUDIOS-3.jpg (file:2) — Screenshot of Shopify Horizon editor showing Kray Studios storefront (lavender/pink UI, Claude Sonnet 4.6 browser control session)
 tags: [kray-studios, shopify, browser-control, pastel-grunge, design-manifesto, comet-ai, theme-editor, edit-code, dropshipping, decor-tech]
+open_questions:
+  - id: OQ-20260301-001
+    question: "None — brand superseded"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260301-002
+    question: "guardrails already canonical in AI-WORKFLOW-RULES"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
 ---
 
 # Brain Entry — Kray Studios Shopify design manifesto and browser-control agent command sheet for pastel-grunge decor/tech store

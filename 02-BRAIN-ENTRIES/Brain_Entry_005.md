@@ -1,3 +1,18 @@
+---
+open_questions:
+  - id: OQ-20260425-001
+    question: "Call Phyllis/Gingette 785-840-9675 — WIOA voucher is the unlock"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-002
+    question: "confirm payment or voucher before October to secure seat"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-003
+    question: "pursue Peaslee Promise scholarship"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+---
 # Brain Entry 005: Peaslee Tech Electrician Program & Workforce Center Navigation
 
 **Date Logged:** April 10, 2026

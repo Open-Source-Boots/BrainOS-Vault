@@ -13,6 +13,23 @@ context_available:
   - BE-20260311-PROJECT-comic-holder-wall-mount-system.md — visible in Space files; same garage, same shelving, comic book boxes now confirmed in this thread
   - Thread-attached images: IMG_2637.jpeg, IMG_2638.jpeg, IMG_2639.jpeg, IMG_2640.jpeg (four garage angles, attached twice — same images)
 tags: [garage, organization, studio, youtube, filming, green-screen, storage, lincare, PFT, shelving, ceiling-storage, sloped-walls, french-cleat, workshop, styrofoam, gardening, grow-light, comic-books, art-supplies, Lawrence-KS, home-projects]
+open_questions:
+  - id: OQ-20260412-001
+    question: "Assemble raised bed"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260412-002
+    question: "build fold-down workbench"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260412-003
+    question: "install ceiling tote rail"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260412-004
+    question: "test closet cabinet doors (landlord leftovers)"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
 ---
 
 # Brain Entry — Garage organization, zone planning, multi-use studio/storage/workshop layout, and full item audit (April 2026)

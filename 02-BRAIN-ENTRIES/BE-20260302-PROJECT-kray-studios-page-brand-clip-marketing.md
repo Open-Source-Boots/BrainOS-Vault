@@ -1,3 +1,10 @@
+---
+open_questions:
+  - id: OQ-20260302-001
+    question: "None — standing rules already canonical"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-02 (confirmed via system-reminder in thread)
 source_thread_title: "this is a page, from what you know, suggest changes to create a better demographic, redevelop the shopify page, prepare the brand, develop a system for marketing, advertising, at low cost, and without self identification, prefer clipping systems"

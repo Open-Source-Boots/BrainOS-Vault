@@ -7,6 +7,15 @@ slug: full-build-session-apr23-24
 status: ACTIVE
 canonicalfile: BRAINOS-SYSTEM.md
 tags: [session-log, n8n, workflow-1, iphone, obsidian-ios, mobius-sync, pocketpal, canonical-architecture, open-questions, project-files, audit-protocol, device-ecosystem]
+open_questions:
+  - id: OQ-20260424-001
+    question: "Finish Workflow 1 nodes 2-8 when n8n resumes"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260424-002
+    question: "confirm Möbius Sync stable across all devices"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
 ---
 
 ## CONFIRMED DONE — ACTIONS TAKEN THIS THREAD

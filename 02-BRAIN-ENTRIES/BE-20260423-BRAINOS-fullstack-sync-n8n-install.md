@@ -7,6 +7,11 @@ slug: fullstack-sync-n8n-install
 status: ACTIVE
 canonicalfile: BRAINOS-SYSTEM.md
 tags: [obsidian-git, github, google-drive-sync, ogd-sync, n8n, local-rest-api, node-js, brainos, automation, sync, security, standing-rules]
+open_questions:
+  - id: OQ-20260423-001
+    question: "n8n workflows deprioritized — resume only after daily note habit established and Ollama running on desktop"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
 ---
 KEY FACTS ESTABLISHED THIS THREAD
 Git — FULLY OPERATIONAL ✓

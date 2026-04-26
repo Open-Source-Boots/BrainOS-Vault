@@ -16,6 +16,15 @@ context_available: none — isolated thread
 tags: [open-source-ai, local-models, device-inventory, obsidian,
        lm-studio, ollama, laptop-setup, second-brain, tool-stack,
        naming-convention, adhd-workflow]
+open_questions:
+  - id: OQ-20260425-001
+    question: "Create DEVICE-ECOSYSTEM.md — this thread is the primary seed"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-002
+    question: "confirm Ollama install completed (download confirmed"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
 ---
 
 # Brain Entry [UNASSIGNED] — Local open-source AI stack introduced;

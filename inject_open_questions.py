@@ -102,7 +102,7 @@ def main():
 
     for row in rows:
         filename = row.get("filename", "").strip()
-        action_required = row.get("actionrequired", "").strip()
+        action_required = row.get("action_required", "").strip()
 
         if not filename or not filename.endswith(".md"):
             continue

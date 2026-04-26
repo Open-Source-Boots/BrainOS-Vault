@@ -10,6 +10,19 @@ superseded_by: none
 canonical_file: NEW FILE NEEDED — see Step 3 notes; closest existing: BRAYDEN-IDENTITY, SKILLS-EDUCATION
 context_available: BRAYDEN-IDENTITY.md visible in Space files; no prior 3D printing entries found
 tags: [3d-printing, bambu-lab, comic-books, garage-organization, frenchfinity, wall-mount, maker, modular-storage, P1S]
+open_questions:
+  - id: OQ-20260311-001
+    question: "Confirm Model 1 printed"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260311-002
+    question: "confirm wall anchor mounted to stud"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260311-003
+    question: "confirm 0.8mm nozzle installed"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
 ---
 
 # Brain Entry — 3D Printed Comic Book Wall Mount System Design and Bambu Studio Workflow

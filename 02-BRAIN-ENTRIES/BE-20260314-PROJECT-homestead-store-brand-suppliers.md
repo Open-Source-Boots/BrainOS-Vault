@@ -1,3 +1,14 @@
+---
+open_questions:
+  - id: OQ-20260314-001
+    question: "None — ideation only"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260314-002
+    question: "revisit if homestead vertical ever activates under CtrlYou multi-store vision"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+---
 STEP 1 — PRE-ENTRY ASSESSMENT
 1. Approximate date of this thread:
 The thread content shows "Last Updated March 4, 2026" in the Kray Studios Master File that was referenced by the AI during response. The query itself was asked in the context of the Shopify store thread initiated around early March 2026. The AI's response was generated and the user's original query was made around March 14, 2026 (per the system-reminder date stamp visible at the top of the thread). Source thread date: 2026-03-14.

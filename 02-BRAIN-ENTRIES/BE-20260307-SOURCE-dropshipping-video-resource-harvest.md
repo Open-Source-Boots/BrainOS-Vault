@@ -1,3 +1,10 @@
+---
+open_questions:
+  - id: OQ-20260307-001
+    question: "None — reference when any store goes active"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-07
 source_thread_title: "You are acting as my second-brain archivist..." / Opening context: bedtime recommendation thread → YouTube dropshipping video link harvest

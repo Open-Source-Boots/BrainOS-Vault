@@ -7,6 +7,11 @@ slug: live-sync-vault-financial-setup
 status: ACTIVE
 canonicalfile: BE-20260405-TOOL-local-ai-stack-device-ecosystem.md
 tags: [obsidian, git, syncthing, google-drive-sync, vault-structure, financial-snapshot, n8n, audit, open-source, standing-rule, cashflow, debt]
+open_questions:
+  - id: OQ-20260422-001
+    question: "Confirm Google Drive for Desktop installed and syncing on all devices"
+    canonical_target: FINANCIAL-SNAPSHOT.md
+    status: OPEN
 ---
 
 ## KEY FACTS ESTABLISHED THIS THREAD

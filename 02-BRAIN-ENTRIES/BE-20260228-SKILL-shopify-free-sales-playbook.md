@@ -1,3 +1,10 @@
+---
+open_questions:
+  - id: OQ-20260228-001
+    question: "No immediate action — reference when any store goes active"
+    canonical_target: SKILLS-EDUCATION.md
+    status: OPEN
+---
 date_logged: 2026-04-16
 source_thread_date: 2026-02-28
 source_thread_title: "Can you write a document from the perspective of a shopify/dropshipping expert that explains the best free, or extremely low cost, way to generate sales on a shopify store that has just started."

@@ -1,3 +1,14 @@
+---
+open_questions:
+  - id: OQ-20260425-001
+    question: "Confirm outreach assets deleted from Drive (confirmed in Open Questions worksheet)"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-002
+    question: "no action until vault compilation complete"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+---
 # Brain Entry 004
 **Date Logged:** April 10, 2026
 **Source Thread:** Perplexity — March 17, 2026 session (Ctrl+You outreach assets + brain system kickoff)

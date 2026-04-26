@@ -1,3 +1,10 @@
+---
+open_questions:
+  - id: OQ-20260226-001
+    question: "Has Brayden or Samantha contacted any WAV funding programs (VRS / ATK / KCDC / PASS)?"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+---
 date_logged: 2026-04-16
 source_thread_date: 2026-02-26
 source_thread_title: "I want to learn about free, emphasis on free ways to earn accreditation..."

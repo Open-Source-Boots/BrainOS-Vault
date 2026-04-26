@@ -10,6 +10,11 @@ superseded_by: none
 canonical_file: KRAY-STUDIOS-CONTENT / AI-WORKFLOW-RULES
 context_available: Hub-Version-Spec.md, Monthly-Expenses-Cashflow.md, MASTER-CONTEXT.md, Swatch-Name-Hex-Role.csv, Supplier-Shipping-Cost-BestFor.csv, Tool-Cost-UsedFor.csv, CreditUnion-WhoResponded-Signal-NextAction.csv — all visible as Space Files in this thread
 tags: [kray-studios, hub, shopify, html, dashboard, cashflow, design-studio, dropshipping, v10, v11]
+open_questions:
+  - id: OQ-20260226-001
+    question: "None — fully superseded by CtrlYou pivot March 14"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
 ---
 
 # Brain Entry — Kray Studios Hub v10/v11 build: interactive HTML dashboard with cashflow tracker, product research tools, and Shopify design studio

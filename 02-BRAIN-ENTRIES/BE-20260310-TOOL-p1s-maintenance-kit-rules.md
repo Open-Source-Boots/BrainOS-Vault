@@ -1,3 +1,14 @@
+---
+open_questions:
+  - id: OQ-20260310-001
+    question: "Purchase Super Lube 52004 if not already bought"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260310-002
+    question: "confirm AMS maintenance items"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-10
 source_thread_title: "Explain exactly how to use and what to avoid for each piece that came with my Bambu Labs P1S."

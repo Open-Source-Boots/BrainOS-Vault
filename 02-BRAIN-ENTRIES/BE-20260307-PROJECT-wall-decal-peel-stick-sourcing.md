@@ -1,3 +1,14 @@
+---
+open_questions:
+  - id: OQ-20260307-001
+    question: "None — Kray Studios brand superseded"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260307-002
+    question: "product research still valid if CtrlYou wall decor vertical ever activates"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+---
 ## STEP 1 — Pre-Entry Assessment
 
 **1. Approximate date of this thread:** March 7, 2026 — confirmed by the system-reminder timestamps embedded in the thread (12:36 AM and 12:57 AM CST, March 7, 2026).

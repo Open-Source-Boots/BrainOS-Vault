@@ -25,6 +25,15 @@ context_available: >
   Plus several unrelated files (AI Engineering book, $100 Startup, Side Hustle Bible, Blue Ocean Strategy, n8n guides)
   No other Brain Entries were attached or referenced inside this thread.
 tags: [ctrl-you, shopify, tiktok, business-registration, logo, AI-room-visualizer, 3D-room-builder, brand-identity, kansas-tax, dropshipping, vibe-quiz]
+open_questions:
+  - id: OQ-20260306-001
+    question: "Confirm Kansas Sales Tax reg and EIN status"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260306-002
+    question: "confirm if fyti4j store closed or rebranded"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
 ---
 
 # Brain Entry — Ctrl+You store launch session: Shopify setup, TikTok profile, KS business registration, logo creation, and AI room visualizer research

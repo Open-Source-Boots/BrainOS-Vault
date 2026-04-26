@@ -1,3 +1,14 @@
+---
+open_questions:
+  - id: OQ-20260327-001
+    question: "No NLRB or AFL-CIO contact taken yet"
+    canonical_target: GOODLIFE-UNION.md
+    status: OPEN
+  - id: OQ-20260327-002
+    question: "organizing paused pending Samantha conversation"
+    canonical_target: GOODLIFE-UNION.md
+    status: OPEN
+---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-27
 source_thread_title: "Okay, so given everything that we've talked about in the thread, um, previous, in this space, I am ready to start inviting people to the server that was made for the unionization process."

@@ -17,6 +17,15 @@ context_available: |
   - BE-20260227-PROJECT-kray-studios-brand-shopify-income-architecture.md (file:185) — Feb 27 thread with debt snowball
   Thread attachments: all 10 images expired — not readable at archiving time
 tags: [debt, DMP, InCharge, BestEgg, OneMain, Affirm, WAV, K-Loan, Fiverr, Cults3D, income-generation, ADHD-systems, Peaslee-Tech, surplus-correction, nonprofit, credit-counseling, GreenPath-warning, 100pct-payment-history, perfectionism, fear-of-change]
+open_questions:
+  - id: OQ-20260224-001
+    question: "None — superseded"
+    canonical_target: FINANCIAL-SNAPSHOT.md
+    status: OPEN
+  - id: OQ-20260224-002
+    question: "flag Affirm gap ($2585 Feb vs $3309 Apr) for Brayden to explain"
+    canonical_target: FINANCIAL-SNAPSHOT.md
+    status: OPEN
 ---
 
 # Brain Entry — Debt Management Deep Dive: InCharge DMP Quote, Surplus Correction, Fiverr/Cults3D Launch Attempt (Feb 24–25, 2026)

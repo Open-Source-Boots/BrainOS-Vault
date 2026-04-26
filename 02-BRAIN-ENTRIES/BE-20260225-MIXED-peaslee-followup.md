@@ -1,3 +1,14 @@
+---
+open_questions:
+  - id: OQ-20260225-001
+    question: "Call Phyllis/Gingette at Lawrence Workforce Center 785-840-9675 for WIOA"
+    canonical_target: SKILLS-EDUCATION.md
+    status: OPEN
+  - id: OQ-20260225-002
+    question: "confirm Peaslee Tech replied to Feb 25 email"
+    canonical_target: SKILLS-EDUCATION.md
+    status: OPEN
+---
 FILENAME: BE-20260225-MIXED-peaslee-followup.md
 
 THREAD DATE: Wednesday, February 25, 2026

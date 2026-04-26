@@ -15,6 +15,15 @@ context_available: |
   multiple image.jpg attachments (hub screenshots, mockups)
   Space files visible but not read for this entry — treated as isolated.
 tags: [kray-studios, hub-build, localStorage, cashflow, debt-snowball, HTML, chrome-download, POD-deprecated, v3-v4, brand-identity]
+open_questions:
+  - id: OQ-20260226-001
+    question: "None — fully superseded"
+    canonical_target: FINANCIAL-SNAPSHOT.md
+    status: OPEN
+  - id: OQ-20260226-002
+    question: "no action required"
+    canonical_target: FINANCIAL-SNAPSHOT.md
+    status: OPEN
 ---
 
 # Brain Entry — Kray Studios Owner Hub build sessions (v3→v4), cashflow calculation, localStorage persistence, and Chrome download fix
