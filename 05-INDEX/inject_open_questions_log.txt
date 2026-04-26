@@ -1,5 +1,5 @@
 === INJECT OPEN QUESTIONS LOG (FULL REWRITE) ===
-Run at: 2026-04-25 22:15:30.253269
+Run at: 2026-04-25 22:15:47.453404
 
 --- MODIFIED (55) ---
 MODIFIED: BE-20260224-FINANCIAL-incharge-dmp-debt-surplus-income.md
