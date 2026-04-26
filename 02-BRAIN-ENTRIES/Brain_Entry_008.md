@@ -1,3 +1,10 @@
+---
+open_questions:
+  - id: OQ-20260425-001
+    question: "Rebuild Notion frameworks (Four-Line scripting"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+---
 # 🧠 Brain Entry 008 — YouTube Strategy & Video Workflow Thread
 **Date Logged:** April 11, 2026
 **Source Thread:** March 19, 2026 Perplexity session — Notion workflow build + YouTube channel strategy

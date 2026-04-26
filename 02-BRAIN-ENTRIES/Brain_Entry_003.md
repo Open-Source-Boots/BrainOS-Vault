@@ -1,3 +1,14 @@
+---
+open_questions:
+  - id: OQ-20260425-001
+    question: "Confirm Kansas Sales Tax reg and EIN status"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-002
+    question: "confirm TikTok @ctrl.plus.you still active"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+---
 # Brain Entry 003
 **Date:** 2026-04-10
 **Source Thread:** Comet Browser — ctrlplusyou.com Build Sessions 1–6

@@ -1,3 +1,18 @@
+---
+open_questions:
+  - id: OQ-20260416-001
+    question: "Set up Google Cloud OAuth for Sheets/Drive API"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+  - id: OQ-20260416-002
+    question: "decide FOSS vs hybrid"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+  - id: OQ-20260416-003
+    question: "complete nodes 2-8"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+---
 entry_id: [UNASSIGNED — assign when compiled with other entries]
 date_logged: 2026-04-16
 source_thread_date: 2026-04-16

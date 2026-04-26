@@ -1,3 +1,10 @@
+---
+open_questions:
+  - id: OQ-20260416-001
+    question: "Confirm whether foam sculpting is an active skill track before creating CRAFT-SKILLS-ART.md"
+    canonical_target: SKILLS-EDUCATION.md
+    status: OPEN
+---
 entry_id: [UNASSIGNED — assign when compiled with other entries]
 date_logged: 2026-04-16
 source_thread_date: 2026-04-16

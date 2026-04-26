@@ -1,3 +1,10 @@
+---
+open_questions:
+  - id: OQ-20260416-001
+    question: "Decide: FOSS-only or hybrid paid stack before building any n8n nodes"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+---
 entry_id: [UNASSIGNED — assign when compiled with other entries]
 date_logged: 2026-04-16
 source_thread_date: 2026-04-16

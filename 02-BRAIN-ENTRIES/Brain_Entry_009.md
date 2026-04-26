@@ -1,3 +1,10 @@
+---
+open_questions:
+  - id: OQ-20260425-001
+    question: "Choose which anchor video goes first and name a date — single highest-leverage open question for YouTube track"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+---
 # 🧠 Brain Entry 009 — Channel Identity, Creative Voice & Content Strategy
 **Date Logged:** April 11, 2026
 **Source Thread:** March 19, 2026 — "Kray Studios YouTube Strategy & Channel Identity" (long-form discovery session)

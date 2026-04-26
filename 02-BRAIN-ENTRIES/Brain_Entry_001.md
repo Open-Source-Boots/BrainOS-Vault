@@ -1,3 +1,10 @@
+---
+open_questions:
+  - id: OQ-20260425-001
+    question: "Locate pre-Entry-001 LM Studio thread and log if not already captured"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
+---
 # 🧠 Personal Brain — Entry 001
 **Date:** April 10, 2026
 **Source Thread:** "How can I use AI to move faster?"
