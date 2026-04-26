@@ -2,44 +2,14 @@
 filename: BE-20260301-PROJECT-kray-studios-pastel-grunge-manifesto.md
 thread_date: 2026-03-01
 domain: AI-WORKFLOW-RULES
-status: draft
+status: SUPERSEDED
 priority: 3
 compilation_status: pending
-supersedes: UNKNOWN — cannot confirm without seeing other entries
+supersedes: none
 superseded_by: none
-canonical_file: KRAY-STUDIOS-CONTENT / AI-WORKFLOW-RULES
+canonical_file: BRAINOS-SYSTEM.md
 generated_by_skill: manual
-tags: ['kray-studios', 'shopify', 'browser-control', 'pastel-grunge', 'design-manifesto', 'comet-ai', 'theme-editor', 'edit-code', 'dropshipping', 'decor-tech']
-open_questions:
-  - id: OQ-20260301-001
-    question: "None — brand superseded"
-    canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
-  - id: OQ-20260301-002
-    question: "guardrails already canonical in AI-WORKFLOW-RULES"
-    canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
-date_logged: 2026-04-16
-source_thread_date: 2026-03-01 (inferred from internal timestamp "March 01, 2026, 12:52 AM CST" and "12:54 AM CST" system reminders)
-source_thread_title: I need a 50 page, high-level, low-redundancy, shopify website design manifesto...
-entry_type: project / skill / tool / meta (primary = PROJECT)
-chronological_position: UNKNOWN — to be placed during Obsidian compilation session
-context_available: Space files visible at thread time (from list_files call):
-  - Browser-Control-Work-File.md (file:3) — Kray Studios browser automation playbook v1.0
-  - V16-Update-Summary.md (file:4)
-  - Monthly-Expenses-Cashflow-V16.md (file:5)
-  - MASTER-CONTEXT-V16.md (file:6)
-  - Hub-Version-Spec-V16.md (file:7)
-  - Shopify Publisher Mastery Guide.pdf (file:8)
-  - business-planning-fmkToKDzTSWdkBkw2Pwspw.md (file:23)
-  - So let's begin.md (file:19)
-  - Swatch-Name-Hex-Role.csv (file:14)
-  - Supplier-Shipping-Cost-BestFor.csv (file:18)
-  - Tool-Cost-UsedFor.csv (file:13)
-Thread attachments:
-  - image.jpg (file:1) — Kray Studios neon graffiti logo on dark purple background
-  - KRAY-STUDIOS-3.jpg (file:2) — Screenshot of Shopify Horizon editor showing Kray Studios storefront (lavender/pink UI, Claude Sonnet 4.6 browser control session)
-
+tags: []
 notes: NXE palette status post-pivot UNCONFIRMED; Space files flagged as stale by Brayden in this thread
 ---
 # Brain Entry — Kray Studios Shopify design manifesto and browser-control agent command sheet for pastel-grunge decor/tech store
