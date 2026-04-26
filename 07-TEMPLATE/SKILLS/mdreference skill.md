@@ -1,6 +1,6 @@
 ---
-skill: mdreference
-version: 1.0
+name: mdreference
+version: 1.1
 created: 2026-04-26
 canonical_targets: [BRAINOS-SYSTEM.md, ACTIVE-PROJECTS.md, SKILLS-EDUCATION.md, DEVICE-ECOSYSTEM.md, GLWC-PROJECT.md]
 generates_questions: true
@@ -8,6 +8,8 @@ question_range: [3, 5]
 financial_questions: false
 output_folder: 02-BRAIN-ENTRIES
 filename_pattern: "BE-[YYYYMMDD]-SOURCE-[slug].md"
+label_vocabulary: [CONFIRMED, UNCONFIRMED, CONTRADICTION, NOTE]
+description: pulling inspiration, capturing ideas, unfriendly files
 ---
 
 # SKILL — /mdreference

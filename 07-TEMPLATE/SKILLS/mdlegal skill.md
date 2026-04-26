@@ -9,6 +9,7 @@ financial_questions: true
 output_folder: 02-BRAIN-ENTRIES
 filename_pattern: "BE-[YYYYMMDD]-LEGAL-[slug].md"
 label_vocabulary: [CONFIRMED, UNCONFIRMED, RISK, PROTECTION, CONTRADICTION, NOTE]
+description: legality, finding protections the law grant us, identifying risks
 ---
 
 # SKILL — /mdlegal

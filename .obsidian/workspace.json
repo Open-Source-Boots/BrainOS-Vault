@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07-TEMPLATE/SKILLS/mdreference skill.md",
+                "file": "05-INDEX/OPEN-QUESTIONS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mdreference skill"
+              "title": "OPEN-QUESTIONS"
             }
           }
         ],
@@ -203,10 +203,10 @@
   },
   "active": "4f82fe708cffcd73",
   "lastOpenFiles": [
-    "07-TEMPLATE/SKILLS/mdfinancial.md",
-    "07-TEMPLATE/SKILLS/mdlegal skill.md",
     "07-TEMPLATE/SKILLS/mdreference skill.md",
     "07-TEMPLATE/SKILLS/mdlog skill.md",
+    "07-TEMPLATE/SKILLS/mdlegal skill.md",
+    "07-TEMPLATE/SKILLS/mdfinancial skill.md",
     "07-TEMPLATE/be-template.md",
     "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md.md",
     "06-ANSWERS/DEVICE-ECOSYSTEM/DEVICE-ECOSYSTEM-answers.md",

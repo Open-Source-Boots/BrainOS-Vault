@@ -1,6 +1,6 @@
 ---
-skill: mdlog
-version: 1.0
+name: mdlog
+version: 1.1
 created: 2026-04-26
 canonical_targets: [BRAYDEN-IDENTITY.md, ACTIVE-PROJECTS.md]
 generates_questions: true
@@ -8,6 +8,8 @@ question_range: [3, 8]
 financial_questions: false
 output_folder: 02-BRAIN-ENTRIES
 filename_pattern: "BE-[YYYYMMDD]-LOG-[slug].md"
+label_vocabulary: [FACT, DECISION, CONTRADICTION, NOTE]
+description: journal, voice, dump
 ---
 
 # SKILL — /mdlog

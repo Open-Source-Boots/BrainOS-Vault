@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6511873785307d0c",
+        "id": "9cb9cbe25fa9ecab",
         "type": "tabs",
         "children": [
           {
-            "id": "75617cf5a64e0c8a",
+            "id": "3317bb2ef8891ea1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,7 +167,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "75617cf5a64e0c8a",
+  "active": "3317bb2ef8891ea1",
   "lastOpenFiles": [
     "2026-04-25.md",
     "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-triage-shiftmind-founding.md",

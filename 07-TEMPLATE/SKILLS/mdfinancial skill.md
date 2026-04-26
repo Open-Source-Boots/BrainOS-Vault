@@ -9,6 +9,7 @@ financial_questions: false
 output_folder: 02-BRAIN-ENTRIES
 filename_pattern: "BE-[YYYYMMDD]-FINANCIAL-[slug].md"
 label_vocabulary: [CONFIRMED, UNCONFIRMED, DISCREPANCY, NOTE]
+description: numbers, money, transactions, opportunities
 ---
 
 # SKILL — /mdfinancial
