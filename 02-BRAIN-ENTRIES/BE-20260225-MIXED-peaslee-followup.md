@@ -7,7 +7,7 @@ open_questions:
   - id: OQ-20260225-002
     question: "confirm Peaslee Tech replied to Feb 25 email"
     canonical_target: SKILLS-EDUCATION.md
-    status: OPEN
+    status: CLOSED
 ---
 FILENAME: BE-20260225-MIXED-peaslee-followup.md
 

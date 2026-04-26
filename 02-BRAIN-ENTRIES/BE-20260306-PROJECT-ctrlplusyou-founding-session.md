@@ -29,11 +29,11 @@ open_questions:
   - id: OQ-20260306-001
     question: "Confirm Kansas Sales Tax reg and EIN status"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260306-002
     question: "confirm if fyti4j store closed or rebranded"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 ---
 # Brain Entry — Ctrl+You store launch session: Shopify setup, TikTok profile, KS business registration, logo creation, and AI room visualizer research
 
