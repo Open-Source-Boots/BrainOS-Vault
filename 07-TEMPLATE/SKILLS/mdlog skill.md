@@ -1,0 +1,2 @@
+ Personal voice note, journal entry, or freeform thought capture. Body sections: ## WHAT WAS SAID, ## FACTS TO EXTRACT, ## EMOTIONAL MARKERS (optional), ## DECISIONS STATED. Generate 3-8 open questions targeting BRAYDEN-IDENTITY.md or ACTIVE-PROJECTS.md.
+All commands output a filename `BE-[YYYYMMDD]-[DOMAIN]-[slug].md` ready to drop into `02-BRAIN-ENTRIES/`

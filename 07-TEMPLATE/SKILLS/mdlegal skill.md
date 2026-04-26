@@ -1,0 +1,3 @@
+Legal document. Body sections: ## PARTIES & DATES, ## KEY CLAUSES (verbatim where critical), ## RISK FLAGS, ## PROTECTIONS, ## UNCONFIRMED — needs verification, ## CROSS-REFERENCES. Generate 5-10 open questions targeting GLWC-PROJECT.md or BRAYDEN-IDENTITY.md. Never summarize away from exact language — quote clauses verbatim
+
+All commands output a filename `BE-[YYYYMMDD]-[DOMAIN]-[slug].md` ready to drop into `02-BRAIN-ENTRIES/`

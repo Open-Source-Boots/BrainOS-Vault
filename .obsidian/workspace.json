@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-CANONICAL/AI-WORKFLOW-RULES.md",
+                "file": "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI-WORKFLOW-RULES"
+              "title": "BE-20260425-BRAINOS-open-questions-automation-quiz-build.md"
             }
           }
         ],
@@ -203,28 +203,34 @@
   },
   "active": "4f82fe708cffcd73",
   "lastOpenFiles": [
+    "07-TEMPLATE/SKILLS/mdlegal skill.md",
+    "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md.md",
+    "07-TEMPLATE/SKILLS/mdreference skill.md",
+    "07-TEMPLATE/SKILLS/mdlog skill.md",
+    "07-TEMPLATE/SKILLS/mdfinancial skill.md",
+    "06-ANSWERS/DEVICE-ECOSYSTEM/DEVICE-ECOSYSTEM-answers.md",
+    "06-ANSWERS/BRAYDEN-IDENTITY/BRAYDEN-IDENTITY-answers.md",
+    "06-ANSWERS/BRAINOS-SYSTEM/GOODLIFE-UNION-answers.md",
+    "06-ANSWERS/BRAINOS-SYSTEM/GOODLIFE-UNION-save-for-later.md",
+    "06-ANSWERS/BRAINOS-SYSTEM/BRAINOS-SYSTEM-save-for-later.md",
+    "06-ANSWERS/BRAINOS-SYSTEM/BRAINOS-SYSTEM-answers.md",
+    "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-save-for-later.md",
+    "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-answers.md",
+    "04-CANONICAL/AI-WORKFLOW-RULES.md",
+    "07-TEMPLATE/SKILLS/desktop.ini",
+    "07-TEMPLATE/SKILLS",
+    "07-TEMPLATE/New folder",
     "03-PROJECTS/COMMONGROUNDS/CommonGrounds.md",
     "07-TEMPLATE/be-template.md",
     "07-TEMPLATE/PROMPTS/desktop.ini",
     "07-TEMPLATE/PROMPTS",
-    "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-answers.md",
     "03-PROJECTS/COMMONGROUNDS/desktop.ini",
     "03-PROJECTS/COMMONGROUNDS",
-    "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-save-for-later.md",
-    "06-ANSWERS/BRAINOS-SYSTEM/GOODLIFE-UNION-save-for-later.md",
-    "06-ANSWERS/BRAINOS-SYSTEM/GOODLIFE-UNION-answers.md",
     "02-BRAIN-ENTRIES/BE-20260314-PROJECT-homestead-store-brand-suppliers.md",
-    "06-ANSWERS/DEVICE-ECOSYSTEM/DEVICE-ECOSYSTEM-answers.md",
-    "06-ANSWERS/BRAYDEN-IDENTITY/BRAYDEN-IDENTITY-answers.md",
-    "06-ANSWERS/BRAINOS-SYSTEM/BRAINOS-SYSTEM-save-for-later.md",
-    "06-ANSWERS/BRAINOS-SYSTEM/BRAINOS-SYSTEM-answers.md",
     "06-ANSWERS/SKILLS-EDUCATION/SKILLS-EDUCATION-answers.md",
     "06-ANSWERS/BRAINOS-SYSTEM/desktop.ini",
     "06-ANSWERS/ACTIVE-PROJECTS/desktop.ini",
     "06-ANSWERS/GLWC-PROJECT/desktop.ini",
-    "06-ANSWERS/DEVICE-ECOSYSTEM/desktop.ini",
-    "06-ANSWERS/BRAYDEN-IDENTITY/desktop.ini",
-    "06-ANSWERS/SKILLS-EDUCATION/desktop.ini",
     "06-ANSWERS/SKILLS-EDUCATION/SKILLS-EDUCATION-save-for-later.md",
     "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-triage-shiftmind-founding.sync-conflict-20260425-230026-QH2DFIH.md",
     "05-INDEX/OPEN-QUESTIONS.md",
@@ -232,11 +238,6 @@
     "Testing out the note.md",
     "02-BRAIN-ENTRIES/BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md",
     "02-BRAIN-ENTRIES/Brain_Entry_001.md",
-    "02-BRAIN-ENTRIES/Brain_Entry_009.md",
-    "05-INDEX/MASTER-INDEX.md",
-    "02-BRAIN-ENTRIES/BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md",
-    "04-CANONICAL/DEVICE-ECOSYSTEM.md",
-    "04-CANONICAL/ACTIVE-PROJECTS.md",
-    "04-CANONICAL/SKILLS-EDUCATION.md"
+    "02-BRAIN-ENTRIES/Brain_Entry_009.md"
   ]
 }
