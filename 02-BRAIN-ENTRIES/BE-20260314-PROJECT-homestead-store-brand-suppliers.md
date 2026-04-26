@@ -146,6 +146,7 @@ Accio.com | source | Cited for homesteading market trend data
 
 Tally.so | active | Already in use for Kray Studios quiz; could be repurposed for homestead "journey quiz"
 
+---
 OPEN QUESTIONS
 Is this a standalone new brand/store, or a vertical within Kray Studios? Brayden did not confirm.
 
@@ -166,7 +167,7 @@ Budget for paid ads, or starting purely organic?
 Would Brayden be the face of this brand, or keep it faceless/company-branded?
 
 Has any outreach to SunGoldPower, Silicon Solar, or Survival Drop Ship been initiated?
-
+---
 CROSS-REFERENCES
 Cross-references to be added during compilation session.
 

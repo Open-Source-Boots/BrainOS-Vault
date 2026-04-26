@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-INDEX/OPEN-QUESTIONS.md",
-                "mode": "preview",
+                "file": "02-BRAIN-ENTRIES/BE-20260314-PROJECT-homestead-store-brand-suppliers.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OPEN-QUESTIONS"
+              "title": "BE-20260314-PROJECT-homestead-store-brand-suppliers"
             }
           }
         ],
@@ -203,8 +203,8 @@
   },
   "active": "4f82fe708cffcd73",
   "lastOpenFiles": [
-    "02-BRAIN-ENTRIES/BE-20260224-FINANCIAL-incharge-dmp-debt-surplus-income.md",
     "05-INDEX/OPEN-QUESTIONS.md",
+    "02-BRAIN-ENTRIES/BE-20260224-FINANCIAL-incharge-dmp-debt-surplus-income.md",
     "Testing out the note.md",
     "02-BRAIN-ENTRIES/BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md",
     "02-BRAIN-ENTRIES/Brain_Entry_001.md",
