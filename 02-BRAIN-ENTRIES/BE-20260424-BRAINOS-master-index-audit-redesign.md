@@ -11,7 +11,7 @@ open_questions:
   - id: OQ-20260424-001
     question: "Migration complete as of April 25 2026 session — update status to COMPLETE"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 Key Facts
 

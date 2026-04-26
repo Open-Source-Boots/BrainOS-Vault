@@ -10,3 +10,9 @@
 **Question:** confirm AMS maintenance items
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260425-003 — 2026-04-26 00:10
+**Source:** BE-20260425-BRAINOS-architecture-sync-fixes.md
+**Question:** create COMMONGROUNDS-PROJECT.md stub
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER

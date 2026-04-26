@@ -28,3 +28,51 @@
 **Question:** confirm current CRV mechanical status
 **Answer:** I'm pretty sure I said the exact numbers somewhere, if you really can't find it I might be able to.
 **Status:** CLOSED
+
+## OQ-20260423-001 — 2026-04-26 00:05
+**Source:** BE-20260423-BRAINOS-git-gdrive-sync-completed.md
+**Question:** Confirm Drive folder fully populated with all subfolders
+**Answer:** Yes, as of right now, the sync across all of the platforms is working almost perfectly. iphone obsidian has some issues with things, but I disabled some of the community plugins like dataview, smart connection. On the iphone, the extra value of obsidian's plugins is reserved for my pc and laptop, and the iphone (and ipad when I get there) will be about capturing thought. And eventually I want local LLMs and AI functions running on all 4 at the same time, doing different or complimentary functions. I know there will have to be a lot of manual input, especially at the stage I'm currently at--I need to accept that, and push through it--but I think that eventually I'll have a system of sharing ideas between different local models, maintaining the same continuity and core between all of them. Project mangagement can be easier, research can be easier, doing things as an individual that wouldn't have been possible a few years ago.
+**Status:** CLOSED
+
+## OQ-20260423-002 — 2026-04-26 00:06
+**Source:** BE-20260423-BRAINOS-git-gdrive-sync-completed.md
+**Question:** delete empty Obsidian folder in Drive
+**Answer:** Obsidian is restructured, it's at least making a lot more sense where everything goes, and what functions it serves.
+**Status:** CLOSED
+
+## OQ-20260423-003 — 2026-04-26 00:06
+**Source:** BE-20260423-BRAINOS-git-gdrive-sync-completed.md
+**Question:** install Local REST API plugin
+**Answer:** yes, it's installed, isn't that for n8n?
+**Status:** CLOSED
+
+## OQ-20260424-001 — 2026-04-26 00:07
+**Source:** BE-20260424-BRAINOS-full-build-session.md
+**Question:** Finish Workflow 1 nodes 2-8 when n8n resumes
+**Answer:** [NOTE — not closed] We are going to start over on n8n, focus on a deep dive. Until the skeleton is done, it doesn't make any sense to start connecting nerve endings, so to speak.
+**Status:** NOTE
+
+## OQ-20260424-002 — 2026-04-26 00:07
+**Source:** BE-20260424-BRAINOS-full-build-session.md
+**Question:** confirm Möbius Sync stable across all devices
+**Answer:** It's working great between iphone and laptop, these are the only two devices setup yet.
+**Status:** CLOSED
+
+## OQ-20260424-001 — 2026-04-26 00:08
+**Source:** BE-20260424-BRAINOS-master-index-audit-redesign.md
+**Question:** Migration complete as of April 25 2026 session — update status to COMPLETE
+**Answer:** Yeah, I think things are starting to settle into their right places.
+**Status:** CLOSED
+
+## OQ-20260425-001 — 2026-04-26 00:10
+**Source:** BE-20260425-BRAINOS-architecture-sync-fixes.md
+**Question:** Create MASTER-INDEX.md Dataview dashboard
+**Answer:** [NOTE — not closed] No but please help me make a dashboard that I'll be able to work with. Honestly, this little Command prompt sequence is pretty neat, I like stuff like this. You threw in a little progress bar, gave me options, auto-populated important fields. This kind of stuff is great. I don't know python, but if you do, and you have good ideas, share!
+**Status:** NOTE
+
+## OQ-20260425-002 — 2026-04-26 00:10
+**Source:** BE-20260425-BRAINOS-architecture-sync-fixes.md
+**Question:** create 99-OUTBOX/ folder
+**Answer:** Yes it's made, still working out what it will be used for exactly.
+**Status:** CLOSED

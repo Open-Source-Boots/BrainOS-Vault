@@ -15,7 +15,7 @@ open_questions:
   - id: OQ-20260425-002
     question: "create 99-OUTBOX/ folder"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-003
     question: "create COMMONGROUNDS-PROJECT.md stub"
     canonical_target: BRAINOS-SYSTEM.md
