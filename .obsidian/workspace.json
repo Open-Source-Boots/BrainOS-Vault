@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-PROJECTS/COMMONGROUNDS-PROJECT/CommonGrounds.md",
+                "file": "03-PROJECTS/COMMONGROUNDS/CommonGrounds.md",
                 "mode": "source",
                 "source": false
               },
@@ -203,10 +203,13 @@
   },
   "active": "4f82fe708cffcd73",
   "lastOpenFiles": [
+    "07-TEMPLATE/be-template.md",
+    "07-TEMPLATE/PROMPTS/desktop.ini",
+    "03-PROJECTS/COMMONGROUNDS/CommonGrounds.md",
+    "07-TEMPLATE/PROMPTS",
     "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-answers.md",
-    "03-PROJECTS/COMMONGROUNDS-PROJECT/CommonGrounds.md",
-    "03-PROJECTS/COMMONGROUNDS-PROJECT/desktop.ini",
-    "03-PROJECTS/COMMONGROUNDS-PROJECT",
+    "03-PROJECTS/COMMONGROUNDS/desktop.ini",
+    "03-PROJECTS/COMMONGROUNDS",
     "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-save-for-later.md",
     "06-ANSWERS/BRAINOS-SYSTEM/GOODLIFE-UNION-save-for-later.md",
     "06-ANSWERS/BRAINOS-SYSTEM/GOODLIFE-UNION-answers.md",
@@ -222,9 +225,7 @@
     "06-ANSWERS/DEVICE-ECOSYSTEM/desktop.ini",
     "06-ANSWERS/BRAYDEN-IDENTITY/desktop.ini",
     "06-ANSWERS/SKILLS-EDUCATION/desktop.ini",
-    "06-ANSWERS/desktop.ini",
     "06-ANSWERS/SKILLS-EDUCATION/SKILLS-EDUCATION-save-for-later.md",
-    "06-ANSWERS/SKILLS-EDUCATION",
     "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-triage-shiftmind-founding.sync-conflict-20260425-230026-QH2DFIH.md",
     "05-INDEX/OPEN-QUESTIONS.md",
     "02-BRAIN-ENTRIES/BE-20260224-FINANCIAL-incharge-dmp-debt-surplus-income.md",
@@ -233,11 +234,9 @@
     "02-BRAIN-ENTRIES/Brain_Entry_001.md",
     "02-BRAIN-ENTRIES/Brain_Entry_009.md",
     "05-INDEX/MASTER-INDEX.md",
-    "07-TEMPLATE/BE-TEMPLATE.md",
     "02-BRAIN-ENTRIES/BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md",
     "04-CANONICAL/DEVICE-ECOSYSTEM.md",
     "04-CANONICAL/ACTIVE-PROJECTS.md",
-    "04-CANONICAL/SKILLS-EDUCATION.md",
-    "04-CANONICAL/FINANCIAL-SNAPSHOT.md"
+    "04-CANONICAL/SKILLS-EDUCATION.md"
   ]
 }
