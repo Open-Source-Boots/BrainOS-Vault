@@ -3,7 +3,7 @@ open_questions:
   - id: OQ-20260416-001
     question: "Confirm academy platform and audience before creating VIDEO-SOURCING-LAB.md"
     canonical_target: SKILLS-EDUCATION.md
-    status: OPEN
+    status: CLOSED
 ---
 entry_id: [UNASSIGNED — assign when compiled with other entries]
 date_logged: 2026-04-16

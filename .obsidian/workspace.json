@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c54643be48ac9b95",
+        "id": "498aa4c349a3c69c",
         "type": "tabs",
         "children": [
           {
-            "id": "113f04478933140a",
+            "id": "bbd0ba442fd06136",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "OPEN-QUESTIONS"
             }
-          },
-          {
-            "id": "4f82fe708cffcd73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BE-20260425-BRAINOS-open-questions-automation-quiz-build"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "BE-20260425-BRAINOS-open-questions-automation-quiz-build.md.md",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-INDEX/MASTER-INDEX.md",
+                "file": "05-INDEX/OPEN-QUESTIONS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MASTER-INDEX"
+              "title": "Backlinks for OPEN-QUESTIONS"
             }
           },
           {
@@ -178,13 +162,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "17ec3f9a1b67db36",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,17 +196,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4f82fe708cffcd73",
+  "active": "bbd0ba442fd06136",
   "lastOpenFiles": [
+    "05-INDEX/OPEN-QUESTIONS.md",
+    "04-CANONICAL/AI-WORKFLOW-RULES.md",
+    "05-INDEX/MASTER-INDEX.md",
+    "02-BRAIN-ENTRIES/Brain_Entry_002.md",
+    "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md",
     "06-ANSWERS/BRAYDEN-IDENTITY/BRAYDEN-IDENTITY-save-for-later.md",
     "06-ANSWERS/GLWC-PROJECT/GLWC-PROJECT-answers.md",
-    "05-INDEX/OPEN-QUESTIONS.md",
     "07-TEMPLATE/SKILLS/mdreference skill.md",
     "07-TEMPLATE/SKILLS/mdlog skill.md",
     "07-TEMPLATE/SKILLS/mdlegal skill.md",
     "07-TEMPLATE/SKILLS/mdfinancial skill.md",
     "07-TEMPLATE/be-template.md",
-    "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md",
     "06-ANSWERS/DEVICE-ECOSYSTEM/DEVICE-ECOSYSTEM-answers.md",
     "06-ANSWERS/BRAYDEN-IDENTITY/BRAYDEN-IDENTITY-answers.md",
     "06-ANSWERS/BRAINOS-SYSTEM/GOODLIFE-UNION-answers.md",
@@ -221,7 +218,6 @@
     "06-ANSWERS/BRAINOS-SYSTEM/BRAINOS-SYSTEM-answers.md",
     "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-save-for-later.md",
     "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-answers.md",
-    "04-CANONICAL/AI-WORKFLOW-RULES.md",
     "07-TEMPLATE/SKILLS/desktop.ini",
     "07-TEMPLATE/SKILLS",
     "07-TEMPLATE/New folder",
@@ -237,8 +233,6 @@
     "06-ANSWERS/GLWC-PROJECT/desktop.ini",
     "06-ANSWERS/SKILLS-EDUCATION/SKILLS-EDUCATION-save-for-later.md",
     "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-triage-shiftmind-founding.sync-conflict-20260425-230026-QH2DFIH.md",
-    "02-BRAIN-ENTRIES/BE-20260224-FINANCIAL-incharge-dmp-debt-surplus-income.md",
-    "Testing out the note.md",
-    "02-BRAIN-ENTRIES/BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md"
+    "02-BRAIN-ENTRIES/BE-20260224-FINANCIAL-incharge-dmp-debt-surplus-income.md"
   ]
 }

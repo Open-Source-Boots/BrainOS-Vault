@@ -40,3 +40,9 @@
 **Question:** confirm EaseMate 100-credit offer still live
 **Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
 **Status:** DUPLICATE
+
+## OQ-20260425-001 — 2026-04-26 02:25
+**Source:** BE-20260425-BRAINOS-triage-shiftmind-founding.md
+**Question:** Run first Whisper test
+**Answer:** [NOTE — not closed] Important for CommonGrounds
+**Status:** NOTE

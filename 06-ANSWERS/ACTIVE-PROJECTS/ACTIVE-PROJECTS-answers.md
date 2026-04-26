@@ -148,3 +148,9 @@
 **Question:** test closet cabinet doors (landlord leftovers)
 **Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
 **Status:** DUPLICATE
+
+## OQ-20260425-009 — 2026-04-26 02:25
+**Source:** BE-20260425-BRAINOS-open-questions-automation-quiz-build.md
+**Question:** Has the BrainOS YouTube documentation concept been logged as an active project track?
+**Answer:** Youtube has its own folder
+**Status:** CLOSED

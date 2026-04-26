@@ -7,7 +7,7 @@ open_questions:
   - id: OQ-20260425-002
     question: "confirm 6-step sequence is in BRAINOS-SYSTEM.md"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 # Brain Entry 002 — Thread Consolidation & System Status
 **Date:** April 10, 2026

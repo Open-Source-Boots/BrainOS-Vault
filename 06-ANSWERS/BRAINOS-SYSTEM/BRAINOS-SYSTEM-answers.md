@@ -244,3 +244,33 @@
 **Question:** Has the financial inbox pipeline been scoped as a named n8n workflow?
 **Answer:** [NOTE — not closed] this is important
 **Status:** NOTE
+
+## OQ-20260416-002 — 2026-04-26 02:27
+**Source:** BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md
+**Question:** decide FOSS vs hybrid
+**Answer:** I honestly don't know what either of those mean.
+**Status:** CLOSED
+
+## OQ-20260416-003 — 2026-04-26 02:27
+**Source:** BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md
+**Question:** complete nodes 2-8
+**Answer:** I will need a reminder
+**Status:** CLOSED
+
+## OQ-20260425-002 — 2026-04-26 02:29
+**Source:** Brain_Entry_002.md
+**Question:** confirm 6-step sequence is in BRAINOS-SYSTEM.md
+**Answer:** It's evolved a lot more since then, but yeah essentially that's what we're going for
+**Status:** CLOSED
+
+## OQ-20260425-001 — 2026-04-26 02:29
+**Source:** Brain_Entry_007.md
+**Question:** This entry IS the canonical financial snapshot — no further action on figures
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260425-001 — 2026-04-26 02:29
+**Source:** Brain_Entry_008.md
+**Question:** Rebuild Notion frameworks (Four-Line scripting
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE

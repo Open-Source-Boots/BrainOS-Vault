@@ -76,3 +76,15 @@
 **Question:** Finish Workflow 1 nodes 2-8 when n8n resumes
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260425-002 — 2026-04-26 02:29
+**Source:** Brain_Entry_005.md
+**Question:** confirm payment or voucher before October to secure seat
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260425-003 — 2026-04-26 02:29
+**Source:** Brain_Entry_005.md
+**Question:** pursue Peaslee Promise scholarship
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER

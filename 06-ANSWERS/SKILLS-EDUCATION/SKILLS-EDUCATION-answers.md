@@ -28,3 +28,9 @@
 **Question:** No immediate action — reference when any store goes active
 **Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
 **Status:** DUPLICATE
+
+## OQ-20260416-001 — 2026-04-26 02:26
+**Source:** BEUNASSIGNED_20260416_SKILL_video-sourcing-academy-lab.md
+**Question:** Confirm academy platform and audience before creating VIDEO-SOURCING-LAB.md
+**Answer:** I think having parts of this that can help me create a workflow for making youtube videos
+**Status:** CLOSED

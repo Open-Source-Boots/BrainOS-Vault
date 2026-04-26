@@ -44,11 +44,11 @@ open_questions:
   - id: OQ-20260425-009
     question: "Has the BrainOS YouTube documentation concept been logged as an active project track?"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-010
     question: "Has Brayden confirmed the $100K target has a breakdown — which income streams close the gap?"
     canonical_target: BRAYDEN-IDENTITY.md
-    status: OPEN
+    status: CLOSED
 ---
 
 # Brain Entry — BrainOS Build Session: Templater, Open Questions Automation, and Quiz Script (April 25, 2026)
