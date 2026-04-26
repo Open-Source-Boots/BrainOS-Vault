@@ -19,7 +19,7 @@ open_questions:
   - id: OQ-20260425-003
     question: "update all canonical files from this session"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 Key Facts
 BrainOS diagnosis confirmed: System was growing laterally (more files, more schemas, more tools) without growing deeper into actual use; no declared endgame existed until this thread

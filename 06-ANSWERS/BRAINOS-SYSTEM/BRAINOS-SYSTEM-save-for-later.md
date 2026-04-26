@@ -16,3 +16,21 @@
 **Question:** create COMMONGROUNDS-PROJECT.md stub
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260416-003 — 2026-04-26 00:26
+**Source:** BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md
+**Question:** complete nodes 2-8
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260425-002 — 2026-04-26 00:32
+**Source:** Brain_Entry_005.md
+**Question:** confirm payment or voucher before October to secure seat
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260425-003 — 2026-04-26 00:32
+**Source:** Brain_Entry_005.md
+**Question:** pursue Peaslee Promise scholarship
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER

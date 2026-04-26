@@ -7,7 +7,7 @@ open_questions:
   - id: OQ-20260425-002
     question: "push naming reset retroactively during vault build"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 # 🧠 Brain Entry 007 — Master Update & Canonical Profile Reset
 **Date Logged:** April 11, 2026

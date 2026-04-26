@@ -82,3 +82,99 @@
 **Question:** rename legacy Google Sheet to MASTER-INDEX-LEGACY in Drive
 **Answer:** Yes, we're now in a brand new perplexity space: "BrainOS-Vault" and I found the best work-around the file upload limits is using the space files, sync them to the master index.csv that's synced automatically to obsidian, so I can have basically 50 unique files saved to that space specifically, that are auto-updating, because of the automatic sync system I made here. I have all 7 of my canonical files also uploaded that same way. Perplexity Pro, my current subscription I only have for a little while longer, allows 50 total saved, but can really only reliably pass-over 20 unique files at one time/one generation. It gets a little confusing knowing what it knows. It's always been like that, which is honestly what inspired me to go down this path of open-source, local, unlimited usage projects. This feels like the future. Perplexity sucks, but it is funny to me that I'm using it to hopefully replace itself. I already feel like I'm pretty close to gettting to where I want using it. I appreciate its contributions, and it has helped me learn about limitations, tokens, context windows, RAG systems, all kinds of really interesting stuff. It's the best internet-connected llm I have access to, so I'm going to utilize it while I've got it.
 **Status:** CLOSED
+
+## OQ-20260425-001 — 2026-04-26 00:23
+**Source:** BE-20260425-BRAINOS-triage-shiftmind-founding.sync-conflict-20260425-230026-QH2DFIH.md
+**Question:** Run first Whisper test
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260425-002 — 2026-04-26 00:23
+**Source:** BE-20260425-BRAINOS-triage-shiftmind-founding.sync-conflict-20260425-230026-QH2DFIH.md
+**Question:** create COMMONGROUNDS-PROJECT.md
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260425-003 — 2026-04-26 00:23
+**Source:** BE-20260425-BRAINOS-triage-shiftmind-founding.sync-conflict-20260425-230026-QH2DFIH.md
+**Question:** update all canonical files from this session
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260317-001 — 2026-04-26 00:24
+**Source:** BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md
+**Question:** Flag or delete 3 v3 Drive docs (DRAFT-CONTAINS-ERRORS)
+**Answer:** I think all Google Drive errors have been corrected as of this point in the project.
+**Status:** CLOSED
+
+## OQ-20260317-002 — 2026-04-26 00:24
+**Source:** BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md
+**Question:** confirm GoodLife Fitness vs Innovations — RESOLVED: Innovations is canonical
+**Answer:** It is Goodlife Innovations
+**Status:** CLOSED
+
+## OQ-20260416-001 — 2026-04-26 00:26
+**Source:** BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md
+**Question:** Set up Google Cloud OAuth for Sheets/Drive API
+**Answer:** I don't think I did, I think if this is an n8n thing, we'll have to just save it and come back to this sort of stuff
+**Status:** CLOSED
+
+## OQ-20260425-001 — 2026-04-26 00:27
+**Source:** BrainOS-Open-Questions-Worksheet.md
+**Question:** Push all confirmed answers to canonical files — this worksheet IS the update source
+**Answer:** Still want a way to auto populate the information that the RAG system can pull from, index correctly, right now I'm not really sure what else to do besides, continuously pasting updated info over old data. I feel like there's a better way, and I'm just not seeing it right this moment.
+**Status:** CLOSED
+
+## OQ-20260425-001 — 2026-04-26 00:27
+**Source:** Brain_Entry_001.md
+**Question:** Locate pre-Entry-001 LM Studio thread and log if not already captured
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260425-001 — 2026-04-26 00:30
+**Source:** Brain_Entry_002.md
+**Question:** Confirm browser automation rules are in AI-WORKFLOW-RULES.md
+**Answer:** I think having a way to control the Comet Control Browser function specifically could be a good thing to do right now. There are tedious things I wouldn't mind it doing; the only problem is I don't like what the comet browser usually does or outputs. It's weird, takes a really long time, it makes bad decisions, and it's unwieldy, it does things I wouldn't expect, but that's also what makes me interested in its capabilities. It a tool in my toolbox, I don't see why I wouldn't try to see what it's best at; I can always try to engineer a better, clearer, optimized for comet control browser feature.
+**Status:** CLOSED
+
+## OQ-20260425-002 — 2026-04-26 00:31
+**Source:** Brain_Entry_002.md
+**Question:** confirm 6-step sequence is in BRAINOS-SYSTEM.md
+**Answer:** [NOTE — not closed] I don't exactly remember what the 6-steps were, so I'll go back to that
+**Status:** NOTE
+
+## OQ-20260425-001 — 2026-04-26 00:31
+**Source:** Brain_Entry_003.md
+**Question:** Confirm Kansas Sales Tax reg and EIN status
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260425-002 — 2026-04-26 00:31
+**Source:** Brain_Entry_003.md
+**Question:** confirm TikTok @ctrl.plus.you still active
+**Answer:** Yes, still have it
+**Status:** CLOSED
+
+## OQ-20260425-001 — 2026-04-26 00:31
+**Source:** Brain_Entry_004.md
+**Question:** Confirm outreach assets deleted from Drive (confirmed in Open Questions worksheet)
+**Answer:** yes, moved past it, it was short-lived, first draft type stuff.
+**Status:** CLOSED
+
+## OQ-20260425-002 — 2026-04-26 00:32
+**Source:** Brain_Entry_004.md
+**Question:** no action until vault compilation complete
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260425-001 — 2026-04-26 00:32
+**Source:** Brain_Entry_005.md
+**Question:** Call Phyllis/Gingette 785-840-9675 — WIOA voucher is the unlock
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260425-002 — 2026-04-26 00:32
+**Source:** Brain_Entry_007.md
+**Question:** push naming reset retroactively during vault build
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE

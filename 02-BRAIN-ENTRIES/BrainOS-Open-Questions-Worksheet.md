@@ -3,7 +3,7 @@ open_questions:
   - id: OQ-20260425-001
     question: "Push all confirmed answers to canonical files — this worksheet IS the update source"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 **BrainOS Open Questions Worksheet**
 
