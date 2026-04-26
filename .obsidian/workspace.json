@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "05-INDEX/MASTER-INDEX.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -198,6 +198,9 @@
   },
   "active": "bbd0ba442fd06136",
   "lastOpenFiles": [
+    "backfill_frontmatter.py",
+    "03-PROJECTS/ELECTRICIAN/Peaslee/desktop.ini",
+    "03-PROJECTS/ELECTRICIAN/Peaslee",
     "05-INDEX/BRAINOS-CHECKPOINT-LOG.md",
     "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-answers.md",
     "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BrainOS-Open-Questions-Worksheet.md",
@@ -223,7 +226,6 @@
     "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md",
     "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BE-20260411-PROJECT-glwc-doclog-space-audit.md",
     "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BE-20260405-TOOL-local-ai-stack-device-ecosystem.md",
-    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BE-20260404-PROJECT-share-your-story-post-draft.md",
     "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/desktop.ini",
     "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026",
     "07-TEMPLATE/SKILLS/desktop.ini",
@@ -231,8 +233,6 @@
     "07-TEMPLATE/New folder",
     "07-TEMPLATE/PROMPTS/desktop.ini",
     "07-TEMPLATE/PROMPTS",
-    "03-PROJECTS/COMMONGROUNDS/desktop.ini",
-    "03-PROJECTS/COMMONGROUNDS",
-    "06-ANSWERS/BRAINOS-SYSTEM/desktop.ini"
+    "03-PROJECTS/COMMONGROUNDS/desktop.ini"
   ]
 }
