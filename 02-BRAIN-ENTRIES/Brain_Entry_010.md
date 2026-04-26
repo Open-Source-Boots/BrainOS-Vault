@@ -13,11 +13,11 @@ open_questions:
   - id: OQ-20260425-001
     question: "Create DEVICE-ECOSYSTEM.md — this entry + BE_OpenSource_011 are co-equal seed sources"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-002
     question: "complete laptop remaining tasks in order (Ollama confirm → LocalSend → LibreOffice → HuggingFace → KrayVault → Smart Connections → Syncthing)"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 # Brain Entry 010 — Open-Source AI Stack, Device Ecosystem & Second Brain Infrastructure
 

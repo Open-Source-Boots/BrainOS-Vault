@@ -178,3 +178,21 @@
 **Question:** push naming reset retroactively during vault build
 **Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
 **Status:** DUPLICATE
+
+## OQ-20260425-001 — 2026-04-26 00:33
+**Source:** Brain_Entry_009.md
+**Question:** Choose which anchor video goes first and name a date — single highest-leverage open question for YouTube track
+**Answer:** I think the context of this was how do I determine what video will hold down the main portion of the footage? The video creation pipeline will likely come after this system begins to walk on its own for awhile
+**Status:** CLOSED
+
+## OQ-20260425-001 — 2026-04-26 00:34
+**Source:** Brain_Entry_010.md
+**Question:** Create DEVICE-ECOSYSTEM.md — this entry + BE_OpenSource_011 are co-equal seed sources
+**Answer:** I created DEVICE-ECOSYSTEM.md
+**Status:** CLOSED
+
+## OQ-20260425-002 — 2026-04-26 00:35
+**Source:** Brain_Entry_010.md
+**Question:** complete laptop remaining tasks in order (Ollama confirm → LocalSend → LibreOffice → HuggingFace → KrayVault → Smart Connections → Syncthing)
+**Answer:** I didn't complete them in that order. I have Ollama, localsend, libreoffice, BrainOS Vault, Smart Connections, and Syncthing installed. I have really only used the BrainOS Vault (a lot, it's all of this) and syncthing at this point in the project.
+**Status:** CLOSED

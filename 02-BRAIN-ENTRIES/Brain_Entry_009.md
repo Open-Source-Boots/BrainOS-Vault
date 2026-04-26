@@ -3,7 +3,7 @@ open_questions:
   - id: OQ-20260425-001
     question: "Choose which anchor video goes first and name a date — single highest-leverage open question for YouTube track"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 # 🧠 Brain Entry 009 — Channel Identity, Creative Voice & Content Strategy
 **Date Logged:** April 11, 2026
