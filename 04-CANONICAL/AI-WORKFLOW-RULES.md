@@ -1,6 +1,12 @@
+---
+title: AI-WORKFLOW-RULES
+date-updated: 2026-04-22
+status: CANONICAL
+---
 canonical_file: AI-WORKFLOW-RULES / BRAINOS-SYSTEM / BRAYDEN-IDENTITY
                 / SKILLS-EDUCATION / KRAY-STUDIOS-CONTENT
                 / NEW: DEVICE-ECOSYSTEM
+status: CANONICAL
 context_available: none — isolated thread. Memory search surfaced
   project arc and entry history but not full file contents.
 tags: [open-source-ai, local-models, lm-studio, ollama, obsidian,

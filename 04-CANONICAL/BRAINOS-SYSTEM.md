@@ -1,1 +1,5 @@
-This is the BRAINOS SYSTEM rules
+---
+title: BRAINOS-SYSTEM
+date-updated: 2026-04-22
+status: CANONICAL
+---

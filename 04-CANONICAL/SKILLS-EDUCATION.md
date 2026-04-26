@@ -1,3 +1,9 @@
+---
+title: AI-WORKFLOW-RULES
+date-updated: 2026-04-22
+status: CANONICAL
+---
+
 > ⚠️ Last structure review: April 10, 2026. Local SEO and Google Ads sections below reflect a paused business direction. Electrician path is the confirmed primary track as of April 17, 2026.
 
 ## Peaslee Tech — Residential Electrician Program

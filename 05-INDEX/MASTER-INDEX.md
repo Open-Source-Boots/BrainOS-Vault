@@ -26,10 +26,3 @@ FROM "04-CANONICAL"
 SORT file.name ASC
 ```
 
-## Open Questions (Unanswered)
-```dataview
-TABLE source_file, domain
-FROM "05-INDEX/OPEN-QUESTIONS"
-WHERE status = "OPEN"
-SORT domain ASC
-```

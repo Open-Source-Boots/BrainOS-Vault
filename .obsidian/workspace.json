@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "OPEN-QUESTIONS"
             }
+          },
+          {
+            "id": "c04601037ce7d6a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-CANONICAL/BRAINOS-SYSTEM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BRAINOS-SYSTEM"
+            }
           }
         ]
       }
@@ -198,9 +212,13 @@
   },
   "active": "bbd0ba442fd06136",
   "lastOpenFiles": [
+    "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-save-for-later.md",
     "05-INDEX/OPEN-QUESTIONS.md",
-    "04-CANONICAL/AI-WORKFLOW-RULES.md",
     "05-INDEX/MASTER-INDEX.md",
+    "04-CANONICAL/SKILLS-EDUCATION.md",
+    "04-CANONICAL/AI-WORKFLOW-RULES.md",
+    "04-CANONICAL/BRAINOS-SYSTEM.md",
+    "04-CANONICAL/FINANCIAL-SNAPSHOT.md",
     "02-BRAIN-ENTRIES/Brain_Entry_002.md",
     "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md",
     "06-ANSWERS/BRAYDEN-IDENTITY/BRAYDEN-IDENTITY-save-for-later.md",
@@ -216,7 +234,6 @@
     "06-ANSWERS/BRAINOS-SYSTEM/GOODLIFE-UNION-save-for-later.md",
     "06-ANSWERS/BRAINOS-SYSTEM/BRAINOS-SYSTEM-save-for-later.md",
     "06-ANSWERS/BRAINOS-SYSTEM/BRAINOS-SYSTEM-answers.md",
-    "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-save-for-later.md",
     "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-answers.md",
     "07-TEMPLATE/SKILLS/desktop.ini",
     "07-TEMPLATE/SKILLS",
@@ -230,9 +247,6 @@
     "06-ANSWERS/SKILLS-EDUCATION/SKILLS-EDUCATION-answers.md",
     "06-ANSWERS/BRAINOS-SYSTEM/desktop.ini",
     "06-ANSWERS/ACTIVE-PROJECTS/desktop.ini",
-    "06-ANSWERS/GLWC-PROJECT/desktop.ini",
-    "06-ANSWERS/SKILLS-EDUCATION/SKILLS-EDUCATION-save-for-later.md",
-    "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-triage-shiftmind-founding.sync-conflict-20260425-230026-QH2DFIH.md",
-    "02-BRAIN-ENTRIES/BE-20260224-FINANCIAL-incharge-dmp-debt-surplus-income.md"
+    "06-ANSWERS/GLWC-PROJECT/desktop.ini"
   ]
 }
