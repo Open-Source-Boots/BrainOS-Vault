@@ -1,0 +1,65 @@
+=== INJECT OPEN QUESTIONS LOG ===
+Run at: 2026-04-25 19:14:33.437664
+
+--- MODIFIED (0) ---
+
+
+--- SKIPPED (55) ---
+SKIP (no action): BE-20260224-FINANCIAL-incharge-dmp-debt-surplus-income.md
+SKIP (no action): BE-20260225-MIXED-peaslee-followup.md
+SKIP (no action): BE-20260226-MIXED-hub-v4-cashflow-localstorage.md
+SKIP (no action): BE-20260226-MIXED-caregiving-wav-spaces-rules.md
+SKIP (no action): BE-20260226-PROJECT-kray-studios-hub-v10v11-build.md
+SKIP (no action): BE-20260227-PROJECT-kray-studios-brand-shopify-income-architecture.md
+SKIP (no action): BE-20260228-SKILL-shopify-free-sales-playbook.md
+SKIP (no action): BE-20260301-PROJECT-kray-studios-pastel-grunge-manifesto.md
+SKIP (no action): BE-20260302-PROJECT-kray-studios-page-brand-clip-marketing.md
+SKIP (no action): BE-20260306-PROJECT-ctrlplusyou-founding-session.md
+SKIP (no action): BE-20260306-PROJECT-ctrlplusyou-email-dns-setup.md
+SKIP (no action): BE-20260307-PROJECT-wall-decal-peel-stick-sourcing.md
+SKIP (no action): BE-20260307-SOURCE-dropshipping-video-resource-harvest.md
+SKIP (no action): BE-20260310-TOOL-p1s-maintenance-kit-rules.md
+SKIP (no action): BE-20260311-PROJECT-comic-holder-wall-mount-system.md
+SKIP (no action): BE-20260314-MIXED-ctrlplusyou-launch-identity-foundation.md
+SKIP (no action): BE-20260314-PROJECT-homestead-store-brand-suppliers.md
+SKIP (no action): BE-20260314-TOOL-image-to-video-ai-stack.md
+SKIP (no action): BE-20260317-PROJECT-aicenturyclips-automation-blueprint.md
+SKIP (no action): BE-20260318-MIXED-ctrlplusyou-pivot-brand-docs.md
+SKIP (no action): BE-20260319-TOOL-openclaw-hostinger-vps-setup.md
+SKIP (no action): BE-20260325-MIXED-honda-crv-repair-maintenance.md
+SKIP (no action): BE-20260327-PROJECT-goodlife-union-founding-research.md
+SKIP (no action): BE-20260328-PROJECT-lived-experience-log-lex-naming.md
+SKIP (no action): BE-20260330-PROJECT-garden-garage-home-builds.md
+SKIP (no action): BE-20260404-PROJECT-share-your-story-post-draft.md
+SKIP (no action): BE-20260405-TOOL-local-ai-stack-device-ecosystem.md
+SKIP (no action): BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md
+SKIP (no action): BE-20260411-PROJECT-glwc-doclog-space-audit.md
+SKIP (no action): BE-20260412-PROJECT-garage-audit-zone-plan.md
+SKIP (no action): BE-20260422-BRAINOS-live-sync-vault-financial-setup.md
+SKIP (no action): BE-20260423-BRAINOS-fullstack-sync-n8n-install.md
+SKIP (no action): BE-20260424-BRAINOS-full-build-session.md
+SKIP (no action): BEUNASSIGNED-20260416-SKILL-foam-sculpting-reference.md
+SKIP (no action): BEUNASSIGNED-20260416-SKILL-video-sourcing-academy-lab.md
+SKIP (no action): BEUNASSIGNED-20260416-PROJECT-kray-studios-n8n-automation-workflow.md
+SKIP (no action): BEUNASSIGNED-20260416-TOOL-n8n-video-pipeline-setup.md
+SKIP (no action): BrainEntry001.md
+SKIP (no action): BrainEntry002.md
+SKIP (no action): BrainEntry003.md
+SKIP (no action): BrainEntry006.md
+SKIP (no action): BrainEntry007.md
+SKIP (no action): BrainEntry008.md
+SKIP (no action): BrainEntry009.md
+SKIP (no action): BE-20260424-BRAINOS-master-index-audit-redesign.md
+SKIP (no action): BE-20260425-BRAINOS-triage-shiftmind-founding.md
+SKIP (no action): BE-20260423-BRAINOS-git-gdrive-sync-completed.md
+SKIP (no action): BE-20260425-BRAINOS-architecture-sync-fixes.md
+SKIP (no action): BEUNASSIGNED_20260221_SKILL_peaslee-tech-career-path-eval.md
+SKIP (no action): BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md
+SKIP (no action): BE_OpenSource_011.md
+SKIP (no action): BrainOS-Open-Questions-Worksheet.md
+SKIP (no action): Brain_Entry_004.md
+SKIP (no action): Brain_Entry_005.md
+SKIP (no action): Brain_Entry_010.md
+
+--- NOT FOUND (0) ---
+

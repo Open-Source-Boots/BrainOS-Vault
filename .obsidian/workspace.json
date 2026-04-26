@@ -182,11 +182,14 @@
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "ce742487275b881f",
   "lastOpenFiles": [
+    "05-INDEX/inject_open_questions_log.txt",
+    "inject_open_questions.py",
     "07-TEMPLATE/desktop.ini",
     "02-BRAIN-ENTRIES/BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md",
     "07-TEMPLATE/BE-TEMPLATE.md",
@@ -219,8 +222,6 @@
     "03-PROJECTS/HOMESTEAD/desktop.ini",
     "03-PROJECTS/GLWC/desktop.ini",
     "03-PROJECTS/YOUTUBE/desktop.ini",
-    "00-INBOX/desktop.ini",
-    "04-CANONICAL/desktop.ini",
     "02-BRAIN-ENTRIES/BE-20260424-BRAINOS-master-index-audit-redesign.md",
     "05-INDEX/MASTER-INDEX.md"
   ]
