@@ -22,3 +22,15 @@
 **Question:** confirm Live-In Manager MOU surviving clauses
 **Answer:** I don't think it is since I am no longer a Live-in Manager
 **Status:** CLOSED
+
+## OQ-20260327-001 — 2026-04-26 02:09
+**Source:** BE-20260327-PROJECT-goodlife-union-founding-research.md
+**Question:** No NLRB or AFL-CIO contact taken yet
+**Answer:** [NOTE — not closed] Yes, I haven't made contact with NLRB or an agency
+**Status:** NOTE
+
+## OQ-20260411-002 — 2026-04-26 02:11
+**Source:** BE-20260411-PROJECT-glwc-doclog-space-audit.md
+**Question:** decide on LEGAL-RISK-MAP.md
+**Answer:** yes, I want risk mapped out clearly
+**Status:** CLOSED

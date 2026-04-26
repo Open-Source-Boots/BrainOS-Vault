@@ -12,7 +12,7 @@ open_questions:
   - id: OQ-20260425-001
     question: "Have the 06-ANSWERS staged files been reviewed and pushed into canonical files?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-002
     question: "Has GOODLIFE-UNION.md been renamed to GLWC-PROJECT.md on disk?"
     canonical_target: GLWC-PROJECT.md

@@ -3,7 +3,7 @@ open_questions:
   - id: OQ-20260306-001
     question: "Confirm all 5 DNS records show green in Zoho"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260306-002
     question: "confirm Zoho username is 'support' not 'braydenboots'"
     canonical_target: ACTIVE-PROJECTS.md

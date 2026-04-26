@@ -94,3 +94,45 @@
 **Question:** install ceiling tote rail
 **Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
 **Status:** DUPLICATE
+
+## OQ-20260301-002 — 2026-04-26 02:08
+**Source:** BE-20260301-PROJECT-kray-studios-pastel-grunge-manifesto.md
+**Question:** guardrails already canonical in AI-WORKFLOW-RULES
+**Answer:** [NOTE — not closed] Let's follow-up on this, I want guardrails to protect myself in the future
+**Status:** NOTE
+
+## OQ-20260306-001 — 2026-04-26 02:08
+**Source:** BE-20260306-PROJECT-ctrlplusyou-email-dns-setup.md
+**Question:** Confirm all 5 DNS records show green in Zoho
+**Answer:** yes, we're all good
+**Status:** CLOSED
+
+## OQ-20260307-002 — 2026-04-26 02:08
+**Source:** BE-20260307-PROJECT-wall-decal-peel-stick-sourcing.md
+**Question:** product research still valid if CtrlYou wall decor vertical ever activates
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260328-001 — 2026-04-26 02:10
+**Source:** BE-20260328-PROJECT-lived-experience-log-lex-naming.md
+**Question:** Confirm all 7 GLWC form templates are saved and accessible in Drive or vault
+**Answer:** Yeah they're all still saved there and can be retrieved their
+**Status:** CLOSED
+
+## OQ-20260330-002 — 2026-04-26 02:10
+**Source:** BE-20260330-PROJECT-garden-garage-home-builds.md
+**Question:** build fold-down workbench
+**Answer:** [NOTE — not closed] Add it to the homestead, garage, studio, workshop pipe-dreams
+**Status:** NOTE
+
+## OQ-20260330-003 — 2026-04-26 02:11
+**Source:** BE-20260330-PROJECT-garden-garage-home-builds.md
+**Question:** confirm ceiling tote rail installed
+**Answer:** no it's not installed
+**Status:** CLOSED
+
+## OQ-20260412-004 — 2026-04-26 02:12
+**Source:** BE-20260412-PROJECT-garage-audit-zone-plan.md
+**Question:** test closet cabinet doors (landlord leftovers)
+**Answer:** [NOTE — not closed] add it to a list of tasks to do around the house we currently live in
+**Status:** NOTE

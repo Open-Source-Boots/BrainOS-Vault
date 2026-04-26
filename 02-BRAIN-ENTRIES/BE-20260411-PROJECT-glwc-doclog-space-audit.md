@@ -28,7 +28,7 @@ open_questions:
   - id: OQ-20260411-002
     question: "decide on LEGAL-RISK-MAP.md"
     canonical_target: GOODLIFE-UNION.md
-    status: OPEN
+    status: CLOSED
 ---
 # Brain Entry — GLWC Doc-Log Processing Thread: Five Space files extracted, four doc-log summaries saved, new thread handoff file created
 

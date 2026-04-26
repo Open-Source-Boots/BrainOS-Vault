@@ -196,3 +196,27 @@
 **Question:** complete laptop remaining tasks in order (Ollama confirm → LocalSend → LibreOffice → HuggingFace → KrayVault → Smart Connections → Syncthing)
 **Answer:** I didn't complete them in that order. I have Ollama, localsend, libreoffice, BrainOS Vault, Smart Connections, and Syncthing installed. I have really only used the BrainOS Vault (a lot, it's all of this) and syncthing at this point in the project.
 **Status:** CLOSED
+
+## OQ-20260325-001 — 2026-04-26 02:09
+**Source:** BE-20260325-MIXED-honda-crv-repair-maintenance.md
+**Question:** Confirm FIMC repair completed or still pending
+**Answer:** [NOTE — not closed] remind me to do this
+**Status:** NOTE
+
+## OQ-20260425-001 — 2026-04-26 02:13
+**Source:** BE-20260425-BRAINOS-architecture-sync-fixes.md
+**Question:** Create MASTER-INDEX.md Dataview dashboard
+**Answer:** [NOTE — not closed] Yes I want to start seeing my information get visualized, I want to be taught how to use dataview
+**Status:** NOTE
+
+## OQ-20260425-003 — 2026-04-26 02:13
+**Source:** BE-20260425-BRAINOS-architecture-sync-fixes.md
+**Question:** create COMMONGROUNDS-PROJECT.md stub
+**Answer:** yes it's created
+**Status:** CLOSED
+
+## OQ-20260425-001 — 2026-04-26 02:14
+**Source:** BE-20260425-BRAINOS-open-questions-automation-quiz-build.md.md
+**Question:** Have the 06-ANSWERS staged files been reviewed and pushed into canonical files?
+**Answer:** no, I'm still wanting a less tedious way to update my canon files, something I could even script, if not using AI
+**Status:** CLOSED

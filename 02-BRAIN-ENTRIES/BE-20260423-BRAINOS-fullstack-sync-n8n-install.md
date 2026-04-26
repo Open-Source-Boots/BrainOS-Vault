@@ -11,7 +11,7 @@ open_questions:
   - id: OQ-20260423-001
     question: "n8n workflows deprioritized — resume only after daily note habit established and Ollama running on desktop"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 KEY FACTS ESTABLISHED THIS THREAD
 Git — FULLY OPERATIONAL ✓

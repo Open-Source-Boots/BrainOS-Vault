@@ -28,3 +28,9 @@
 **Question:** update all canonical files from this session
 **Answer:** yes, I think we're on the same page with what the file structure is, let me know if you're not totally certain.
 **Status:** CLOSED
+
+## OQ-20260423-001 — 2026-04-26 02:12
+**Source:** BE-20260423-BRAINOS-fullstack-sync-n8n-install.md
+**Question:** n8n workflows deprioritized — resume only after daily note habit established and Ollama running on desktop
+**Answer:** yes, we want non-n8n, basic functionality, then as we learn n8n, we devote more energy to purely automation and nodes
+**Status:** CLOSED

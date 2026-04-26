@@ -19,7 +19,7 @@ open_questions:
   - id: OQ-20260425-003
     question: "create COMMONGROUNDS-PROJECT.md stub"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-004
     question: "rename legacy Google Sheet to MASTER-INDEX-LEGACY in Drive"
     canonical_target: BRAINOS-SYSTEM.md

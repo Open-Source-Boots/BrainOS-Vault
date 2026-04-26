@@ -25,7 +25,7 @@ open_questions:
   - id: OQ-20260330-003
     question: "confirm ceiling tote rail installed"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 ---
 # Brain Entry — Backyard garden launch, garage workbench + ceiling storage builds, and outdoor 3D printing material rules — March 30, 2026 shopping run
 

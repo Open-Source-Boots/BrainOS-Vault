@@ -16,3 +16,9 @@
 **Question:** Confirm whether foam sculpting is an active skill track before creating CRAFT-SKILLS-ART.md
 **Answer:** It's something I've had my eye on for a long time, it seems like a fun hobby. I have a hand-held hot-wire already, and a respirator, and a bunch of loose styrofoam that I basically collected.
 **Status:** CLOSED
+
+## OQ-20260228-001 — 2026-04-26 02:08
+**Source:** BE-20260228-SKILL-shopify-free-sales-playbook.md
+**Question:** No immediate action — reference when any store goes active
+**Answer:** [NOTE — not closed] We'll open that online store someday, buddy.
+**Status:** NOTE

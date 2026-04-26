@@ -7,7 +7,7 @@ open_questions:
   - id: OQ-20260307-002
     question: "product research still valid if CtrlYou wall decor vertical ever activates"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 ---
 ## STEP 1 — Pre-Entry Assessment
 
