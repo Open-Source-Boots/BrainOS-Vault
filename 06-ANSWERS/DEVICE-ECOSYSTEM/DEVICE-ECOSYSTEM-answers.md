@@ -34,3 +34,9 @@
 **Question:** n8n workflows deprioritized — resume only after daily note habit established and Ollama running on desktop
 **Answer:** yes, we want non-n8n, basic functionality, then as we learn n8n, we devote more energy to purely automation and nodes
 **Status:** CLOSED
+
+## OQ-20260314-002 — 2026-04-26 02:23
+**Source:** BE-20260314-TOOL-image-to-video-ai-stack.md
+**Question:** confirm EaseMate 100-credit offer still live
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE

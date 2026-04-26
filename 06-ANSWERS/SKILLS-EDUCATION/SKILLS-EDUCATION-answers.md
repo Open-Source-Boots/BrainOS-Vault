@@ -22,3 +22,9 @@
 **Question:** No immediate action — reference when any store goes active
 **Answer:** [NOTE — not closed] We'll open that online store someday, buddy.
 **Status:** NOTE
+
+## OQ-20260228-001 — 2026-04-26 02:23
+**Source:** BE-20260228-SKILL-shopify-free-sales-playbook.md
+**Question:** No immediate action — reference when any store goes active
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE

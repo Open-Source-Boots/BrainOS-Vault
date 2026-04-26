@@ -52,3 +52,27 @@
 **Question:** Finish Workflow 1 nodes 2-8 when n8n resumes
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260310-001 — 2026-04-26 02:23
+**Source:** BE-20260310-TOOL-p1s-maintenance-kit-rules.md
+**Question:** Purchase Super Lube 52004 if not already bought
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260310-002 — 2026-04-26 02:23
+**Source:** BE-20260310-TOOL-p1s-maintenance-kit-rules.md
+**Question:** confirm AMS maintenance items
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260325-001 — 2026-04-26 02:23
+**Source:** BE-20260325-MIXED-honda-crv-repair-maintenance.md
+**Question:** Confirm FIMC repair completed or still pending
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260424-001 — 2026-04-26 02:23
+**Source:** BE-20260424-BRAINOS-full-build-session.md
+**Question:** Finish Workflow 1 nodes 2-8 when n8n resumes
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER

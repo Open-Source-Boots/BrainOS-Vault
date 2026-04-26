@@ -16,19 +16,19 @@ open_questions:
   - id: OQ-20260425-002
     question: "Has GOODLIFE-UNION.md been renamed to GLWC-PROJECT.md on disk?"
     canonical_target: GLWC-PROJECT.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-003
     question: "Has the 99-SCRIPTS/ folder been created and scripts moved there?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-004
     question: "Has the duplicate row issue in OPEN-QUESTIONS.md Dataview query been fully resolved?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-005
     question: "Who is the paying customer for CommonGrounds — care home owner, DSP staff, or the agency?"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-006
     question: "When will Block 3 questions be answered — desktop accessibility, Affirm freed cash plan, follow-through self-assessment?"
     canonical_target: BRAYDEN-IDENTITY.md

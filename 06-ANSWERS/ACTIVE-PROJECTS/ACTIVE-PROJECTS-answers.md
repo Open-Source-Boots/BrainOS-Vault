@@ -136,3 +136,15 @@
 **Question:** test closet cabinet doors (landlord leftovers)
 **Answer:** [NOTE — not closed] add it to a list of tasks to do around the house we currently live in
 **Status:** NOTE
+
+## OQ-20260425-005 — 2026-04-26 02:18
+**Source:** BE-20260425-BRAINOS-open-questions-automation-quiz-build.md.md
+**Question:** Who is the paying customer for CommonGrounds — care home owner, DSP staff, or the agency?
+**Answer:** It would be the company, the owners, they could even justify it with a "don't have to spend as much on training" even if that's ghoulish
+**Status:** CLOSED
+
+## OQ-20260412-004 — 2026-04-26 02:23
+**Source:** BE-20260412-PROJECT-garage-audit-zone-plan.md
+**Question:** test closet cabinet doors (landlord leftovers)
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE

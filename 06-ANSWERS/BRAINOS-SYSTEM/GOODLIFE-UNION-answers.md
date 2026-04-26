@@ -34,3 +34,9 @@
 **Question:** decide on LEGAL-RISK-MAP.md
 **Answer:** yes, I want risk mapped out clearly
 **Status:** CLOSED
+
+## OQ-20260411-001 — 2026-04-26 02:23
+**Source:** BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md
+**Question:** Verify full non-compete and image clause language via engineered prompt read
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE

@@ -220,3 +220,27 @@
 **Question:** Have the 06-ANSWERS staged files been reviewed and pushed into canonical files?
 **Answer:** no, I'm still wanting a less tedious way to update my canon files, something I could even script, if not using AI
 **Status:** CLOSED
+
+## OQ-20260425-003 — 2026-04-26 02:16
+**Source:** BE-20260425-BRAINOS-open-questions-automation-quiz-build.md.md
+**Question:** Has the 99-SCRIPTS/ folder been created and scripts moved there?
+**Answer:** No, I'm not sure where this came from? I want to come up with a use for 99-FOLDER? but I'm just focusing on the most important things right now
+**Status:** CLOSED
+
+## OQ-20260425-004 — 2026-04-26 02:17
+**Source:** BE-20260425-BRAINOS-open-questions-automation-quiz-build.md.md
+**Question:** Has the duplicate row issue in OPEN-QUESTIONS.md Dataview query been fully resolved?
+**Answer:** No, OPEN-QUESTIONS.md is a broken mess, but this interface works really well, but I'm excited to see the smart connections, dataview, I'm even open to trying out weirder community plugins if it helps my productivity or abilitiy to see more.
+**Status:** CLOSED
+
+## OQ-20260425-001 — 2026-04-26 02:24
+**Source:** BE-20260425-BRAINOS-architecture-sync-fixes.md
+**Question:** Create MASTER-INDEX.md Dataview dashboard
+**Answer:** [NOTE — not closed] Big data
+**Status:** NOTE
+
+## OQ-20260425-007 — 2026-04-26 02:24
+**Source:** BE-20260425-BRAINOS-open-questions-automation-quiz-build.md
+**Question:** Has the financial inbox pipeline been scoped as a named n8n workflow?
+**Answer:** [NOTE — not closed] this is important
+**Status:** NOTE

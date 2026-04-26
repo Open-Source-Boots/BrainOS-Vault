@@ -3,7 +3,7 @@ open_questions:
   - id: OQ-20260228-001
     question: "No immediate action — reference when any store goes active"
     canonical_target: SKILLS-EDUCATION.md
-    status: OPEN
+    status: CLOSED
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-02-28

@@ -29,7 +29,7 @@ open_questions:
   - id: OQ-20260412-004
     question: "test closet cabinet doors (landlord leftovers)"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 ---
 # Brain Entry — Garage organization, zone planning, multi-use studio/storage/workshop layout, and full item audit (April 2026)
 

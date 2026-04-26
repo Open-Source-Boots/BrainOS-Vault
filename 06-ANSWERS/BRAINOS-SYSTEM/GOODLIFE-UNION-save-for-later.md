@@ -10,3 +10,9 @@
 **Question:** Verify full non-compete and image clause language via engineered prompt read
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260327-001 — 2026-04-26 02:23
+**Source:** BE-20260327-PROJECT-goodlife-union-founding-research.md
+**Question:** No NLRB or AFL-CIO contact taken yet
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER

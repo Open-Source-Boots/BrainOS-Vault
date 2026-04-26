@@ -39,7 +39,7 @@ open_questions:
   - id: OQ-20260411-001
     question: "Verify full non-compete and image clause language via engineered prompt read"
     canonical_target: GOODLIFE-UNION.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260411-002
     question: "confirm Live-In Manager MOU surviving clauses"
     canonical_target: GOODLIFE-UNION.md
