@@ -35,7 +35,6 @@ open_questions:
     canonical_target: ACTIVE-PROJECTS.md
     status: OPEN
 ---
-
 # Brain Entry — Kray Studios Shopify design manifesto and browser-control agent command sheet for pastel-grunge decor/tech store
 
 ---

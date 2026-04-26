@@ -21,7 +21,6 @@ open_questions:
     canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
-
 # Brain Entry [UNASSIGNED] — ctrl+you Capability Map, Terminal Request, Google Drive Rewrite Attempt & Financial Fabrication Correction
 
 ---

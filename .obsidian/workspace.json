@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5d5c280e6cb47317",
+        "id": "c54643be48ac9b95",
         "type": "tabs",
         "children": [
           {
-            "id": "ce742487275b881f",
+            "id": "113f04478933140a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "05-INDEX/OPEN-QUESTIONS.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "d857ea50c848ff53",
@@ -186,12 +186,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ce742487275b881f",
+  "active": "113f04478933140a",
   "lastOpenFiles": [
+    "05-INDEX/OPEN-QUESTIONS.md",
     "02-BRAIN-ENTRIES/BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md",
     "02-BRAIN-ENTRIES/Brain_Entry_001.md",
     "02-BRAIN-ENTRIES/Brain_Entry_009.md",
-    "05-INDEX/OPEN-QUESTIONS.md",
     "05-INDEX/MASTER-INDEX.md",
     "07-TEMPLATE/BE-TEMPLATE.md",
     "05-INDEX/inject_open_questions_log.txt",

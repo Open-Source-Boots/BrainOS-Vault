@@ -2,7 +2,7 @@
 open_questions:
   - id: OQ-20260425-001
     question: "Rebuild Notion frameworks (Four-Line scripting"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
 # 🧠 Brain Entry 008 — YouTube Strategy & Video Workflow Thread

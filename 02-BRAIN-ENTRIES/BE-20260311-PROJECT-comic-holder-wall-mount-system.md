@@ -24,7 +24,6 @@ open_questions:
     canonical_target: ACTIVE-PROJECTS.md
     status: OPEN
 ---
-
 # Brain Entry — 3D Printed Comic Book Wall Mount System Design and Bambu Studio Workflow
 
 ---

@@ -37,31 +37,14 @@ tags: [goodlife, GLWC, union, PFT, shared-living, housing, contracts,
   personal-protection]
 open_questions:
   - id: OQ-20260411-001
-    question: "Does the arbitration clause in the SL contract extend to DSP employment disputes, or only PFT-specific matters?"
+    question: "Verify full non-compete and image clause language via engineered prompt read"
     canonical_target: GOODLIFE-UNION.md
     status: OPEN
   - id: OQ-20260411-002
-    question: "Does the lease NDA clause survive an NLRA Section 7 challenge?"
-    canonical_target: GOODLIFE-UNION.md
-    status: OPEN
-  - id: OQ-20260411-003
-    question: "What are the full terms of the TLLA — does Kyle's health and safety explicitly survive PFT contract termination?"
-    canonical_target: GOODLIFE-UNION.md
-    status: OPEN
-  - id: OQ-20260411-004
-    question: "What tier or extraordinary funding classification explains Kyle's $187.37/day rate — is wage-sharing prohibited in the PFT contract?"
-    canonical_target: GOODLIFE-UNION.md
-    status: OPEN
-  - id: OQ-20260411-005
-    question: "Are the 10 non-billable days per year pro-rated for a mid-year contract start?"
-    canonical_target: GOODLIFE-UNION.md
-    status: OPEN
-  - id: OQ-20260411-006
-    question: "What is the exact geographic scope and covered roles of the non-compete clause in the SL contract?"
+    question: "confirm Live-In Manager MOU surviving clauses"
     canonical_target: GOODLIFE-UNION.md
     status: OPEN
 ---
-
 # Brain Entry — GoodLife contract/housing deep-dive and GLWC organizing 
   strategy foundation (April 11, 2026)
 

@@ -6,18 +6,16 @@
 **Status:** Canonical
 **Tags:** ctrl-you, ctrlyou-shopify, perplexity, n8n, data-integrity, ai-limits, terminal-app, second-brain, income-growth, adhd-systems
 **Cross-References:** Entry 001 (identity), Entry 002 (AI limits), Entry 003 (site build), Entry 004 (outreach log)
-
 open_questions:
   - id: OQ-20260425-001
     question: "Label v3 Google Drive docs as DRAFT-CONTAINS-ERRORS"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260425-002
     question: "confirm fabrication rule is in AI-WORKFLOW-RULES.md"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
-
 ## What This Thread Was
 
 A dense March 17, 2026 Perplexity session covering four distinct topics:

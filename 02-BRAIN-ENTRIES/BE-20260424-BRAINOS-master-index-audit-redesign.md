@@ -10,7 +10,7 @@ tags: [brainos, master-index, sync, audit, schema, automation]
 open_questions:
   - id: OQ-20260424-001
     question: "Migration complete as of April 25 2026 session — update status to COMPLETE"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
 Key Facts

@@ -12,14 +12,13 @@ tags: [open-source, local-ai, lm-studio, ollama, obsidian, devices, infrastructu
 open_questions:
   - id: OQ-20260425-001
     question: "Create DEVICE-ECOSYSTEM.md — this entry + BE_OpenSource_011 are co-equal seed sources"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260425-002
     question: "complete laptop remaining tasks in order (Ollama confirm → LocalSend → LibreOffice → HuggingFace → KrayVault → Smart Connections → Syncthing)"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
-
 # Brain Entry 010 — Open-Source AI Stack, Device Ecosystem & Second Brain Infrastructure
 
 > **Thread significance:** This is the moment the second brain gained a physical infrastructure layer — not just notes and documents, but a network of devices running free, local, private AI tools. Core philosophy: owning your tools changes your relationship to the work. Renting AI (ChatGPT, Midjourney, Runway) means creative capacity is always someone else's decision. Running models locally means the only limit is hardware you already own.

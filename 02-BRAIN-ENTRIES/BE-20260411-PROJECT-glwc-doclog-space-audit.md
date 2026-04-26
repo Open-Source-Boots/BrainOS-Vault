@@ -30,7 +30,6 @@ open_questions:
     canonical_target: GOODLIFE-UNION.md
     status: OPEN
 ---
-
 # Brain Entry — GLWC Doc-Log Processing Thread: Five Space files extracted, four doc-log summaries saved, new thread handoff file created
 
 ---

@@ -2,11 +2,11 @@
 open_questions:
   - id: OQ-20260325-001
     question: "Confirm FIMC repair completed or still pending"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260325-002
     question: "confirm current CRV mechanical status"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
 date_logged: 2026-04-16

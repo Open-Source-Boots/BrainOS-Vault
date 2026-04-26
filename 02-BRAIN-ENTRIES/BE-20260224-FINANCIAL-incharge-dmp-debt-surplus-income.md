@@ -27,7 +27,6 @@ open_questions:
     canonical_target: FINANCIAL-SNAPSHOT.md
     status: OPEN
 ---
-
 # Brain Entry — Debt Management Deep Dive: InCharge DMP Quote, Surplus Correction, Fiverr/Cults3D Launch Attempt (Feb 24–25, 2026)
 
 ---

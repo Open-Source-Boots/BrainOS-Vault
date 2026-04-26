@@ -2,11 +2,11 @@
 open_questions:
   - id: OQ-20260425-001
     question: "This entry IS the canonical financial snapshot — no further action on figures"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260425-002
     question: "push naming reset retroactively during vault build"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
 # 🧠 Brain Entry 007 — Master Update & Canonical Profile Reset

@@ -2,11 +2,11 @@
 open_questions:
   - id: OQ-20260425-001
     question: "Confirm outreach assets deleted from Drive (confirmed in Open Questions worksheet)"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260425-002
     question: "no action until vault compilation complete"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
 # Brain Entry 004

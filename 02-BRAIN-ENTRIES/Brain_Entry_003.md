@@ -2,11 +2,11 @@
 open_questions:
   - id: OQ-20260425-001
     question: "Confirm Kansas Sales Tax reg and EIN status"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260425-002
     question: "confirm TikTok @ctrl.plus.you still active"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
 # Brain Entry 003

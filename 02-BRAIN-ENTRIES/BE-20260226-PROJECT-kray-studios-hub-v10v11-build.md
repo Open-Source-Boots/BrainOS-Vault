@@ -16,7 +16,6 @@ open_questions:
     canonical_target: ACTIVE-PROJECTS.md
     status: OPEN
 ---
-
 # Brain Entry — Kray Studios Hub v10/v11 build: interactive HTML dashboard with cashflow tracker, product research tools, and Shopify design studio
 
 ---

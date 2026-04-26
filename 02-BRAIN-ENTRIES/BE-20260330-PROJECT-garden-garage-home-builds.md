@@ -27,7 +27,6 @@ open_questions:
     canonical_target: ACTIVE-PROJECTS.md
     status: OPEN
 ---
-
 # Brain Entry — Backyard garden launch, garage workbench + ceiling storage builds, and outdoor 3D printing material rules — March 30, 2026 shopping run
 
 ---

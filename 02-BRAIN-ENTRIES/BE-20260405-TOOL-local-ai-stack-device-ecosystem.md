@@ -24,7 +24,6 @@ open_questions:
     canonical_target: DEVICE-ECOSYSTEM.md
     status: OPEN
 ---
-
 # Brain Entry — Local open-source AI stack established on laptop;
   full device ecosystem designed; Obsidian introduced as brain storage;
   full-circle archival test completed

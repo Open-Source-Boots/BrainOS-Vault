@@ -35,7 +35,6 @@ open_questions:
     canonical_target: ACTIVE-PROJECTS.md
     status: OPEN
 ---
-
 # Brain Entry — Ctrl+You store launch session: Shopify setup, TikTok profile, KS business registration, logo creation, and AI room visualizer research
 
 ---

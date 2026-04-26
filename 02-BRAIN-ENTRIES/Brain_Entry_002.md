@@ -2,11 +2,11 @@
 open_questions:
   - id: OQ-20260425-001
     question: "Confirm browser automation rules are in AI-WORKFLOW-RULES.md"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260425-002
     question: "confirm 6-step sequence is in BRAINOS-SYSTEM.md"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
 # Brain Entry 002 — Thread Consolidation & System Status

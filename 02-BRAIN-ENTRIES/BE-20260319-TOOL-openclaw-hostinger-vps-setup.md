@@ -147,4 +147,3 @@ RAW HIGHLIGHTS
 "You do not get Anthropic, OpenAI, or Gemini API keys through Perplexity; those are separate accounts and keys you create directly with each provider" — Perplexity response; key clarification worth preserving
 
 "On a plain Hostinger VPS you only start with server access (IP, root username/password or SSH key); you do not automatically have any of the OpenClaw API keys, bot tokens, or gateway token shown in that form." — Perplexity response; defines what Hostinger actually gives you
-

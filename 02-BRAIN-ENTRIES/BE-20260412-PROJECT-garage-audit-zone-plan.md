@@ -31,7 +31,6 @@ open_questions:
     canonical_target: ACTIVE-PROJECTS.md
     status: OPEN
 ---
-
 # Brain Entry — Garage organization, zone planning, multi-use studio/storage/workshop layout, and full item audit (April 2026)
 
 ---

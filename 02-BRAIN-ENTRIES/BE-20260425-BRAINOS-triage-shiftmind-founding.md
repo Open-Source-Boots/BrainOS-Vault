@@ -10,15 +10,15 @@ tags: [brainos, triage, vision, shiftmind, whisper, local-ai, residential-care, 
 open_questions:
   - id: OQ-20260425-001
     question: "Run first Whisper test"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260425-002
     question: "create COMMONGROUNDS-PROJECT.md"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260425-003
     question: "update all canonical files from this session"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
 Key Facts

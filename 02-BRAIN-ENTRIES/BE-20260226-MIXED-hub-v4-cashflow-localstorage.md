@@ -25,7 +25,6 @@ open_questions:
     canonical_target: FINANCIAL-SNAPSHOT.md
     status: OPEN
 ---
-
 # Brain Entry — Kray Studios Owner Hub build sessions (v3→v4), cashflow calculation, localStorage persistence, and Chrome download fix
 
 ---

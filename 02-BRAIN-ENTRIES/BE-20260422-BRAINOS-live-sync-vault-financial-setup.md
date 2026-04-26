@@ -13,7 +13,6 @@ open_questions:
     canonical_target: FINANCIAL-SNAPSHOT.md
     status: OPEN
 ---
-
 ## KEY FACTS ESTABLISHED THIS THREAD
 
 ### BrainOS Sync Architecture

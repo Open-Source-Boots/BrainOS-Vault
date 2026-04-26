@@ -10,14 +10,13 @@ tags: [session-log, n8n, workflow-1, iphone, obsidian-ios, mobius-sync, pocketpa
 open_questions:
   - id: OQ-20260424-001
     question: "Finish Workflow 1 nodes 2-8 when n8n resumes"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260424-002
     question: "confirm Möbius Sync stable across all devices"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
-
 ## CONFIRMED DONE — ACTIONS TAKEN THIS THREAD
 
 ### iPhone Node

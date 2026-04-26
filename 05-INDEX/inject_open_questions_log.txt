@@ -1,7 +1,40 @@
-=== INJECT OPEN QUESTIONS LOG ===
-Run at: 2026-04-25 20:07:03.719821
+=== INJECT OPEN QUESTIONS LOG (FULL REWRITE) ===
+Run at: 2026-04-25 22:15:30.253269
 
---- MODIFIED (11) ---
+--- MODIFIED (55) ---
+MODIFIED: BE-20260224-FINANCIAL-incharge-dmp-debt-surplus-income.md
+MODIFIED: BE-20260225-MIXED-peaslee-followup.md
+MODIFIED: BE-20260226-MIXED-hub-v4-cashflow-localstorage.md
+MODIFIED: BE-20260226-MIXED-caregiving-wav-spaces-rules.md
+MODIFIED: BE-20260226-PROJECT-kray-studios-hub-v10v11-build.md
+MODIFIED: BE-20260227-PROJECT-kray-studios-brand-shopify-income-architecture.md
+MODIFIED: BE-20260228-SKILL-shopify-free-sales-playbook.md
+MODIFIED: BE-20260301-PROJECT-kray-studios-pastel-grunge-manifesto.md
+MODIFIED: BE-20260302-PROJECT-kray-studios-page-brand-clip-marketing.md
+MODIFIED: BE-20260306-PROJECT-ctrlplusyou-founding-session.md
+MODIFIED: BE-20260306-PROJECT-ctrlplusyou-email-dns-setup.md
+MODIFIED: BE-20260307-PROJECT-wall-decal-peel-stick-sourcing.md
+MODIFIED: BE-20260307-SOURCE-dropshipping-video-resource-harvest.md
+MODIFIED: BE-20260310-TOOL-p1s-maintenance-kit-rules.md
+MODIFIED: BE-20260311-PROJECT-comic-holder-wall-mount-system.md
+MODIFIED: BE-20260314-MIXED-ctrlplusyou-launch-identity-foundation.md
+MODIFIED: BE-20260314-PROJECT-homestead-store-brand-suppliers.md
+MODIFIED: BE-20260314-TOOL-image-to-video-ai-stack.md
+MODIFIED: BE-20260317-PROJECT-aicenturyclips-automation-blueprint.md
+MODIFIED: BE-20260318-MIXED-ctrlplusyou-pivot-brand-docs.md
+MODIFIED: BE-20260319-TOOL-openclaw-hostinger-vps-setup.md
+MODIFIED: BE-20260325-MIXED-honda-crv-repair-maintenance.md
+MODIFIED: BE-20260327-PROJECT-goodlife-union-founding-research.md
+MODIFIED: BE-20260328-PROJECT-lived-experience-log-lex-naming.md
+MODIFIED: BE-20260330-PROJECT-garden-garage-home-builds.md
+MODIFIED: BE-20260404-PROJECT-share-your-story-post-draft.md
+MODIFIED: BE-20260405-TOOL-local-ai-stack-device-ecosystem.md
+MODIFIED: BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md
+MODIFIED: BE-20260411-PROJECT-glwc-doclog-space-audit.md
+MODIFIED: BE-20260412-PROJECT-garage-audit-zone-plan.md
+MODIFIED: BE-20260422-BRAINOS-live-sync-vault-financial-setup.md
+MODIFIED: BE-20260423-BRAINOS-fullstack-sync-n8n-install.md
+MODIFIED: BE-20260424-BRAINOS-full-build-session.md
 MODIFIED: BEUNASSIGNED_20260416_SKILL_foam-sculpting-finishing-reference.md
 MODIFIED: BEUNASSIGNED_20260416_SKILL_video-sourcing-academy-lab.md
 MODIFIED: BEUNASSIGNED_20260416_PROJECT_kray-studios-n8n-automation-workflow.md
@@ -13,52 +46,20 @@ MODIFIED: Brain_Entry_006.md
 MODIFIED: Brain_Entry_007.md
 MODIFIED: Brain_Entry_008.md
 MODIFIED: Brain_Entry_009.md
+MODIFIED: BE-20260424-BRAINOS-master-index-audit-redesign.md
+MODIFIED: BE-20260425-BRAINOS-triage-shiftmind-founding.md
+MODIFIED: BE-20260423-BRAINOS-git-gdrive-sync-completed.md
+MODIFIED: BE-20260425-BRAINOS-architecture-sync-fixes.md
+MODIFIED: BEUNASSIGNED_20260221_SKILL_peaslee-tech-career-path-eval.md
+MODIFIED: BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md
+MODIFIED: BE_OpenSource_011.md
+MODIFIED: BrainOS-Open-Questions-Worksheet.md
+MODIFIED: Brain_Entry_004.md
+MODIFIED: Brain_Entry_005.md
+MODIFIED: Brain_Entry_010.md
 
---- SKIPPED (44) ---
-SKIP (already has open_questions): BE-20260224-FINANCIAL-incharge-dmp-debt-surplus-income.md
-SKIP (already has open_questions): BE-20260225-MIXED-peaslee-followup.md
-SKIP (already has open_questions): BE-20260226-MIXED-hub-v4-cashflow-localstorage.md
-SKIP (already has open_questions): BE-20260226-MIXED-caregiving-wav-spaces-rules.md
-SKIP (already has open_questions): BE-20260226-PROJECT-kray-studios-hub-v10v11-build.md
-SKIP (already has open_questions): BE-20260227-PROJECT-kray-studios-brand-shopify-income-architecture.md
-SKIP (already has open_questions): BE-20260228-SKILL-shopify-free-sales-playbook.md
-SKIP (already has open_questions): BE-20260301-PROJECT-kray-studios-pastel-grunge-manifesto.md
-SKIP (already has open_questions): BE-20260302-PROJECT-kray-studios-page-brand-clip-marketing.md
-SKIP (already has open_questions): BE-20260306-PROJECT-ctrlplusyou-founding-session.md
-SKIP (already has open_questions): BE-20260306-PROJECT-ctrlplusyou-email-dns-setup.md
-SKIP (already has open_questions): BE-20260307-PROJECT-wall-decal-peel-stick-sourcing.md
-SKIP (already has open_questions): BE-20260307-SOURCE-dropshipping-video-resource-harvest.md
-SKIP (already has open_questions): BE-20260310-TOOL-p1s-maintenance-kit-rules.md
-SKIP (already has open_questions): BE-20260311-PROJECT-comic-holder-wall-mount-system.md
-SKIP (already has open_questions): BE-20260314-MIXED-ctrlplusyou-launch-identity-foundation.md
-SKIP (already has open_questions): BE-20260314-PROJECT-homestead-store-brand-suppliers.md
-SKIP (already has open_questions): BE-20260314-TOOL-image-to-video-ai-stack.md
-SKIP (already has open_questions): BE-20260317-PROJECT-aicenturyclips-automation-blueprint.md
-SKIP (already has open_questions): BE-20260318-MIXED-ctrlplusyou-pivot-brand-docs.md
-SKIP (already has open_questions): BE-20260319-TOOL-openclaw-hostinger-vps-setup.md
-SKIP (already has open_questions): BE-20260325-MIXED-honda-crv-repair-maintenance.md
-SKIP (already has open_questions): BE-20260327-PROJECT-goodlife-union-founding-research.md
-SKIP (already has open_questions): BE-20260328-PROJECT-lived-experience-log-lex-naming.md
-SKIP (already has open_questions): BE-20260330-PROJECT-garden-garage-home-builds.md
-SKIP (already has open_questions): BE-20260404-PROJECT-share-your-story-post-draft.md
-SKIP (already has open_questions): BE-20260405-TOOL-local-ai-stack-device-ecosystem.md
-SKIP (already has open_questions): BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md
-SKIP (already has open_questions): BE-20260411-PROJECT-glwc-doclog-space-audit.md
-SKIP (already has open_questions): BE-20260412-PROJECT-garage-audit-zone-plan.md
-SKIP (already has open_questions): BE-20260422-BRAINOS-live-sync-vault-financial-setup.md
-SKIP (already has open_questions): BE-20260423-BRAINOS-fullstack-sync-n8n-install.md
-SKIP (already has open_questions): BE-20260424-BRAINOS-full-build-session.md
-SKIP (already has open_questions): BE-20260424-BRAINOS-master-index-audit-redesign.md
-SKIP (already has open_questions): BE-20260425-BRAINOS-triage-shiftmind-founding.md
-SKIP (already has open_questions): BE-20260423-BRAINOS-git-gdrive-sync-completed.md
-SKIP (already has open_questions): BE-20260425-BRAINOS-architecture-sync-fixes.md
-SKIP (already has open_questions): BEUNASSIGNED_20260221_SKILL_peaslee-tech-career-path-eval.md
-SKIP (already has open_questions): BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md
-SKIP (already has open_questions): BE_OpenSource_011.md
-SKIP (already has open_questions): BrainOS-Open-Questions-Worksheet.md
-SKIP (already has open_questions): Brain_Entry_004.md
-SKIP (already has open_questions): Brain_Entry_005.md
-SKIP (already has open_questions): Brain_Entry_010.md
+--- SKIPPED (0) ---
+
 
 --- NOT FOUND (0) ---
 

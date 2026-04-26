@@ -2,11 +2,11 @@
 open_questions:
   - id: OQ-20260310-001
     question: "Purchase Super Lube 52004 if not already bought"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260310-002
     question: "confirm AMS maintenance items"
-    canonical_target: DEVICE-ECOSYSTEM.md
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
 date_logged: 2026-04-16

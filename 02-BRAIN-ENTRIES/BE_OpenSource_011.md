@@ -26,7 +26,6 @@ open_questions:
     canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
-
 # Brain Entry [UNASSIGNED] — Local open-source AI stack introduced;
   laptop partially set up; full device ecosystem planned
 
