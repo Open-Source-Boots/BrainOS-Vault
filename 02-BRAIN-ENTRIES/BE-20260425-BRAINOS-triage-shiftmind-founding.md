@@ -15,7 +15,7 @@ open_questions:
   - id: OQ-20260425-002
     question: "create COMMONGROUNDS-PROJECT.md"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-003
     question: "update all canonical files from this session"
     canonical_target: DEVICE-ECOSYSTEM.md

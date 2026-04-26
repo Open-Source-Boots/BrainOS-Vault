@@ -1,0 +1,1 @@
+This is a pretty good idea. This might help a lot of people.

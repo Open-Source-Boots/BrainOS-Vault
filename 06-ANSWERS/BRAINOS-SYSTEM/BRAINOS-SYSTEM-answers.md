@@ -76,3 +76,9 @@
 **Question:** create 99-OUTBOX/ folder
 **Answer:** Yes it's made, still working out what it will be used for exactly.
 **Status:** CLOSED
+
+## OQ-20260425-004 — 2026-04-26 00:16
+**Source:** BE-20260425-BRAINOS-architecture-sync-fixes.md
+**Question:** rename legacy Google Sheet to MASTER-INDEX-LEGACY in Drive
+**Answer:** Yes, we're now in a brand new perplexity space: "BrainOS-Vault" and I found the best work-around the file upload limits is using the space files, sync them to the master index.csv that's synced automatically to obsidian, so I can have basically 50 unique files saved to that space specifically, that are auto-updating, because of the automatic sync system I made here. I have all 7 of my canonical files also uploaded that same way. Perplexity Pro, my current subscription I only have for a little while longer, allows 50 total saved, but can really only reliably pass-over 20 unique files at one time/one generation. It gets a little confusing knowing what it knows. It's always been like that, which is honestly what inspired me to go down this path of open-source, local, unlimited usage projects. This feels like the future. Perplexity sucks, but it is funny to me that I'm using it to hopefully replace itself. I already feel like I'm pretty close to gettting to where I want using it. I appreciate its contributions, and it has helped me learn about limitations, tokens, context windows, RAG systems, all kinds of really interesting stuff. It's the best internet-connected llm I have access to, so I'm going to utilize it while I've got it.
+**Status:** CLOSED

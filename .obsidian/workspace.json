@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-answers.md",
+                "file": "03-PROJECTS/COMMONGROUNDS-PROJECT/CommonGrounds.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ACTIVE-PROJECTS-answers"
+              "title": "CommonGrounds"
             }
           }
         ],
@@ -201,8 +201,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e406d8f0221d09d1",
+  "active": "4f82fe708cffcd73",
   "lastOpenFiles": [
+    "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-answers.md",
+    "03-PROJECTS/COMMONGROUNDS-PROJECT/CommonGrounds.md",
+    "03-PROJECTS/COMMONGROUNDS-PROJECT/desktop.ini",
+    "03-PROJECTS/COMMONGROUNDS-PROJECT",
     "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-save-for-later.md",
     "06-ANSWERS/BRAINOS-SYSTEM/GOODLIFE-UNION-save-for-later.md",
     "06-ANSWERS/BRAINOS-SYSTEM/GOODLIFE-UNION-answers.md",
@@ -210,7 +214,6 @@
     "06-ANSWERS/DEVICE-ECOSYSTEM/DEVICE-ECOSYSTEM-answers.md",
     "06-ANSWERS/BRAYDEN-IDENTITY/BRAYDEN-IDENTITY-answers.md",
     "06-ANSWERS/BRAINOS-SYSTEM/BRAINOS-SYSTEM-save-for-later.md",
-    "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-answers.md",
     "06-ANSWERS/BRAINOS-SYSTEM/BRAINOS-SYSTEM-answers.md",
     "06-ANSWERS/SKILLS-EDUCATION/SKILLS-EDUCATION-answers.md",
     "06-ANSWERS/BRAINOS-SYSTEM/desktop.ini",
@@ -222,8 +225,6 @@
     "06-ANSWERS/desktop.ini",
     "06-ANSWERS/SKILLS-EDUCATION/SKILLS-EDUCATION-save-for-later.md",
     "06-ANSWERS/SKILLS-EDUCATION",
-    "06-ANSWERS/BRAYDEN-IDENTITY",
-    "06-ANSWERS/GLWC-PROJECT",
     "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-triage-shiftmind-founding.sync-conflict-20260425-230026-QH2DFIH.md",
     "05-INDEX/OPEN-QUESTIONS.md",
     "02-BRAIN-ENTRIES/BE-20260224-FINANCIAL-incharge-dmp-debt-surplus-income.md",
@@ -237,7 +238,6 @@
     "04-CANONICAL/DEVICE-ECOSYSTEM.md",
     "04-CANONICAL/ACTIVE-PROJECTS.md",
     "04-CANONICAL/SKILLS-EDUCATION.md",
-    "04-CANONICAL/FINANCIAL-SNAPSHOT.md",
-    "04-CANONICAL/BRAYDEN-IDENTITY.md"
+    "04-CANONICAL/FINANCIAL-SNAPSHOT.md"
   ]
 }
