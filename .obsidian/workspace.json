@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-INDEX/OPEN-QUESTIONS.md",
-                "mode": "source",
+                "file": "05-INDEX/MASTER-INDEX.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OPEN-QUESTIONS"
-            }
-          },
-          {
-            "id": "c04601037ce7d6a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-CANONICAL/BRAINOS-SYSTEM.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BRAINOS-SYSTEM"
+              "title": "MASTER-INDEX"
             }
           }
         ]
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-INDEX/OPEN-QUESTIONS.md",
+                "file": "05-INDEX/MASTER-INDEX.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OPEN-QUESTIONS"
+              "title": "Backlinks for MASTER-INDEX"
             }
           },
           {
@@ -212,41 +198,41 @@
   },
   "active": "bbd0ba442fd06136",
   "lastOpenFiles": [
-    "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-save-for-later.md",
-    "05-INDEX/OPEN-QUESTIONS.md",
-    "05-INDEX/MASTER-INDEX.md",
-    "04-CANONICAL/SKILLS-EDUCATION.md",
-    "04-CANONICAL/AI-WORKFLOW-RULES.md",
-    "04-CANONICAL/BRAINOS-SYSTEM.md",
-    "04-CANONICAL/FINANCIAL-SNAPSHOT.md",
-    "02-BRAIN-ENTRIES/Brain_Entry_002.md",
-    "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md",
-    "06-ANSWERS/BRAYDEN-IDENTITY/BRAYDEN-IDENTITY-save-for-later.md",
-    "06-ANSWERS/GLWC-PROJECT/GLWC-PROJECT-answers.md",
-    "07-TEMPLATE/SKILLS/mdreference skill.md",
-    "07-TEMPLATE/SKILLS/mdlog skill.md",
-    "07-TEMPLATE/SKILLS/mdlegal skill.md",
-    "07-TEMPLATE/SKILLS/mdfinancial skill.md",
-    "07-TEMPLATE/be-template.md",
-    "06-ANSWERS/DEVICE-ECOSYSTEM/DEVICE-ECOSYSTEM-answers.md",
-    "06-ANSWERS/BRAYDEN-IDENTITY/BRAYDEN-IDENTITY-answers.md",
-    "06-ANSWERS/BRAINOS-SYSTEM/GOODLIFE-UNION-answers.md",
-    "06-ANSWERS/BRAINOS-SYSTEM/GOODLIFE-UNION-save-for-later.md",
-    "06-ANSWERS/BRAINOS-SYSTEM/BRAINOS-SYSTEM-save-for-later.md",
-    "06-ANSWERS/BRAINOS-SYSTEM/BRAINOS-SYSTEM-answers.md",
+    "05-INDEX/BRAINOS-CHECKPOINT-LOG.md",
     "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-answers.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BrainOS-Open-Questions-Worksheet.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/Brain_Entry_010.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/Brain_Entry_009.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/Brain_Entry_008.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/Brain_Entry_007.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/Brain_Entry_006.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/Brain_Entry_005.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/Brain_Entry_004.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/Brain_Entry_003.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/Brain_Entry_002.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/Brain_Entry_001.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BEUNASSIGNED_20260416_SKILL_video-sourcing-academy-lab.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BEUNASSIGNED_20260416_SKILL_foam-sculpting-finishing-reference.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BEUNASSIGNED_20260416_PROJECT_kray-studios-n8n-automation-workflow.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BEUNASSIGNED_20260221_SKILL_peaslee-tech-career-path-eval.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BE-20260423-BRAINOS-git-gdrive-sync-completed.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BE-20260423-BRAINOS-fullstack-sync-n8n-install.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BE-20260422-BRAINOS-live-sync-vault-financial-setup.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BE-20260412-PROJECT-garage-audit-zone-plan.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BE-20260411-PROJECT-glwc-doclog-space-audit.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BE-20260405-TOOL-local-ai-stack-device-ecosystem.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/BE-20260404-PROJECT-share-your-story-post-draft.md",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/desktop.ini",
+    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026",
     "07-TEMPLATE/SKILLS/desktop.ini",
     "07-TEMPLATE/SKILLS",
     "07-TEMPLATE/New folder",
-    "03-PROJECTS/COMMONGROUNDS/CommonGrounds.md",
     "07-TEMPLATE/PROMPTS/desktop.ini",
     "07-TEMPLATE/PROMPTS",
     "03-PROJECTS/COMMONGROUNDS/desktop.ini",
     "03-PROJECTS/COMMONGROUNDS",
-    "02-BRAIN-ENTRIES/BE-20260314-PROJECT-homestead-store-brand-suppliers.md",
-    "06-ANSWERS/SKILLS-EDUCATION/SKILLS-EDUCATION-answers.md",
-    "06-ANSWERS/BRAINOS-SYSTEM/desktop.ini",
-    "06-ANSWERS/ACTIVE-PROJECTS/desktop.ini",
-    "06-ANSWERS/GLWC-PROJECT/desktop.ini"
+    "06-ANSWERS/BRAINOS-SYSTEM/desktop.ini"
   ]
 }
