@@ -1,3 +1,7 @@
 .git
 *.tmp
 ~syncthing~*
+/.obsidian/plugins
+/.obsidian/community-plugins.json
+/.obsidian/workspace.json
+/.obsidian/workspace-mobile.json

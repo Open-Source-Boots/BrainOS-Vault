@@ -184,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -210,7 +210,7 @@
       "smart-connections-visualizer:Open smart connections visualizer": false
     }
   },
-  "active": "e8237e59510d9bfd",
+  "active": "f880fc45b8e46854",
   "lastOpenFiles": [
     "05-INDEX/MASTER-INDEX.md",
     "05-INDEX/BRAINOS-CHECKPOINT-LOG.md",
