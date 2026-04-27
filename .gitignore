@@ -7,3 +7,5 @@ desktop.ini
 Thumbs.db
 .stignore
 ~syncthing~*
+*.sync-conflict-*
+**/desktop.ini
