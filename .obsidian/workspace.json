@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "43158ddf41f7c384",
+        "id": "18a218fe969f7e8f",
         "type": "tabs",
         "children": [
           {
-            "id": "e8237e59510d9bfd",
+            "id": "7abff79265c5120d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07-TEMPLATE/SKILLS/mdreference skill.md",
+                "file": "06-ANSWERS/BRAYDEN-IDENTITY/BRAYDEN-IDENTITY-answers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mdreference skill"
+              "title": "BRAYDEN-IDENTITY-answers"
             }
           }
         ]
@@ -188,7 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 797.5
+    "width": 465.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,10 +209,17 @@
       "smart-connections-visualizer:Open smart connections visualizer": false
     }
   },
-  "active": "f880fc45b8e46854",
+  "active": "7abff79265c5120d",
   "lastOpenFiles": [
+    "06-ANSWERS/BRAYDEN-IDENTITY/BRAYDEN-IDENTITY-answers.md",
+    "06-ANSWERS/DEVICE-ECOSYSTEM/DEVICE-ECOSYSTEM-answers.md",
+    "06-ANSWERS/SKILLS-EDUCATION/SKILLS-EDUCATION-answers.md",
+    "06-ANSWERS/ACTIVE-PROJECTS/ACTIVE-PROJECTS-answers.md",
+    "05-INDEX/OPEN-QUESTIONS.md",
     "01-DAILY/2026-04-26.md",
     "01-DAILY/Daily note today 4-26-26.md",
+    "07-TEMPLATE/SKILLS/mdlog skill.md",
+    "07-TEMPLATE/SKILLS/mdreference skill.md",
     "01-DAILY/~syncthing~2026-04-26.md.tmp",
     "01-DAILY/~syncthing~Daily note today 4-26-26.md.tmp",
     "05-INDEX/MASTER-INDEX.md",
@@ -221,7 +228,6 @@
     "04-CANONICAL/BRAYDEN-IDENTITY.md",
     "02-BRAIN-ENTRIES/Brain_Entry_006.md",
     "02-BRAIN-ENTRIES/BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md",
-    "05-INDEX/OPEN-QUESTIONS.md",
     "06-ANSWERS/DEVICE-ECOSYSTEM/DEVICE-ECOSYSTEM-save-for-later.md",
     "02-BRAIN-ENTRIES/BrainOS-Open-Questions-Worksheet.md",
     "02-BRAIN-ENTRIES/Brain_Entry_010.md",
@@ -233,12 +239,6 @@
     "02-BRAIN-ENTRIES/Brain_Entry_003.md",
     "02-BRAIN-ENTRIES/Brain_Entry_002.md",
     "02-BRAIN-ENTRIES/Brain_Entry_001.md",
-    "02-BRAIN-ENTRIES/BEUNASSIGNED_20260416_SKILL_video-sourcing-academy-lab.md",
-    "02-BRAIN-ENTRIES/BEUNASSIGNED_20260416_SKILL_foam-sculpting-finishing-reference.md",
-    "02-BRAIN-ENTRIES/BEUNASSIGNED_20260416_PROJECT_kray-studios-n8n-automation-workflow.md",
-    "02-BRAIN-ENTRIES/BEUNASSIGNED_20260221_SKILL_peaslee-tech-career-path-eval.md",
-    "02-BRAIN-ENTRIES/BE-20260311-PROJECT-comic-holder-wall-mount-system.md",
-    "02-BRAIN-ENTRIES/BE-20260310-TOOL-p1s-maintenance-kit-rules.md",
     "backfill_frontmatter.py",
     "03-PROJECTS/ELECTRICIAN/Peaslee/desktop.ini",
     "03-PROJECTS/ELECTRICIAN/Peaslee",
