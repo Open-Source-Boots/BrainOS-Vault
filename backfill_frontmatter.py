@@ -104,15 +104,14 @@ def main():
         fm, body = extract_frontmatter(content)
 
         # Fields to backfill from CSV if missing in frontmatter
-        csv_fields = {
-            "thread_date": row.get("thread_date", "").strip(),
-            "domain": row.get("domain", "").strip(),
-            "status": row.get("status", "draft").strip(),
-            "priority": row.get("priority", "").strip(),
-            "canonical_file": row.get("canonical_file", "").strip(),
-            "notes": row.get("notes", "").strip(),
-        }
-
+       	csv_fields = {
+    "thread_date": (row.get("thread_date") or "").strip(),
+    "domain": (row.get("domain") or "").strip(),
+    "status": (row.get("status") or "draft").strip(),
+    "priority": (row.get("priority") or "").strip(),
+    "canonical_file": (row.get("canonical_file") or "").strip(),
+    "notes": (row.get("notes") or "").strip(),
+ 							}
         changed = False
         for field, csv_val in csv_fields.items():
             if csv_val and not fm.get(field):
