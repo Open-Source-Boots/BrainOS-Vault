@@ -188,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 797.5,
-    "collapsed": true
+    "width": 797.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,6 +211,10 @@
   },
   "active": "f880fc45b8e46854",
   "lastOpenFiles": [
+    "01-DAILY/2026-04-26.md",
+    "01-DAILY/Daily note today 4-26-26.md",
+    "01-DAILY/~syncthing~2026-04-26.md.tmp",
+    "01-DAILY/~syncthing~Daily note today 4-26-26.md.tmp",
     "05-INDEX/MASTER-INDEX.md",
     "05-INDEX/BRAINOS-CHECKPOINT-LOG.md",
     "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md",
@@ -236,8 +239,6 @@
     "02-BRAIN-ENTRIES/BEUNASSIGNED_20260221_SKILL_peaslee-tech-career-path-eval.md",
     "02-BRAIN-ENTRIES/BE-20260311-PROJECT-comic-holder-wall-mount-system.md",
     "02-BRAIN-ENTRIES/BE-20260310-TOOL-p1s-maintenance-kit-rules.md",
-    "02-BRAIN-ENTRIES/BE-20260307-SOURCE-dropshipping-video-resource-harvest.md",
-    "02-BRAIN-ENTRIES/BE-20260307-PROJECT-wall-decal-peel-stick-sourcing.md",
     "backfill_frontmatter.py",
     "03-PROJECTS/ELECTRICIAN/Peaslee/desktop.ini",
     "03-PROJECTS/ELECTRICIAN/Peaslee",
@@ -245,8 +246,6 @@
     "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026",
     "07-TEMPLATE/SKILLS/desktop.ini",
     "07-TEMPLATE/SKILLS",
-    "07-TEMPLATE/New folder",
-    "07-TEMPLATE/PROMPTS/desktop.ini",
-    "07-TEMPLATE/PROMPTS"
+    "07-TEMPLATE/New folder"
   ]
 }
