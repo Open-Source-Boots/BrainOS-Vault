@@ -1,7 +1,7 @@
 {
-  "newFileLocation": "folder",
+  "newFileLocation": "current",
   "newFileFolderPath": "01-DAILY",
-  "attachmentFolderPath": "06-ATTACH",
+  "attachmentFolderPath": "/",
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": false,
   "mobileToolbarCommands": [
@@ -27,5 +27,6 @@
     "editor:configure-toolbar",
     "command-palette:open"
   ],
-  "propertiesInDocument": "source"
+  "propertiesInDocument": "source",
+  "openBehavior": "daily"
 }
