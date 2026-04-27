@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "05-INDEX/MASTER-INDEX.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -211,6 +211,9 @@
   },
   "active": "7abff79265c5120d",
   "lastOpenFiles": [
+    "02-BRAIN-ENTRIES/BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md",
+    "05-INDEX/MASTER-INDEX.md",
+    "04-CANONICAL/DEVICE-ECOSYSTEM.md",
     "02-BRAIN-ENTRIES/BE-20260427-BRAINOS-repo-audit-canonical-compilation.md",
     "01-DAILY/01-DAILY.md",
     "01-DAILY/Untitled.md",
@@ -219,7 +222,6 @@
     "08-ATTACH/08-ATTACH RULES.md",
     "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md",
     "05-INDEX/OPEN-QUESTIONS.md",
-    "05-INDEX/MASTER-INDEX.md",
     "06-ANSWERS/BRAYDEN-IDENTITY/BRAYDEN-IDENTITY-answers.md",
     "06-ANSWERS/DEVICE-ECOSYSTEM/DEVICE-ECOSYSTEM-answers.md",
     "06-ANSWERS/SKILLS-EDUCATION/SKILLS-EDUCATION-answers.md",
@@ -238,8 +240,6 @@
     "02-BRAIN-ENTRIES/BrainOS-Open-Questions-Worksheet.md",
     "02-BRAIN-ENTRIES/Brain_Entry_010.md",
     "02-BRAIN-ENTRIES/Brain_Entry_009.md",
-    "02-BRAIN-ENTRIES/Brain_Entry_008.md",
-    "02-BRAIN-ENTRIES/Brain_Entry_007.md",
     "backfill_frontmatter.py",
     "03-PROJECTS/ELECTRICIAN/Peaslee/desktop.ini",
     "03-PROJECTS/ELECTRICIAN/Peaslee",
