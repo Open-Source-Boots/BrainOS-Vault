@@ -3,10 +3,10 @@ import os
 import re
 from datetime import datetime
 
-VAULT_ROOT = "C:/Users/brayd/Desktop/Open-Source AI/BrainOS Vault"
+VAULT_ROOT = os.path.dirname(os.path.abspath(__file__))
 BRAIN_ENTRIES_FOLDER = "02-BRAIN-ENTRIES"
-CSV_PATH = "05-INDEX/MASTER-INDEX.csv"
-LOG_PATH = "05-INDEX/inject_open_questions_log.txt"
+CSV_PATH = os.path.join(VAULT_ROOT, "05-INDEX", "MASTER-INDEX.csv")
+LOG_PATH = os.path.join(VAULT_ROOT, "05-INDEX", "inject_open_questions_log.txt")
 
 def load_csv(path):
     rows = []
@@ -34,7 +34,7 @@ def extract_date_from_filename(filename):
 def get_canonical_target(filename):
     fname_lower = filename.lower()
     if "goodlife" in fname_lower or "glwc" in fname_lower or "union" in fname_lower:
-        return "GOODLIFE-UNION.md"
+        return "FINANCIAL-SNAPSHOT.md"
     elif "financial" in fname_lower or "cashflow" in fname_lower or "debt" in fname_lower:
         return "FINANCIAL-SNAPSHOT.md"
     elif "peaslee" in fname_lower or "skill" in fname_lower or "education" in fname_lower:
@@ -64,20 +64,17 @@ def build_clean_oq_block(filename, action_required):
     return "\n".join(lines)
 
 def strip_all_frontmatter(content):
-    """Remove entire existing frontmatter block and return clean body."""
     content = content.strip()
     if not content.startswith("---"):
         return content
-    # Find closing ---
-    rest = content[3:]  # skip opening ---
+    rest = content[3:]
     close_pos = rest.find("\n---")
     if close_pos == -1:
-        return content  # malformed, return as-is
-    body = rest[close_pos + 4:].strip()  # skip past closing ---
+        return content
+    body = rest[close_pos + 4:].strip()
     return body
 
 def build_full_file(body, oq_block, existing_meta):
-    """Wrap body with clean frontmatter containing OQ block plus preserved metadata."""
     fm = "---\n"
     if existing_meta:
         fm += existing_meta.strip() + "\n"
@@ -86,7 +83,6 @@ def build_full_file(body, oq_block, existing_meta):
     return fm + body
 
 def extract_existing_meta(content):
-    """Pull out existing frontmatter fields except open_questions."""
     content = content.strip()
     if not content.startswith("---"):
         return ""
@@ -95,7 +91,6 @@ def extract_existing_meta(content):
     if close_pos == -1:
         return ""
     fm_block = rest[:close_pos].strip()
-    # Remove any existing open_questions lines
     lines = fm_block.split("\n")
     clean_lines = []
     in_oq = False

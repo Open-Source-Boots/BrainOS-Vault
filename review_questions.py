@@ -3,7 +3,7 @@ import re
 import yaml
 from datetime import datetime
 
-VAULT_ROOT = "C:/Users/brayd/Desktop/Open-Source AI/BrainOS Vault"
+VAULT_ROOT = os.path.dirname(os.path.abspath(__file__))
 BRAIN_ENTRIES_FOLDER = "02-BRAIN-ENTRIES"
 ANSWERS_FOLDER = "06-ANSWERS"
 
@@ -14,6 +14,7 @@ DOMAIN_MAP = {
     "BRAINOS-SYSTEM.md": "BRAINOS-SYSTEM",
     "DEVICE-ECOSYSTEM.md": "DEVICE-ECOSYSTEM",
     "BRAYDEN-IDENTITY.md": "BRAYDEN-IDENTITY",
+    "FINANCIAL-SNAPSHOT.md": "FINANCIAL-SNAPSHOT",
 }
 
 SKIP_TARGETS = {"FINANCIAL-SNAPSHOT.md"}
@@ -130,9 +131,9 @@ def log_entry(filepath, question_id, question_text, answer_text, source_file, la
 def print_progress(current, total, answered, skipped, saved_later):
     bar_len = 30
     filled = int(bar_len * current / total) if total > 0 else 0
-    bar = "█" * filled + "░" * (bar_len - filled)
+    bar = "\u2588" * filled + "\u2591" * (bar_len - filled)
     print(f"\n  Progress: [{bar}] {current}/{total}")
-    print(f"  ✅ Answered: {answered}  ⏭  Skipped: {skipped}  🕐 Later: {saved_later}")
+    print(f"  \u2705 Answered: {answered}  \u23ed  Skipped: {skipped}  \U0001f550 Later: {saved_later}")
 
 def main():
     ensure_dirs()
@@ -140,11 +141,11 @@ def main():
     total = len(questions)
 
     if total == 0:
-        print("\n✅ No open questions found. Vault is clean.")
+        print("\n\u2705 No open questions found. Vault is clean.")
         return
 
     print(f"\n{'='*55}")
-    print(f"  🧠 BRAINOS QUESTION REVIEW")
+    print(f"  \U0001f9e0 BRAINOS QUESTION REVIEW")
     print(f"  {total} open questions loaded")
     print(f"  (Financial questions excluded — handled separately)")
     print(f"{'='*55}")
@@ -161,11 +162,11 @@ def main():
 
     for idx, q in enumerate(questions, 1):
         print_progress(idx - 1, total, answered, skipped, saved_later)
-        print(f"\n  ┌─ Question {idx} of {total}")
-        print(f"  │  ID:      {q['id']}")
-        print(f"  │  Source:  {q['file']}")
-        print(f"  │  Target:  {q['canonical_target']}")
-        print(f"  └─ ❓ {q['question']}\n")
+        print(f"\n  \u250c\u2500 Question {idx} of {total}")
+        print(f"  \u2502  ID:      {q['id']}")
+        print(f"  \u2502  Source:  {q['file']}")
+        print(f"  \u2502  Target:  {q['canonical_target']}")
+        print(f"  \u2514\u2500 \u2753 {q['question']}\n")
 
         while True:
             choice = input("  > [A]nswer  [S]kip  [L]ater  [N]ote  [D]uplicate  [Q]uit: ").strip().upper()
@@ -178,7 +179,7 @@ def main():
                 return
 
             elif choice == "A":
-                answer = input("  ✏️  Your answer: ").strip()
+                answer = input("  \u270f\ufe0f  Your answer: ").strip()
                 if answer:
                     update_question_status(q['filepath'], q['id'], "CLOSED")
                     log_entry(
@@ -186,14 +187,14 @@ def main():
                         q['id'], q['question'], answer, q['file']
                     )
                     answered += 1
-                    print("  ✅ Closed and logged.\n")
+                    print("  \u2705 Closed and logged.\n")
                     break
                 else:
-                    print("  ⚠️  Answer can't be blank. Try again or pick another option.")
+                    print("  \u26a0\ufe0f  Answer can't be blank. Try again or pick another option.")
 
             elif choice == "S":
                 skipped += 1
-                print("  ⏭  Skipped.\n")
+                print("  \u23ed  Skipped.\n")
                 break
 
             elif choice == "L":
@@ -203,18 +204,18 @@ def main():
                 )
                 skipped += 1
                 saved_later += 1
-                print("  🕐 Logged to save-for-later. Question stays open.\n")
+                print("  \U0001f550 Logged to save-for-later. Question stays open.\n")
                 break
 
             elif choice == "N":
-                note = input("  📝 Your note: ").strip()
+                note = input("  \U0001f4dd Your note: ").strip()
                 if note:
                     log_entry(
                         get_answers_path(q['canonical_target']),
                         q['id'], q['question'], f"[NOTE — not closed] {note}",
                         q['file'], label="NOTE"
                     )
-                    print("  📝 Note logged. Question stays OPEN.\n")
+                    print("  \U0001f4dd Note logged. Question stays OPEN.\n")
                 break
 
             elif choice == "D":
@@ -226,14 +227,14 @@ def main():
                     q['file'], label="DUPLICATE"
                 )
                 answered += 1
-                print("  🗑  Marked duplicate and closed.\n")
+                print("  \U0001f5d1  Marked duplicate and closed.\n")
                 break
 
             else:
-                print("  ⚠️  Invalid. Use A, S, L, N, D, or Q.")
+                print("  \u26a0\ufe0f  Invalid. Use A, S, L, N, D, or Q.")
 
     print(f"\n{'='*55}")
-    print(f"  🎉 All questions reviewed!")
+    print(f"  \U0001f389 All questions reviewed!")
     print_progress(total, total, answered, skipped, saved_later)
     print(f"  Answers staged in: {ANSWERS_FOLDER}/")
     print(f"  Next step: review answer files and push to canonical files.")
