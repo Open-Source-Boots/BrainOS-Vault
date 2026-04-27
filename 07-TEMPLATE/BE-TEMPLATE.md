@@ -1,27 +1,25 @@
 ---
-generated_by_skill:
-skill_version:
-date_logged: {{date}}
-source_thread_date: 
-source_thread_title: ""
-entry_type: 
-chronological_position: 
+title: ""
+filename: BE-YYYYMMDD-DOMAIN-slug.md
+date: 
+domain: 
+slug: 
 status: draft
-compilation_status: 
-supersedes: 
+compilation_status: pending
+supersedes: none
 superseded_by: none
 canonical_file: 
+generated_by_skill: manual
+skill_version: 
 tags: []
 open_questions:
-  - id: OQ-{{date:YYYYMMDD}}-001
+  - id: OQ-YYYYMMDD-001
     question: ""
-    canonical_target: 
+    canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
 
-# Brain Entry — [Title]
-
-## CONFIRMED FACTS
+## KEY FACTS
 
 ## TIMELINE MARKERS
 
@@ -31,9 +29,7 @@ open_questions:
 
 ## INSIGHTS & PATTERNS
 
-## OPEN QUESTIONS
-> Structured questions are tracked in frontmatter above and surface automatically 
-> in OPEN-QUESTIONS.md via Dataview. The questions below are contextual notes only.
+## TOOLS & RESOURCES REFERENCED
 
 ## CROSS-REFERENCES
 
