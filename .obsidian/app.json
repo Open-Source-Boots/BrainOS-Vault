@@ -28,5 +28,5 @@
     "command-palette:open"
   ],
   "propertiesInDocument": "source",
-  "openBehavior": "file:01-DAILY"
+  "openBehavior": "daily"
 }

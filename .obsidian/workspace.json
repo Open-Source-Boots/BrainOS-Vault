@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-CANONICAL/BRAINOS-SYSTEM.md",
+                "file": "01-DAILY/01-DAILY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BRAINOS-SYSTEM"
+              "title": "01-DAILY"
             }
           }
         ]
@@ -211,6 +211,10 @@
   },
   "active": "7abff79265c5120d",
   "lastOpenFiles": [
+    "01-DAILY/Untitled.md",
+    "04-CANONICAL/BRAINOS-SYSTEM.md",
+    "01-DAILY/01-DAILY.md",
+    "01-DAILY/~syncthing~01-DAILY.md.tmp",
     "08-ATTACH/08-ATTACH RULES.md",
     "02-BRAIN-ENTRIES/BE-20260425-BRAINOS-open-questions-automation-quiz-build.md",
     "05-INDEX/OPEN-QUESTIONS.md",
@@ -236,16 +240,12 @@
     "02-BRAIN-ENTRIES/Brain_Entry_008.md",
     "02-BRAIN-ENTRIES/Brain_Entry_007.md",
     "02-BRAIN-ENTRIES/Brain_Entry_005.md",
-    "02-BRAIN-ENTRIES/Brain_Entry_004.md",
-    "02-BRAIN-ENTRIES/Brain_Entry_003.md",
-    "02-BRAIN-ENTRIES/Brain_Entry_002.md",
     "backfill_frontmatter.py",
     "03-PROJECTS/ELECTRICIAN/Peaslee/desktop.ini",
     "03-PROJECTS/ELECTRICIAN/Peaslee",
     "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/desktop.ini",
     "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026",
     "07-TEMPLATE/SKILLS/desktop.ini",
-    "07-TEMPLATE/SKILLS",
-    "07-TEMPLATE/New folder"
+    "07-TEMPLATE/SKILLS"
   ]
 }
