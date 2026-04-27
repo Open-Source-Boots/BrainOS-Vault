@@ -1,28 +1,16 @@
 ---
-date_logged: 2026-04-16
-source_thread_date: 2026-04-05 through 2026-04-16
-source_thread_title: "Open-Source AI Setup, LM Studio, Local Models,
-                       Device Workflow"
-entry_type: tool / ai-system / meta
-chronological_position: UNKNOWN — to be placed during compilation session
-status: draft
-supersedes: UNKNOWN — cannot confirm without seeing other entries
+filename: BE-20260405-TOOL-local-ai-stack-device-ecosystem.md
+thread_date: 2026-04-05
+domain: BRAINOS-SYSTEM
+status: CANONICAL
+priority: 1
+compilation_status: pending
+supersedes: none
 superseded_by: none
-canonical_file: AI-WORKFLOW-RULES / BRAINOS-SYSTEM / BRAYDEN-IDENTITY
-                / SKILLS-EDUCATION / KRAY-STUDIOS-CONTENT
-                / NEW: DEVICE-ECOSYSTEM
-context_available: none — isolated thread. Memory search surfaced
-  project arc and entry history but not full file contents.
-tags: [open-source-ai, local-models, lm-studio, ollama, obsidian,
-       device-inventory, laptop-setup, second-brain, naming-convention,
-       adhd-workflow, tool-stack, kray-vault, brainos, full-circle,
-       lm-link, gemma, flux, wan2gp, whisper, syncthing, localsend,
-       spacedesk, pinokio, pocketpal, mobius-sync, hugging-face]
-open_questions:
-  - id: OQ-20260405-001
-    question: "Create DEVICE-ECOSYSTEM.md canonical file — pull hardware inventory out of BRAYDEN-IDENTITY into it"
-    canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+canonical_file: DEVICE-ECOSYSTEM.md
+generated_by_skill: manual
+tags: []
+notes: All 5 installs confirmed in one burst session — late-night high-energy pattern confirmed here
 ---
 # Brain Entry — Local open-source AI stack established on laptop;
   full device ecosystem designed; Obsidian introduced as brain storage;

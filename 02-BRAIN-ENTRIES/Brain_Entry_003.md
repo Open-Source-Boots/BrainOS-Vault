@@ -1,4 +1,15 @@
 ---
+filename: Brain_Entry_003.md
+thread_date: 2026-03-06
+domain: ONLINE-BUSINESS
+status: SUPERSEDED
+priority: 3
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: ACTIVE-PROJECTS.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260425-001
     question: "Confirm Kansas Sales Tax reg and EIN status"
@@ -8,6 +19,7 @@ open_questions:
     question: "confirm TikTok @ctrl.plus.you still active"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
+notes: Domain ctrlplusyou.com confirmed live; brand vibes and TikTok handle survive into later pivot
 ---
 # Brain Entry 003
 **Date:** 2026-04-10

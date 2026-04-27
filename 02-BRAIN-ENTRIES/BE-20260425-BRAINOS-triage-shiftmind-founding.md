@@ -1,12 +1,17 @@
 ---
-title: "BrainOS Triage Layer + ShiftMind Founding Thread"
-filename: "BE-20260425-BRAINOS-triage-shiftmind-founding.md"
-date: 2026-04-25
+title: BrainOS Triage Layer + ShiftMind Founding Thread
+filename: BE-20260425-BRAINOS-triage-shiftmind-founding.md
+thread_date: 2026-04-25
 domain: BRAINOS-SYSTEM
 slug: triage-shiftmind-founding
 status: ACTIVE
-canonicalfile: "BRAINOS-SYSTEM.md"
-tags: [brainos, triage, vision, shiftmind, whisper, local-ai, residential-care, obsidian, groundwork, naming, python, voice-transcription, hipaa, goodlife, proof-of-concept, business]
+priority: 1
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: ACTIVE-PROJECTS.md
+generated_by_skill: manual
+tags: ['brainos', 'triage', 'vision', 'shiftmind', 'whisper', 'local-ai', 'residential-care', 'obsidian', 'groundwork', 'naming', 'python', 'voice-transcription', 'hipaa', 'goodlife', 'proof-of-concept', 'business']
 open_questions:
   - id: OQ-20260425-001
     question: "Run first Whisper test"
@@ -20,6 +25,9 @@ open_questions:
     question: "update all canonical files from this session"
     canonical_target: DEVICE-ECOSYSTEM.md
     status: CLOSED
+date: 2026-04-25
+canonicalfile: BRAINOS-SYSTEM.md
+notes: Most recent thread in archive — this compilation session IS the action item
 ---
 Key Facts
 BrainOS diagnosis confirmed: System was growing laterally (more files, more schemas, more tools) without growing deeper into actual use; no declared endgame existed until this thread

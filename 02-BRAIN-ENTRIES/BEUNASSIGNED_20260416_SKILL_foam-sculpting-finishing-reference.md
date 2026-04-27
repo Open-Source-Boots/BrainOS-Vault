@@ -1,9 +1,21 @@
 ---
+filename: BEUNASSIGNED_20260416_SKILL_foam-sculpting-finishing-reference.md
+thread_date: 2026-04-16
+domain: SKILLS-EDUCATION
+status: IDEATION
+priority: 3
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260416-001
     question: "Confirm whether foam sculpting is an active skill track before creating CRAFT-SKILLS-ART.md"
     canonical_target: SKILLS-EDUCATION.md
     status: CLOSED
+notes: Cross-reference garage audit Row 32 — foam blocks physically present; no purchases confirmed
 ---
 entry_id: [UNASSIGNED — assign when compiled with other entries]
 date_logged: 2026-04-16

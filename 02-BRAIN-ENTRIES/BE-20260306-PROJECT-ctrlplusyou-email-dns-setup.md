@@ -1,4 +1,15 @@
 ---
+filename: BE-20260306-PROJECT-ctrlplusyou-email-dns-setup.md
+thread_date: 2026-03-06
+domain: ONLINE-BUSINESS
+status: ACTIVE
+priority: 2
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: ACTIVE-PROJECTS.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260306-001
     question: "Confirm all 5 DNS records show green in Zoho"
@@ -8,6 +19,7 @@ open_questions:
     question: "confirm Zoho username is 'support' not 'braydenboots'"
     canonical_target: ACTIVE-PROJECTS.md
     status: CLOSED
+notes: Google Workspace declined at $22.44/mo — Zoho free tier is canonical email solution
 ---
 ## STEP 1 — PRE-ENTRY ASSESSMENT
 

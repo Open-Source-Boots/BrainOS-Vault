@@ -1,4 +1,15 @@
 ---
+filename: BE-20260404-PROJECT-share-your-story-post-draft.md
+thread_date: 2026-04-04
+domain: GOODLIFE-UNION
+status: ACTIVE
+priority: 1
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: GOODLIFE-UNION.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260404-001
     question: "Confirm post published to GLWC Discord"
@@ -8,6 +19,7 @@ open_questions:
     question: "confirm Discord opened to members beyond Brayden"
     canonical_target: ACTIVE-PROJECTS.md
     status: CLOSED
+notes: Highest personal exposure GLWC document — treat with same sensitivity as Two-Hat principle
 ---
 ## STEP 1 — PRE-ENTRY QUESTIONS
 

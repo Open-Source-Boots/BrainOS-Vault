@@ -1,17 +1,25 @@
 ---
-title: "BrainOS Full Stack Setup — Git, Google Drive, n8n Install Completed"
-filename: "BE-20260423-BRAINOS-fullstack-sync-n8n-install.md"
-date: 2026-04-23
+title: BrainOS Full Stack Setup — Git, Google Drive, n8n Install Completed
+filename: BE-20260423-BRAINOS-fullstack-sync-n8n-install.md
+thread_date: 2026-04-23
 domain: BRAINOS-SYSTEM
 slug: fullstack-sync-n8n-install
 status: ACTIVE
-canonicalfile: BRAINOS-SYSTEM.md
-tags: [obsidian-git, github, google-drive-sync, ogd-sync, n8n, local-rest-api, node-js, brainos, automation, sync, security, standing-rules]
+priority: 1
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: ['obsidian-git', 'github', 'google-drive-sync', 'ogd-sync', 'n8n', 'local-rest-api', 'node-js', 'brainos', 'automation', 'sync', 'security', 'standing-rules']
 open_questions:
   - id: OQ-20260423-001
     question: "n8n workflows deprioritized — resume only after daily note habit established and Ollama running on desktop"
     canonical_target: DEVICE-ECOSYSTEM.md
     status: CLOSED
+date: 2026-04-23
+canonicalfile: BRAINOS-SYSTEM.md
+notes: n8n installed but zero workflows built; do not treat as active infrastructure yet
 ---
 KEY FACTS ESTABLISHED THIS THREAD
 Git — FULLY OPERATIONAL ✓

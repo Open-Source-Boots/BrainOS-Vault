@@ -1,4 +1,15 @@
 ---
+filename: Brain_Entry_007.md
+thread_date: 2026-04-11
+domain: FINANCIAL-SNAPSHOT
+status: CANONICAL
+priority: 1
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: FINANCIAL-SNAPSHOT.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260425-001
     question: "This entry IS the canonical financial snapshot — no further action on figures"
@@ -8,6 +19,7 @@ open_questions:
     question: "push naming reset retroactively during vault build"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
+notes: Override notice: if any entry conflicts with this one
 ---
 # 🧠 Brain Entry 007 — Master Update & Canonical Profile Reset
 **Date Logged:** April 11, 2026

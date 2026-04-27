@@ -1,4 +1,15 @@
 ---
+filename: BE-20260325-MIXED-honda-crv-repair-maintenance.md
+thread_date: 2026-03-25
+domain: VEHICLE-MAINTENANCE
+status: ACTIVE
+priority: 2
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: FINANCIAL-SNAPSHOT.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260325-001
     question: "Confirm FIMC repair completed or still pending"
@@ -8,6 +19,7 @@ open_questions:
     question: "confirm current CRV mechanical status"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
+notes: FIMC = GoodLife reimbursement for vehicle use in client transport — track receipts carefully
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-25

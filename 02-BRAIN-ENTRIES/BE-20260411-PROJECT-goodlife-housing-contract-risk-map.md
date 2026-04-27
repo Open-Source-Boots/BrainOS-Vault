@@ -1,40 +1,15 @@
 ---
-date_logged: 2026-04-16
-source_thread_date: 2026-04-11
-source_thread_title: "GoodLife Union Space — Document review, contract analysis, 
-  housing risk, PFT rate confirmation, personal protection strategy, GLWC 
-  organizing context"
-entry_type: project / financial / identity (mixed, PROJECT dominant)
-chronological_position: UNKNOWN — to be placed during Obsidian compilation session
+filename: BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md
+thread_date: 2026-04-11
+domain: GOODLIFE-UNION
 status: active
+priority: 1
 compilation_status: canonical files updated 2026-04-25
 supersedes: UNKNOWN — cannot confirm without seeing other entries
 superseded_by: none
-canonical_file: GOODLIFE-UNION (primary), FINANCIAL-SNAPSHOT (secondary), 
-  BRAYDEN-IDENTITY (tertiary)
-context_available:
-  - 602_N._Wrigley_lease.pdf (attached this thread)
-  - Boots_Beaty-PFT-LEASE-602NW.pdf (attached this thread)
-  - Jewell._Beaty-Boots_Lease_Agreement_8.1.2025.pdf (attached this thread)
-  - Jewell.Beaty-Boots_Contract_8.1.2025.pdf (attached this thread)
-  - BEATY-BOOTS-PMT-COPIES.pdf (attached this thread)
-  - PFT_Financial_MOU_12.7.22.pdf (attached this thread)
-  - PFTM_Minimum_Contractual_Outcomes_and__Expectations.pdf (attached this thread)
-  - GL_PFT_Readiness_Assessment.pdf (attached this thread)
-  - 705a-Understanding-ANE-Rights-Final-Rule-for-Relief-Supports-1.pdf (attached)
-  - D_Kyle_Jewell_updated_PCSP__25.pdf (attached this thread)
-  - TLLA.pdf (attached this thread)
-  - PFM-2025-Memo-pt1.jpg (attached this thread)
-  - PFM-2025-Memo-pt2.jpg (attached this thread)
-  - image.jpg — snippet of SL contract showing $187.37/day rate (attached)
-  - BRAYDEN-IDENTITY.md (Space file, referenced)
-  - GoodLife Innovations (Kansas) Organizational Profile and Unionization 
-    Strategy Context.pdf (Space file, referenced)
-  - GLWC Discord Categories and Channels Master List.txt (Space file, referenced)
-  - GLWC-Thread-001-Summary.md (generated and output at end of this thread)
-tags: [goodlife, GLWC, union, PFT, shared-living, housing, contracts, 
-  legal-risk, HCBS, non-compete, NDA, arbitration, Kyle-Jewell, income, 
-  personal-protection]
+canonical_file: GOODLIFE-UNION (primary), FINANCIAL-SNAPSHOT (secondary), BRAYDEN-IDENTITY (tertiary)
+generated_by_skill: manual
+tags: ['goodlife', 'GLWC', 'union', 'PFT', 'shared-living', 'housing', 'contracts', 'legal-risk', 'HCBS', 'non-compete', 'NDA', 'arbitration', 'Kyle-Jewell', 'income', 'personal-protection']
 open_questions:
   - id: OQ-20260411-001
     question: "Verify full non-compete and image clause language via engineered prompt read"
@@ -44,6 +19,13 @@ open_questions:
     question: "confirm Live-In Manager MOU surviving clauses"
     canonical_target: GOODLIFE-UNION.md
     status: CLOSED
+date_logged: 2026-04-16
+source_thread_date: 2026-04-11
+source_thread_title: GoodLife Union Space — Document review, contract analysis, housing risk, PFT rate confirmation, personal protection strategy, GLWC organizing context
+entry_type: project / financial / identity (mixed, PROJECT dominant)
+chronological_position: UNKNOWN — to be placed during Obsidian compilation session
+context_available: ['602_N._Wrigley_lease.pdf (attached this thread)', 'Boots_Beaty-PFT-LEASE-602NW.pdf (attached this thread)', 'Jewell._Beaty-Boots_Lease_Agreement_8.1.2025.pdf (attached this thread)', 'Jewell.Beaty-Boots_Contract_8.1.2025.pdf (attached this thread)', 'BEATY-BOOTS-PMT-COPIES.pdf (attached this thread)', 'PFT_Financial_MOU_12.7.22.pdf (attached this thread)', 'PFTM_Minimum_Contractual_Outcomes_and__Expectations.pdf (attached this thread)', 'GL_PFT_Readiness_Assessment.pdf (attached this thread)', '705a-Understanding-ANE-Rights-Final-Rule-for-Relief-Supports-1.pdf (attached)', 'D_Kyle_Jewell_updated_PCSP__25.pdf (attached this thread)', 'TLLA.pdf (attached this thread)', 'PFM-2025-Memo-pt1.jpg (attached this thread)', 'PFM-2025-Memo-pt2.jpg (attached this thread)', 'image.jpg — snippet of SL contract showing $187.37/day rate (attached)', 'BRAYDEN-IDENTITY.md (Space file, referenced)', 'GoodLife Innovations (Kansas) Organizational Profile and Unionization Strategy Context.pdf (Space file, referenced)', 'GLWC Discord Categories and Channels Master List.txt (Space file, referenced)', 'GLWC-Thread-001-Summary.md (generated and output at end of this thread)']
+notes: Highest legal stakes file in archive — image clause bridges DSP NLRA protection gap to PFT contractor exposure
 ---
 # Brain Entry — GoodLife contract/housing deep-dive and GLWC organizing 
   strategy foundation (April 11, 2026)

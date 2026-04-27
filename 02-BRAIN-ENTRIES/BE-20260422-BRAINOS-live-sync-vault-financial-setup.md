@@ -1,17 +1,25 @@
 ---
-title: "BrainOS Live Sync, Vault Structure & Financial Snapshot Setup"
-filename: "BE-20260422-BRAINOS-live-sync-vault-financial-setup.md"
-date: 2026-04-22
+title: BrainOS Live Sync, Vault Structure & Financial Snapshot Setup
+filename: BE-20260422-BRAINOS-live-sync-vault-financial-setup.md
+thread_date: 2026-04-22
 domain: BRAINOS-SYSTEM
 slug: live-sync-vault-financial-setup
 status: ACTIVE
-canonicalfile: BE-20260405-TOOL-local-ai-stack-device-ecosystem.md
-tags: [obsidian, git, syncthing, google-drive-sync, vault-structure, financial-snapshot, n8n, audit, open-source, standing-rule, cashflow, debt]
+priority: 1
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: ['obsidian', 'git', 'syncthing', 'google-drive-sync', 'vault-structure', 'financial-snapshot', 'n8n', 'audit', 'open-source', 'standing-rule', 'cashflow', 'debt']
 open_questions:
   - id: OQ-20260422-001
     question: "Confirm Google Drive for Desktop installed and syncing on all devices"
     canonical_target: FINANCIAL-SNAPSHOT.md
     status: OPEN
+date: 2026-04-22
+canonicalfile: BE-20260405-TOOL-local-ai-stack-device-ecosystem.md
+notes: Supersedes vault structure decisions from BE-20260405
 ---
 ## KEY FACTS ESTABLISHED THIS THREAD
 

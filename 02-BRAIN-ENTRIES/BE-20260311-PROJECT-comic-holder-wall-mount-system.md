@@ -1,28 +1,16 @@
 ---
-date_logged: 2026-04-16
-source_thread_date: 2026-03-11 (confirmed from system timestamps; thread extended to 2026-04-16 for final query)
-source_thread_title: "Comic book holder 3D print wall mount system — Bambu Lab P1S garage setup"
-entry_type: project / skill / tool
-chronological_position: UNKNOWN — to be placed during Obsidian compilation session
-status: draft
-supersedes: UNKNOWN — cannot confirm without seeing other entries
+filename: BE-20260311-PROJECT-comic-holder-wall-mount-system.md
+thread_date: 2026-03-11
+domain: MAKER
+status: ACTIVE
+priority: 2
+compilation_status: pending
+supersedes: none
 superseded_by: none
-canonical_file: NEW FILE NEEDED — see Step 3 notes; closest existing: BRAYDEN-IDENTITY, SKILLS-EDUCATION
-context_available: BRAYDEN-IDENTITY.md visible in Space files; no prior 3D printing entries found
-tags: [3d-printing, bambu-lab, comic-books, garage-organization, frenchfinity, wall-mount, maker, modular-storage, P1S]
-open_questions:
-  - id: OQ-20260311-001
-    question: "Confirm Model 1 printed"
-    canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
-  - id: OQ-20260311-002
-    question: "confirm wall anchor mounted to stud"
-    canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
-  - id: OQ-20260311-003
-    question: "confirm 0.8mm nozzle installed"
-    canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: []
+notes: Garage shelf 3 confirmed as physical home for comic boxes (BE-20260412)
 ---
 # Brain Entry — 3D Printed Comic Book Wall Mount System Design and Bambu Studio Workflow
 

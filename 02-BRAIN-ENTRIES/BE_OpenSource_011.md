@@ -1,30 +1,16 @@
 ---
-entry_id: [UNASSIGNED — assign when compiled with other entries]
-date_logged: 2026-04-16
-source_thread_date: 2026-04-05 through 2026-04-14
-source_thread_title: "Open-Source AI Setup, LM Studio, Local Models,
-                       Device Workflow"
-entry_type: tool / ai-system / skill / meta
-chronological_position: UNKNOWN — to be placed during compilation session
-status: draft
-supersedes: UNKNOWN — cannot confirm without seeing other entries
+filename: BE_OpenSource_011.md
+thread_date: 2026-04-05
+domain: BRAINOS-SYSTEM
+status: SUPERSEDED
+priority: 1
+compilation_status: pending
+supersedes: none
 superseded_by: none
-canonical_file: AI-WORKFLOW-RULES / BRAINOS-SYSTEM / BRAYDEN-IDENTITY
-                / SKILLS-EDUCATION / KRAY-STUDIOS-CONTENT
-                / [NEW: DEVICE-ECOSYSTEM]
-context_available: none — isolated thread
-tags: [open-source-ai, local-models, device-inventory, obsidian,
-       lm-studio, ollama, laptop-setup, second-brain, tool-stack,
-       naming-convention, adhd-workflow]
-open_questions:
-  - id: OQ-20260425-001
-    question: "Create DEVICE-ECOSYSTEM.md — this thread is the primary seed"
-    canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
-  - id: OQ-20260425-002
-    question: "confirm Ollama install completed (download confirmed"
-    canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+canonical_file: DEVICE-ECOSYSTEM.md
+generated_by_skill: manual
+tags: []
+notes: 2026-04-25
 ---
 # Brain Entry [UNASSIGNED] — Local open-source AI stack introduced;
   laptop partially set up; full device ecosystem planned

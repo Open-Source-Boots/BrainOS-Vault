@@ -1,9 +1,21 @@
 ---
+filename: BE-20260307-SOURCE-dropshipping-video-resource-harvest.md
+thread_date: 2026-03-07
+domain: SKILLS-EDUCATION
+status: ACTIVE
+priority: 2
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260307-001
     question: "None — reference when any store goes active"
     canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
+notes: Product Validator ChatGPT Prompt (Notion page) and Branded AI Image Guide extracted as free tools
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-07

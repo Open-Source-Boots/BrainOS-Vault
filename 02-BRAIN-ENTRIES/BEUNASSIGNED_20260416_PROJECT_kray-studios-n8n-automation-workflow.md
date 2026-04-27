@@ -1,9 +1,21 @@
 ---
+filename: BEUNASSIGNED_20260416_PROJECT_kray-studios-n8n-automation-workflow.md
+thread_date: 2026-04-16
+domain: YOUTUBE-CONTENT
+status: IDEATION
+priority: 2
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260416-001
     question: "Decide: FOSS-only or hybrid paid stack before building any n8n nodes"
     canonical_target: ACTIVE-PROJECTS.md
     status: OPEN
+notes: Companion to Rows 37 and 39; reconcile with BrainEntry008 before finalizing; Procreate Dreams differentiator is canonical
 ---
 entry_id: [UNASSIGNED — assign when compiled with other entries]
 date_logged: 2026-04-16

@@ -1,9 +1,21 @@
 ---
+filename: BEUNASSIGNED_20260416_SKILL_video-sourcing-academy-lab.md
+thread_date: 2026-04-16
+domain: YOUTUBE-CONTENT
+status: IDEATION
+priority: 3
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260416-001
     question: "Confirm academy platform and audience before creating VIDEO-SOURCING-LAB.md"
     canonical_target: SKILLS-EDUCATION.md
     status: CLOSED
+notes: Cross-link with Rows 38 and 39 — all three April 16 entries cover n8n video sourcing and should be merged or unified
 ---
 entry_id: [UNASSIGNED — assign when compiled with other entries]
 date_logged: 2026-04-16

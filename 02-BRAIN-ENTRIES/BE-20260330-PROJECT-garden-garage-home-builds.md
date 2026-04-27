@@ -1,18 +1,15 @@
 ---
-date_logged: 2026-04-16
-source_thread_date: 2026-03-28 to 2026-03-30 (confirmed via system timestamps throughout thread)
-source_thread_title: "I have a bambu labs p1s printer, I want to get started making planters/outdoor utility/yard beautification prints..."
-entry_type: project / skill / mixed
-chronological_position: UNKNOWN — to be placed during Obsidian compilation session
+filename: BE-20260330-PROJECT-garden-garage-home-builds.md
+thread_date: 2026-03-30
+domain: MAKER
 status: draft
+priority: 2
+compilation_status: pending
 supersedes: UNKNOWN — cannot confirm without seeing other entries
 superseded_by: none
 canonical_file: NEW FILE NEEDED — HOME-PROJECTS-LOG; secondary feeds to BRAYDEN-IDENTITY, SKILLS-EDUCATION
-context_available: |
-  - BE-20260311-PROJECT-comic-holder-wall-mount-system.md (visible in repo — prior P1S project context)
-  - BE-20260310-TOOL-p1s-maintenance-kit-rules.md (visible in repo — P1S filament and hardware rules)
-  - Thread-attached images: IMG_2577 (TikTok fold-down workbench screenshot), IMG_2578 (TikTok workbench deployed), IMG_2554 (Brayden's actual garage photo), image.jpeg (Home Depot 1x12 lumber shelf tag)
-tags: [3d-printing, p1s, garden, backyard, garage, DIY, PLA, PETG, Kansas, Lawrence, raised-bed, fold-down-workbench, ceiling-storage, Home-Depot, Aldi, filament, makerworld, outdoor-prints]
+generated_by_skill: manual
+tags: ['3d-printing', 'p1s', 'garden', 'backyard', 'garage', 'DIY', 'PLA', 'PETG', 'Kansas', 'Lawrence', 'raised-bed', 'fold-down-workbench', 'ceiling-storage', 'Home-Depot', 'Aldi', 'filament', 'makerworld', 'outdoor-prints']
 open_questions:
   - id: OQ-20260330-001
     question: "Assemble raised bed"
@@ -26,6 +23,16 @@ open_questions:
     question: "confirm ceiling tote rail installed"
     canonical_target: ACTIVE-PROJECTS.md
     status: CLOSED
+date_logged: 2026-04-16
+source_thread_date: 2026-03-28 to 2026-03-30 (confirmed via system timestamps throughout thread)
+source_thread_title: I have a bambu labs p1s printer, I want to get started making planters/outdoor utility/yard beautification prints...
+entry_type: project / skill / mixed
+chronological_position: UNKNOWN — to be placed during Obsidian compilation session
+context_available: - BE-20260311-PROJECT-comic-holder-wall-mount-system.md (visible in repo — prior P1S project context)
+- BE-20260310-TOOL-p1s-maintenance-kit-rules.md (visible in repo — P1S filament and hardware rules)
+- Thread-attached images: IMG_2577 (TikTok fold-down workbench screenshot), IMG_2578 (TikTok workbench deployed), IMG_2554 (Brayden's actual garage photo), image.jpeg (Home Depot 1x12 lumber shelf tag)
+
+notes: Superseded in garage detail by BE-20260412 full audit; seed entry for HOME-PROJECTS-LOG.md (file not yet created)
 ---
 # Brain Entry — Backyard garden launch, garage workbench + ceiling storage builds, and outdoor 3D printing material rules — March 30, 2026 shopping run
 

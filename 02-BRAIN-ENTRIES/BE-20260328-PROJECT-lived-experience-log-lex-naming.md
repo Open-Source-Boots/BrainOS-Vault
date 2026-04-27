@@ -1,9 +1,21 @@
 ---
+filename: BE-20260328-PROJECT-lived-experience-log-lex-naming.md
+thread_date: 2026-03-28
+domain: GOODLIFE-UNION
+status: ACTIVE
+priority: 2
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: GOODLIFE-UNION.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260328-001
     question: "Confirm all 7 GLWC form templates are saved and accessible in Drive or vault"
     canonical_target: ACTIVE-PROJECTS.md
     status: CLOSED
+notes: LEX = Lived Experience — naming convention is canonical for all GLWC documentation going forward
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-28 to 2026-03-29

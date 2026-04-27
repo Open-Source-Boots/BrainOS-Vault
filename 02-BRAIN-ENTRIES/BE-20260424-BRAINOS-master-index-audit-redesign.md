@@ -1,17 +1,25 @@
 ---
-title: "Master Index Audit & Redesign Brief"
-filename: "BE-20260424-BRAINOS-master-index-audit-redesign.md"
-date: 2026-04-24
+title: Master Index Audit & Redesign Brief
+filename: BE-20260424-BRAINOS-master-index-audit-redesign.md
+thread_date: 2026-04-24
 domain: BRAINOS-SYSTEM
 slug: master-index-audit-redesign
 status: ACTIVE
-canonicalfile: "Master-Index.csv"
-tags: [brainos, master-index, sync, audit, schema, automation]
+priority: 1
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: ['brainos', 'master-index', 'sync', 'audit', 'schema', 'automation']
 open_questions:
   - id: OQ-20260424-001
     question: "Migration complete as of April 25 2026 session — update status to COMPLETE"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
+date: 2026-04-24
+canonicalfile: Master-Index.csv
+notes: This file defines the schema all Batch 1-7 rows follow
 ---
 Key Facts
 

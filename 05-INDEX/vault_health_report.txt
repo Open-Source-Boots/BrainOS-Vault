@@ -1,0 +1,109 @@
+=== BRAINOS VAULT HEALTH CHECK ===
+Run at: 2026-04-27 01:43:28.130089
+Brain Entries on disk: 59
+Entries in MASTER-INDEX.csv: 55
+Canonical files in 04-CANONICAL/: 7
+
+--- UNINDEXED FILES (on disk, not in CSV) (4) ---
+BE-20260425-BRAINOS-master-index-migration-complete.md
+BE-20260425-BRAINOS-open-questions-automation-quiz-build.md
+BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
+
+--- STALE CSV ROWS (in CSV, file missing) (0) ---
+  ✅ None
+
+--- MISSING REQUIRED FRONTMATTER FIELDS (49) ---
+BE-20260225-MIXED-peaslee-followup.md: missing ['title']
+BE-20260226-MIXED-hub-v4-cashflow-localstorage.md: missing ['title']
+BE-20260227-PROJECT-kray-studios-brand-shopify-income-architecture.md: missing ['title']
+BE-20260228-SKILL-shopify-free-sales-playbook.md: missing ['title']
+BE-20260301-PROJECT-kray-studios-pastel-grunge-manifesto.md: missing ['title']
+BE-20260302-PROJECT-kray-studios-page-brand-clip-marketing.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260306-PROJECT-ctrlplusyou-email-dns-setup.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260306-PROJECT-ctrlplusyou-founding-session.md: missing ['title', 'filename', 'domain']
+BE-20260307-PROJECT-wall-decal-peel-stick-sourcing.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260307-SOURCE-dropshipping-video-resource-harvest.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260310-TOOL-p1s-maintenance-kit-rules.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260314-MIXED-ctrlplusyou-launch-identity-foundation.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260314-PROJECT-homestead-store-brand-suppliers.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260314-TOOL-image-to-video-ai-stack.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260317-PROJECT-aicenturyclips-automation-blueprint.md: missing ['title', 'filename', 'domain']
+BE-20260318-MIXED-ctrlplusyou-pivot-brand-docs.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260319-TOOL-openclaw-hostinger-vps-setup.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260325-MIXED-honda-crv-repair-maintenance.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260327-PROJECT-goodlife-union-founding-research.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260328-PROJECT-lived-experience-log-lex-naming.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260330-PROJECT-garden-garage-home-builds.md: missing ['title', 'filename', 'domain']
+BE-20260404-PROJECT-share-your-story-post-draft.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE-20260411-PROJECT-glwc-doclog-space-audit.md: missing ['title', 'filename', 'domain']
+BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md: missing ['title', 'filename', 'domain']
+BE-20260412-PROJECT-garage-audit-zone-plan.md: missing ['title', 'filename', 'domain']
+BE-20260422-BRAINOS-live-sync-vault-financial-setup.md: missing ['canonical_file']
+BE-20260423-BRAINOS-fullstack-sync-n8n-install.md: missing ['canonical_file']
+BE-20260423-BRAINOS-git-gdrive-sync-completed.md: missing ['canonical_file']
+BE-20260424-BRAINOS-full-build-session.md: missing ['canonical_file']
+BE-20260424-BRAINOS-master-index-audit-redesign.md: missing ['canonical_file']
+BE-20260425-BRAINOS-architecture-sync-fixes.md: missing ['canonical_file']
+BE-20260425-BRAINOS-master-index-migration-complete.md: missing ['canonical_file']
+BE-20260425-BRAINOS-triage-shiftmind-founding.md: missing ['canonical_file']
+BEUNASSIGNED_20260221_SKILL_peaslee-tech-career-path-eval.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md: missing ['title', 'filename', 'domain']
+BEUNASSIGNED_20260416_PROJECT_kray-studios-n8n-automation-workflow.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BEUNASSIGNED_20260416_SKILL_foam-sculpting-finishing-reference.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BEUNASSIGNED_20260416_SKILL_video-sourcing-academy-lab.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+BrainOS-Open-Questions-Worksheet.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+Brain_Entry_001.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+Brain_Entry_002.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+Brain_Entry_003.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+Brain_Entry_004.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+Brain_Entry_005.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+Brain_Entry_007.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+Brain_Entry_008.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+Brain_Entry_009.md: missing ['title', 'filename', 'domain', 'status', 'canonical_file']
+Brain_Entry_010.md: missing ['title', 'filename', 'domain']
+
+--- MALFORMED YAML FRONTMATTER (7) ---
+BE-20260224-FINANCIAL-incharge-dmp-debt-surplus-income.md: YAML_ERROR: mapping values are not allowed here
+  in "<unicode string>", line 13, column 48:
+     ... ed by Entry 007; behavioral note: fear of change + anti-perfecti ... 
+                                         ^
+BE-20260226-MIXED-caregiving-wav-spaces-rules.md: YAML_ERROR: mapping values are not allowed here
+  in "<unicode string>", line 13, column 39:
+     ...  Also seeds AI-WORKFLOW-RULES re: Spaces file structure; WAV pur ... 
+                                         ^
+BE-20260226-PROJECT-kray-studios-hub-v10v11-build.md: YAML_ERROR: mapping values are not allowed here
+  in "<unicode string>", line 13, column 21:
+    notes: Standing rule: always download hub HTML via c ... 
+                        ^
+BE-20260311-PROJECT-comic-holder-wall-mount-system.md: YAML_ERROR: mapping values are not allowed here
+  in "<unicode string>", line 10, column 69:
+     ... e Step 3 notes; closest existing: BRAYDEN-IDENTITY, SKILLS-EDUCATION
+                                         ^
+BE-20260405-TOOL-local-ai-stack-device-ecosystem.md: YAML_ERROR: mapping values are not allowed here
+  in "<unicode string>", line 13, column 22:
+                    / NEW: DEVICE-ECOSYSTEM
+                         ^
+BE_OpenSource_011.md: YAML_ERROR: mapping values are not allowed here
+  in "<unicode string>", line 14, column 23:
+                    / [NEW: DEVICE-ECOSYSTEM]
+                          ^
+Brain_Entry_006.md: YAML_ERROR: while scanning an alias
+  in "<unicode string>", line 3, column 1:
+    **Date 
+    ^
+expected alphabetic or numeric character, but found '*'
+  in "<unicode string>", line 3, column 2:
+    **Date 
+     ^
+
+--- ORPHANED OPEN QUESTIONS (dead canonical_target) (7) ---
+BE-20260327-PROJECT-goodlife-union-founding-research.md → OQ OQ-20260327-001 targets missing file: GOODLIFE-UNION.md
+BE-20260327-PROJECT-goodlife-union-founding-research.md → OQ OQ-20260327-002 targets missing file: GOODLIFE-UNION.md
+BE-20260411-PROJECT-glwc-doclog-space-audit.md → OQ OQ-20260411-001 targets missing file: GOODLIFE-UNION.md
+BE-20260411-PROJECT-glwc-doclog-space-audit.md → OQ OQ-20260411-002 targets missing file: GOODLIFE-UNION.md
+BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md → OQ OQ-20260411-001 targets missing file: GOODLIFE-UNION.md
+BE-20260411-PROJECT-goodlife-housing-contract-risk-map.md → OQ OQ-20260411-002 targets missing file: GOODLIFE-UNION.md
+BE-20260425-BRAINOS-open-questions-automation-quiz-build.md → OQ OQ-20260425-002 targets missing file: GLWC-PROJECT.md
+

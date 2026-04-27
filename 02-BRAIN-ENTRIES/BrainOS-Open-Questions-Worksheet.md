@@ -1,9 +1,21 @@
 ---
+filename: BrainOS-Open-Questions-Worksheet.md
+thread_date: 2026-04-17
+domain: BRAYDEN-IDENTITY
+status: CANONICAL
+priority: 1
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAYDEN-IDENTITY.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260425-001
     question: "Push all confirmed answers to canonical files — this worksheet IS the update source"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
+notes: Answers as of April 17 2026; some answers contain important behavioral notes captured below
 ---
 **BrainOS Open Questions Worksheet**
 

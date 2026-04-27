@@ -1,12 +1,17 @@
 ---
-title: "BrainOS Architecture Redesign + Sync Fixes"
-filename: "BE-20260425-BRAINOS-architecture-sync-fixes.md"
-date: 2026-04-25
+title: BrainOS Architecture Redesign + Sync Fixes
+filename: BE-20260425-BRAINOS-architecture-sync-fixes.md
+thread_date: 2026-04-25
 domain: BRAINOS-SYSTEM
 slug: architecture-sync-fixes
 status: ACTIVE
-canonicalfile: BRAINOS-SYSTEM.md
-tags: [brainos, vault-structure, master-index, raw-wiki-output, obsidian, git, syncthing, token, n8n, dataview, CommonGrounds]
+priority: 1
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: ['brainos', 'vault-structure', 'master-index', 'raw-wiki-output', 'obsidian', 'git', 'syncthing', 'token', 'n8n', 'dataview', 'CommonGrounds']
 open_questions:
   - id: OQ-20260425-001
     question: "Create MASTER-INDEX.md Dataview dashboard"
@@ -24,6 +29,9 @@ open_questions:
     question: "rename legacy Google Sheet to MASTER-INDEX-LEGACY in Drive"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
+date: 2026-04-25
+canonicalfile: BRAINOS-SYSTEM.md
+notes: Predates this compilation session by hours — seed data drafted here was the 13-row precursor to today's full 48-row migration
 ---
 Key Facts:
 

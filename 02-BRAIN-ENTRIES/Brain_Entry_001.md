@@ -1,9 +1,21 @@
 ---
+filename: Brain_Entry_001.md
+thread_date: 2026-04-10
+domain: BRAINOS-SYSTEM
+status: SUPERSEDED
+priority: 3
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260425-001
     question: "Locate pre-Entry-001 LM Studio thread and log if not already captured"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
+notes: Notion tried and rejected here — do not include Notion in any future tool lists
 ---
 # 🧠 Personal Brain — Entry 001
 **Date:** April 10, 2026

@@ -1,4 +1,15 @@
 ---
+filename: BE-20260314-TOOL-image-to-video-ai-stack.md
+thread_date: 2026-03-14
+domain: AI-WORKFLOW-RULES
+status: ACTIVE
+priority: 2
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260314-001
     question: "Verify free tier details still valid before adopting any tool"
@@ -8,6 +19,7 @@ open_questions:
     question: "confirm EaseMate 100-credit offer still live"
     canonical_target: DEVICE-ECOSYSTEM.md
     status: CLOSED
+notes: No tools confirmed adopted after this session; integration with n8n pipeline not yet built
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-14

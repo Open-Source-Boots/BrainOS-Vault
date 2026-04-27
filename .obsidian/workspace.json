@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-BRAIN-ENTRIES/BE-20260427-BRAINOS-repo-audit-canonical-compilation.md",
+                "file": "utils/README.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BE-20260427-BRAINOS-repo-audit-canonical-compilation"
+              "title": "README"
             }
           }
         ]
@@ -209,13 +209,22 @@
       "smart-connections-visualizer:Open smart connections visualizer": false
     }
   },
-  "active": "7abff79265c5120d",
+  "active": "e406d8f0221d09d1",
   "lastOpenFiles": [
+    "05-INDEX/backfill_frontmatter_log.txt",
     "05-INDEX/MASTER-INDEX.md",
+    "05-INDEX/vault_health_report.txt",
+    "utils/desktop.ini",
+    "utils/README.md",
+    "utils/vault_health_check.py",
+    "utils/log_dedup.py",
+    "utils",
+    "review_financial_questions.py",
+    "07-TEMPLATE/BE-TEMPLATE.md",
+    "02-BRAIN-ENTRIES/BE-20260427-BRAINOS-repo-audit-canonical-compilation.md",
     "03-PROJECTS/ELECTRICIAN/Untitled",
     "02-BRAIN-ENTRIES/BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md",
     "04-CANONICAL/DEVICE-ECOSYSTEM.md",
-    "02-BRAIN-ENTRIES/BE-20260427-BRAINOS-repo-audit-canonical-compilation.md",
     "01-DAILY/01-DAILY.md",
     "01-DAILY/Untitled.md",
     "04-CANONICAL/BRAINOS-SYSTEM.md",
@@ -237,14 +246,6 @@
     "04-CANONICAL/BRAYDEN-IDENTITY.md",
     "02-BRAIN-ENTRIES/Brain_Entry_006.md",
     "02-BRAIN-ENTRIES/BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md",
-    "06-ANSWERS/DEVICE-ECOSYSTEM/DEVICE-ECOSYSTEM-save-for-later.md",
-    "02-BRAIN-ENTRIES/BrainOS-Open-Questions-Worksheet.md",
-    "02-BRAIN-ENTRIES/Brain_Entry_010.md",
-    "backfill_frontmatter.py",
-    "03-PROJECTS/ELECTRICIAN/Peaslee/desktop.ini",
-    "03-PROJECTS/ELECTRICIAN/Peaslee",
-    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026/desktop.ini",
-    "02-BRAIN-ENTRIES/BE-MARCH-APRIL 2026",
-    "07-TEMPLATE/SKILLS/desktop.ini"
+    "06-ANSWERS/DEVICE-ECOSYSTEM/DEVICE-ECOSYSTEM-save-for-later.md"
   ]
 }

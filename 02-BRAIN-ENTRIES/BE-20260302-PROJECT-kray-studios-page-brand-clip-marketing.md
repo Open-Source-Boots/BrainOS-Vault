@@ -1,4 +1,15 @@
 ---
+filename: BE-20260302-PROJECT-kray-studios-page-brand-clip-marketing.md
+thread_date: 2026-03-02
+domain: ONLINE-BUSINESS
+status: SUPERSEDED
+priority: 3
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260302-001
     question: "None — standing rules already canonical"

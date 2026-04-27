@@ -1,21 +1,16 @@
 ---
-# Brain Entry 006: Perplexity Terminal Thread — Strategy, Tools, & Data Integrity
-**Date 
-Logged: April 10, 2026
-**Source Thread:** March 17, 2026 — Perplexity space, ctrl+you capability map session
-**Entry Type:** Operational Thread Log / System Critique / Identity Reinforcement
-**Status:** Canonical
-**Tags:** ctrl-you, ctrlyou-shopify, perplexity, n8n, data-integrity, ai-limits, terminal-app, second-brain, income-growth, adhd-systems
-**Cross-References:** Entry 001 (identity), Entry 002 (AI limits), Entry 003 (site build), Entry 004 (outreach log)
-open_questions:
-  - id: OQ-20260425-001
-    question: "Label v3 Google Drive docs as DRAFT-CONTAINS-ERRORS"
-    canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
-  - id: OQ-20260425-002
-    question: "confirm fabrication rule is in AI-WORKFLOW-RULES.md"
-    canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+filename: Brain_Entry_006.md
+thread_date: 2026-03-17
+domain: AI-WORKFLOW-RULES
+status: ACTIVE
+priority: 1
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: AI-WORKFLOW-RULES.md
+generated_by_skill: manual
+tags: []
+notes: Same thread as BEUNASSIGNED-20260317-MIXED — declare one canonical during vault build; employer name error (GoodLife Fitness) corrected by Entry 007
 ---
 ## What This Thread Was
 

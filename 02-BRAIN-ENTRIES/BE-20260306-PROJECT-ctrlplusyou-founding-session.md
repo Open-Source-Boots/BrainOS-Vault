@@ -1,30 +1,15 @@
 ---
-date_logged: 2026-04-16
-source_thread_date: 2026-03-06
-source_thread_title: "Ctrl+You store restart — Shopify theme prompt, TikTok setup, business registration, logo, AI room visualizer, 3D room builder vision"
-entry_type: project / tool / mixed
-chronological_position: UNKNOWN — to be placed during Obsidian compilation session
+filename: BE-20260306-PROJECT-ctrlplusyou-founding-session.md
+thread_date: 2026-03-06
+domain: ONLINE-BUSINESS
 status: draft
+priority: 3
+compilation_status: pending
 supersedes: UNKNOWN — cannot confirm without seeing other entries
 superseded_by: none
 canonical_file: CTRL-YOU-STATUS
-context_available: >
-  Files visible in Space at time of thread:
-  - Master Context File (Google Drive)
-  - KRAY-STUDIOS-SHOPIFY-Master-File (Google Drive)
-  - Actionable Tasks (Google Drive)
-  - Hub Version Specs (Google Drive)
-  - Kray-hero-liquid (Google Drive)
-  - Monthly Expenses and Cash Flow (Google Drive)
-  - Supplier-Shipping-Cost-BestFor.csv
-  - Command Hub Update Summary (Google Drive)
-  - Product-Validation-Decision-Framework.csv
-  - Shopify Publisher Mastery Guide.pdf
-  - Tool-Cost-UsedFor.csv
-  - Kray Studios - TikTok Video Archive (Google Drive)
-  Plus several unrelated files (AI Engineering book, $100 Startup, Side Hustle Bible, Blue Ocean Strategy, n8n guides)
-  No other Brain Entries were attached or referenced inside this thread.
-tags: [ctrl-you, shopify, tiktok, business-registration, logo, AI-room-visualizer, 3D-room-builder, brand-identity, kansas-tax, dropshipping, vibe-quiz]
+generated_by_skill: manual
+tags: ['ctrl-you', 'shopify', 'tiktok', 'business-registration', 'logo', 'AI-room-visualizer', '3D-room-builder', 'brand-identity', 'kansas-tax', 'dropshipping', 'vibe-quiz']
 open_questions:
   - id: OQ-20260306-001
     question: "Confirm Kansas Sales Tax reg and EIN status"
@@ -34,6 +19,14 @@ open_questions:
     question: "confirm if fyti4j store closed or rebranded"
     canonical_target: ACTIVE-PROJECTS.md
     status: CLOSED
+date_logged: 2026-04-16
+source_thread_date: 2026-03-06
+source_thread_title: Ctrl+You store restart — Shopify theme prompt, TikTok setup, business registration, logo, AI room visualizer, 3D room builder vision
+entry_type: project / tool / mixed
+chronological_position: UNKNOWN — to be placed during Obsidian compilation session
+context_available: Files visible in Space at time of thread: - Master Context File (Google Drive) - KRAY-STUDIOS-SHOPIFY-Master-File (Google Drive) - Actionable Tasks (Google Drive) - Hub Version Specs (Google Drive) - Kray-hero-liquid (Google Drive) - Monthly Expenses and Cash Flow (Google Drive) - Supplier-Shipping-Cost-BestFor.csv - Command Hub Update Summary (Google Drive) - Product-Validation-Decision-Framework.csv - Shopify Publisher Mastery Guide.pdf - Tool-Cost-UsedFor.csv - Kray Studios - TikTok Video Archive (Google Drive) Plus several unrelated files (AI Engineering book, $100 Startup, Side Hustle Bible, Blue Ocean Strategy, n8n guides) No other Brain Entries were attached or referenced inside this thread.
+
+notes: Dropshipping model deprecated March 18; brand and domain survive into local SEO pivot
 ---
 # Brain Entry — Ctrl+You store launch session: Shopify setup, TikTok profile, KS business registration, logo creation, and AI room visualizer research
 

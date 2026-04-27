@@ -1,9 +1,21 @@
 ---
+filename: Brain_Entry_008.md
+thread_date: 2026-03-19
+domain: YOUTUBE-CONTENT
+status: ACTIVE
+priority: 2
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260425-001
     question: "Rebuild Notion frameworks (Four-Line scripting"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
+notes: clip workflow) in Obsidian
 ---
 # 🧠 Brain Entry 008 — YouTube Strategy & Video Workflow Thread
 **Date Logged:** April 11, 2026

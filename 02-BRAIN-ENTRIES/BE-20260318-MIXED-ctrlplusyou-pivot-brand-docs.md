@@ -1,4 +1,15 @@
 ---
+filename: BE-20260318-MIXED-ctrlplusyou-pivot-brand-docs.md
+thread_date: 2026-03-18
+domain: ONLINE-BUSINESS
+status: SUPERSEDED
+priority: 3
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: ACTIVE-PROJECTS.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260318-001
     question: "Decide: resume local SEO or permanently shelve"
@@ -8,6 +19,7 @@ open_questions:
     question: "resolve canonical brand palette before resuming"
     canonical_target: ACTIVE-PROJECTS.md
     status: CLOSED
+notes: Full asset library in storage — all 9 docs paste-ready in thread if resuming
 ---
 ## STEP 1 — Pre-Entry Classification
 

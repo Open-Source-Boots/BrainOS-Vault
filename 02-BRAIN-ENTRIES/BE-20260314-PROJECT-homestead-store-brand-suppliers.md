@@ -1,4 +1,15 @@
 ---
+filename: BE-20260314-PROJECT-homestead-store-brand-suppliers.md
+thread_date: 2026-03-14
+domain: ONLINE-BUSINESS
+status: SUPERSEDED
+priority: 3
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: ACTIVE-PROJECTS.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260314-001
     question: "None — ideation only"
@@ -8,6 +19,7 @@ open_questions:
     question: "revisit if homestead vertical ever activates under CtrlYou multi-store vision"
     canonical_target: ACTIVE-PROJECTS.md
     status: CLOSED
+notes: Higher AOV and longer trust cycle than CtrlYou room decor — different audience
 ---
 STEP 1 — PRE-ENTRY ASSESSMENT
 1. Approximate date of this thread:

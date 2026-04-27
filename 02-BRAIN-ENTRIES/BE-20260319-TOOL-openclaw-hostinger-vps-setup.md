@@ -1,4 +1,15 @@
 ---
+filename: BE-20260319-TOOL-openclaw-hostinger-vps-setup.md
+thread_date: 2026-03-19
+domain: BRAINOS-SYSTEM
+status: SUPERSEDED
+priority: 3
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260319-001
     question: "Confirm if OpenClaw ever deployed"
@@ -8,6 +19,7 @@ open_questions:
     question: "confirm if VPS is being used for n8n or other tools"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
+notes: Hostinger VPS is a real owned asset — confirm it's not sitting idle
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-19

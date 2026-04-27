@@ -1,9 +1,21 @@
 ---
+filename: BE-20260314-MIXED-ctrlplusyou-launch-identity-foundation.md
+thread_date: 2026-03-14
+domain: BRAYDEN-IDENTITY
+status: ACTIVE
+priority: 1
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAYDEN-IDENTITY.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260314-001
     question: "Confirm Q1-Q12 content fully integrated into BRAYDEN-IDENTITY.md — done this session"
     canonical_target: BRAYDEN-IDENTITY.md
     status: CLOSED
+notes: Employer name conflict (GoodLife Fitness vs Innovations) originated here — RESOLVED: GoodLife Innovations is canonical
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-14

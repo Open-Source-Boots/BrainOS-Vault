@@ -1,4 +1,15 @@
 ---
+filename: "BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md"
+thread_date: 2026-04-16
+domain: AI-WORKFLOW-RULES
+status: IDEATION
+priority: 2
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: []
 open_questions:
   - id: OQ-20260416-001
     question: "Set up Google Cloud OAuth for Sheets/Drive API"
@@ -12,6 +23,7 @@ open_questions:
     question: "complete nodes 2-8"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
+notes: Companion to Rows 37 and 38; N8N-AUTOMATION-PIPELINE.md flagged as warranted — pending Brayden confirmation
 ---
 entry_id: [UNASSIGNED — assign when compiled with other entries]
 date_logged: 2026-04-16

@@ -1,37 +1,32 @@
 ---
-entry_id: Capability Map
-date_logged: 2026-04-16
-source_thread_date: 2026-03-17
-source_thread_title: ctrl+you Complete Capability & Execution Map / Build me a ctrl+you playbook terminal / Update Google Drive files / Debt correction exchange
-entry_type: project, ai-system, meta, financial (correction only)
-chronological_position: UNKNOWN — to be placed during Obsidian compilation session
+filename: BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md
+thread_date: 2026-03-17
+domain: AI-WORKFLOW-RULES
 status: draft
+priority: 1
+compilation_status: pending
 supersedes: UNKNOWN — cannot confirm without seeing other entries
 superseded_by: none
 canonical_file: CTRL-YOU-STATUS, AI-WORKFLOW-RULES, FINANCIAL-SNAPSHOT (correction only), BRAINOS-SYSTEM
-context_available: Brain_Entry_001 through Brain_Entry_010 visible in this space — used for contradiction-flagging only, not for injecting facts into this entry
-tags:
-  - ctrl-you
-  - n8n
-  - perplexity
-  - terminal-app
-  - ai-limits
-  - data-fabrication
-  - google-drive-docs
-  - capability-map
-  - adhd-systems
-  - second-brain
-  - financial-correction
-  - outreach-assets
+generated_by_skill: manual
+tags: ['ctrl-you', 'n8n', 'perplexity', 'terminal-app', 'ai-limits', 'data-fabrication', 'google-drive-docs', 'capability-map', 'adhd-systems', 'second-brain', 'financial-correction', 'outreach-assets']
 open_questions:
   - id: OQ-20260317-001
-    question: Flag or delete 3 v3 Drive docs (DRAFT-CONTAINS-ERRORS)
+    question: "Flag or delete 3 v3 Drive docs (DRAFT-CONTAINS-ERRORS)"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
   - id: OQ-20260317-002
     question: "confirm GoodLife Fitness vs Innovations — RESOLVED: Innovations is canonical"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
+entry_id: Capability Map
+date_logged: 2026-04-16
+source_thread_date: 2026-03-17
+source_thread_title: ctrl+you Complete Capability & Execution Map / Build me a ctrl+you playbook terminal / Update Google Drive files / Debt correction exchange
+entry_type: project, ai-system, meta, financial (correction only)
+chronological_position: UNKNOWN — to be placed during Obsidian compilation session
+context_available: Brain_Entry_001 through Brain_Entry_010 visible in this space — used for contradiction-flagging only, not for injecting facts into this entry
+notes: Same thread as BrainEntry006 — this entry is more structurally rigorous; during vault build declare one canonical and supersede the other; cross-reference Entry 006
 ---
 # Brain Entry [UNASSIGNED] — ctrl+you Capability Map, Terminal Request, Google Drive Rewrite Attempt & Financial Fabrication Correction
 

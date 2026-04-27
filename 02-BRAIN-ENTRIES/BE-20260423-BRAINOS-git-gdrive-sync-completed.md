@@ -1,12 +1,17 @@
 ---
-title: "BrainOS Vault Git + Google Drive Sync Setup — Completed"
-filename: "BE-20260423-BRAINOS-git-gdrive-sync-completed.md"
-date: 2026-04-23
+title: BrainOS Vault Git + Google Drive Sync Setup — Completed
+filename: BE-20260423-BRAINOS-git-gdrive-sync-completed.md
+thread_date: 2026-04-23
 domain: BRAINOS-SYSTEM
 slug: git-gdrive-sync-completed
 status: ACTIVE
-canonicalfile: BE-20260405-TOOL-local-ai-stack-device-ecosystem.md
-tags: [obsidian-git, github, google-drive-sync, ogd-sync, vault-sync, automation, brainos, open-source, standing-rule]
+priority: 1
+compilation_status: pending
+supersedes: none
+superseded_by: none
+canonical_file: BRAINOS-SYSTEM.md
+generated_by_skill: manual
+tags: ['obsidian-git', 'github', 'google-drive-sync', 'ogd-sync', 'vault-sync', 'automation', 'brainos', 'open-source', 'standing-rule']
 open_questions:
   - id: OQ-20260423-001
     question: "Confirm Drive folder fully populated with all subfolders"
@@ -20,6 +25,9 @@ open_questions:
     question: "install Local REST API plugin"
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
+date: 2026-04-23
+canonicalfile: BE-20260405-TOOL-local-ai-stack-device-ecosystem.md
+notes: Continues from BE-20260422; Syncthing laptop↔desktop deprioritized — Git + Drive cover cross-device sync
 ---
 KEY FACTS ESTABLISHED THIS THREAD
 Git — COMPLETED ✓
