@@ -10,16 +10,16 @@ superseded_by: none
 canonical_file: FINANCIAL-SNAPSHOT.md
 generated_by_skill: manual
 tags: []
+notes: Override notice: if any entry conflicts with this one
 open_questions:
-  - id: OQ-20260425-001
+  - id: OQ-20260427-001
     question: "This entry IS the canonical financial snapshot — no further action on figures"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-  - id: OQ-20260425-002
+    status: OPEN
+  - id: OQ-20260427-002
     question: "push naming reset retroactively during vault build"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-notes: Override notice: if any entry conflicts with this one
+    status: OPEN
 ---
 # 🧠 Brain Entry 007 — Master Update & Canonical Profile Reset
 **Date Logged:** April 11, 2026

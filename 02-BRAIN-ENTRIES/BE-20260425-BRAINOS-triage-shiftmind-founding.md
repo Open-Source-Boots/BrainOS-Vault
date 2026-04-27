@@ -12,22 +12,22 @@ superseded_by: none
 canonical_file: ACTIVE-PROJECTS.md
 generated_by_skill: manual
 tags: ['brainos', 'triage', 'vision', 'shiftmind', 'whisper', 'local-ai', 'residential-care', 'obsidian', 'groundwork', 'naming', 'python', 'voice-transcription', 'hipaa', 'goodlife', 'proof-of-concept', 'business']
-open_questions:
-  - id: OQ-20260425-001
-    question: "Run first Whisper test"
-    canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
-  - id: OQ-20260425-002
-    question: "create COMMONGROUNDS-PROJECT.md"
-    canonical_target: DEVICE-ECOSYSTEM.md
-    status: CLOSED
-  - id: OQ-20260425-003
-    question: "update all canonical files from this session"
-    canonical_target: DEVICE-ECOSYSTEM.md
-    status: CLOSED
 date: 2026-04-25
 canonicalfile: BRAINOS-SYSTEM.md
 notes: Most recent thread in archive — this compilation session IS the action item
+open_questions:
+  - id: OQ-20260425-001
+    question: "Run first Whisper test"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-002
+    question: "create COMMONGROUNDS-PROJECT.md"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+  - id: OQ-20260425-003
+    question: "update all canonical files from this session"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
 ---
 Key Facts
 BrainOS diagnosis confirmed: System was growing laterally (more files, more schemas, more tools) without growing deeper into actual use; no declared endgame existed until this thread

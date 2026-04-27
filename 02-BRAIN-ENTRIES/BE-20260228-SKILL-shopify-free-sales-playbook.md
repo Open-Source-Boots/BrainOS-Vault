@@ -10,12 +10,12 @@ superseded_by: none
 canonical_file: ACTIVE-PROJECTS.md
 generated_by_skill: manual
 tags: []
+notes: Principles apply to CtrlYou or any future store; no store-specific action taken since Feb 28
 open_questions:
   - id: OQ-20260228-001
     question: "No immediate action — reference when any store goes active"
     canonical_target: SKILLS-EDUCATION.md
-    status: CLOSED
-notes: Principles apply to CtrlYou or any future store; no store-specific action taken since Feb 28
+    status: OPEN
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-02-28

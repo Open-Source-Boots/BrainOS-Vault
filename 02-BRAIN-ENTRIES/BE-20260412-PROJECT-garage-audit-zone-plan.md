@@ -10,23 +10,6 @@ superseded_by: none
 canonical_file: NEW FILE NEEDED — HOME-PROJECTS-LOG (this thread is a direct extension of BE-20260330-PROJECT-garden-garage-home-builds.md which already proposed this file; this entry is its primary seed)
 generated_by_skill: manual
 tags: ['garage', 'organization', 'studio', 'youtube', 'filming', 'green-screen', 'storage', 'lincare', 'PFT', 'shelving', 'ceiling-storage', 'sloped-walls', 'french-cleat', 'workshop', 'styrofoam', 'gardening', 'grow-light', 'comic-books', 'art-supplies', 'Lawrence-KS', 'home-projects']
-open_questions:
-  - id: OQ-20260412-001
-    question: "Assemble raised bed"
-    canonical_target: ACTIVE-PROJECTS.md
-    status: CLOSED
-  - id: OQ-20260412-002
-    question: "build fold-down workbench"
-    canonical_target: ACTIVE-PROJECTS.md
-    status: CLOSED
-  - id: OQ-20260412-003
-    question: "install ceiling tote rail"
-    canonical_target: ACTIVE-PROJECTS.md
-    status: CLOSED
-  - id: OQ-20260412-004
-    question: "test closet cabinet doors (landlord leftovers)"
-    canonical_target: ACTIVE-PROJECTS.md
-    status: CLOSED
 date_logged: 2026-04-16
 source_thread_date: 2026-04-12 to 2026-04-14 (confirmed from system-reminder timestamps in thread)
 source_thread_title: Here's my garage, it's been a project to clear it out...
@@ -34,6 +17,23 @@ entry_type: project
 chronological_position: UNKNOWN — to be placed during Obsidian compilation session
 context_available: ['BE-20260330-PROJECT-garden-garage-home-builds.md — visible in Space files; prior garage photo (IMG2554) referenced there; ceiling tote storage and fold-down workbench also discussed there', 'BE-20260311-PROJECT-comic-holder-wall-mount-system.md — visible in Space files; same garage, same shelving, comic book boxes now confirmed in this thread', {'Thread-attached images': 'IMG_2637.jpeg, IMG_2638.jpeg, IMG_2639.jpeg, IMG_2640.jpeg (four garage angles, attached twice — same images)'}]
 notes: Sloped side walls prevent flush shelving — French cleat on back wall recommended; seed entry for HOME-PROJECTS-LOG.md
+open_questions:
+  - id: OQ-20260412-001
+    question: "Assemble raised bed"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260412-002
+    question: "build fold-down workbench"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260412-003
+    question: "install ceiling tote rail"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260412-004
+    question: "test closet cabinet doors (landlord leftovers)"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
 ---
 # Brain Entry — Garage organization, zone planning, multi-use studio/storage/workshop layout, and full item audit (April 2026)
 

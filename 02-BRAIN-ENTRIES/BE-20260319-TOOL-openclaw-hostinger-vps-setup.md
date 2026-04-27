@@ -10,16 +10,16 @@ superseded_by: none
 canonical_file: BRAINOS-SYSTEM.md
 generated_by_skill: manual
 tags: []
+notes: Hostinger VPS is a real owned asset — confirm it's not sitting idle
 open_questions:
   - id: OQ-20260319-001
     question: "Confirm if OpenClaw ever deployed"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
+    status: OPEN
   - id: OQ-20260319-002
     question: "confirm if VPS is being used for n8n or other tools"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-notes: Hostinger VPS is a real owned asset — confirm it's not sitting idle
+    status: OPEN
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-19

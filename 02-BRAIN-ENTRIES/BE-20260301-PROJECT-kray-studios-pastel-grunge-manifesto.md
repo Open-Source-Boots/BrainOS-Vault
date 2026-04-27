@@ -11,6 +11,15 @@ canonical_file: BRAINOS-SYSTEM.md
 generated_by_skill: manual
 tags: []
 notes: NXE palette status post-pivot UNCONFIRMED; Space files flagged as stale by Brayden in this thread
+open_questions:
+  - id: OQ-20260301-001
+    question: "None — brand superseded"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260301-002
+    question: "guardrails already canonical in AI-WORKFLOW-RULES"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
 ---
 # Brain Entry — Kray Studios Shopify design manifesto and browser-control agent command sheet for pastel-grunge decor/tech store
 

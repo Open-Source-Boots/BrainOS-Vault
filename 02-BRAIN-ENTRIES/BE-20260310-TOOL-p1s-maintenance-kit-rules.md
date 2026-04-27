@@ -10,6 +10,7 @@ superseded_by: none
 canonical_file: BRAINOS-SYSTEM.md
 generated_by_skill: manual
 tags: []
+notes: Canonical wiki: wiki.bambulab.com/en/p1/maintenance/p1p-maintenance
 open_questions:
   - id: OQ-20260310-001
     question: "Purchase Super Lube 52004 if not already bought"
@@ -19,7 +20,6 @@ open_questions:
     question: "confirm AMS maintenance items"
     canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
-notes: Canonical wiki: wiki.bambulab.com/en/p1/maintenance/p1p-maintenance
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-10

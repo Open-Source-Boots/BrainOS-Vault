@@ -211,6 +211,7 @@
   },
   "active": "e406d8f0221d09d1",
   "lastOpenFiles": [
+    "05-INDEX/log_dedup_report.txt",
     "05-INDEX/backfill_frontmatter_log.txt",
     "05-INDEX/MASTER-INDEX.md",
     "05-INDEX/vault_health_report.txt",
@@ -241,7 +242,6 @@
     "07-TEMPLATE/SKILLS/mdlog skill.md",
     "07-TEMPLATE/SKILLS/mdreference skill.md",
     "01-DAILY/~syncthing~2026-04-26.md.tmp",
-    "01-DAILY/~syncthing~Daily note today 4-26-26.md.tmp",
     "05-INDEX/BRAINOS-CHECKPOINT-LOG.md",
     "04-CANONICAL/BRAYDEN-IDENTITY.md",
     "02-BRAIN-ENTRIES/Brain_Entry_006.md",

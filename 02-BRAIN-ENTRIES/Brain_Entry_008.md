@@ -10,12 +10,12 @@ superseded_by: none
 canonical_file: BRAINOS-SYSTEM.md
 generated_by_skill: manual
 tags: []
+notes: clip workflow) in Obsidian
 open_questions:
-  - id: OQ-20260425-001
+  - id: OQ-20260427-001
     question: "Rebuild Notion frameworks (Four-Line scripting"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-notes: clip workflow) in Obsidian
+    status: OPEN
 ---
 # 🧠 Brain Entry 008 — YouTube Strategy & Video Workflow Thread
 **Date Logged:** April 11, 2026

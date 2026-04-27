@@ -10,12 +10,12 @@ superseded_by: none
 canonical_file: GOODLIFE-UNION.md
 generated_by_skill: manual
 tags: []
+notes: LEX = Lived Experience — naming convention is canonical for all GLWC documentation going forward
 open_questions:
   - id: OQ-20260328-001
     question: "Confirm all 7 GLWC form templates are saved and accessible in Drive or vault"
     canonical_target: ACTIVE-PROJECTS.md
-    status: CLOSED
-notes: LEX = Lived Experience — naming convention is canonical for all GLWC documentation going forward
+    status: OPEN
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-28 to 2026-03-29

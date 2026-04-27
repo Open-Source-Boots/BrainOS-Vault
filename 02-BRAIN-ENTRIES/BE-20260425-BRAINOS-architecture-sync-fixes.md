@@ -12,6 +12,9 @@ superseded_by: none
 canonical_file: BRAINOS-SYSTEM.md
 generated_by_skill: manual
 tags: ['brainos', 'vault-structure', 'master-index', 'raw-wiki-output', 'obsidian', 'git', 'syncthing', 'token', 'n8n', 'dataview', 'CommonGrounds']
+date: 2026-04-25
+canonicalfile: BRAINOS-SYSTEM.md
+notes: Predates this compilation session by hours — seed data drafted here was the 13-row precursor to today's full 48-row migration
 open_questions:
   - id: OQ-20260425-001
     question: "Create MASTER-INDEX.md Dataview dashboard"
@@ -20,18 +23,15 @@ open_questions:
   - id: OQ-20260425-002
     question: "create 99-OUTBOX/ folder"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
+    status: OPEN
   - id: OQ-20260425-003
     question: "create COMMONGROUNDS-PROJECT.md stub"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
+    status: OPEN
   - id: OQ-20260425-004
     question: "rename legacy Google Sheet to MASTER-INDEX-LEGACY in Drive"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-date: 2026-04-25
-canonicalfile: BRAINOS-SYSTEM.md
-notes: Predates this compilation session by hours — seed data drafted here was the 13-row precursor to today's full 48-row migration
+    status: OPEN
 ---
 Key Facts:
 

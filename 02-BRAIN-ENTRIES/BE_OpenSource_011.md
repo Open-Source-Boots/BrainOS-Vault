@@ -11,6 +11,15 @@ canonical_file: DEVICE-ECOSYSTEM.md
 generated_by_skill: manual
 tags: []
 notes: 2026-04-25
+open_questions:
+  - id: OQ-20260427-001
+    question: "Create DEVICE-ECOSYSTEM.md — this thread is the primary seed"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+  - id: OQ-20260427-002
+    question: "confirm Ollama install completed (download confirmed"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
 ---
 # Brain Entry [UNASSIGNED] — Local open-source AI stack introduced;
   laptop partially set up; full device ecosystem planned

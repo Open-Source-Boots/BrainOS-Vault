@@ -10,12 +10,12 @@ superseded_by: none
 canonical_file: BRAYDEN-IDENTITY.md
 generated_by_skill: manual
 tags: []
+notes: Answers as of April 17 2026; some answers contain important behavioral notes captured below
 open_questions:
-  - id: OQ-20260425-001
+  - id: OQ-20260427-001
     question: "Push all confirmed answers to canonical files — this worksheet IS the update source"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-notes: Answers as of April 17 2026; some answers contain important behavioral notes captured below
+    status: OPEN
 ---
 **BrainOS Open Questions Worksheet**
 

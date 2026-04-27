@@ -10,6 +10,7 @@ superseded_by: none
 canonical_file: ACTIVE-PROJECTS.md
 generated_by_skill: manual
 tags: []
+notes: CJ search terms: peel stick wall decal / removable wallpaper / 3D wall panel sticker / faux linen texture
 open_questions:
   - id: OQ-20260307-001
     question: "None — Kray Studios brand superseded"
@@ -18,8 +19,7 @@ open_questions:
   - id: OQ-20260307-002
     question: "product research still valid if CtrlYou wall decor vertical ever activates"
     canonical_target: ACTIVE-PROJECTS.md
-    status: CLOSED
-notes: CJ search terms: peel stick wall decal / removable wallpaper / 3D wall panel sticker / faux linen texture
+    status: OPEN
 ---
 ## STEP 1 — Pre-Entry Assessment
 

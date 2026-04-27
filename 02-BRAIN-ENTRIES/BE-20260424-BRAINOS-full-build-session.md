@@ -12,6 +12,9 @@ superseded_by: none
 canonical_file: DEVICE-ECOSYSTEM.md
 generated_by_skill: manual
 tags: ['session-log', 'n8n', 'workflow-1', 'iphone', 'obsidian-ios', 'mobius-sync', 'pocketpal', 'canonical-architecture', 'open-questions', 'project-files', 'audit-protocol', 'device-ecosystem']
+date: 2026-04-24
+canonicalfile: BRAINOS-SYSTEM.md
+notes: Master session log for Apr 23-24
 open_questions:
   - id: OQ-20260424-001
     question: "Finish Workflow 1 nodes 2-8 when n8n resumes"
@@ -20,10 +23,7 @@ open_questions:
   - id: OQ-20260424-002
     question: "confirm Möbius Sync stable across all devices"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-date: 2026-04-24
-canonicalfile: BRAINOS-SYSTEM.md
-notes: Master session log for Apr 23-24
+    status: OPEN
 ---
 ## CONFIRMED DONE — ACTIONS TAKEN THIS THREAD
 

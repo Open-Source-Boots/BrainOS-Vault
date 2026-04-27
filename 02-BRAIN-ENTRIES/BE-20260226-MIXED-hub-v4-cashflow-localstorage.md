@@ -11,6 +11,15 @@ canonical_file: FINANCIAL-SNAPSHOT.md
 generated_by_skill: manual
 tags: []
 notes: Predates CtrlYou pivot; hub concept evolved into v10/v11 the next day
+open_questions:
+  - id: OQ-20260226-001
+    question: "None — fully superseded"
+    canonical_target: FINANCIAL-SNAPSHOT.md
+    status: OPEN
+  - id: OQ-20260226-002
+    question: "no action required"
+    canonical_target: FINANCIAL-SNAPSHOT.md
+    status: OPEN
 ---
 # Brain Entry — Kray Studios Owner Hub build sessions (v3→v4), cashflow calculation, localStorage persistence, and Chrome download fix
 

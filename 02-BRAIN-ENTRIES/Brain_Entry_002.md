@@ -10,16 +10,16 @@ superseded_by: none
 canonical_file: AI-WORKFLOW-RULES.md
 generated_by_skill: manual
 tags: []
+notes: CtrlYou store wipe decision documented here — context for why store was reset to Shopify default
 open_questions:
-  - id: OQ-20260425-001
+  - id: OQ-20260427-001
     question: "Confirm browser automation rules are in AI-WORKFLOW-RULES.md"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-  - id: OQ-20260425-002
+    status: OPEN
+  - id: OQ-20260427-002
     question: "confirm 6-step sequence is in BRAINOS-SYSTEM.md"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-notes: CtrlYou store wipe decision documented here — context for why store was reset to Shopify default
+    status: OPEN
 ---
 # Brain Entry 002 — Thread Consolidation & System Status
 **Date:** April 10, 2026

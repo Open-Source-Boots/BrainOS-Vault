@@ -10,20 +10,20 @@ superseded_by: none
 canonical_file: BRAYDEN-IDENTITY.md
 generated_by_skill: manual
 tags: []
+notes: Supersedes BEUNASSIGNED_20260221 for enrollment specifics; consistent with Entry 007 Track 5; HVAC silently dropped — confirmed eliminated in Open Questions worksheet
 open_questions:
-  - id: OQ-20260425-001
+  - id: OQ-20260427-001
     question: "Call Phyllis/Gingette 785-840-9675 — WIOA voucher is the unlock"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-  - id: OQ-20260425-002
+    status: OPEN
+  - id: OQ-20260427-002
     question: "confirm payment or voucher before October to secure seat"
     canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
-  - id: OQ-20260425-003
+  - id: OQ-20260427-003
     question: "pursue Peaslee Promise scholarship"
     canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
-notes: Supersedes BEUNASSIGNED_20260221 for enrollment specifics; consistent with Entry 007 Track 5; HVAC silently dropped — confirmed eliminated in Open Questions worksheet
 ---
 # Brain Entry 005: Peaslee Tech Electrician Program & Workforce Center Navigation
 

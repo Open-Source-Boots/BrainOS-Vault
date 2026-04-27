@@ -10,12 +10,12 @@ superseded_by: none
 canonical_file: BRAYDEN-IDENTITY.md
 generated_by_skill: manual
 tags: []
+notes: Employer name conflict (GoodLife Fitness vs Innovations) originated here — RESOLVED: GoodLife Innovations is canonical
 open_questions:
   - id: OQ-20260314-001
     question: "Confirm Q1-Q12 content fully integrated into BRAYDEN-IDENTITY.md — done this session"
     canonical_target: BRAYDEN-IDENTITY.md
-    status: CLOSED
-notes: Employer name conflict (GoodLife Fitness vs Innovations) originated here — RESOLVED: GoodLife Innovations is canonical
+    status: OPEN
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-14

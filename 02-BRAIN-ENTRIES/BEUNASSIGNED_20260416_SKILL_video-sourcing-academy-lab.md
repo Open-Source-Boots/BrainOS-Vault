@@ -10,12 +10,12 @@ superseded_by: none
 canonical_file: BRAINOS-SYSTEM.md
 generated_by_skill: manual
 tags: []
+notes: Cross-link with Rows 38 and 39 — all three April 16 entries cover n8n video sourcing and should be merged or unified
 open_questions:
   - id: OQ-20260416-001
     question: "Confirm academy platform and audience before creating VIDEO-SOURCING-LAB.md"
     canonical_target: SKILLS-EDUCATION.md
-    status: CLOSED
-notes: Cross-link with Rows 38 and 39 — all three April 16 entries cover n8n video sourcing and should be merged or unified
+    status: OPEN
 ---
 entry_id: [UNASSIGNED — assign when compiled with other entries]
 date_logged: 2026-04-16

@@ -11,6 +11,11 @@ canonical_file: DEVICE-ECOSYSTEM.md
 generated_by_skill: manual
 tags: []
 notes: All 5 installs confirmed in one burst session — late-night high-energy pattern confirmed here
+open_questions:
+  - id: OQ-20260405-001
+    question: "Create DEVICE-ECOSYSTEM.md canonical file — pull hardware inventory out of BRAYDEN-IDENTITY into it"
+    canonical_target: DEVICE-ECOSYSTEM.md
+    status: OPEN
 ---
 # Brain Entry — Local open-source AI stack established on laptop;
   full device ecosystem designed; Obsidian introduced as brain storage;

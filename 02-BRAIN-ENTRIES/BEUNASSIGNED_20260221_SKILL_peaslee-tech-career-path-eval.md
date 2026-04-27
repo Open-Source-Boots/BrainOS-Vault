@@ -10,16 +10,16 @@ superseded_by: none
 canonical_file: BRAYDEN-IDENTITY.md
 generated_by_skill: manual
 tags: []
+notes: Superseded in enrollment specifics by Brain_Entry_005; consistent with Entry 007 Track 5; peer referral (Charlie) came later — this was catalog-led research
 open_questions:
   - id: OQ-20260221-001
     question: "Confirm HVAC silently eliminated as path — never documented"
     canonical_target: SKILLS-EDUCATION.md
-    status: CLOSED
+    status: OPEN
   - id: OQ-20260221-002
     question: "confirm Robotics internship availability with Peaslee directly"
     canonical_target: SKILLS-EDUCATION.md
     status: OPEN
-notes: Superseded in enrollment specifics by Brain_Entry_005; consistent with Entry 007 Track 5; peer referral (Charlie) came later — this was catalog-led research
 ---
 entry_id: [UNASSIGNED — assign when compiled with other entries]
 date_logged: 2026-04-16

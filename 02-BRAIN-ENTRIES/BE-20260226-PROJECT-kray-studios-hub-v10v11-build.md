@@ -11,6 +11,11 @@ canonical_file: FINANCIAL-SNAPSHOT.md
 generated_by_skill: manual
 tags: []
 notes: Standing rule: always download hub HTML via code-tool link — Download as HTML button unreliable; Ctrl+U grabs React not hub
+open_questions:
+  - id: OQ-20260226-001
+    question: "None — fully superseded by CtrlYou pivot March 14"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
 ---
 # Brain Entry — Kray Studios Hub v10/v11 build: interactive HTML dashboard with cashflow tracker, product research tools, and Shopify design studio
 

@@ -10,16 +10,16 @@ superseded_by: none
 canonical_file: GOODLIFE-UNION.md
 generated_by_skill: manual
 tags: []
+notes: iLink = GoodLife proprietary care management tech; Kansas AFL-CIO and SEIU Healthcare flagged as contacts
 open_questions:
   - id: OQ-20260327-001
     question: "No NLRB or AFL-CIO contact taken yet"
-    canonical_target: GOODLIFE-UNION.md
+    canonical_target: FINANCIAL-SNAPSHOT.md
     status: OPEN
   - id: OQ-20260327-002
     question: "organizing paused pending Samantha conversation"
-    canonical_target: GOODLIFE-UNION.md
-    status: CLOSED
-notes: iLink = GoodLife proprietary care management tech; Kansas AFL-CIO and SEIU Healthcare flagged as contacts
+    canonical_target: FINANCIAL-SNAPSHOT.md
+    status: OPEN
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-27

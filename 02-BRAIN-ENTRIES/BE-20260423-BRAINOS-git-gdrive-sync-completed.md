@@ -12,22 +12,22 @@ superseded_by: none
 canonical_file: BRAINOS-SYSTEM.md
 generated_by_skill: manual
 tags: ['obsidian-git', 'github', 'google-drive-sync', 'ogd-sync', 'vault-sync', 'automation', 'brainos', 'open-source', 'standing-rule']
+date: 2026-04-23
+canonicalfile: BE-20260405-TOOL-local-ai-stack-device-ecosystem.md
+notes: Continues from BE-20260422; Syncthing laptop↔desktop deprioritized — Git + Drive cover cross-device sync
 open_questions:
   - id: OQ-20260423-001
     question: "Confirm Drive folder fully populated with all subfolders"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
+    status: OPEN
   - id: OQ-20260423-002
     question: "delete empty Obsidian folder in Drive"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
+    status: OPEN
   - id: OQ-20260423-003
     question: "install Local REST API plugin"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-date: 2026-04-23
-canonicalfile: BE-20260405-TOOL-local-ai-stack-device-ecosystem.md
-notes: Continues from BE-20260422; Syncthing laptop↔desktop deprioritized — Git + Drive cover cross-device sync
+    status: OPEN
 ---
 KEY FACTS ESTABLISHED THIS THREAD
 Git — COMPLETED ✓

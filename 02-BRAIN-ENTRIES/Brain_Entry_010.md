@@ -10,21 +10,21 @@ superseded_by: none
 canonical_file: AI-WORKFLOW-RULES, BRAINOS-SYSTEM, SKILLS-EDUCATION, BRAYDEN-IDENTITY (device specs)
 generated_by_skill: manual
 tags: ['open-source', 'local-ai', 'lm-studio', 'ollama', 'obsidian', 'devices', 'infrastructure', 'second-brain', 'tools']
-open_questions:
-  - id: OQ-20260425-001
-    question: "Create DEVICE-ECOSYSTEM.md — this entry + BE_OpenSource_011 are co-equal seed sources"
-    canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-  - id: OQ-20260425-002
-    question: "complete laptop remaining tasks in order (Ollama confirm → LocalSend → LibreOffice → HuggingFace → KrayVault → Smart Connections → Syncthing)"
-    canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
 entry_id: 8
 date_logged: 2026-04-05 to 2026-04-11
 source_thread_date: 2026-04-05 to 2026-04-11
 source_thread_title: Open-Source AI Setup, LM Studio, Local Models, Device Workflow
 entry_type: tool, ai-system, meta
 notes: Overlaps significantly with BE_OpenSource_011.md — both cover April 5-11 device setup; during vault build treat Brain_Entry_010 as canonical and BE_OpenSource_011 as supplementary or merge them
+open_questions:
+  - id: OQ-20260427-001
+    question: "Create DEVICE-ECOSYSTEM.md — this entry + BE_OpenSource_011 are co-equal seed sources"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+  - id: OQ-20260427-002
+    question: "complete laptop remaining tasks in order (Ollama confirm → LocalSend → LibreOffice → HuggingFace → KrayVault → Smart Connections → Syncthing)"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
 ---
 # Brain Entry 010 — Open-Source AI Stack, Device Ecosystem & Second Brain Infrastructure
 

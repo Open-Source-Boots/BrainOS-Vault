@@ -10,19 +10,6 @@ superseded_by: none
 canonical_file: NEW FILE NEEDED — HOME-PROJECTS-LOG; secondary feeds to BRAYDEN-IDENTITY, SKILLS-EDUCATION
 generated_by_skill: manual
 tags: ['3d-printing', 'p1s', 'garden', 'backyard', 'garage', 'DIY', 'PLA', 'PETG', 'Kansas', 'Lawrence', 'raised-bed', 'fold-down-workbench', 'ceiling-storage', 'Home-Depot', 'Aldi', 'filament', 'makerworld', 'outdoor-prints']
-open_questions:
-  - id: OQ-20260330-001
-    question: "Assemble raised bed"
-    canonical_target: ACTIVE-PROJECTS.md
-    status: CLOSED
-  - id: OQ-20260330-002
-    question: "build fold-down workbench"
-    canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
-  - id: OQ-20260330-003
-    question: "confirm ceiling tote rail installed"
-    canonical_target: ACTIVE-PROJECTS.md
-    status: CLOSED
 date_logged: 2026-04-16
 source_thread_date: 2026-03-28 to 2026-03-30 (confirmed via system timestamps throughout thread)
 source_thread_title: I have a bambu labs p1s printer, I want to get started making planters/outdoor utility/yard beautification prints...
@@ -33,6 +20,19 @@ context_available: - BE-20260311-PROJECT-comic-holder-wall-mount-system.md (visi
 - Thread-attached images: IMG_2577 (TikTok fold-down workbench screenshot), IMG_2578 (TikTok workbench deployed), IMG_2554 (Brayden's actual garage photo), image.jpeg (Home Depot 1x12 lumber shelf tag)
 
 notes: Superseded in garage detail by BE-20260412 full audit; seed entry for HOME-PROJECTS-LOG.md (file not yet created)
+open_questions:
+  - id: OQ-20260330-001
+    question: "Assemble raised bed"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260330-002
+    question: "build fold-down workbench"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260330-003
+    question: "confirm ceiling tote rail installed"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
 ---
 # Brain Entry — Backyard garden launch, garage workbench + ceiling storage builds, and outdoor 3D printing material rules — March 30, 2026 shopping run
 

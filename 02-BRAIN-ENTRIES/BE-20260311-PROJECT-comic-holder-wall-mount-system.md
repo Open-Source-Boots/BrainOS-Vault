@@ -11,6 +11,19 @@ canonical_file: BRAINOS-SYSTEM.md
 generated_by_skill: manual
 tags: []
 notes: Garage shelf 3 confirmed as physical home for comic boxes (BE-20260412)
+open_questions:
+  - id: OQ-20260311-001
+    question: "Confirm Model 1 printed"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260311-002
+    question: "confirm wall anchor mounted to stud"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
+  - id: OQ-20260311-003
+    question: "confirm 0.8mm nozzle installed"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
 ---
 # Brain Entry — 3D Printed Comic Book Wall Mount System Design and Bambu Studio Workflow
 

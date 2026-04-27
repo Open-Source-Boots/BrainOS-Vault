@@ -10,16 +10,16 @@ superseded_by: none
 canonical_file: ACTIVE-PROJECTS.md
 generated_by_skill: manual
 tags: []
+notes: Domain ctrlplusyou.com confirmed live; brand vibes and TikTok handle survive into later pivot
 open_questions:
-  - id: OQ-20260425-001
+  - id: OQ-20260427-001
     question: "Confirm Kansas Sales Tax reg and EIN status"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-  - id: OQ-20260425-002
+    status: OPEN
+  - id: OQ-20260427-002
     question: "confirm TikTok @ctrl.plus.you still active"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-notes: Domain ctrlplusyou.com confirmed live; brand vibes and TikTok handle survive into later pivot
+    status: OPEN
 ---
 # Brain Entry 003
 **Date:** 2026-04-10

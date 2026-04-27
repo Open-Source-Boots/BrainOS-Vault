@@ -10,12 +10,12 @@ superseded_by: none
 canonical_file: BRAINOS-SYSTEM.md
 generated_by_skill: manual
 tags: []
+notes: Cross-reference garage audit Row 32 — foam blocks physically present; no purchases confirmed
 open_questions:
   - id: OQ-20260416-001
     question: "Confirm whether foam sculpting is an active skill track before creating CRAFT-SKILLS-ART.md"
     canonical_target: SKILLS-EDUCATION.md
-    status: CLOSED
-notes: Cross-reference garage audit Row 32 — foam blocks physically present; no purchases confirmed
+    status: OPEN
 ---
 entry_id: [UNASSIGNED — assign when compiled with other entries]
 date_logged: 2026-04-16

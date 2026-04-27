@@ -12,14 +12,14 @@ superseded_by: none
 canonical_file: BRAINOS-SYSTEM.md
 generated_by_skill: manual
 tags: ['obsidian-git', 'github', 'google-drive-sync', 'ogd-sync', 'n8n', 'local-rest-api', 'node-js', 'brainos', 'automation', 'sync', 'security', 'standing-rules']
+date: 2026-04-23
+canonicalfile: BRAINOS-SYSTEM.md
+notes: n8n installed but zero workflows built; do not treat as active infrastructure yet
 open_questions:
   - id: OQ-20260423-001
     question: "n8n workflows deprioritized — resume only after daily note habit established and Ollama running on desktop"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: CLOSED
-date: 2026-04-23
-canonicalfile: BRAINOS-SYSTEM.md
-notes: n8n installed but zero workflows built; do not treat as active infrastructure yet
+    status: OPEN
 ---
 KEY FACTS ESTABLISHED THIS THREAD
 Git — FULLY OPERATIONAL ✓

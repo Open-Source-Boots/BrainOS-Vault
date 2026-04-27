@@ -11,6 +11,15 @@ canonical_file: FINANCIAL-SNAPSHOT.md
 generated_by_skill: manual
 tags: []
 notes: Superseded by Entry 007; behavioral note: fear of change + anti-perfectionism confirmed in this thread
+open_questions:
+  - id: OQ-20260224-001
+    question: "None — superseded"
+    canonical_target: FINANCIAL-SNAPSHOT.md
+    status: OPEN
+  - id: OQ-20260224-002
+    question: "flag Affirm gap ($2585 Feb vs $3309 Apr) for Brayden to explain"
+    canonical_target: FINANCIAL-SNAPSHOT.md
+    status: OPEN
 ---
 # Brain Entry — Debt Management Deep Dive: InCharge DMP Quote, Surplus Correction, Fiverr/Cults3D Launch Attempt (Feb 24–25, 2026)
 

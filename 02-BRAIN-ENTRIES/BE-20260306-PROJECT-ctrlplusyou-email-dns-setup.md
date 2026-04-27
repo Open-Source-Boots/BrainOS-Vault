@@ -10,16 +10,16 @@ superseded_by: none
 canonical_file: ACTIVE-PROJECTS.md
 generated_by_skill: manual
 tags: []
+notes: Google Workspace declined at $22.44/mo — Zoho free tier is canonical email solution
 open_questions:
   - id: OQ-20260306-001
     question: "Confirm all 5 DNS records show green in Zoho"
     canonical_target: ACTIVE-PROJECTS.md
-    status: CLOSED
+    status: OPEN
   - id: OQ-20260306-002
     question: "confirm Zoho username is 'support' not 'braydenboots'"
     canonical_target: ACTIVE-PROJECTS.md
-    status: CLOSED
-notes: Google Workspace declined at $22.44/mo — Zoho free tier is canonical email solution
+    status: OPEN
 ---
 ## STEP 1 — PRE-ENTRY ASSESSMENT
 

@@ -11,6 +11,15 @@ canonical_file: AI-WORKFLOW-RULES.md
 generated_by_skill: manual
 tags: []
 notes: Same thread as BEUNASSIGNED-20260317-MIXED — declare one canonical during vault build; employer name error (GoodLife Fitness) corrected by Entry 007
+open_questions:
+  - id: OQ-20260427-001
+    question: "Label v3 Google Drive docs as DRAFT-CONTAINS-ERRORS"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
+  - id: OQ-20260427-002
+    question: "confirm fabrication rule is in AI-WORKFLOW-RULES.md"
+    canonical_target: BRAINOS-SYSTEM.md
+    status: OPEN
 ---
 ## What This Thread Was
 

@@ -10,16 +10,16 @@ superseded_by: none
 canonical_file: GOODLIFE-UNION.md
 generated_by_skill: manual
 tags: []
+notes: Highest personal exposure GLWC document — treat with same sensitivity as Two-Hat principle
 open_questions:
   - id: OQ-20260404-001
     question: "Confirm post published to GLWC Discord"
     canonical_target: ACTIVE-PROJECTS.md
-    status: CLOSED
+    status: OPEN
   - id: OQ-20260404-002
     question: "confirm Discord opened to members beyond Brayden"
     canonical_target: ACTIVE-PROJECTS.md
-    status: CLOSED
-notes: Highest personal exposure GLWC document — treat with same sensitivity as Two-Hat principle
+    status: OPEN
 ---
 ## STEP 1 — PRE-ENTRY QUESTIONS
 

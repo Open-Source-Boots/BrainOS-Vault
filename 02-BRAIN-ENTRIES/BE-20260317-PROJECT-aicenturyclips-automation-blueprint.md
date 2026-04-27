@@ -10,11 +10,6 @@ superseded_by: none
 canonical_file: KRAY-STUDIOS-CONTENT / AI-WORKFLOW-RULES
 generated_by_skill: manual
 tags: ['n8n', 'control-browser', 'tiktok', 'faceless-channel', 'automation', 'google-drive', 'elevenlabs', 'heygen', 'shotstack', 'aicenturyclips', 'script-generation']
-open_questions:
-  - id: OQ-20260317-001
-    question: "Revisit when n8n workflows resume and Ollama is running on desktop"
-    canonical_target: ACTIVE-PROJECTS.md
-    status: CLOSED
 date_logged: 2026-04-16
 source_thread_date: 2026-03-17
 source_thread_title: TikTok automation channel — pull, transcribe, copy process, Control Browser, Google Drive
@@ -22,6 +17,11 @@ entry_type: project / tool / skill
 chronological_position: UNKNOWN — to be placed during Obsidian compilation session
 context_available: none — isolated thread
 notes: n8n deprioritized April 2026 — no workflows until daily note habit established; artifact AIChannelAutomationBlueprint.md generated
+open_questions:
+  - id: OQ-20260317-001
+    question: "Revisit when n8n workflows resume and Ollama is running on desktop"
+    canonical_target: ACTIVE-PROJECTS.md
+    status: OPEN
 ---
 # Brain Entry — AI Faceless Clip Channel Automation Blueprint (Mar 17 2026)
 

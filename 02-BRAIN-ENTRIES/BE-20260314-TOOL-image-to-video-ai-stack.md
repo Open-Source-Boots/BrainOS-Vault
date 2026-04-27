@@ -10,16 +10,16 @@ superseded_by: none
 canonical_file: BRAINOS-SYSTEM.md
 generated_by_skill: manual
 tags: []
+notes: No tools confirmed adopted after this session; integration with n8n pipeline not yet built
 open_questions:
   - id: OQ-20260314-001
     question: "Verify free tier details still valid before adopting any tool"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: CLOSED
+    status: OPEN
   - id: OQ-20260314-002
     question: "confirm EaseMate 100-credit offer still live"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: CLOSED
-notes: No tools confirmed adopted after this session; integration with n8n pipeline not yet built
+    status: OPEN
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-14

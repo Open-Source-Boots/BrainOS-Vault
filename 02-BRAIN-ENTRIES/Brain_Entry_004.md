@@ -10,16 +10,16 @@ superseded_by: none
 canonical_file: ACTIVE-PROJECTS.md
 generated_by_skill: manual
 tags: []
+notes: Logged April 10 from March 17 thread — out of chronological order; companion to BEUNASSIGNED_20260317 which is more detailed; during vault build declare one canonical
 open_questions:
-  - id: OQ-20260425-001
+  - id: OQ-20260427-001
     question: "Confirm outreach assets deleted from Drive (confirmed in Open Questions worksheet)"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-  - id: OQ-20260425-002
+    status: OPEN
+  - id: OQ-20260427-002
     question: "no action until vault compilation complete"
     canonical_target: BRAINOS-SYSTEM.md
-    status: CLOSED
-notes: Logged April 10 from March 17 thread — out of chronological order; companion to BEUNASSIGNED_20260317 which is more detailed; during vault build declare one canonical
+    status: OPEN
 ---
 # Brain Entry 004
 **Date Logged:** April 10, 2026
