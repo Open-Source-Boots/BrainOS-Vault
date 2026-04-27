@@ -127,3 +127,5 @@
 "event_logs:item:embedded": {"key":"item:embedded","ct":9067,"first_at":1776952867686,"last_at":1777264773320,"class_name":"EventLog"},
 "event_logs:embedding:progress": {"key":"embedding:progress","ct":515,"first_at":1776952867687,"last_at":1777264773321,"class_name":"EventLog","event_sources":{"process_embed_queue":515}},
 "event_logs:embedding:completed": {"key":"embedding:completed","ct":229,"first_at":1776952929829,"last_at":1777264773321,"class_name":"EventLog","event_sources":{"process_embed_queue":229}},
+"event_logs:source:initial_scan_started": {"key":"source:initial_scan_started","ct":1,"first_at":1777265661201,"last_at":1777265661201,"class_name":"EventLog","event_sources":{"init_items":1}},
+"event_logs:source:initial_scan_completed": {"key":"source:initial_scan_completed","ct":1,"first_at":1777265661223,"last_at":1777265661223,"class_name":"EventLog","event_sources":{"init_items":1}},
