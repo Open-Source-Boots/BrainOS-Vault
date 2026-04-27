@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-BRAIN-ENTRIES/BE-20260427-BRAINOS-repo-audit-canonical-compilation.md",
+                "file": "05-INDEX/MASTER-INDEX.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BE-20260427-BRAINOS-repo-audit-canonical-compilation"
+              "title": "MASTER-INDEX"
             }
           }
         ]
@@ -188,7 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 465.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,8 +211,8 @@
   },
   "active": "7abff79265c5120d",
   "lastOpenFiles": [
-    "01-DAILY/01-DAILY.md",
     "02-BRAIN-ENTRIES/BE-20260427-BRAINOS-repo-audit-canonical-compilation.md",
+    "01-DAILY/01-DAILY.md",
     "01-DAILY/Untitled.md",
     "04-CANONICAL/BRAINOS-SYSTEM.md",
     "01-DAILY/~syncthing~01-DAILY.md.tmp",

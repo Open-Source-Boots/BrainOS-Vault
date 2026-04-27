@@ -133,3 +133,4 @@
 "event_logs:item:embedded": {"key":"item:embedded","ct":9152,"first_at":1776952867686,"last_at":1777268888187,"class_name":"EventLog"},
 "event_logs:embedding:progress": {"key":"embedding:progress","ct":526,"first_at":1776952867687,"last_at":1777268888187,"class_name":"EventLog","event_sources":{"process_embed_queue":526}},
 "event_logs:embedding:completed": {"key":"embedding:completed","ct":235,"first_at":1776952929829,"last_at":1777268888187,"class_name":"EventLog","event_sources":{"process_embed_queue":235}},
+"event_logs:sources:opened": {"key":"sources:opened","ct":299,"first_at":1776396938037,"last_at":1777269010059,"class_name":"EventLog","event_sources":{"active-leaf-change":295,"file-open":3,"open_source":1}},
