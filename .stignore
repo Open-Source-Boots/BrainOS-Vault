@@ -1,6 +1,6 @@
 .git
 *.tmp
-~syncthings~*
+~syncthing~*
 /.obsidian/plugins
 /.obsidian/community-plugins.json
 /.obsidian/workspace.json
