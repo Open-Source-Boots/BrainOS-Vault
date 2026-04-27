@@ -4,10 +4,10 @@ import re
 import yaml
 from datetime import datetime
 
-VAULT_ROOT = "C:/Users/brayd/Desktop/Open-Source AI/BrainOS Vault"
+VAULT_ROOT = os.path.dirname(os.path.abspath(__file__))
 BRAIN_ENTRIES_FOLDER = "02-BRAIN-ENTRIES"
-CSV_PATH = "05-INDEX/MASTER-INDEX.csv"
-LOG_PATH = "05-INDEX/backfill_frontmatter_log.txt"
+CSV_PATH = os.path.join(VAULT_ROOT, "05-INDEX", "MASTER-INDEX.csv")
+LOG_PATH = os.path.join(VAULT_ROOT, "05-INDEX", "backfill_frontmatter_log.txt")
 
 def load_csv(path):
     rows = []
@@ -75,7 +75,6 @@ def build_frontmatter(fm_dict):
                 else:
                     lines.append(f"{key}: {val}")
             written.add(key)
-    # write any remaining keys not in field_order
     for key, val in fm_dict.items():
         if key not in written:
             lines.append(f"{key}: {val}")
@@ -103,22 +102,20 @@ def main():
 
         fm, body = extract_frontmatter(content)
 
-        # Fields to backfill from CSV if missing in frontmatter
-       	csv_fields = {
-    "thread_date": (row.get("thread_date") or "").strip(),
-    "domain": (row.get("domain") or "").strip(),
-    "status": (row.get("status") or "draft").strip(),
-    "priority": (row.get("priority") or "").strip(),
-    "canonical_file": (row.get("canonical_file") or "").strip(),
-    "notes": (row.get("notes") or "").strip(),
- 							}
+        csv_fields = {
+            "thread_date": (row.get("thread_date") or "").strip(),
+            "domain": (row.get("domain") or "").strip(),
+            "status": (row.get("status") or "draft").strip(),
+            "priority": (row.get("priority") or "").strip(),
+            "canonical_file": (row.get("canonical_file") or "").strip(),
+            "notes": (row.get("notes") or "").strip(),
+        }
         changed = False
         for field, csv_val in csv_fields.items():
             if csv_val and not fm.get(field):
                 fm[field] = csv_val
                 changed = True
 
-        # Always ensure these fields exist
         defaults = {
             "filename": filename,
             "compilation_status": fm.get("compilation_status", "pending"),
