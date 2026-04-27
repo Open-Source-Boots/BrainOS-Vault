@@ -1,5 +1,5 @@
 ---
-entry_id: UNASSIGNED — assign when compiled with other entries
+entry_id: Capability Map
 date_logged: 2026-04-16
 source_thread_date: 2026-03-17
 source_thread_title: ctrl+you Complete Capability & Execution Map / Build me a ctrl+you playbook terminal / Update Google Drive files / Debt correction exchange
@@ -10,10 +10,22 @@ supersedes: UNKNOWN — cannot confirm without seeing other entries
 superseded_by: none
 canonical_file: CTRL-YOU-STATUS, AI-WORKFLOW-RULES, FINANCIAL-SNAPSHOT (correction only), BRAINOS-SYSTEM
 context_available: Brain_Entry_001 through Brain_Entry_010 visible in this space — used for contradiction-flagging only, not for injecting facts into this entry
-tags: [ctrl-you, n8n, perplexity, terminal-app, ai-limits, data-fabrication, google-drive-docs, capability-map, adhd-systems, second-brain, financial-correction, outreach-assets]
+tags:
+  - ctrl-you
+  - n8n
+  - perplexity
+  - terminal-app
+  - ai-limits
+  - data-fabrication
+  - google-drive-docs
+  - capability-map
+  - adhd-systems
+  - second-brain
+  - financial-correction
+  - outreach-assets
 open_questions:
   - id: OQ-20260317-001
-    question: "Flag or delete 3 v3 Drive docs (DRAFT-CONTAINS-ERRORS)"
+    question: Flag or delete 3 v3 Drive docs (DRAFT-CONTAINS-ERRORS)
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
   - id: OQ-20260317-002
