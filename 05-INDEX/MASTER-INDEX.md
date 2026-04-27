@@ -1,8 +1,8 @@
 ---
-title: "Master Index — BrainOS Vault"
+title: Master Index — BrainOS Vault
 filename: MASTER-INDEX.md
 updated: 2026-04-26
-status: CANONICAL
+status: INDEX
 ---
 
 # 🗂 BrainOS — Master Index
