@@ -208,3 +208,27 @@
 **Question:** Has CommonGrounds been added to ACTIVE-PROJECTS.md as a named project with a stub file?
 **Answer:** yes commongrounds is included
 **Status:** CLOSED
+
+## OQ-20260427-016 — 2026-04-30 14:36
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** What is the single most passive Shopify model Brayden has fully set up end-to-end, even at one product?
+**Answer:** No models established, no sales ever, nothing has been circled back to for shopify. Ultimately, I just want at least one, but potentially many different income streams
+**Status:** CLOSED
+
+## OQ-20260427-017 — 2026-04-30 14:36
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** Has Brayden confirmed the Shopify store fyti4j-00.myshopify.com is currently open, draft, or closed?
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260427-018 — 2026-04-30 14:36
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** Has Brayden confirmed the Zoho DNS records for support@ctrlplusyou.com are all showing green?
+**Answer:** Yes
+**Status:** CLOSED
+
+## OQ-20260427-020 — 2026-04-30 14:36
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** What is the canonical brand palette for Ctrl+You — Signal Blue or Burnt Amber — and has it been decided?
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE

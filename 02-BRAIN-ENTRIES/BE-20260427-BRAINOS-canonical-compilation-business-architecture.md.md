@@ -29,17 +29,17 @@ open_questions:
   - id: OQ-20260427-016
     question: "What is the single most passive Shopify model Brayden has fully set up end-to-end, even at one product?"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 
   - id: OQ-20260427-017
     question: "Has Brayden confirmed the Shopify store fyti4j-00.myshopify.com is currently open, draft, or closed?"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 
   - id: OQ-20260427-018
     question: "Has Brayden confirmed the Zoho DNS records for support@ctrlplusyou.com are all showing green?"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 
   - id: OQ-20260427-019
     question: "Has Brayden filed for a Kansas EIN or Sales Tax registration via ksbiz.kansas.gov?"
@@ -49,27 +49,27 @@ open_questions:
   - id: OQ-20260427-020
     question: "What is the canonical brand palette for Ctrl+You — Signal Blue or Burnt Amber — and has it been decided?"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 
   - id: OQ-20260427-021
     question: "What does Brayden define as the minimum viable version of CommonGrounds — what would it need to do or contain to be worth showing someone else?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 
   - id: OQ-20260427-022
     question: "Is the Hostinger VPS currently running anything, idle, or cancelled — and does Brayden still have access to hPanel?"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
 
   - id: OQ-20260427-023
     question: "What is the OLLAMA_MODELS environment variable currently set to on the laptop, and has it been redirected to the 2TB external drive?"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
 
   - id: OQ-20260427-024
     question: "When Brayden imagines a Skool community for CommonGrounds, who is the first person he would invite — and does that person exist in his life already?"
     canonical_target: BRAYDEN-IDENTITY.md
-    status: OPEN
+    status: CLOSED
 
   - id: OQ-20260427-025
     question: "Has a daily note habit been established in Obsidian — even one entry — since the vault went live?"

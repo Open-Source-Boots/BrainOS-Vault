@@ -76,3 +76,9 @@
 **Question:** test closet cabinet doors (landlord leftovers)
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260427-019 — 2026-04-30 14:36
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** Has Brayden filed for a Kansas EIN or Sales Tax registration via ksbiz.kansas.gov?
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER

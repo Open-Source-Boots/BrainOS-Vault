@@ -346,3 +346,9 @@
 **Question:** update all canonical files from this session
 **Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
 **Status:** DUPLICATE
+
+## OQ-20260427-021 — 2026-04-30 14:39
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** What does Brayden define as the minimum viable version of CommonGrounds — what would it need to do or contain to be worth showing someone else?
+**Answer:** Creating a living, subjective, transferable log of staff experiences that can allow interactions between the user and the information; for example, a new staff can ask the model a question about a specific client, the model will pull from its library of person-specific records, and answer the staff's question with subjective, accurate, and helpful answers.
+**Status:** CLOSED

@@ -70,3 +70,15 @@
 **Question:** n8n workflows deprioritized — resume only after daily note habit established and Ollama running on desktop
 **Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
 **Status:** DUPLICATE
+
+## OQ-20260427-022 — 2026-04-30 14:40
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** Is the Hostinger VPS currently running anything, idle, or cancelled — and does Brayden still have access to hPanel?
+**Answer:** Hostinger VPS is currently idle
+**Status:** CLOSED
+
+## OQ-20260427-023 — 2026-04-30 14:44
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** What is the OLLAMA_MODELS environment variable currently set to on the laptop, and has it been redirected to the 2TB external drive?
+**Answer:** Nothing has been moved to either external hard drive. The currently installed LLMs exist solely on the laptop, QWEN I believe, and then a model on the iphone, SmoLVE i believe.
+**Status:** CLOSED

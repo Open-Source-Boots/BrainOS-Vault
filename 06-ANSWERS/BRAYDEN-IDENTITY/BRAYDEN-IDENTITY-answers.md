@@ -10,3 +10,9 @@
 **Question:** Has Brayden confirmed the $100K target has a breakdown — which income streams close the gap?
 **Answer:** I don't know what will get me there, that's why I'm building all of this, to help me figure it out
 **Status:** CLOSED
+
+## OQ-20260427-024 — 2026-04-30 14:45
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** When Brayden imagines a Skool community for CommonGrounds, who is the first person he would invite — and does that person exist in his life already?
+**Answer:** Someone trying to build out their own local, open-sourced workflow/ecosystem. In the original inception of CommonGrounds, the first customer would be a Caregiving provider, answering the problem of loss of continuity of care with high staff turn-over.
+**Status:** CLOSED
