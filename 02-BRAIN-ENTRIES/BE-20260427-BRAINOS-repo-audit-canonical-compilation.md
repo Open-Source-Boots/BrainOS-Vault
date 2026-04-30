@@ -65,7 +65,7 @@ open_questions:
   - id: OQ-20260427-012
     question: "At what point does a local LLM (Ollama/LM Studio) replace cloud AI (Perplexity) as the primary session tool — what capability gap remains?"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
 
 ---
 

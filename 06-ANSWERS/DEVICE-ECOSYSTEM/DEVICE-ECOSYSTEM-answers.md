@@ -94,3 +94,9 @@
 **Question:** Does the iPhone PAT for GitHub expire May 22, 2026, and has a renewal reminder been set?
 **Answer:** Yes and yes
 **Status:** CLOSED
+
+## OQ-20260427-012 — 2026-04-30 15:46
+**Source:** BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
+**Question:** At what point does a local LLM (Ollama/LM Studio) replace cloud AI (Perplexity) as the primary session tool — what capability gap remains?
+**Answer:** I hope soon. Obviously I need to set the desktop/pc up, that will be the primary engine of the local LLM models I want to run. In terms of capability gap, I like that I have access to Claude with Perplexity, even if it's a round-about way of accessing Claude, I like that Perplexity is giving me the ability to do research and online searching, I like that I can upload documents and images, it's pretty fast, it has AI integrations already in place with my github, google drive, and a few other accounts (the other connections aren't as important, I haven't the other connectors besides Google Drive and Github), perplexity was where this all started so it's been natural to use. Mostly online research, more powerful models, various file types allowed to be added to prompts, the documents are processed mostly correct.
+**Status:** CLOSED
