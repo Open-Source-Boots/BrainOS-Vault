@@ -365,6 +365,7 @@ Origin: BrainEntry002. This is the canonical order of operations for any build o
 ## Compilation Status Tags
 
 `CURRENT` · `STALE` · `SUPERSEDED` · `PENDING-UPDATE`
+
 ---
 ## AI Session Standing Rules
 
