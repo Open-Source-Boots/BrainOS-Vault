@@ -244,3 +244,9 @@
 **Question:** If Brayden had Whisper running locally today and recorded 10 minutes of footage, what would the first video he processes actually be about?
 **Answer:** Whisper isn't for video necessarily, it was recommended I install it for transcribing voice, making indexing and note-taking more immediate, decreasing the friction staff, and myself, may have when wanting to capture an idea, note, event, etc.
 **Status:** CLOSED
+
+## OQ-20260427-005 — 2026-04-30 15:25
+**Source:** BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
+**Question:** What files actually exist inside 03-PROJECTS subfolders (CTRL-YOU, GLWC, ELECTRICIAN, YOUTUBE, HOMESTEAD) beyond placeholder structure?
+**Answer:** Right now there is a subfolder for: COMMONGROUNDS, CTRL+YOU (Named CTRL-YOU in Obsidian for file naming reasons), ELECTRICIAN, GLWC, HOMESTEAD, and YOUTUBE. Beyond the subfolders, there is a project .md in CommonGrounds, and a Peaslee subfolder nestled under ELECTRICIAN, nothing else in the other projects.
+**Status:** CLOSED

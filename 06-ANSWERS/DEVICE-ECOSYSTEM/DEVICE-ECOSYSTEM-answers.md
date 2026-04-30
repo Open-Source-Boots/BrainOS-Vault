@@ -82,3 +82,15 @@
 **Question:** What is the OLLAMA_MODELS environment variable currently set to on the laptop, and has it been redirected to the 2TB external drive?
 **Answer:** Nothing has been moved to either external hard drive. The currently installed LLMs exist solely on the laptop, QWEN I believe, and then a model on the iphone, SmoLVE i believe.
 **Status:** CLOSED
+
+## OQ-20260427-002 — 2026-04-30 15:20
+**Source:** BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
+**Question:** What is the current status of Ollama on the desktop — is it installed and running, or only downloaded?
+**Answer:** Not even sure anything is installed, haven't have access to work on the desktop over the past few weeks. It's there, it's going to have infrastructure built-out eventually, but currently, nothing is installed or running.
+**Status:** CLOSED
+
+## OQ-20260427-003 — 2026-04-30 15:20
+**Source:** BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
+**Question:** Does the iPhone PAT for GitHub expire May 22, 2026, and has a renewal reminder been set?
+**Answer:** Yes and yes
+**Status:** CLOSED

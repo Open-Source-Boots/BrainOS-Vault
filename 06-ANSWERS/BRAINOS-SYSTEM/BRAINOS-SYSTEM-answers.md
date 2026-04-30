@@ -364,3 +364,27 @@
 **Question:** Does a HIPAA Business Associate Agreement (BAA) need to exist between Brayden and any future CommonGrounds user who processes care notes through a local model he packages?
 **Answer:** Probably will need to exist once it comes to that point, I don't know the full legality of building a system like this
 **Status:** CLOSED
+
+## OQ-20260427-001 — 2026-04-30 15:18
+**Source:** BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
+**Question:** Should the vault ever be moved out of the Google Drive-synced folder once a dedicated mobile sync pipeline (e.g. Syncthing or n8n) is operational?
+**Answer:** Maybe, if it makes sense to do so. Right now, I like having a google drive mirror of everything since I'm still using perplexity and perplexity allows google drive file saving/sync.
+**Status:** CLOSED
+
+## OQ-20260427-004 — 2026-04-30 15:22
+**Source:** BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
+**Question:** Are the three automation scripts (backfill_frontmatter.py, inject_open_questions.py, review_questions.py) functional and tested, or committed but untested?
+**Answer:** I believe all the automation scripts are working correctly and have been used at least once
+**Status:** CLOSED
+
+## OQ-20260427-006 — 2026-04-30 15:25
+**Source:** BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
+**Question:** Does the MASTER-INDEX.csv currently contain entries for all 48 Brain Entries, or are early Brain_Entry_001–010 and BEUNASSIGNED files missing from the index?
+**Answer:** I believe all the files that are under 02-BRAIN-ENTRIES are indexed.
+**Status:** CLOSED
+
+## OQ-20260427-007 — 2026-04-30 15:26
+**Source:** BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
+**Question:** Is the naming inconsistency between Brain_Entry_001–010 and BE-YYYYMMDD format causing any Dataview query failures in Obsidian right now?
+**Answer:** As far as I can tell, no issues detected, but it's not a high-priority fix, those older files are getting older and less relevant to the overall project anyways.
+**Status:** CLOSED

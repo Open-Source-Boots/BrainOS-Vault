@@ -21,31 +21,31 @@ open_questions:
   - id: OQ-20260427-001
     question: "Should the vault ever be moved out of the Google Drive-synced folder once a dedicated mobile sync pipeline (e.g. Syncthing or n8n) is operational?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-002
     question: "What is the current status of Ollama on the desktop — is it installed and running, or only downloaded?"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-003
     question: "Does the iPhone PAT for GitHub expire May 22, 2026, and has a renewal reminder been set?"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-004
     question: "Are the three automation scripts (backfill_frontmatter.py, inject_open_questions.py, review_questions.py) functional and tested, or committed but untested?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-005
     question: "What files actually exist inside 03-PROJECTS subfolders (CTRL-YOU, GLWC, ELECTRICIAN, YOUTUBE, HOMESTEAD) beyond placeholder structure?"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-006
     question: "Does the MASTER-INDEX.csv currently contain entries for all 48 Brain Entries, or are early Brain_Entry_001–010 and BEUNASSIGNED files missing from the index?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-007
     question: "Is the naming inconsistency between Brain_Entry_001–010 and BE-YYYYMMDD format causing any Dataview query failures in Obsidian right now?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-008
     question: "What is the threshold at which Google Drive sync becomes incompatible with Git-based workflows — is there a file count, repo size, or conflict rate that would force a migration?"
     canonical_target: BRAINOS-SYSTEM.md

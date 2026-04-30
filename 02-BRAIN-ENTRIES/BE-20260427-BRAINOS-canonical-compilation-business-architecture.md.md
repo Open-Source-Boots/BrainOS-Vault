@@ -94,7 +94,7 @@ open_questions:
   - id: OQ-20260427-029
     question: "What is the gap between how the DSP role is described in GoodLife materials and how it actually functions on the ground — and has Brayden written that gap down anywhere?"
     canonical_target: BRAYDEN-IDENTITY.md
-    status: OPEN
+    status: CLOSED
 
   - id: OQ-20260427-030
     question: "If the BrainOS system were packaged today as a Gumroad product with no further development, what would the honest price point be and what would justify it?"

@@ -16,3 +16,9 @@
 **Question:** When Brayden imagines a Skool community for CommonGrounds, who is the first person he would invite — and does that person exist in his life already?
 **Answer:** Someone trying to build out their own local, open-sourced workflow/ecosystem. In the original inception of CommonGrounds, the first customer would be a Caregiving provider, answering the problem of loss of continuity of care with high staff turn-over.
 **Status:** CLOSED
+
+## OQ-20260427-029 — 2026-04-30 15:17
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** What is the gap between how the DSP role is described in GoodLife materials and how it actually functions on the ground — and has Brayden written that gap down anywhere?
+**Answer:** There's a huge gap between the lived-reality of working as a DSP and what can be described, transcribed, or written-down. The gap exists, it's hard to make concrete, descriptions of the events is the best way to close that gap, but it's going to always be a difficult thing to capture perfectly.
+**Status:** CLOSED
