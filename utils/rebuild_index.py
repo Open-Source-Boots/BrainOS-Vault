@@ -44,4 +44,4 @@ with open(OUTPUT_CSV, "w", newline="", encoding="utf-8") as f:
     writer.writeheader()
     writer.writerows(rows)
 
-print(f"Rebuilt MASTER-INDEX.csv — {len(rows)} entries")
+print(f"Rebuilt MASTER-INDEX.csv - {len(rows)} entries")
