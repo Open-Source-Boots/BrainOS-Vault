@@ -1,5 +1,5 @@
 ---
-title: AI-WORKFLOW-RULES
+title: SKILLS-EDUCATION
 date-updated: 2026-04-22
 status: CANONICAL
 ---
