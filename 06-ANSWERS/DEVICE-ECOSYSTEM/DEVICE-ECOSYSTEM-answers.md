@@ -46,3 +46,27 @@
 **Question:** Run first Whisper test
 **Answer:** [NOTE — not closed] Important for CommonGrounds
 **Status:** NOTE
+
+## OQ-20260314-001 — 2026-04-30 14:28
+**Source:** BE-20260314-TOOL-image-to-video-ai-stack.md
+**Question:** Verify free tier details still valid before adopting any tool
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260314-002 — 2026-04-30 14:28
+**Source:** BE-20260314-TOOL-image-to-video-ai-stack.md
+**Question:** confirm EaseMate 100-credit offer still live
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260405-001 — 2026-04-30 14:30
+**Source:** BE-20260405-TOOL-local-ai-stack-device-ecosystem.md
+**Question:** Create DEVICE-ECOSYSTEM.md canonical file — pull hardware inventory out of BRAYDEN-IDENTITY into it
+**Answer:** Yes, this should be largely updated as of 4/30/2026, may need a few more updates down the line
+**Status:** CLOSED
+
+## OQ-20260423-001 — 2026-04-30 14:30
+**Source:** BE-20260423-BRAINOS-fullstack-sync-n8n-install.md
+**Question:** n8n workflows deprioritized — resume only after daily note habit established and Ollama running on desktop
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE

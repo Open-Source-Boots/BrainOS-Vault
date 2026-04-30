@@ -36,11 +36,11 @@ open_questions:
   - id: OQ-20260425-007
     question: "Has the financial inbox pipeline been scoped as a named n8n workflow?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-008
     question: "Has CommonGrounds been added to ACTIVE-PROJECTS.md as a named project with a stub file?"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-009
     question: "Has the BrainOS YouTube documentation concept been logged as an active project track?"
     canonical_target: ACTIVE-PROJECTS.md

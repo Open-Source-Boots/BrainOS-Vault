@@ -154,3 +154,57 @@
 **Question:** Has the BrainOS YouTube documentation concept been logged as an active project track?
 **Answer:** Youtube has its own folder
 **Status:** CLOSED
+
+## OQ-20260306-001 — 2026-04-30 14:28
+**Source:** BE-20260306-PROJECT-ctrlplusyou-email-dns-setup.md
+**Question:** Confirm all 5 DNS records show green in Zoho
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260306-002 — 2026-04-30 14:28
+**Source:** BE-20260306-PROJECT-ctrlplusyou-email-dns-setup.md
+**Question:** confirm Zoho username is 'support' not 'braydenboots'
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260311-001 — 2026-04-30 14:28
+**Source:** BE-20260311-PROJECT-comic-holder-wall-mount-system.md
+**Question:** Confirm Model 1 printed
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260311-002 — 2026-04-30 14:28
+**Source:** BE-20260311-PROJECT-comic-holder-wall-mount-system.md
+**Question:** confirm wall anchor mounted to stud
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260311-003 — 2026-04-30 14:28
+**Source:** BE-20260311-PROJECT-comic-holder-wall-mount-system.md
+**Question:** confirm 0.8mm nozzle installed
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260314-002 — 2026-04-30 14:28
+**Source:** BE-20260314-PROJECT-homestead-store-brand-suppliers.md
+**Question:** revisit if homestead vertical ever activates under CtrlYou multi-store vision
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260318-002 — 2026-04-30 14:28
+**Source:** BE-20260318-MIXED-ctrlplusyou-pivot-brand-docs.md
+**Question:** resolve canonical brand palette before resuming
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260404-002 — 2026-04-30 14:29
+**Source:** BE-20260404-PROJECT-share-your-story-post-draft.md
+**Question:** confirm Discord opened to members beyond Brayden
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260425-008 — 2026-04-30 14:35
+**Source:** BE-20260425-BRAINOS-open-questions-automation-quiz-build.md
+**Question:** Has CommonGrounds been added to ACTIVE-PROJECTS.md as a named project with a stub file?
+**Answer:** yes commongrounds is included
+**Status:** CLOSED

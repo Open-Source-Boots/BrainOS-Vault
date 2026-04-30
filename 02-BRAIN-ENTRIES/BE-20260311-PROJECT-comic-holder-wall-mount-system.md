@@ -15,15 +15,15 @@ open_questions:
   - id: OQ-20260311-001
     question: "Confirm Model 1 printed"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260311-002
     question: "confirm wall anchor mounted to stud"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260311-003
     question: "confirm 0.8mm nozzle installed"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 ---
 # Brain Entry — 3D Printed Comic Book Wall Mount System Design and Bambu Studio Workflow
 

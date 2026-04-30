@@ -19,7 +19,7 @@ open_questions:
   - id: OQ-20260318-002
     question: "resolve canonical brand palette before resuming"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 ---
 ## STEP 1 — Pre-Entry Classification
 

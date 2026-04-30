@@ -15,7 +15,7 @@ open_questions:
   - id: OQ-20260405-001
     question: "Create DEVICE-ECOSYSTEM.md canonical file — pull hardware inventory out of BRAYDEN-IDENTITY into it"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 # Brain Entry — Local open-source AI stack established on laptop;
   full device ecosystem designed; Obsidian introduced as brain storage;

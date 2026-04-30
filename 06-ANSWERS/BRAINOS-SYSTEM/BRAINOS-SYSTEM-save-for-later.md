@@ -136,3 +136,27 @@
 **Question:** pursue Peaslee Promise scholarship
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260325-001 — 2026-04-30 14:29
+**Source:** BE-20260325-MIXED-honda-crv-repair-maintenance.md
+**Question:** Confirm FIMC repair completed or still pending
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260325-002 — 2026-04-30 14:29
+**Source:** BE-20260325-MIXED-honda-crv-repair-maintenance.md
+**Question:** confirm current CRV mechanical status
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260424-001 — 2026-04-30 14:31
+**Source:** BE-20260424-BRAINOS-full-build-session.md
+**Question:** Finish Workflow 1 nodes 2-8 when n8n resumes
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260425-001 — 2026-04-30 14:35
+**Source:** BE-20260425-BRAINOS-triage-shiftmind-founding.md
+**Question:** Run first Whisper test
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER

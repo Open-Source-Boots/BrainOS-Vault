@@ -19,19 +19,19 @@ open_questions:
   - id: OQ-20260425-001
     question: "Create MASTER-INDEX.md Dataview dashboard"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-002
     question: "create 99-OUTBOX/ folder"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-003
     question: "create COMMONGROUNDS-PROJECT.md stub"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260425-004
     question: "rename legacy Google Sheet to MASTER-INDEX-LEGACY in Drive"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 Key Facts:
 

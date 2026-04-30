@@ -15,11 +15,11 @@ open_questions:
   - id: OQ-20260314-001
     question: "Verify free tier details still valid before adopting any tool"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260314-002
     question: "confirm EaseMate 100-credit offer still live"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 date_logged: 2026-04-16
 source_thread_date: 2026-03-14

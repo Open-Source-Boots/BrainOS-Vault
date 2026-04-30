@@ -19,7 +19,7 @@ open_questions:
   - id: OQ-20260314-002
     question: "revisit if homestead vertical ever activates under CtrlYou multi-store vision"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 ---
 STEP 1 — PRE-ENTRY ASSESSMENT
 1. Approximate date of this thread:

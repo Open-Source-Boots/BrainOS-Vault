@@ -34,3 +34,9 @@
 **Question:** Confirm academy platform and audience before creating VIDEO-SOURCING-LAB.md
 **Answer:** I think having parts of this that can help me create a workflow for making youtube videos
 **Status:** CLOSED
+
+## OQ-20260228-001 — 2026-04-30 14:28
+**Source:** BE-20260228-SKILL-shopify-free-sales-playbook.md
+**Question:** No immediate action — reference when any store goes active
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE

@@ -19,7 +19,7 @@ open_questions:
   - id: OQ-20260404-002
     question: "confirm Discord opened to members beyond Brayden"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 ---
 ## STEP 1 — PRE-ENTRY QUESTIONS
 

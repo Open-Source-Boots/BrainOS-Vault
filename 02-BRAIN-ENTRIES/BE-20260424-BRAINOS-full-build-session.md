@@ -23,7 +23,7 @@ open_questions:
   - id: OQ-20260424-002
     question: "confirm Möbius Sync stable across all devices"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 ## CONFIRMED DONE — ACTIONS TAKEN THIS THREAD
 

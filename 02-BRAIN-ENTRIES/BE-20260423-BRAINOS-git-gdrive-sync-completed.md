@@ -19,7 +19,7 @@ open_questions:
   - id: OQ-20260423-001
     question: "Confirm Drive folder fully populated with all subfolders"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260423-002
     question: "delete empty Obsidian folder in Drive"
     canonical_target: BRAINOS-SYSTEM.md
@@ -27,7 +27,7 @@ open_questions:
   - id: OQ-20260423-003
     question: "install Local REST API plugin"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 KEY FACTS ESTABLISHED THIS THREAD
 Git — COMPLETED ✓
