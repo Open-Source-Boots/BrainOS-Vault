@@ -418,4 +418,3 @@ Origin: BE-20260301 (Shopify era), still canonical.
 | BE-20260424   | iPhone Obsidian live, Möbius Sync active                                                 |
 | BE-20260425   | CommonGrounds concept born, MASTER-INDEX migration complete                              |
 | BE-20260430   | rebuild_index.py confirmed, Git hook failure diagnosed, CSV generation rules established |
-"hi perplexity, little stinker"
