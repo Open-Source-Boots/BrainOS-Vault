@@ -352,3 +352,9 @@
 **Question:** What does Brayden define as the minimum viable version of CommonGrounds — what would it need to do or contain to be worth showing someone else?
 **Answer:** Creating a living, subjective, transferable log of staff experiences that can allow interactions between the user and the information; for example, a new staff can ask the model a question about a specific client, the model will pull from its library of person-specific records, and answer the staff's question with subjective, accurate, and helpful answers.
 **Status:** CLOSED
+
+## OQ-20260427-025 — 2026-04-30 15:02
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** Has a daily note habit been established in Obsidian — even one entry — since the vault went live?
+**Answer:** Sort of, I haven't quite made "Daily Notes" in the way I've set it up, which I believe is functionally operating, still want to improve the flow of the information captured there. I'm still doing "Daily" recording of thoughts and ideas through the Brain Entry process I've already been using
+**Status:** CLOSED

@@ -74,7 +74,7 @@ open_questions:
   - id: OQ-20260427-025
     question: "Has a daily note habit been established in Obsidian — even one entry — since the vault went live?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 
   - id: OQ-20260427-026
     question: "What is the actual Skool pricing model Brayden would use for CommonGrounds — free tier + paid tier, one-time, or monthly membership?"
