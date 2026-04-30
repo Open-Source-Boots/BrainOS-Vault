@@ -15,25 +15,25 @@ BrainOS is a local-first second brain built in Obsidian, synced via Git + Google
 
 ## What BrainOS Is
 
-BrainOS is not a note-taking system. It is an operating system for Brayden's life, projects, decisions, and identity. It captures raw sessions from AI threads,  distills them into structured Brain Entries, compiles confirmed facts into canonical files, and uses open questions to close knowledge gaps over time.
-
-The endgame is CommonGrounds — a commercialized version of BrainOS that other people can run. Everything built here is also the product.
+BrainOS is not a note-taking system. It is an operating system for Brayden's life, projects, decisions, and identity. It captures raw sessions from AI threads, documents, statements, transcripts, and more, distills them into structured Brain Entries, compiles confirmed facts into canonical files, and uses open questions to close knowledge gaps over time.
 
 ---
 
 ## Vault Folder Structure
 
-| Folder | Purpose |
-|---|---|
-| `00-INBOX` | Raw captures, unsorted notes, unprocessed inputs |
-| `01-DAILY` | Daily notes — habit anchor, re-entry point each day |
-| `02-BRAIN-ENTRIES` | Compiled session records — the archive core |
-| `03-PROJECTS` | Active project files (GLWC, CommonGrounds, Electrician, etc.) |
-| `04-CANONICAL` | Source-of-truth files — updated FROM brain entries, never directly |
-| `05-INDEX` | MASTER-INDEX.csv, MASTER-INDEX.md, open questions |
-| `06-ANSWERS` | Closed open question answer files, organized by canonical domain |
-| `07-TEMPLATE` | Brain Entry and other templates |
-| `99-OUTBOX` | Files staged for export, sharing, or external use |
+| Folder             | Purpose                                                                                        |
+| ------------------ | ---------------------------------------------------------------------------------------------- |
+| `00-INBOX`         | Raw captures, unsorted notes, unprocessed inputs                                               |
+| `01-DAILY`         | Daily notes — habit anchor, re-entry point each day                                            |
+| `02-BRAIN-ENTRIES` | Compiled session records — the archive core                                                    |
+| `03-PROJECTS`      | Active project files (GLWC, CommonGrounds, Electrician, etc.)                                  |
+| `04-CANONICAL`     | Source-of-truth files — updated FROM brain entries and other files, never directly             |
+| `05-INDEX`         | MASTER-INDEX.csv, MASTER-INDEX.md, open questions, BrainOS Checkpoints                         |
+| `06-ANSWERS`       | Closed open question answer files, organized by canonical domain                               |
+| `07-TEMPLATE`      | Brain Entry and other templates                                                                |
+| `08-ATTACH`        | PDFs, Images, Voice Memos, Transcripts, Links; Anything that is not easily indexed by Obsidian |
+| `99-OUTBOX`        | Files staged for export, sharing, or external use                                              |
+| `utils`            | Scripts, Automation, other programs that serve unique functions                                |
 
 **Rule:** Before recommending any file path in any session, verify actual folder structure using the GitHub MCP tool. Do not assume folders exist. (Origin: BE-20260430)
 
@@ -142,13 +142,13 @@ Pre-commit Git hooks cannot be made executable on Windows without WSL. The Shell
 
 ## Sync Stack
 
-| Layer | Tool | Status |
-|---|---|---|
-| Version control | Git → github.com/Open-Source-Boots/BrainOS-Vault | Active, auto-commit every 10min |
-| Cloud backup | Google Drive for Desktop | Active — syncs vault folder |
-| Cross-device mobile | Möbius Sync (iOS) | Active on iPhone |
-| Local AI | Obsidian Git plugin | Auto-pull on boot, auto-push on interval |
+| Layer           | Tool         | Role                                      | Canonical?         |
+| --------------- | ------------ | ----------------------------------------- | ------------------ |
+| Version control | Git          | Full history, diff, rollback              | YES — primary      |
+| Cloud mirror    | Google Drive | Cross-device access, Drive backup         | YES — secondary    |
+| Local sync      | Syncthing    | LAN peer-to-peer between desktop ↔ laptop | YES — <br>Tertiary |
 
+**Rule**: Git is the ground truth. Drive mirrors Git. Drive never overrides Git.
 **Standing rules:**
 - Never use Google Drive for Desktop alongside OGD Sync plugin simultaneously — they conflict
 - Never embed PATs in chat. Store in Windows Credential Manager only
