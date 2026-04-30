@@ -149,22 +149,156 @@ Pre-commit Git hooks cannot be made executable on Windows without WSL. The Shell
 | Local sync      | Syncthing    | LAN peer-to-peer between desktop ↔ laptop | YES — <br>Tertiary |
 
 **Rule**: Git is the ground truth. Drive mirrors Git. Drive never overrides Git.
-**Standing rules:**
-- Never use Google Drive for Desktop alongside OGD Sync plugin simultaneously — they conflict
-- Never embed PATs in chat. Store in Windows Credential Manager only
-- iPhone GitHub PAT expires May 22, 2026 — renew before that date
-- `.git/` folder MUST be excluded from Google Drive's watch scope — Drive injects `desktop.ini` into `.git/refs/` subdirectories, corrupting tracked ref files. This has been observed across `refs/remotes/`, `refs/heads/`, and `refs/original/`. (Origin: BE-20260430, confirmed in vault_health_report.txt)
+Git Sync Rules — HARDENED
+Commit Protocol
+Commit scope: One logical change per commit. Do not batch unrelated files.
+
+Commit message format: [DOMAIN] verb: short description
+
+Examples: [IDENTITY] update: add GLWC two-hat note, [FINANCE] add: April income entry, [SYSTEM] harden: git + drive sync rules
+
+Commit frequency: At minimum, commit at the end of every working session. Intra-session commits are encouraged after any canonical file edit.
+
+Never force-push to main. If rebase is needed, branch first, rebase, then fast-forward merge.
+
+Branch strategy:
+
+main = stable vault state. Always functional.
+
+draft/[slug] = experimental restructures or bulk edits in progress.
+
+Merge to main only when the draft is clean and tested in Obsidian.
+
+.gitignore (Mandatory)
+The following must always be ignored:
+
+text
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/*/data.json   # Plugin state — not vault data
+.trash/
+*.DS_Store
+Thumbs.db
+~$*.docx
+*.tmp
+*.log
+node_modules/
+.env
+secrets/
+The following must not be ignored (they are vault data):
+
+text
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/graph.json
+.obsidian/hotkeys.json
+.obsidian/community-plugins.json
+templates/
+assets/
+Conflict Resolution Protocol
+Conflicts happen when Drive auto-saves diverge from Git commits. Resolution order:
+
+Stop — do not open Obsidian until resolved.
+
+Identify — run git status and git diff to see what changed.
+
+Compare timestamps — check which version is newer: Drive copy or Git HEAD.
+
+Resolve manually — open the conflicted file in a text editor, not Obsidian.
+
+Prefer the version with more information. If both have unique content, merge manually.
+
+Commit the resolution with message: [SYSTEM] resolve: conflict in [filename] — [brief reason]
+
+Never accept "keep both copies" from Drive's conflict dialog without manually reviewing both.
+
+Pre-Commit Checklist
+Before every commit, verify:
+
+No secrets, tokens, or passwords in staged files (run git diff --cached | grep -i "key\|token\|password\|secret")
+
+MASTER-INDEX.csv updated if a new BE file was added
+
+Canonical files updated if session changed a confirmed fact
+
+.gitignore entries are not in the staged set
+
+Recovery from a Bad State
+bash
+# See what changed since last commit
+git diff HEAD
+
+# Discard all unstaged changes (DESTRUCTIVE — confirm first)
+git checkout -- .
+
+# Undo last commit but keep changes staged
+git reset --soft HEAD~1
+
+# Nuclear reset to last clean commit (DESTRUCTIVE)
+git reset --hard HEAD
+git clean -fd
+
+
+## Google Drive Sync Rules — HARDENED
+
+## Drive's Role
+
+Drive is a **read mirror and cross-device access layer** — not a version control system. It does not replace Git history.
+
+## Sync Behavior Rules
+
+1. **Obsidian vault folder in Drive = the only Drive folder that matters for BrainOS**. Do not scatter vault files across Drive.
+    
+2. **Drive sync must be active before starting an Obsidian session** on any device. Never open Obsidian on a secondary device without confirming Drive is synced.
+    
+3. **Close Obsidian before allowing Drive to sync large batches**. Drive syncing while Obsidian writes can corrupt the `.obsidian/workspace.json`.
+    
+4. **Drive is NOT a substitute for `git commit`**. A Drive sync does not create a recoverable snapshot. Always Git commit before closing a session.
+    
+5. **Drive conflict files** (files suffixed with device name or "(1)") must be **immediately resolved and deleted** — do not leave them sitting in the vault. They will appear as duplicate notes in Obsidian.
+    
+6. **Do not use Drive's "version history" as your primary rollback mechanism**. It is a last resort. Git is the rollback mechanism.
+    
+
+## Drive Folder Hygiene
+
+- Vault folder in Drive: single, named `BrainOS Vault/` — no copies, no alternates.
+    
+- If Drive ever shows two copies of the vault folder: stop, audit, merge into Git HEAD, delete the older duplicate.
+    
+- Attachments (`08-ATTACH/`) are tracked in Git AND mirrored to Drive. Do not store assets only in Drive.
+
+## Multi-Device Sync Order (Mandatory)
+
+When switching from **Desktop → Laptop** (or any device transition):
+
+1. Desktop: commit all changes to Git (`git add -A && git commit -m "..."`)
+    
+2. Desktop: push to remote (`git push origin main`)
+    
+3. Desktop: confirm Drive has synced (check Drive status indicator — wait for ✓)
+    
+4. Desktop: close Obsidian
+    
+5. Laptop: confirm Drive has synced (wait for ✓ before opening Obsidian)
+    
+6. Laptop: open Obsidian
+    
+7. Laptop (optional but recommended): `git pull origin main` to confirm Git parity
+    
+
+**Never open Obsidian on the second device before step 5 is confirmed.**
 
 ---
 
 ## Device Stack
 
-| Device | Role | Key Specs |
-|---|---|---|
-| Desktop | Primary AI workstation | Ryzen 7 7700X, RTX 3060 12GB, 64GB RAM, Windows 11 |
-| Laptop | Mobile workhorse | Intel Iris Xe, 8GB RAM, Windows |
-| iPhone 15 | Mobile capture, Obsidian mobile | 128GB, Möbius Sync active |
-| iPad (5th gen) | Spacedesk second monitor, Procreate | 64GB, A9 chip |
+| Device            | Role                                | Key Specs                                          |
+| ----------------- | ----------------------------------- | -------------------------------------------------- |
+| Desktop           | Primary AI workstation              | Ryzen 7 7700X, RTX 3060 12GB, 64GB RAM, Windows 11 |
+| Laptop            | Mobile workhorse                    | Intel Iris Xe, 8GB RAM, Windows                    |
+| iPhone 15         | Mobile capture, Obsidian mobile     | 128GB, Möbius Sync active                          |
+| iPad Air(5th gen) | Spacedesk second monitor, Procreate | 64GB, A9 chip                                      |
 
 Full specs and install status: see `DEVICE-ECOSYSTEM.md`
 
@@ -216,7 +350,22 @@ Origin: BrainEntry002. This is the canonical order of operations for any build o
 **Rule:** Plan comes AFTER the map is complete. Planning before mapping is faux progress.
 
 ---
+## Domain Tags
 
+`IDENTITY` · `FINANCE` · `SKILLS` · `SYSTEM` · `PROJECTS` · `GLWC` · `ELECTRICIAN` · `COMMONGROUNDS` · `CTRL-YOU` · `YOUTUBE` · `HOMESTEAD` · `MAKER` · `HEALTH` · `AI`
+
+---
+
+## Status Tags
+
+`ACTIVE` · `PAUSED` · `COMPLETE` · `ARCHIVED` · `DRAFT` · `REVIEW`
+
+---
+
+## Compilation Status Tags
+
+`CURRENT` · `STALE` · `SUPERSEDED` · `PENDING-UPDATE`
+---
 ## AI Session Standing Rules
 
 These rules are non-negotiable in every AI session. Full list in `AI-WORKFLOW-RULES.md`.
@@ -256,15 +405,15 @@ Origin: BE-20260301 (Shopify era), still canonical.
 
 ## Key Origin Threads
 
-| Entry | What It Established |
-|---|---|
-| BrainEntry001 | First Brain Entry — origin of thread-harvesting methodology |
-| BrainEntry002 | AI browser automation rules, 6-step build sequence |
-| BrainEntry006 | AI fabrication incident — origin of "AI writes structure" rule |
-| BrainEntry007 | Master canonical reset — supersedes all prior entries on conflict |
-| BE-20260405 | BrainOS and Obsidian origin — overnight install session |
-| BE-20260422 | Vault folder structure finalized, sync stack confirmed |
-| BE-20260423 | Git setup complete, 151 files, Obsidian Git operational |
-| BE-20260424 | iPhone Obsidian live, Möbius Sync active |
-| BE-20260425 | CommonGrounds concept born, MASTER-INDEX migration complete |
-| BE-20260430 | rebuild_index.py confirmed, Git hook failure diagnosed, CSV generation rules established |
+| Entry         | What It Established                                                                      |
+| ------------- | ---------------------------------------------------------------------------------------- |
+| BrainEntry001 | First Brain Entry — origin of thread-harvesting methodology                              |
+| BrainEntry002 | AI browser automation rules, 6-step build sequence                                       |
+| BrainEntry006 | AI fabrication incident — origin of "AI writes structure" rule                           |
+| BrainEntry007 | Master canonical reset — supersedes all prior entries on conflict                        |
+| BE-20260405   | BrainOS and Obsidian origin — overnight install session                                  |
+| BE-20260422   | Vault folder structure finalized, sync stack confirmed                                   |
+| BE-20260423   | Git setup complete, 151 files, Obsidian Git operational                                  |
+| BE-20260424   | iPhone Obsidian live, Möbius Sync active                                                 |
+| BE-20260425   | CommonGrounds concept born, MASTER-INDEX migration complete                              |
+| BE-20260430   | rebuild_index.py confirmed, Git hook failure diagnosed, CSV generation rules established |
