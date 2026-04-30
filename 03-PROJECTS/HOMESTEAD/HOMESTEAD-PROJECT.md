@@ -1,0 +1,1 @@
+All the solar panels, gardening, self-reliance info for building out the place I'm living or hope to live.
