@@ -388,3 +388,21 @@
 **Question:** Is the naming inconsistency between Brain_Entry_001–010 and BE-YYYYMMDD format causing any Dataview query failures in Obsidian right now?
 **Answer:** As far as I can tell, no issues detected, but it's not a high-priority fix, those older files are getting older and less relevant to the overall project anyways.
 **Status:** CLOSED
+
+## OQ-20260427-008 — 2026-04-30 15:28
+**Source:** BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
+**Question:** What is the threshold at which Google Drive sync becomes incompatible with Git-based workflows — is there a file count, repo size, or conflict rate that would force a migration?
+**Answer:** I don't know the limit, I hope it's large. Right now, the google drive can only hold 15gb, unless I upgrade my membership which I don't want to do if I don't have to; the current storage occupied on the drive is about 5.5gb and the vault itself seems to only be ~600mb right now.
+**Status:** CLOSED
+
+## OQ-20260427-010 — 2026-04-30 15:30
+**Source:** BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
+**Question:** What does a 'ShiftMind' triage system mean — what was the founding concept in BE-20260425-BRAINOS-triage-shiftmind-founding.md?
+**Answer:** Shiftmind was a name perplexity came up with while I was brainstorming the commongrounds concept; even the name commongrounds may end up changing, it's a placeholder for now. Shiftmind is irrelevant and not being used or planned to be used.
+**Status:** CLOSED
+
+## OQ-20260427-011 — 2026-04-30 15:31
+**Source:** BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
+**Question:** Is there a meaningful difference between how BrainOS handles identity data versus project data in terms of update frequency and access patterns?
+**Answer:** I do not know yet. I'm struggling to find a effective way to populate the canonical files, how to update my identity, how to update the projects, how to update anything in a (mostly) non-manual way.
+**Status:** CLOSED

@@ -250,3 +250,9 @@
 **Question:** What files actually exist inside 03-PROJECTS subfolders (CTRL-YOU, GLWC, ELECTRICIAN, YOUTUBE, HOMESTEAD) beyond placeholder structure?
 **Answer:** Right now there is a subfolder for: COMMONGROUNDS, CTRL+YOU (Named CTRL-YOU in Obsidian for file naming reasons), ELECTRICIAN, GLWC, HOMESTEAD, and YOUTUBE. Beyond the subfolders, there is a project .md in CommonGrounds, and a Peaslee subfolder nestled under ELECTRICIAN, nothing else in the other projects.
 **Status:** CLOSED
+
+## OQ-20260427-009 — 2026-04-30 15:29
+**Source:** BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
+**Question:** If BrainOS is eventually packaged as CommonGrounds, what is the minimum viable feature set that distinguishes it from a plain Obsidian vault with Git sync?
+**Answer:** Organization, building out some specific, technical elements, packaging the tools, making the user-experience easier for someone who has no knowledge of working with Open-source, LLMs, Github, Google Drive, etc
+**Status:** CLOSED

@@ -49,19 +49,19 @@ open_questions:
   - id: OQ-20260427-008
     question: "What is the threshold at which Google Drive sync becomes incompatible with Git-based workflows — is there a file count, repo size, or conflict rate that would force a migration?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-009
     question: "If BrainOS is eventually packaged as CommonGrounds, what is the minimum viable feature set that distinguishes it from a plain Obsidian vault with Git sync?"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-010
     question: "What does a 'ShiftMind' triage system mean — what was the founding concept in BE-20260425-BRAINOS-triage-shiftmind-founding.md?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-011
     question: "Is there a meaningful difference between how BrainOS handles identity data versus project data in terms of update frequency and access patterns?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-012
     question: "At what point does a local LLM (Ollama/LM Studio) replace cloud AI (Perplexity) as the primary session tool — what capability gap remains?"
     canonical_target: DEVICE-ECOSYSTEM.md
