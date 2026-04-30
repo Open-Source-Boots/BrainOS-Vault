@@ -29,7 +29,7 @@ open_questions:
   - id: OQ-20260430-014
     question: "What should the universal inbox folder be named and where should it live in the vault so capture is fastest from all devices?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260430-015
     question: "Which extraction method should be canonical for scanned documents on desktop first: OCR to text, OCR plus summary, or OCR plus structured field extraction?"
     canonical_target: AI-WORKFLOW-RULES.md
@@ -37,11 +37,11 @@ open_questions:
   - id: OQ-20260430-016
     question: "Which device should own the first always-on automation trigger for new intake files: desktop, laptop, iPhone, or iPad?"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260430-017
     question: "Should Brain Entries remain the primary durable memory layer, or should a separate extracted-knowledge layer be added for long-term RAG retrieval?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260430-018
     question: "Which metadata fields are mandatory on every inbound file so the system can route, classify, and learn from it without manual reformatting?"
     canonical_target: AI-WORKFLOW-RULES.md
@@ -49,11 +49,11 @@ open_questions:
   - id: OQ-20260430-019
     question: "Should the iPad Air 5th generation be treated primarily as a capture, reading, or review device in the four-device ecosystem?"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260430-020
     question: "What is the minimum viable local-AI task each device should own first so the ecosystem is distributed by function instead of duplicated?"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 KEY FACTS
 BrainOS should now be treated as an ingestion pipeline, not just a note archive.

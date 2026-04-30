@@ -15,11 +15,11 @@ open_questions:
   - id: OQ-20260427-001
     question: "Confirm browser automation rules are in AI-WORKFLOW-RULES.md"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-002
     question: "confirm 6-step sequence is in BRAINOS-SYSTEM.md"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 # Brain Entry 002 — Thread Consolidation & System Status
 **Date:** April 10, 2026

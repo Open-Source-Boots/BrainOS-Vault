@@ -15,7 +15,7 @@ open_questions:
   - id: OQ-20260427-001
     question: "Create DEVICE-ECOSYSTEM.md — this thread is the primary seed"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-002
     question: "confirm Ollama install completed (download confirmed"
     canonical_target: BRAINOS-SYSTEM.md

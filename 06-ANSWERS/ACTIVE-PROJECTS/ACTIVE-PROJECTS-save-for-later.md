@@ -82,3 +82,9 @@
 **Question:** Has Brayden filed for a Kansas EIN or Sales Tax registration via ksbiz.kansas.gov?
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260416-001 — 2026-04-30 16:14
+**Source:** BEUNASSIGNED_20260416_PROJECT_kray-studios-n8n-automation-workflow.md
+**Question:** Decide: FOSS-only or hybrid paid stack before building any n8n nodes
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER

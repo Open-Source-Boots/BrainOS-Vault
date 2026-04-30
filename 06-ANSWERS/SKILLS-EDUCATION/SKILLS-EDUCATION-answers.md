@@ -40,3 +40,21 @@
 **Question:** No immediate action — reference when any store goes active
 **Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
 **Status:** DUPLICATE
+
+## OQ-20260221-001 — 2026-04-30 16:13
+**Source:** BEUNASSIGNED_20260221_SKILL_peaslee-tech-career-path-eval.md
+**Question:** Confirm HVAC silently eliminated as path — never documented
+**Answer:** Yes, HVAC is eliminated
+**Status:** CLOSED
+
+## OQ-20260416-001 — 2026-04-30 16:14
+**Source:** BEUNASSIGNED_20260416_SKILL_foam-sculpting-finishing-reference.md
+**Question:** Confirm whether foam sculpting is an active skill track before creating CRAFT-SKILLS-ART.md
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260416-001 — 2026-04-30 16:14
+**Source:** BEUNASSIGNED_20260416_SKILL_video-sourcing-academy-lab.md
+**Question:** Confirm academy platform and audience before creating VIDEO-SOURCING-LAB.md
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE

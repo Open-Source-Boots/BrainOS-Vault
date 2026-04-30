@@ -22,11 +22,11 @@ open_questions:
   - id: OQ-20260317-001
     question: "Flag or delete 3 v3 Drive docs (DRAFT-CONTAINS-ERRORS)"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260317-002
     question: "confirm GoodLife Fitness vs Innovations — RESOLVED: Innovations is canonical"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 # Brain Entry [UNASSIGNED] — ctrl+you Capability Map, Terminal Request, Google Drive Rewrite Attempt & Financial Fabrication Correction
 

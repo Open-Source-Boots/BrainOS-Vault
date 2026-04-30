@@ -472,3 +472,63 @@
 **Question:** What is the first source type we should automate end-to-end in the intake pipeline: receipts, bank statements, legal forms, transcripts, or books?
 **Answer:** Receipts/Bank Statements/Pay stubs should be the next thing we figure out integration for
 **Status:** CLOSED
+
+## OQ-20260430-014 — 2026-04-30 16:07
+**Source:** BE-20260430-BRAINOS-ingestion-pipeline-next-thread-handoff.md
+**Question:** What should the universal inbox folder be named and where should it live in the vault so capture is fastest from all devices?
+**Answer:** 00-INBOX is a fine place to be the universal inbox for all devices. Unless there's a problem using it down the line, this seems to be an appropriate place to drop stuff
+**Status:** CLOSED
+
+## OQ-20260430-017 — 2026-04-30 16:10
+**Source:** BE-20260430-BRAINOS-ingestion-pipeline-next-thread-handoff.md
+**Question:** Should Brain Entries remain the primary durable memory layer, or should a separate extracted-knowledge layer be added for long-term RAG retrieval?
+**Answer:** I imagine the entries will be a separate, extracted-knowledge layer; I don't imagine I, the user, will be actively going back through the Brain entries to read them, I mostly want them to be a growing, long-term memory of the overall system
+**Status:** CLOSED
+
+## OQ-20260317-001 — 2026-04-30 16:14
+**Source:** BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md
+**Question:** Flag or delete 3 v3 Drive docs (DRAFT-CONTAINS-ERRORS)
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260317-002 — 2026-04-30 16:14
+**Source:** BEUNASSIGNED_20260317_MIXED_capability-map-fabrication-correction.md
+**Question:** confirm GoodLife Fitness vs Innovations — RESOLVED: Innovations is canonical
+**Answer:** Yes Goodlife Innovations is the name
+**Status:** CLOSED
+
+## OQ-20260416-001 — 2026-04-30 16:14
+**Source:** BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md
+**Question:** Set up Google Cloud OAuth for Sheets/Drive API
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260427-001 — 2026-04-30 16:14
+**Source:** BE_OpenSource_011.md
+**Question:** Create DEVICE-ECOSYSTEM.md — this thread is the primary seed
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260427-001 — 2026-04-30 16:15
+**Source:** BrainOS-Open-Questions-Worksheet.md
+**Question:** Push all confirmed answers to canonical files — this worksheet IS the update source
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260427-001 — 2026-04-30 16:15
+**Source:** Brain_Entry_001.md
+**Question:** Locate pre-Entry-001 LM Studio thread and log if not already captured
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260427-001 — 2026-04-30 16:16
+**Source:** Brain_Entry_002.md
+**Question:** Confirm browser automation rules are in AI-WORKFLOW-RULES.md
+**Answer:** There are browser automation rules, as of right now, the only way to do browser automation is with Perplexity's Comet Browser "Control Browser" function; this function is rudementary, slow, and unwieldy, eventually, I want a better browser automation that may require different rules
+**Status:** CLOSED
+
+## OQ-20260427-002 — 2026-04-30 16:16
+**Source:** Brain_Entry_002.md
+**Question:** confirm 6-step sequence is in BRAINOS-SYSTEM.md
+**Answer:** Yes, the 6-steps are captured in BRAINOS-SYSTEM.md
+**Status:** CLOSED

@@ -15,7 +15,7 @@ open_questions:
   - id: OQ-20260416-001
     question: "Set up Google Cloud OAuth for Sheets/Drive API"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260416-002
     question: "decide FOSS vs hybrid"
     canonical_target: BRAINOS-SYSTEM.md

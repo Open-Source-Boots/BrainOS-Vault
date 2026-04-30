@@ -58,3 +58,9 @@
 **Question:** confirm Peaslee Tech replied to Feb 25 email
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260221-002 — 2026-04-30 16:14
+**Source:** BEUNASSIGNED_20260221_SKILL_peaslee-tech-career-path-eval.md
+**Question:** confirm Robotics internship availability with Peaslee directly
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER

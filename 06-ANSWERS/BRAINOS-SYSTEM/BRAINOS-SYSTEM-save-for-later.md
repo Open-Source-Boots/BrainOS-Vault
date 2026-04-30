@@ -208,3 +208,27 @@
 **Question:** If rebuild_index.py is run from a directory other than the vault root, will the relative paths ENTRY_DIRS and OUTPUT_CSV still resolve correctly?
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260416-002 — 2026-04-30 16:14
+**Source:** BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md
+**Question:** decide FOSS vs hybrid
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260416-003 — 2026-04-30 16:14
+**Source:** BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md
+**Question:** complete nodes 2-8
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260427-002 — 2026-04-30 16:14
+**Source:** BE_OpenSource_011.md
+**Question:** confirm Ollama install completed (download confirmed
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260427-001 — 2026-04-30 16:16
+**Source:** Brain_Entry_003.md
+**Question:** Confirm Kansas Sales Tax reg and EIN status
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER

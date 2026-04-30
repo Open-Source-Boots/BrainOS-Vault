@@ -130,3 +130,21 @@
 **Question:** Would WSL (Windows Subsystem for Linux) resolve the Git hook executable bit problem permanently, and is it worth installing for BrainOS tooling purposes?
 **Answer:** [NOTE — not closed] Not sure what this means, do we need to do this to make everything work better?
 **Status:** NOTE
+
+## OQ-20260430-016 — 2026-04-30 16:08
+**Source:** BE-20260430-BRAINOS-ingestion-pipeline-next-thread-handoff.md
+**Question:** Which device should own the first always-on automation trigger for new intake files: desktop, laptop, iPhone, or iPad?
+**Answer:** It will probably end up being the desktop, the most powerful, but for right now, as of 4/30/2026, we can do the laptop since that's what we're working on right now.
+**Status:** CLOSED
+
+## OQ-20260430-019 — 2026-04-30 16:12
+**Source:** BE-20260430-BRAINOS-ingestion-pipeline-next-thread-handoff.md
+**Question:** Should the iPad Air 5th generation be treated primarily as a capture, reading, or review device in the four-device ecosystem?
+**Answer:** It will likely be used for reading and review, a few things will eventually be captured, but it will likely be the least-used pillar of the device ecosystem, but I would like to carve out its niche and speciality eventually
+**Status:** CLOSED
+
+## OQ-20260430-020 — 2026-04-30 16:13
+**Source:** BE-20260430-BRAINOS-ingestion-pipeline-next-thread-handoff.md
+**Question:** What is the minimum viable local-AI task each device should own first so the ecosystem is distributed by function instead of duplicated?
+**Answer:** File reading/writing, document formatting, image reading, information indexing/reading/processing/etc that allows each device to be able to access the valuable elements of the ecosystem, Second Brain system
+**Status:** CLOSED
