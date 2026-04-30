@@ -406,3 +406,33 @@
 **Question:** Is there a meaningful difference between how BrainOS handles identity data versus project data in terms of update frequency and access patterns?
 **Answer:** I do not know yet. I'm struggling to find a effective way to populate the canonical files, how to update my identity, how to update the projects, how to update anything in a (mostly) non-manual way.
 **Status:** CLOSED
+
+## OQ-20260427-001 — 2026-04-30 15:46
+**Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
+**Question:** Does the current log_dedup_fix.py plan correctly handle the case where the same OQ ID was answered under two different canonical targets — and should the newer or older answer be preserved as canonical?
+**Answer:** I don't know, we should circle back to this script, I'm not really familiar with what it does
+**Status:** CLOSED
+
+## OQ-20260427-004 — 2026-04-30 15:50
+**Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
+**Question:** Should vault_health_check.py be added to a scheduled task or git hook so it runs automatically before every commit, rather than manually?
+**Answer:** It can run automatically, I'm not sure what interval would be most helpful or effective at this time, having a manual option wouldn't hurt. What would show up in the current vault_health_check.py script if it ran right now? What would I do with the information it does give me?
+**Status:** CLOSED
+
+## OQ-20260427-007 — 2026-04-30 15:52
+**Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
+**Question:** Should the BEUNASSIGNED_ and Brain_Entry_00X files be formally renamed to the canonical BE-YYYYMMDD-DOMAIN-slug.md format, and is there a safe automated rename + CSV update path?
+**Answer:** Yes, it would probably be good to make everything cohesive, indexed uniformly, I believe there is a script that will do that, but if we need to make one, even a temporary one, we can
+**Status:** CLOSED
+
+## OQ-20260427-010 — 2026-04-30 15:55
+**Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
+**Question:** If inject_open_questions.py re-routes a question's canonical_target after an answer has already been logged under the old target, what is the correct reconciliation protocol — move the answer log entry, leave it, or flag it?
+**Answer:** Let's say "flag it" for now, I'm actively thinking about how I want to improve the question/answer pipeline to better serve the goals, functions, and setup of the BrainOS ecosystem.
+**Status:** CLOSED
+
+## OQ-20260427-011 — 2026-04-30 15:55
+**Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
+**Question:** Should log_dedup_fix.py preserve the timestamp of the first occurrence of a duplicate OQ entry, or should it use the most recent one as canonical?
+**Answer:** Do the first occurrence, I feel like that would be more valuable later on
+**Status:** CLOSED

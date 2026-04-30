@@ -210,19 +210,19 @@
 **Status:** CLOSED
 
 ## OQ-20260427-016 — 2026-04-30 14:36
-**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md
 **Question:** What is the single most passive Shopify model Brayden has fully set up end-to-end, even at one product?
 **Answer:** No models established, no sales ever, nothing has been circled back to for shopify. Ultimately, I just want at least one, but potentially many different income streams
 **Status:** CLOSED
 
 ## OQ-20260427-017 — 2026-04-30 14:36
-**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md
 **Question:** Has Brayden confirmed the Shopify store fyti4j-00.myshopify.com is currently open, draft, or closed?
 **Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
 **Status:** DUPLICATE
 
 ## OQ-20260427-018 — 2026-04-30 14:36
-**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md
 **Question:** Has Brayden confirmed the Zoho DNS records for support@ctrlplusyou.com are all showing green?
 **Answer:** Yes
 **Status:** CLOSED
@@ -255,4 +255,10 @@
 **Source:** BE-20260427-BRAINOS-repo-audit-canonical-compilation.md
 **Question:** If BrainOS is eventually packaged as CommonGrounds, what is the minimum viable feature set that distinguishes it from a plain Obsidian vault with Git sync?
 **Answer:** Organization, building out some specific, technical elements, packaging the tools, making the user-experience easier for someone who has no knowledge of working with Open-source, LLMs, Github, Google Drive, etc
+**Status:** CLOSED
+
+## OQ-20260427-002 — 2026-04-30 15:49
+**Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
+**Question:** Should GOODLIFE-UNION-answers.md be fully migrated into ACTIVE-PROJECTS-answers.md, or should its content be split between ACTIVE-PROJECTS.md and FINANCIAL-SNAPSHOT.md based on question type?
+**Answer:** The goodlife information, across all the files and folders, needs to be distributed correctly. Money things should feed into FINANCIAL-SNAPSHOT, GLWC and Commongrounds stuff should go to ACTIVE-PROJECTS, in the correct respective file/sections, and personal goals, statements, values, etc should feed into BRAYDEN-IDENTITY. Other information, or overlapping information can feed multiple documents.
 **Status:** CLOSED

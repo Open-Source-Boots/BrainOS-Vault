@@ -160,3 +160,9 @@
 **Question:** Run first Whisper test
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260427-005 — 2026-04-30 15:50
+**Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
+**Question:** Are the 7 malformed YAML files safe to repair by wrapping colon-containing values in quotes, or do any of them contain content that would change meaning when quoted?
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER

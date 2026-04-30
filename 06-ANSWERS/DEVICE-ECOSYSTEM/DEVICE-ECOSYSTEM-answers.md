@@ -100,3 +100,15 @@
 **Question:** At what point does a local LLM (Ollama/LM Studio) replace cloud AI (Perplexity) as the primary session tool — what capability gap remains?
 **Answer:** I hope soon. Obviously I need to set the desktop/pc up, that will be the primary engine of the local LLM models I want to run. In terms of capability gap, I like that I have access to Claude with Perplexity, even if it's a round-about way of accessing Claude, I like that Perplexity is giving me the ability to do research and online searching, I like that I can upload documents and images, it's pretty fast, it has AI integrations already in place with my github, google drive, and a few other accounts (the other connections aren't as important, I haven't the other connectors besides Google Drive and Github), perplexity was where this all started so it's been natural to use. Mostly online research, more powerful models, various file types allowed to be added to prompts, the documents are processed mostly correct.
 **Status:** CLOSED
+
+## OQ-20260427-006 — 2026-04-30 15:51
+**Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
+**Question:** Is .smart-env/event_logs/event_logs.ajson generated fresh each session, or does Smart Connections depend on its persisted history for any RAG or memory function?
+**Answer:** I do not know this. Is there a way I can figure out the answer?
+**Status:** CLOSED
+
+## OQ-20260427-008 — 2026-04-30 15:53
+**Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
+**Question:** Does Mobius Sync on iPhone interact with .stfolder differently than Syncthing does on desktop — specifically, does it create its own marker files that should also be gitignored?
+**Answer:** I think I changed what I need to on each respective device to let the syncing respect the informationacross the vault, and to cater each device to work correctly
+**Status:** CLOSED

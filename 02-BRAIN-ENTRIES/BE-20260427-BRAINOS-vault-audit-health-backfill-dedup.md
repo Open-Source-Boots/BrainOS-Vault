@@ -14,11 +14,11 @@ open_questions:
   - id: OQ-20260427-001
     question: "Does the current log_dedup_fix.py plan correctly handle the case where the same OQ ID was answered under two different canonical targets — and should the newer or older answer be preserved as canonical?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-002
     question: "Should GOODLIFE-UNION-answers.md be fully migrated into ACTIVE-PROJECTS-answers.md, or should its content be split between ACTIVE-PROJECTS.md and FINANCIAL-SNAPSHOT.md based on question type?"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-003
     question: "What is the exact trigger condition that should flip SCHEDULED_ACTIVATION = True in review_financial_questions.py — a specific dollar threshold in FINANCIAL-SNAPSHOT, a transaction pipeline being live, or both?"
     canonical_target: FINANCIAL-SNAPSHOT.md
@@ -26,7 +26,7 @@ open_questions:
   - id: OQ-20260427-004
     question: "Should vault_health_check.py be added to a scheduled task or git hook so it runs automatically before every commit, rather than manually?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-005
     question: "Are the 7 malformed YAML files safe to repair by wrapping colon-containing values in quotes, or do any of them contain content that would change meaning when quoted?"
     canonical_target: BRAINOS-SYSTEM.md
@@ -34,15 +34,15 @@ open_questions:
   - id: OQ-20260427-006
     question: "Is .smart-env/event_logs/event_logs.ajson generated fresh each session, or does Smart Connections depend on its persisted history for any RAG or memory function?"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-007
     question: "Should the BEUNASSIGNED_ and Brain_Entry_00X files be formally renamed to the canonical BE-YYYYMMDD-DOMAIN-slug.md format, and is there a safe automated rename + CSV update path?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-008
     question: "Does Mobius Sync on iPhone interact with .stfolder differently than Syncthing does on desktop — specifically, does it create its own marker files that should also be gitignored?"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-009
     question: "What is the minimum viable FINANCIAL-SNAPSHOT.md structure needed before review_financial_questions.py can go live — which specific fields must be confirmed non-empty?"
     canonical_target: FINANCIAL-SNAPSHOT.md
@@ -50,11 +50,11 @@ open_questions:
   - id: OQ-20260427-010
     question: "If inject_open_questions.py re-routes a question's canonical_target after an answer has already been logged under the old target, what is the correct reconciliation protocol — move the answer log entry, leave it, or flag it?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-011
     question: "Should log_dedup_fix.py preserve the timestamp of the first occurrence of a duplicate OQ entry, or should it use the most recent one as canonical?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-012
     question: "Is the double-extension file BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md a one-off naming error or evidence of a pattern in how a specific device or tool creates files?"
     canonical_target: DEVICE-ECOSYSTEM.md
