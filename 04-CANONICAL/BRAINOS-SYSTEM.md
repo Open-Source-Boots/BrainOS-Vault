@@ -1,7 +1,7 @@
 ---
 title: BrainOS System
 filename: BRAINOS-SYSTEM.md
-updated: 2026-04-27
+updated: 2026-04-30
 status: CANONICAL
 domain: BRAINOS-SYSTEM
 note: This is a canonical file. Updates flow INTO it from brain entries, not out of it.
@@ -34,6 +34,8 @@ The endgame is CommonGrounds — a commercialized version of BrainOS that other 
 | `06-ANSWERS` | Closed open question answer files, organized by canonical domain |
 | `07-TEMPLATE` | Brain Entry and other templates |
 | `99-OUTBOX` | Files staged for export, sharing, or external use |
+
+**Rule:** Before recommending any file path in any session, verify actual folder structure using the GitHub MCP tool. Do not assume folders exist. (Origin: BE-20260430)
 
 ---
 
@@ -114,6 +116,30 @@ filename | threaddate | domain | status | priority | keyfacts | canonicalfile | 
 
 ---
 
+## Index Generation (MASTER-INDEX.csv)
+
+**Rule: MASTER-INDEX.csv is a generated output. It is never manually edited and never AI-rewritten.**
+
+The correct workflow:
+1. Run `utils/rebuild_index.py` locally from the vault root
+2. The script scans `02-BRAIN-ENTRIES/` and `03-PROJECTS/` for frontmatter
+3. It outputs `05-INDEX/MASTER-INDEX.csv` — 60 entries as of 2026-04-30
+4. Commit and push the regenerated CSV via Obsidian Git or terminal
+
+### Why AI cannot rewrite the CSV
+The MCP tool `create_or_update_file` has a practical content payload ceiling of approximately 8KB. MASTER-INDEX.csv is currently ~38KB. Any attempt to AI-rewrite the full CSV will fail silently with a payload error. The only safe write path is local script execution. (Origin: BE-20260430)
+
+### Shell Commands Plugin — Windows Automation Path
+Pre-commit Git hooks cannot be made executable on Windows without WSL. The Shell Commands Obsidian plugin is the confirmed replacement automation path for triggering `rebuild_index.py` on Windows.
+
+- Plugin repo: https://github.com/Taitava/obsidian-shellcommands
+- Trigger options: vault open, file save, manual hotkey — configure per workflow needs
+- Command: `python utils/rebuild_index.py` run from vault root
+
+**Standing rule:** Do not attempt to write shell scripts via PowerShell `Out-File -Encoding utf8` — it writes a BOM that breaks shebangs in Git Bash. Use `[System.IO.File]::WriteAllText()` instead. (Origin: BE-20260430)
+
+---
+
 ## Sync Stack
 
 | Layer | Tool | Status |
@@ -127,7 +153,7 @@ filename | threaddate | domain | status | priority | keyfacts | canonicalfile | 
 - Never use Google Drive for Desktop alongside OGD Sync plugin simultaneously — they conflict
 - Never embed PATs in chat. Store in Windows Credential Manager only
 - iPhone GitHub PAT expires May 22, 2026 — renew before that date
-- `.git` folder should be excluded from Google Drive's watch scope to prevent `desktop.ini` injection
+- `.git/` folder MUST be excluded from Google Drive's watch scope — Drive injects `desktop.ini` into `.git/refs/` subdirectories, corrupting tracked ref files. This has been observed across `refs/remotes/`, `refs/heads/`, and `refs/original/`. (Origin: BE-20260430, confirmed in vault_health_report.txt)
 
 ---
 
@@ -161,15 +187,18 @@ Full specs and install status: see `DEVICE-ECOSYSTEM.md`
 
 ---
 
-## Automation Scripts (Root of Vault)
+## Automation Scripts
 
-Three Python scripts are committed at vault root — these are real, working tools:
+Scripts committed to the vault repository. These are real, working tools — do not invent additional script paths.
 
-| Script | Purpose |
-|---|---|
-| `backfill_frontmatter.py` | Adds missing frontmatter fields to existing Brain Entries |
-| `inject_open_questions.py` | Injects open questions into Brain Entry frontmatter |
-| `review_questions.py` | Interactive CLI for reviewing and answering open questions |
+| Script | Location | Purpose |
+|---|---|---|
+| `backfill_frontmatter.py` | vault root | Adds missing frontmatter fields to existing Brain Entries |
+| `inject_open_questions.py` | vault root | Injects open questions into Brain Entry frontmatter |
+| `review_questions.py` | vault root | Interactive CLI for reviewing and answering open questions |
+| `rebuild_index.py` | `utils/` | Scans 02-BRAIN-ENTRIES + 03-PROJECTS, outputs MASTER-INDEX.csv — confirmed working 2026-04-30, 60 entries |
+
+**Rule:** If a script path is needed and not in this table, verify it exists in the repo via GitHub MCP before referencing it. (Origin: BE-20260430 — AI fabricated `06-SCRIPTS/` folder in session, corrected by vault structure verification)
 
 ---
 
@@ -198,6 +227,8 @@ These rules are non-negotiable in every AI session. Full list in `AI-WORKFLOW-RU
 - **Prefer reversible actions** — stop and reassess if drifting
 - **Never fabricate** — three Google Drive docs (Master Context v3, Cash Flow v3, Command Hub v3) contain AI-invented figures — DO NOT USE
 - **Employer is GoodLife Innovations** — not GoodLife Fitness. This error originated in early threads and is fully resolved.
+- **MCP file size ceiling** — `create_or_update_file` has a practical limit of ~8KB. Files larger than this require either a targeted patch or a locally-run script. Never attempt to AI-rewrite MASTER-INDEX.csv or any large generated file. (Origin: BE-20260430)
+- **Verify paths before writing** — check actual vault structure via GitHub MCP tool before referencing any folder or script path. (Origin: BE-20260430)
 
 ---
 
@@ -211,15 +242,14 @@ Origin: BE-20260301 (Shopify era), still canonical.
 
 ---
 
-## Known Vault Bugs (as of 2026-04-27)
+## Known Vault Bugs (as of 2026-04-30)
 
-- `desktop.ini` files committed into repo subdirectories — need `git rm --cached` purge
+- `desktop.ini` files committed into repo subdirectories — need `git rm --cached` purge; root cause is Google Drive syncing `.git/` internals
 - `.gitignore` already includes `desktop.ini` but subdirectory copies slipped through before rule was active
 - One Syncthing conflict file committed: `BE-20260425-BRAINOS-triage-shiftmind-founding.sync-conflict-20260425-230026-QH2DFIH.md` — needs comparison and deletion
 - Add `*.sync-conflict-*` to `.gitignore`
 - Early Brain Entries use `Brain_Entry_001.md` naming (underscores, no date) — Dataview queries must account for both naming patterns until rename pass is done
 - `BE[UNASSIGNED]_20260416_TOOL_n8n-video-pipeline-setup.md` has literal brackets in filename — should be renamed
-- `BRAINOS-SYSTEM.md` was a stub until 2026-04-27 — this compilation session closes that gap
 - `Smart Connections` plugin indexing stale — reload vault to trigger re-index
 
 ---
@@ -237,3 +267,4 @@ Origin: BE-20260301 (Shopify era), still canonical.
 | BE-20260423 | Git setup complete, 151 files, Obsidian Git operational |
 | BE-20260424 | iPhone Obsidian live, Möbius Sync active |
 | BE-20260425 | CommonGrounds concept born, MASTER-INDEX migration complete |
+| BE-20260430 | rebuild_index.py confirmed, Git hook failure diagnosed, CSV generation rules established |
