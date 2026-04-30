@@ -532,3 +532,57 @@
 **Question:** confirm 6-step sequence is in BRAINOS-SYSTEM.md
 **Answer:** Yes, the 6-steps are captured in BRAINOS-SYSTEM.md
 **Status:** CLOSED
+
+## OQ-20260427-002 — 2026-04-30 16:17
+**Source:** Brain_Entry_003.md
+**Question:** confirm TikTok @ctrl.plus.you still active
+**Answer:** Yes, that handle is still owned, nothing additional has been done with it
+**Status:** CLOSED
+
+## OQ-20260427-001 — 2026-04-30 16:17
+**Source:** Brain_Entry_004.md
+**Question:** Confirm outreach assets deleted from Drive (confirmed in Open Questions worksheet)
+**Answer:** Yes, the assets are gone, may make new ones later
+**Status:** CLOSED
+
+## OQ-20260427-002 — 2026-04-30 16:17
+**Source:** Brain_Entry_004.md
+**Question:** no action until vault compilation complete
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260427-001 — 2026-04-30 16:18
+**Source:** Brain_Entry_006.md
+**Question:** Label v3 Google Drive docs as DRAFT-CONTAINS-ERRORS
+**Answer:** Believe old docs are removed, will update if they haven't been
+**Status:** CLOSED
+
+## OQ-20260427-002 — 2026-04-30 16:18
+**Source:** Brain_Entry_006.md
+**Question:** confirm fabrication rule is in AI-WORKFLOW-RULES.md
+**Answer:** Yes, rules are in place
+**Status:** CLOSED
+
+## OQ-20260427-001 — 2026-04-30 16:18
+**Source:** Brain_Entry_008.md
+**Question:** Rebuild Notion frameworks (Four-Line scripting
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260427-001 — 2026-04-30 16:18
+**Source:** Brain_Entry_009.md
+**Question:** Choose which anchor video goes first and name a date — single highest-leverage open question for YouTube track
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260427-001 — 2026-04-30 16:18
+**Source:** Brain_Entry_010.md
+**Question:** Create DEVICE-ECOSYSTEM.md — this entry + BE_OpenSource_011 are co-equal seed sources
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE
+
+## OQ-20260427-002 — 2026-04-30 16:18
+**Source:** Brain_Entry_010.md
+**Question:** complete laptop remaining tasks in order (Ollama confirm → LocalSend → LibreOffice → HuggingFace → KrayVault → Smart Connections → Syncthing)
+**Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
+**Status:** DUPLICATE

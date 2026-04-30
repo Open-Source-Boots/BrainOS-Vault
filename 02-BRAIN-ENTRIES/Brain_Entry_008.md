@@ -15,7 +15,7 @@ open_questions:
   - id: OQ-20260427-001
     question: "Rebuild Notion frameworks (Four-Line scripting"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 # 🧠 Brain Entry 008 — YouTube Strategy & Video Workflow Thread
 **Date Logged:** April 11, 2026

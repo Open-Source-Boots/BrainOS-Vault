@@ -19,7 +19,7 @@ open_questions:
   - id: OQ-20260427-002
     question: "confirm TikTok @ctrl.plus.you still active"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 # Brain Entry 003
 **Date:** 2026-04-10

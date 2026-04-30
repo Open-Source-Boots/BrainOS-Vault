@@ -15,11 +15,11 @@ open_questions:
   - id: OQ-20260427-001
     question: "Label v3 Google Drive docs as DRAFT-CONTAINS-ERRORS"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-002
     question: "confirm fabrication rule is in AI-WORKFLOW-RULES.md"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 ## What This Thread Was
 

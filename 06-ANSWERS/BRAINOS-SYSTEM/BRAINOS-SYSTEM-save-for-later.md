@@ -232,3 +232,21 @@
 **Question:** Confirm Kansas Sales Tax reg and EIN status
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260427-001 — 2026-04-30 16:17
+**Source:** Brain_Entry_005.md
+**Question:** Call Phyllis/Gingette 785-840-9675 — WIOA voucher is the unlock
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260427-002 — 2026-04-30 16:17
+**Source:** Brain_Entry_005.md
+**Question:** confirm payment or voucher before October to secure seat
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260427-003 — 2026-04-30 16:17
+**Source:** Brain_Entry_005.md
+**Question:** pursue Peaslee Promise scholarship
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
