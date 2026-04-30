@@ -1,113 +1,114 @@
 ---
-title: AI-WORKFLOW-RULES
-date-updated: 2026-04-22
+title: AI Workflow Rules
+filename: AI-WORKFLOW-RULES.md
+updated: 2026-04-30
 status: CANONICAL
----
-canonical_file: AI-WORKFLOW-RULES / BRAINOS-SYSTEM / BRAYDEN-IDENTITY
-                / SKILLS-EDUCATION / KRAY-STUDIOS-CONTENT
-                / NEW: DEVICE-ECOSYSTEM
-status: CANONICAL
-context_available: none — isolated thread. Memory search surfaced
-  project arc and entry history but not full file contents.
-tags: [open-source-ai, local-models, lm-studio, ollama, obsidian,
-       device-inventory, laptop-setup, second-brain, naming-convention,
-       adhd-workflow, tool-stack, kray-vault, brainos, full-circle,
-       lm-link, gemma, flux, wan2gp, whisper, syncthing, localsend,
-       spacedesk, pinokio, pocketpal, mobius-sync, hugging-face]
+domain: BRAINOS-SYSTEM
+note: This is a canonical file. Rules flow INTO it from brain entries, not out of it. Every rule must have an origin.
 ---
 
-# Brain Entry — Local open-source AI stack established on laptop;
-  full device ecosystem designed; Obsidian introduced as brain storage;
-  full-circle archival test completed
+# AI Workflow Rules — Canonical Reference
+
+These are the non-negotiable standing rules for every AI session inside BrainOS. When a rule is broken or a new failure mode is discovered, a brain entry is compiled and the relevant rule is added here.
 
 ---
 
-## CONFIRMED FACTS
+## Core Principles
 
-### `tool` — Software installed on laptop
+1. **AI writes structure, Brayden fills numbers.** Never invent financial figures, debt balances, income amounts, dates, or device specs. If a number is needed and not confirmed in canonical files, mark it `[UNCONFIRMED]` and ask. Exception: calculations and projections derived from Brayden-confirmed figures are allowed, clearly labeled as derived outputs. (Origin: BrainEntry006)
+2. **Single scoped task before starting.** Define the task, then execute. Do not expand scope mid-session without a checkpoint.
+3. **Checkpoint every 2–3 actions.** Especially in browser automation or multi-step file operations. Stop and confirm before continuing.
+4. **Prefer reversible actions.** If an action cannot be undone, stop and reassess. Ask before proceeding.
+5. **Never fabricate.** If a fact is not in canonical files or confirmed in the current thread, it does not exist. Do not fill gaps with plausible-sounding data.
 
-| Fact | Value | Source |
-|------|-------|--------|
-| LM Studio version | 0.4.9-1 x64 | Screenshot filename |
-| LM Studio install date | 4/5/2026 1:44 AM | Screenshot timestamp |
-| LM Studio status | Installed and tested | User confirmed + screenshot |
-| Gemma 3 1b | Running, tested | Screenshot of active chat |
-| Gemma 3 1b speed | 18.66 tok/sec | Screenshot stat bar |
-| Gemma 3 1b response (test) | 116 tokens / 2.44s | Screenshot stat bar |
-| Gemma 3 1b stop reason | EOS Token Found | Screenshot — confirmed normal |
-| Gemma 3 1b image support | None — "Model does not support image input" | Screenshot error message |
-| Ollama installer | Downloaded 4/5/2026 1:40 AM, ~1.8GB | Screenshot |
-| Ollama install | Unconfirmed — installer downloaded only | User did not confirm run |
-| Obsidian version | 1.12.7 | Screenshot filename |
-| Obsidian download date | 4/5/2026 2:22 AM | Screenshot timestamp |
-| Obsidian status | Installed, no real vault created | User stated directly |
-| Test Vault | Exists, throwaway — not real content | User stated directly |
-| LocalSend version | 1.17.0 windows-x86-64 | Screenshot filename |
-| LocalSend download date | 4/5/2026 2:37 AM | Screenshot timestamp |
-| LocalSend laptop status | Downloaded, not configured | User stated directly |
-| Syncthing | Downloaded 4/5/2026 2:38 AM | Screenshot timestamp |
-| Syncthing status | Installed, running | Desktop icon visible in screenshot |
-| Syncthing folder last modified | 4/7/2026 10:35 PM | Screenshot timestamp |
-| Pinokio | Downloaded 4/5/2026 2:41 AM, ~121MB | Screenshot |
-| Pinokio status | Downloaded, not yet used | User implied |
-| Spacedesk | Downloaded 4/5/2026 11:36–11:37 PM (32+64 bit) | Screenshot timestamps |
-| Spacedesk status | Installed, confirmed working as iPad second monitor | User stated directly |
+---
 
-### `tool` — Model evaluated but not downloaded
+## File Write Rules
 
-| Fact | Value | Source |
-|------|-------|--------|
-| Model ID | TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF | User linked, page read |
-| Architecture | Google Gemma 4 base | Hugging Face page |
-| Fine-tune source | Claude Opus 4.6 high-reasoning outputs | Hugging Face page |
-| License | Apache 2.0 | Hugging Face page |
-| Q4_K_M size | 18.7 GB | Hugging Face page |
-| Q3_K_M size | 15.3 GB | Hugging Face page |
-| Q8_0 size | 32.6 GB | Hugging Face page |
-| BF16 (full) size | 61.4 GB | Hugging Face page |
-| Modalities | Text, image, audio (30s max), video (60s as frames) | Model card read in thread |
-| Thinking mode trigger | `<\|think\|>` at start of system prompt | Model card read in thread |
-| Recommended settings | temperature=1.0, top_p=0.95, top_k=64 | Model card read in thread |
-| Desktop behavior | Overflows 12GB VRAM into 64GB RAM, ~3–8 tok/sec | Stated in thread |
-| Download command | `ollama pull hf.co/TeichAI/gemma-4-31B-it-Claude-Opus-Distill-GGUF:Q4_K_M` | Stated in thread |
+### MCP Tool File Size Ceiling
+- The `create_or_update_file` MCP tool has a practical content payload ceiling of approximately **8KB**.
+- Files larger than 8KB require either a targeted patch (replacing a specific section only) or a locally-run script.
+- If an update would exceed this ceiling, flag it and propose a local script approach instead.
+- **Never attempt to AI-rewrite MASTER-INDEX.csv or any large generated file.** (Origin: BE-20260430)
 
-### `tool` — Local AI concepts confirmed in this thread
+### CSV Generation Rule
+- `MASTER-INDEX.csv` is a **generated output**, not a manually maintained document.
+- The correct write path is: run `utils/rebuild_index.py` locally → commit the output.
+- AI must never rewrite the CSV directly, append rows manually, or attempt to reconstruct it from memory.
+- If the CSV is out of date, the correct response is: "Run `utils/rebuild_index.py` from the vault root." (Origin: BE-20260430)
 
-| Fact | Value | Source |
-|------|-------|--------|
-| Local model token cost | Zero — no usage cost, no monthly cap, no rate limit | Stated in thread |
-| Local model internet access | None by default | Stated in thread |
-| Context window | Exists per model, resets per chat, no charge | Stated in thread |
-| EOS Token | Model finished naturally — normal and correct | Thread + screenshot |
-| VRAM offloading | Model larger than VRAM spills into RAM — slower but functional | Stated in thread |
-| OLLAMA_MODELS env var | Must be set before pulling to redirect to external drive | Stated in thread |
-| Gemma 3 4b | Vision capable — upgrade from 1b for image input tasks | Stated in thread |
-| Gemma 3n e2b/e4b | Designed for laptops, tablets, phones | Ollama library page read |
-| LM Link | Laptop connects to desktop LM Studio wirelessly, uses desktop GPU | LM Studio page read |
-| LM Link security | End-to-end encrypted, Tailscale mesh VPN | LM Studio page read |
-| LM Link status | Preview — rolling out in batches | LM Studio page read |
-| Open WebUI | ChatGPT-style interface over Ollama, browser-based | Stated in thread |
-| Open WebUI access from laptop | `http://[desktop IP]:3000` | Stated in thread |
+### Path Verification Rule
+- Before referencing, writing to, or recommending any file path, verify the actual vault folder structure using the GitHub MCP tool.
+- Do not assume folders exist based on naming patterns or prior context.
+- If a folder or script is not confirmed in the repo, do not reference it.
+- Confirmed script locations are documented in BRAINOS-SYSTEM.md under Automation Scripts. (Origin: BE-20260430 — AI fabricated `06-SCRIPTS/` folder)
 
-### `identity` — Hardware inventory (confirmed specs)
+### Shell Script on Windows
+- Never write shell scripts via PowerShell `Out-File -Encoding utf8` — it writes a UTF-8 BOM that breaks shebangs in Git Bash.
+- Use `[System.IO.File]::WriteAllText()` instead for any shell script written on Windows. (Origin: BE-20260430)
 
-| Device           | Spec         | Value                                    | Source                           |
-| ---------------- | ------------ | ---------------------------------------- | -------------------------------- |
-| Desktop          | CPU          | AMD Ryzen 7 7700X                        | User stated directly             |
-| Desktop          | GPU          | NVIDIA RTX 3060 12GB VRAM                | User stated directly             |
-| Desktop          | RAM          | 64GB                                     | User stated directly             |
-| Desktop          | Location     | Home — Lawrence, KS                      | User stated directly             |
-| Desktop          | Setup status | Nothing installed as of 4/11/2026        | User stated directly             |
-| Laptop           | GPU          | Intel Iris Xe (integrated, no dedicated) | User confirmed                   |
-| Laptop           | RAM          | 8GB                                      | User stated directly             |
-| Laptop           | OS           | Windows                                  | Confirmed via screenshots        |
-| iPhone           | Model        | iPhone 15                                | User stated directly             |
-| iPhone           | Storage      | 128GB                                    | User stated directly             |
-| iPhone           | Setup status | Nothing done — starting from scratch     | User stated directly             |
-| iPad             | Generation   | 5th gen, main model (not mini, not air)  | User confirmed directly          |
-| iPad             | Year         | 2017                                     | User stated directly             |
-| iPad             | Storage      | 64GB                                     | User stated directly             |
-| iPad             | Chip         | A9 (implied by 2017 5th gen model)       | Inferred — FLAG for confirmation |
-| iPad             | Setup status | Spacedesk only — all else pending        | User stated directly             |
-| External drive 1 | Size         | 2TB — AI model storage                   | User stated directly             |
-| External drive 2 | Size         | 1TB — footage/assets                     | User stated directly             |
+---
+
+## Fabrication Prevention
+
+- Three Google Drive documents contain AI-invented figures and must never be used as sources:
+  - Master Context v3
+  - Cash Flow v3
+  - Command Hub v3
+- Employer is **GoodLife Innovations** — not GoodLife Fitness. Fully resolved; flag immediately if the error recurs. (Origin: BrainEntry-early-threads)
+- iPad model was incorrectly recorded as "5th gen (2017)" in early threads. Confirmed correct: **iPad Air 5th generation**. (Origin: BE-20260430)
+- Folder `06-SCRIPTS/` does not exist. Scripts live at vault root or in `utils/`. (Origin: BE-20260430)
+
+---
+
+## ADHD Execution Rules
+
+- Front-load the most important information in every response.
+- Keep next actions small, concrete, and single-step.
+- Flag explicitly when the next step is execution, not more planning.
+- Call out novelty loops directly: "This looks like a novelty loop — [specific description]. Want to park it and finish what you started?"
+- Do not name ADHD constantly — build structure around it instead.
+- Re-entry cost reduction is a first-class design goal. Every session should be reloadable in under 5 minutes.
+
+---
+
+## GLWC / GoodLife Two-Hat Rule
+
+- Brayden's DSP role (NLRA-protected employee) and PFT co-provider role (contractor, lease directly tied to the PFT contract) are legally distinct and must never be conflated.
+- GLWC strategy is deliberately paced. Flag legal risk explicitly.
+- Note when something needs real legal or organizing advice, not AI speculation.
+
+---
+
+## Credentials & Security
+
+- No PATs, passwords, or API keys in chat. Ever.
+- GitHub PAT for iPhone expires **May 22, 2026** — renew before that date.
+- Store credentials in Windows Credential Manager only.
+- No paid AI subscriptions active beyond Perplexity (as of 2026-04-30).
+
+---
+
+## Browser Automation Guardrails
+
+Origin: BE-20260301 (Shopify era), still canonical.
+
+1. Always duplicate theme before editing code
+2. Never delete core Liquid files without explicit approval
+3. Stop-and-ask on any ambiguous edit
+
+---
+
+## Rule Origin Index
+
+| Rule | Origin Entry |
+|---|---|
+| AI writes structure / Brayden fills numbers | BrainEntry006 |
+| Fabrication prevention / three bad Drive docs | BrainEntry006 |
+| Browser automation guardrails | BE-20260301 |
+| Employer = GoodLife Innovations | BrainEntry-early |
+| MCP file size ceiling (~8KB) | BE-20260430 |
+| CSV as generated output / never AI-rewritten | BE-20260430 |
+| Path verification before any file write | BE-20260430 |
+| PowerShell BOM / WriteAllText rule | BE-20260430 |
+| iPad Air 5th gen correction | BE-20260430 |
