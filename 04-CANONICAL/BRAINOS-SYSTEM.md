@@ -15,7 +15,7 @@ BrainOS is a local-first second brain built in Obsidian, synced via Git + Google
 
 ## What BrainOS Is
 
-BrainOS is not a note-taking system. It is an operating system for Brayden's life, projects, decisions, and identity. It captures raw sessions from AI threads, distills them into structured Brain Entries, compiles confirmed facts into canonical files, and uses open questions to close knowledge gaps over time.
+BrainOS is not a note-taking system. It is an operating system for Brayden's life, projects, decisions, and identity. It captures raw sessions from AI threads,  distills them into structured Brain Entries, compiles confirmed facts into canonical files, and uses open questions to close knowledge gaps over time.
 
 The endgame is CommonGrounds — a commercialized version of BrainOS that other people can run. Everything built here is also the product.
 
