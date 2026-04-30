@@ -1,3 +1,0 @@
-#!/bin/sh
-python utils/rebuild_index.py
-git add 05-INDEX/MASTER-INDEX.csv
