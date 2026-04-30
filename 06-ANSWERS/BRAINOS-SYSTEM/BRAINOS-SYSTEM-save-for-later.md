@@ -166,3 +166,45 @@
 **Question:** Are the 7 malformed YAML files safe to repair by wrapping colon-containing values in quotes, or do any of them contain content that would change meaning when quoted?
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260430-001 — 2026-04-30 16:03
+**Source:** BE-20260430-BRAINOS-csv-push-failure-index-automation.md
+**Question:** Does the Shell Commands plugin support running a Python script on vault open as a trigger event, without requiring a hotkey press?
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260430-002 — 2026-04-30 16:03
+**Source:** BE-20260430-BRAINOS-csv-push-failure-index-automation.md
+**Question:** Is yaml available in Python 3.14 by default, or does rebuild_index.py require a pip install yaml step before it will run on a fresh machine?
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260430-003 — 2026-04-30 16:03
+**Source:** BE-20260430-BRAINOS-csv-push-failure-index-automation.md
+**Question:** What is the exact path Git on Windows uses to resolve core.hooksPath when it is set explicitly — does it resolve relative to vault root or the .git directory?
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260430-004 — 2026-04-30 16:03
+**Source:** BE-20260430-BRAINOS-csv-push-failure-index-automation.md
+**Question:** Does Obsidian Git's auto-commit fire before or after Shell Commands plugin hooks, and can the order be controlled?
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260430-006 — 2026-04-30 16:03
+**Source:** BE-20260430-BRAINOS-csv-push-failure-index-automation.md
+**Question:** Is the desktop.ini corruption in .git/refs a result of Google Drive syncing .git internals — and should .git/ be explicitly excluded from Google Drive sync?
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260430-007 — 2026-04-30 16:03
+**Source:** BE-20260430-BRAINOS-csv-push-failure-index-automation.md
+**Question:** Can a PowerShell script be placed in the vault root and run via Task Scheduler on Windows to replace the pre-commit hook entirely — triggering rebuild_index.py on a timer?
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260430-008 — 2026-04-30 16:04
+**Source:** BE-20260430-BRAINOS-csv-push-failure-index-automation.md
+**Question:** If rebuild_index.py is run from a directory other than the vault root, will the relative paths ENTRY_DIRS and OUTPUT_CSV still resolve correctly?
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER

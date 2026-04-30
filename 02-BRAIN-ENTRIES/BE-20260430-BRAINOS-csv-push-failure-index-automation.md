@@ -40,7 +40,7 @@ open_questions:
   - id: OQ-20260430-005
     question: "How many brain entries currently have missing or malformed frontmatter fields that would cause rebuild_index.py to produce blank rows in the CSV?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260430-006
     question: "Is the desktop.ini corruption in .git/refs a result of Google Drive syncing .git internals — and should .git/ be explicitly excluded from Google Drive sync?"
     canonical_target: BRAINOS-SYSTEM.md
@@ -56,15 +56,15 @@ open_questions:
   - id: OQ-20260430-009
     question: "What is the threshold at which MASTER-INDEX.csv will become too large for Obsidian's Dataview plugin to render efficiently — and is there a pagination strategy for the index view?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260430-010
     question: "Should key_facts be intentionally left blank in the CSV, or is there a lightweight way to auto-populate it from the first KEY FACTS bullet in each brain entry's body?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260430-011
     question: "Does the MCP tool file size ceiling apply per-call or per-session — and is there a chunked write pattern that would allow AI to update large files safely?"
     canonical_target: AI-WORKFLOW-RULES.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260430-012
     question: "Would WSL (Windows Subsystem for Linux) resolve the Git hook executable bit problem permanently, and is it worth installing for BrainOS tooling purposes?"
     canonical_target: DEVICE-ECOSYSTEM.md

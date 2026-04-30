@@ -25,7 +25,7 @@ open_questions:
   - id: OQ-20260430-013
     question: "What is the first source type we should automate end-to-end in the intake pipeline: receipts, bank statements, legal forms, transcripts, or books?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260430-014
     question: "What should the universal inbox folder be named and where should it live in the vault so capture is fastest from all devices?"
     canonical_target: BRAINOS-SYSTEM.md

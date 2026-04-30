@@ -58,19 +58,19 @@ open_questions:
   - id: OQ-20260427-012
     question: "Is the double-extension file BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md a one-off naming error or evidence of a pattern in how a specific device or tool creates files?"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-013
     question: "Should workspace-mobile.json be gitignored globally or only per-device via a local .git/info/exclude so iPhone and iPad Obsidian state is never accidentally committed from any machine?"
     canonical_target: DEVICE-ECOSYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-014
     question: "At what vault size (number of BEs, canonical files, or OQ count) does the current single-pass Python script architecture become a performance bottleneck that warrants moving to a SQLite-backed index?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
   - id: OQ-20260427-015
     question: "Does the current backfill_frontmatter.py correctly handle files where frontmatter exists but is partially malformed — does it skip the whole file or attempt partial repair?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 ---
 
 ## KEY FACTS

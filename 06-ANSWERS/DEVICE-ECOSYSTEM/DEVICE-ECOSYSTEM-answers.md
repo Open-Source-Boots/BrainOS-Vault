@@ -72,13 +72,13 @@
 **Status:** DUPLICATE
 
 ## OQ-20260427-022 — 2026-04-30 14:40
-**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md
 **Question:** Is the Hostinger VPS currently running anything, idle, or cancelled — and does Brayden still have access to hPanel?
 **Answer:** Hostinger VPS is currently idle
 **Status:** CLOSED
 
 ## OQ-20260427-023 — 2026-04-30 14:44
-**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md
 **Question:** What is the OLLAMA_MODELS environment variable currently set to on the laptop, and has it been redirected to the 2TB external drive?
 **Answer:** Nothing has been moved to either external hard drive. The currently installed LLMs exist solely on the laptop, QWEN I believe, and then a model on the iphone, SmoLVE i believe.
 **Status:** CLOSED
@@ -112,3 +112,21 @@
 **Question:** Does Mobius Sync on iPhone interact with .stfolder differently than Syncthing does on desktop — specifically, does it create its own marker files that should also be gitignored?
 **Answer:** I think I changed what I need to on each respective device to let the syncing respect the informationacross the vault, and to cater each device to work correctly
 **Status:** CLOSED
+
+## OQ-20260427-012 — 2026-04-30 16:00
+**Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
+**Question:** Is the double-extension file BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md a one-off naming error or evidence of a pattern in how a specific device or tool creates files?
+**Answer:** No it was an error, I've gone through all the files in the vault and fixed the double-naming error, all linked files, and the file itself are now named "BE-20260427-BRAINOS-canonical-compilation-business-architecture.md"
+**Status:** CLOSED
+
+## OQ-20260427-013 — 2026-04-30 16:01
+**Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
+**Question:** Should workspace-mobile.json be gitignored globally or only per-device via a local .git/info/exclude so iPhone and iPad Obsidian state is never accidentally committed from any machine?
+**Answer:** Maybe, as we build out the other 2/4 pillars of the device ecosystem (iPad and Desktop), we'll determine how information is read-written
+**Status:** CLOSED
+
+## OQ-20260430-012 — 2026-04-30 16:06
+**Source:** BE-20260430-BRAINOS-csv-push-failure-index-automation.md
+**Question:** Would WSL (Windows Subsystem for Linux) resolve the Git hook executable bit problem permanently, and is it worth installing for BrainOS tooling purposes?
+**Answer:** [NOTE — not closed] Not sure what this means, do we need to do this to make everything work better?
+**Status:** NOTE

@@ -348,19 +348,19 @@
 **Status:** DUPLICATE
 
 ## OQ-20260427-021 — 2026-04-30 14:39
-**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md
 **Question:** What does Brayden define as the minimum viable version of CommonGrounds — what would it need to do or contain to be worth showing someone else?
 **Answer:** Creating a living, subjective, transferable log of staff experiences that can allow interactions between the user and the information; for example, a new staff can ask the model a question about a specific client, the model will pull from its library of person-specific records, and answer the staff's question with subjective, accurate, and helpful answers.
 **Status:** CLOSED
 
 ## OQ-20260427-025 — 2026-04-30 15:02
-**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md
 **Question:** Has a daily note habit been established in Obsidian — even one entry — since the vault went live?
 **Answer:** Sort of, I haven't quite made "Daily Notes" in the way I've set it up, which I believe is functionally operating, still want to improve the flow of the information captured there. I'm still doing "Daily" recording of thoughts and ideas through the Brain Entry process I've already been using
 **Status:** CLOSED
 
 ## OQ-20260427-028 — 2026-04-30 15:15
-**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md
 **Question:** Does a HIPAA Business Associate Agreement (BAA) need to exist between Brayden and any future CommonGrounds user who processes care notes through a local model he packages?
 **Answer:** Probably will need to exist once it comes to that point, I don't know the full legality of building a system like this
 **Status:** CLOSED
@@ -435,4 +435,40 @@
 **Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
 **Question:** Should log_dedup_fix.py preserve the timestamp of the first occurrence of a duplicate OQ entry, or should it use the most recent one as canonical?
 **Answer:** Do the first occurrence, I feel like that would be more valuable later on
+**Status:** CLOSED
+
+## OQ-20260427-014 — 2026-04-30 16:02
+**Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
+**Question:** At what vault size (number of BEs, canonical files, or OQ count) does the current single-pass Python script architecture become a performance bottleneck that warrants moving to a SQLite-backed index?
+**Answer:** I don't know what this limit is or would be, we should find this out as soon as possible to prevent hitting the limit/build out what we need to now to avoid ever hitting the limit
+**Status:** CLOSED
+
+## OQ-20260427-015 — 2026-04-30 16:03
+**Source:** BE-20260427-BRAINOS-vault-audit-health-backfill-dedup.md
+**Question:** Does the current backfill_frontmatter.py correctly handle files where frontmatter exists but is partially malformed — does it skip the whole file or attempt partial repair?
+**Answer:** I believe so, I should go back and confirm it works as intended later.
+**Status:** CLOSED
+
+## OQ-20260430-005 — 2026-04-30 16:03
+**Source:** BE-20260430-BRAINOS-csv-push-failure-index-automation.md
+**Question:** How many brain entries currently have missing or malformed frontmatter fields that would cause rebuild_index.py to produce blank rows in the CSV?
+**Answer:** Not sure, how can I check?
+**Status:** CLOSED
+
+## OQ-20260430-009 — 2026-04-30 16:04
+**Source:** BE-20260430-BRAINOS-csv-push-failure-index-automation.md
+**Question:** What is the threshold at which MASTER-INDEX.csv will become too large for Obsidian's Dataview plugin to render efficiently — and is there a pagination strategy for the index view?
+**Answer:** This is important to find out as soon as possible, as of right now, I don't know what the limit is
+**Status:** CLOSED
+
+## OQ-20260430-010 — 2026-04-30 16:05
+**Source:** BE-20260430-BRAINOS-csv-push-failure-index-automation.md
+**Question:** Should key_facts be intentionally left blank in the CSV, or is there a lightweight way to auto-populate it from the first KEY FACTS bullet in each brain entry's body?
+**Answer:** Also a good question, I would like key facts to be captured in the index, but if it's going to bloat the system, make it less reliable, then I want to find a better solution
+**Status:** CLOSED
+
+## OQ-20260430-013 — 2026-04-30 16:06
+**Source:** BE-20260430-BRAINOS-ingestion-pipeline-next-thread-handoff.md
+**Question:** What is the first source type we should automate end-to-end in the intake pipeline: receipts, bank statements, legal forms, transcripts, or books?
+**Answer:** Receipts/Bank Statements/Pay stubs should be the next thing we figure out integration for
 **Status:** CLOSED
