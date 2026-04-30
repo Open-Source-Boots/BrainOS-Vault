@@ -232,3 +232,15 @@
 **Question:** What is the canonical brand palette for Ctrl+You — Signal Blue or Burnt Amber — and has it been decided?
 **Answer:** [DUPLICATE / ALREADY RESOLVED — auto-closed]
 **Status:** DUPLICATE
+
+## OQ-20260427-026 — 2026-04-30 15:13
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** What is the actual Skool pricing model Brayden would use for CommonGrounds — free tier + paid tier, one-time, or monthly membership?
+**Answer:** I don't have anything planned out that far yet; Skool is something I really only mentioned once, I watched a youtube video about how powerful it can be at generating income, and that is a primary goal of this system I'm building now. I think Skool sounded like a natural extension of my income generation, my learning-in-public, and the future distribution of the BrainOS system I'm currently building.
+**Status:** CLOSED
+
+## OQ-20260427-027 — 2026-04-30 15:14
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** If Brayden had Whisper running locally today and recorded 10 minutes of footage, what would the first video he processes actually be about?
+**Answer:** Whisper isn't for video necessarily, it was recommended I install it for transcribing voice, making indexing and note-taking more immediate, decreasing the friction staff, and myself, may have when wanting to capture an idea, note, event, etc.
+**Status:** CLOSED

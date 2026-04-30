@@ -358,3 +358,9 @@
 **Question:** Has a daily note habit been established in Obsidian — even one entry — since the vault went live?
 **Answer:** Sort of, I haven't quite made "Daily Notes" in the way I've set it up, which I believe is functionally operating, still want to improve the flow of the information captured there. I'm still doing "Daily" recording of thoughts and ideas through the Brain Entry process I've already been using
 **Status:** CLOSED
+
+## OQ-20260427-028 — 2026-04-30 15:15
+**Source:** BE-20260427-BRAINOS-canonical-compilation-business-architecture.md.md
+**Question:** Does a HIPAA Business Associate Agreement (BAA) need to exist between Brayden and any future CommonGrounds user who processes care notes through a local model he packages?
+**Answer:** Probably will need to exist once it comes to that point, I don't know the full legality of building a system like this
+**Status:** CLOSED

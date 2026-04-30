@@ -79,17 +79,17 @@ open_questions:
   - id: OQ-20260427-026
     question: "What is the actual Skool pricing model Brayden would use for CommonGrounds — free tier + paid tier, one-time, or monthly membership?"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 
   - id: OQ-20260427-027
     question: "If Brayden had Whisper running locally today and recorded 10 minutes of footage, what would the first video he processes actually be about?"
     canonical_target: ACTIVE-PROJECTS.md
-    status: OPEN
+    status: CLOSED
 
   - id: OQ-20260427-028
     question: "Does a HIPAA Business Associate Agreement (BAA) need to exist between Brayden and any future CommonGrounds user who processes care notes through a local model he packages?"
     canonical_target: BRAINOS-SYSTEM.md
-    status: OPEN
+    status: CLOSED
 
   - id: OQ-20260427-029
     question: "What is the gap between how the DSP role is described in GoodLife materials and how it actually functions on the ground — and has Brayden written that gap down anywhere?"
