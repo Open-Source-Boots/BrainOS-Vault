@@ -1,6 +1,6 @@
 ---
 name: mdfinance
-version: 2.1
+version: 2.2
 updated: 2026-05-01
 domain: FINANCE
 status: ACTIVE
@@ -60,6 +60,10 @@ the structured extract.
 5. **Flag anything that looks unusual** without editorializing — just mark
    it `⚠️ FLAG:` with the raw fact.
 6. **Statement period and institution must appear at the top** of every output.
+7. **Running balance is a calculated field.** Derive it from the opening
+   balance in Section 1 plus all transactions in date order. If the calculated
+   running balance diverges from the statement's own balance column at any
+   point, flag it in Section 6.
 
 ---
 
@@ -88,12 +92,16 @@ Net Change: $[+/- X,XXX.XX]
 
 Table of all direct deposit / payroll entries only. Skip internal transfers.
 
-| Date | Source | Amount |
-|------|--------|--------|
-| Mon DD, YYYY | [Payee Name] | $XXX.XX |
+| Date | Source | Amount | Running Balance |
+|------|--------|--------|-----------------|
+| Mon DD, YYYY | [Payee Name] | +$XXX.XX | $[X,XXX.XX] |
 
 **Total Income This Period:** $X,XXX.XX
 **Deposit Count:** X
+
+> Running balance starts from Opening Balance in Section 1 and updates with
+> every transaction across Sections 2, 3, and 4 in strict date order.
+> Carry the balance forward continuously — do not reset between sections.
 
 ---
 
@@ -102,28 +110,48 @@ Table of all direct deposit / payroll entries only. Skip internal transfers.
 Payments to known debt accounts: loans, credit cards, BNPL (Affirm, Klarna,
 etc.), insurance, utilities, subscriptions with recurring patterns.
 
-| Date | Payee | Amount | Category |
-|------|-------|--------|----------|
-| Mon DD, YYYY | [Payee] | -$XXX.XX | [Loan / Credit Card / BNPL / Insurance / Utility / Subscription] |
+| Date | Payee | Amount | Category | Running Balance | Canonical Amt | Delta |
+|------|-------|--------|----------|-----------------|---------------|-------|
+| Mon DD, YYYY | [Payee] | -$XXX.XX | [Loan / BNPL / Insurance / Utility] | $[X,XXX.XX] | $[canonical] | [✅ / ⚠️ $X.XX] |
+
+**Column definitions:**
+- **Running Balance** — account balance after this transaction posts, carried
+  forward from Section 2. Continue the same running balance into Section 4.
+- **Canonical Amt** — the expected monthly amount from FINANCIAL-SNAPSHOT.md.
+  If FINANCIAL-SNAPSHOT.md is not in context, write `[UNCONFIRMED]`.
+- **Delta** — difference between statement amount and canonical amount.
+  - If they match: `✅`
+  - If statement amount differs: `⚠️ $[difference]` and auto-add a Section 6 flag.
+
+**Known recurring payees for auto-categorization** (from FINANCIAL-SNAPSHOT.md):
+Affirm, OneMain Financial, Allstate, AT&T, DMP / InCharge, Dave Financial,
+Car Payment (Mom). Any payment to these payees at a different amount than
+canonical triggers an automatic ⚠️ Delta flag.
 
 ---
 
 ### SECTION 4 — VARIABLE SPENDING
 
-Non-recurring out-of-pocket spending. Group by category.
+Non-recurring out-of-pocket spending. Group by category. Continue the running
+balance from Section 3.
 
-| Category | Line Items | Total |
-|----------|------------|-------|
-| Fast Food | [list of merchants] | -$XX.XX |
-| Gas / Fuel | [list] | -$XX.XX |
-| Grocery | [list] | -$XX.XX |
-| Entertainment | [list] | -$XX.XX |
-| Smoke / Vape | [list] | -$XX.XX |
-| Investing (Robinhood, etc.) | [list] | -$XX.XX |
-| Gambling | [list] | -$XX.XX |
-| Other | [list] | -$XX.XX |
+| Category | Line Items | Total | Running Balance (end of category) |
+|----------|------------|-------|-----------------------------------|
+| Fast Food | [list of merchants] | -$XX.XX | $[X,XXX.XX] |
+| Gas / Fuel | [list] | -$XX.XX | $[X,XXX.XX] |
+| Grocery | [list] | -$XX.XX | $[X,XXX.XX] |
+| Entertainment | [list] | -$XX.XX | $[X,XXX.XX] |
+| Smoke / Vape | [list] | -$XX.XX | $[X,XXX.XX] |
+| Investing (Robinhood, etc.) | [list] | -$XX.XX | $[X,XXX.XX] |
+| Gambling | [list] | -$XX.XX | $[X,XXX.XX] |
+| Other | [list] | -$XX.XX | $[X,XXX.XX] |
 
 **Total Variable Spend:** -$X,XXX.XX
+**Running Balance After All Variable Spend:** $[X,XXX.XX]
+
+> The Running Balance after Section 4 should equal or closely approximate
+> the Closing Balance in Section 1. If it diverges by more than $1.00,
+> flag it in Section 6 as a reconciliation gap.
 
 ---
 
@@ -141,15 +169,16 @@ these as income or spending. List them for completeness only.
 ### SECTION 6 — ANOMALY FLAGS
 
 Any of the following triggers a `⚠️ FLAG:` entry:
-- A payee that appears in recurring debts but at a different amount than prior months
+- A payee in Section 3 with a non-zero Delta (amount differs from canonical)
 - A new payee that looks like a debt or loan payment not in FINANCIAL-SNAPSHOT
-- A payroll deposit that is significantly lower or higher than the established pattern
-- An overdraft or near-zero balance event
+- A payroll deposit significantly lower or higher than the established $600.00 pattern
+- An overdraft or near-zero balance event visible in the running balance
 - A BNPL payment to a new Affirm/Klarna loan ID not seen before
+- Running balance after Section 4 diverges from Closing Balance by more than $1.00
 - Any charge from a smoke shop, gambling platform, or liquor store (flag
   without judgment — just surface it for awareness)
 
-`⚠️ FLAG:` [Raw fact from document — date, payee, amount, reason flagged]
+`⚠️ FLAG:` [Raw fact — date, payee, amount, reason flagged]
 
 ---
 
