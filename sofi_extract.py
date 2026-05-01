@@ -20,7 +20,6 @@ period_pattern = re.compile(
     r'\s*[-–]\s*'
     r'(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s+(\d{4})'
 )
-# Amount/balance extraction from a transaction line
 amount_re      = re.compile(r'(-?\$[\d,]+\.\d{2})\s+(-?\$[\d,]+\.\d{2})\s*$')
 
 skip_patterns = re.compile(
@@ -37,14 +36,13 @@ skip_patterns = re.compile(
     re.IGNORECASE
 )
 
-# Spending categories — matched against description (case-insensitive)
 CATEGORY_RULES = [
     (re.compile(r'GOODLIFE|PAYROLL|PAYACTIV', re.I),        'income'),
     (re.compile(r'AFFIRM|DISCOVER|CHASE|BEST EGG|ONEMAIN|CAPITAL ONE|AMAZON.*SYF|PAYPAL', re.I), 'debt-payment'),
     (re.compile(r'ALLSTATE|ATT|AT&T', re.I),                'insurance-utilities'),
     (re.compile(r'ROBINHOOD', re.I),                        'investing'),
     (re.compile(r'TACO BELL|McDONALD|BURGER KING|LITTLE CAESARS|CASEYS|HY-VEE|DOMINO|SUBWAY|CHIPOTLE|SONIC|WENDYS|POPEYES', re.I), 'food'),
-    (re.compile(r'QT|QUIK TRIP|CASEYS|SHELL|PHILLIPS|KUM.*GO|CASEY', re.I), 'gas'),
+    (re.compile(r'QT|QUIK TRIP|SHELL|PHILLIPS|KUM.*GO|CASEY', re.I), 'gas'),
     (re.compile(r'NETFLIX|SPOTIFY|HULU|DISNEY|XBOX|STEAM|PEBBLEHOST|ROKU|APPLE.*CASH|FANDUEL|SMARTARB', re.I), 'subscriptions-entertainment'),
     (re.compile(r'WILDSIDE|SMOKE|TOBACCO|VAPE|LIQUOR|MYERS', re.I), 'smoke-alcohol'),
     (re.compile(r'From Savings|To Savings|To Checking|From Checking', re.I), 'internal-transfer'),
@@ -57,9 +55,7 @@ def categorize(description):
             return label
     return 'other'
 
-
 def parse_amount(s):
-    """Convert '$1,234.56' or '-$1,234.56' to float."""
     try:
         return float(s.replace('$', '').replace(',', ''))
     except Exception:
@@ -69,13 +65,8 @@ def parse_amount(s):
 # ── Core extraction ──────────────────────────────────────────────────────────
 
 def extract_sofi_statement(pdf_path):
-    """
-    Returns a dict keyed by account name, each value being:
-      { 'balance_lines': [...], 'transactions': [(date, type, desc, amount_str, balance_str), ...] }
-    Also returns statement_period string.
-    """
-    accounts      = {}        # acct_name -> {'balance_lines': [], 'transactions': []}
-    acct_order    = []        # preserve encounter order
+    accounts      = {}
+    acct_order    = []
     statement_period = None
     current_account  = None
     in_transactions  = False
@@ -85,7 +76,6 @@ def extract_sofi_statement(pdf_path):
             text = page.extract_text()
             if not text:
                 continue
-
             if statement_period is None:
                 m = period_pattern.search(text)
                 if m:
@@ -96,12 +86,11 @@ def extract_sofi_statement(pdf_path):
                 if not line or skip_patterns.search(line):
                     continue
 
-                # Account header
                 m = acct_header.match(line)
                 if m:
                     acct_name = f"{m.group(1)} - {m.group(2)}"
                     if acct_name == current_account:
-                        continue  # continuation page — stay in transaction mode
+                        continue
                     current_account = acct_name
                     in_transactions = False
                     if acct_name not in accounts:
@@ -109,15 +98,12 @@ def extract_sofi_statement(pdf_path):
                         acct_order.append(acct_name)
                     continue
 
-                # Balance summary (before first transaction)
                 if current_account and not in_transactions and balance_labels.match(line):
                     accounts[current_account]['balance_lines'].append(line)
                     continue
 
-                # Transaction rows
                 if current_account and txn_row.match(line):
                     in_transactions = True
-                    # Parse: everything before the last two dollar amounts is description
                     am = amount_re.search(line)
                     if am:
                         amount_str  = am.group(1)
@@ -128,7 +114,6 @@ def extract_sofi_statement(pdf_path):
                         balance_str = '[UNCONFIRMED]'
                         prefix      = line
 
-                    # prefix = "Mon DD, YYYY  Type  Description"
                     date_m = re.match(
                         r'^((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s+\d{4})\s+(\S+(?:\s+\S+)?)\s+(.+)$',
                         prefix
@@ -142,9 +127,8 @@ def extract_sofi_statement(pdf_path):
                         ttype = ''
                         desc  = prefix
 
-                    cat = categorize(desc)
                     accounts[current_account]['transactions'].append(
-                        (date, ttype, desc, amount_str, balance_str, cat)
+                        (date, ttype, desc, amount_str, balance_str, categorize(desc))
                     )
                     continue
 
@@ -155,99 +139,85 @@ def extract_sofi_statement(pdf_path):
 
 def format_body(accounts, acct_order, statement_period, slug_date):
     sections = []
-
     for acct_name in acct_order:
         data = accounts[acct_name]
         txns = data['transactions']
 
-        # — Per-account totals for semantic summary —
-        income      = sum(parse_amount(t[3]) for t in txns if t[5] == 'income')
-        debt        = sum(parse_amount(t[3]) for t in txns if t[5] == 'debt-payment')
-        investing   = sum(parse_amount(t[3]) for t in txns if t[5] == 'investing')
-        food        = sum(parse_amount(t[3]) for t in txns if t[5] == 'food')
-        gas         = sum(parse_amount(t[3]) for t in txns if t[5] == 'gas')
-        subs        = sum(parse_amount(t[3]) for t in txns if t[5] == 'subscriptions-entertainment')
-        smoke       = sum(parse_amount(t[3]) for t in txns if t[5] == 'smoke-alcohol')
-        transfers   = sum(parse_amount(t[3]) for t in txns if t[5] in ('internal-transfer', 'transfer-p2p'))
-        other       = sum(parse_amount(t[3]) for t in txns if t[5] == 'other')
-        net         = sum(parse_amount(t[3]) for t in txns)
+        income    = sum(parse_amount(t[3]) for t in txns if t[5] == 'income')
+        debt      = sum(parse_amount(t[3]) for t in txns if t[5] == 'debt-payment')
+        investing = sum(parse_amount(t[3]) for t in txns if t[5] == 'investing')
+        food      = sum(parse_amount(t[3]) for t in txns if t[5] == 'food')
+        gas       = sum(parse_amount(t[3]) for t in txns if t[5] == 'gas')
+        subs      = sum(parse_amount(t[3]) for t in txns if t[5] == 'subscriptions-entertainment')
+        smoke     = sum(parse_amount(t[3]) for t in txns if t[5] == 'smoke-alcohol')
+        transfers = sum(parse_amount(t[3]) for t in txns if t[5] in ('internal-transfer', 'transfer-p2p'))
+        other     = sum(parse_amount(t[3]) for t in txns if t[5] == 'other')
+        net       = sum(parse_amount(t[3]) for t in txns)
 
-        # Opening/closing balance from balance_lines (raw text fallback)
         opening = '[UNCONFIRMED]'
         closing = '[UNCONFIRMED]'
         for bl in data['balance_lines']:
-            if 'Beginning Balance' in bl or 'beginning balance' in bl.lower():
+            if 'beginning balance' in bl.lower():
                 bm = re.search(r'\$[\d,]+\.\d{2}', bl)
                 if bm: opening = bm.group(0)
-            if 'Current Balance' in bl or 'current balance' in bl.lower():
+            if 'current balance' in bl.lower():
                 bm = re.search(r'\$[\d,]+\.\d{2}', bl)
                 if bm: closing = bm.group(0)
 
-        # — Section header —
-        out = [f"## {acct_name}"]
-        out.append(f"")
+        out = [f"## {acct_name}", ""]
+        out += [
+            f"- account:: {acct_name}",
+            f"- period:: {statement_period or '[UNCONFIRMED]'}",
+            f"- opening-balance:: {opening}",
+            f"- closing-balance:: {closing}",
+            f"- net-change:: {'${:,.2f}'.format(net)}",
+            f"- total-income:: {'${:,.2f}'.format(income)}",
+            f"- total-debt-payments:: {'${:,.2f}'.format(debt)}",
+            f"- total-investing:: {'${:,.2f}'.format(investing)}",
+            f"- transaction-count:: {len(txns)}",
+            ""
+        ]
 
-        # — Dataview-queryable inline fields —
-        out.append(f"- account:: {acct_name}")
-        out.append(f"- period:: {statement_period or '[UNCONFIRMED]'}")
-        out.append(f"- opening-balance:: {opening}")
-        out.append(f"- closing-balance:: {closing}")
-        out.append(f"- net-change:: {'${:,.2f}'.format(net)}")
-        out.append(f"- total-income:: {'${:,.2f}'.format(income)}")
-        out.append(f"- total-debt-payments:: {'${:,.2f}'.format(debt)}")
-        out.append(f"- total-investing:: {'${:,.2f}'.format(investing)}")
-        out.append(f"- transaction-count:: {len(txns)}")
-        out.append(f"")
-
-        # — RAG/LLM semantic summary paragraph —
-        # One dense natural-language paragraph per account gives embeddings
-        # something to anchor to beyond the raw table.
         summary_parts = []
-        if income > 0:    summary_parts.append(f"income of ${income:,.2f}")
-        if debt < 0:      summary_parts.append(f"debt payments totaling ${abs(debt):,.2f}")
-        if investing < 0: summary_parts.append(f"investing activity of ${abs(investing):,.2f} (Robinhood)")
-        if food < 0:      summary_parts.append(f"food spending of ${abs(food):,.2f}")
-        if gas < 0:       summary_parts.append(f"gas of ${abs(gas):,.2f}")
-        if subs < 0:      summary_parts.append(f"subscriptions and entertainment of ${abs(subs):,.2f}")
-        if smoke < 0:     summary_parts.append(f"smoke/alcohol of ${abs(smoke):,.2f}")
+        if income > 0:     summary_parts.append(f"income of ${income:,.2f}")
+        if debt < 0:       summary_parts.append(f"debt payments totaling ${abs(debt):,.2f}")
+        if investing < 0:  summary_parts.append(f"investing activity of ${abs(investing):,.2f} (Robinhood)")
+        if food < 0:       summary_parts.append(f"food spending of ${abs(food):,.2f}")
+        if gas < 0:        summary_parts.append(f"gas of ${abs(gas):,.2f}")
+        if subs < 0:       summary_parts.append(f"subscriptions/entertainment of ${abs(subs):,.2f}")
+        if smoke < 0:      summary_parts.append(f"smoke/alcohol of ${abs(smoke):,.2f}")
         if transfers != 0: summary_parts.append(f"internal transfers net of ${transfers:,.2f}")
-        if other < 0:     summary_parts.append(f"other spending of ${abs(other):,.2f}")
+        if other < 0:      summary_parts.append(f"other spending of ${abs(other):,.2f}")
 
         direction = 'increased' if net >= 0 else 'decreased'
         summary = (f"During {statement_period or slug_date}, this account {direction} "
                    f"by ${abs(net):,.2f} (from {opening} to {closing}). "
                    + ('Activity included: ' + ', '.join(summary_parts) + '.' if summary_parts else ''))
-        out.append(f"> {summary}")
-        out.append(f"")
+        out += [f"> {summary}", ""]
 
-        # — Category breakdown —
-        out.append(f"### Spending by Category")
-        out.append(f"")
-        out.append(f"| Category | Total |")
-        out.append(f"|----------|-------|")
+        out += ["### Spending by Category", "", "| Category | Total |", "|----------|-------|"]
         cat_totals = {}
         for t in txns:
             cat_totals.setdefault(t[5], 0.0)
             cat_totals[t[5]] += parse_amount(t[3])
         for cat, total in sorted(cat_totals.items(), key=lambda x: x[1]):
             out.append(f"| {cat} | {'${:,.2f}'.format(total)} |")
-        out.append(f"")
+        out.append("")
 
-        # — Full transaction table —
-        out.append(f"### All Transactions")
-        out.append(f"")
-        out.append(f"| Date | Type | Description | Amount | Balance | Category |")
-        out.append(f"|------|------|-------------|--------|---------|----------|")
+        out += ["### All Transactions", "",
+                "| Date | Type | Description | Amount | Balance | Category |",
+                "|------|------|-------------|--------|---------|----------|"
+               ]
         for date, ttype, desc, amount, balance, cat in txns:
             out.append(f"| {date} | {ttype} | {desc} | {amount} | {balance} | {cat} |")
-        out.append(f"")
+        out.append("")
 
         sections.append('\n'.join(out))
 
     return '\n---\n\n'.join(sections)
 
 
-# ── Frontmatter builder ──────────────────────────────────────────────────────
+# ── Frontmatter ───────────────────────────────────────────────────────────────
 
 def build_frontmatter(pdf_stem, statement_period, acct_order, slug_date):
     today = datetime.today().strftime('%Y-%m-%d')
@@ -256,10 +226,9 @@ def build_frontmatter(pdf_stem, statement_period, acct_order, slug_date):
     tags_yaml  = '\n'.join(f'  - {t}' for t in ['finance', 'statement', 'sofi', slug_date] + acct_tags)
     accts_str  = ', '.join(unique_accounts) if unique_accounts else '[UNCONFIRMED]'
     period_str = statement_period if statement_period else '[UNCONFIRMED]'
-
     return f"""---
-title: FINANCE-EXTRACT-SOFI-{slug_date}
-filename: FINANCE-EXTRACT-SOFI-{slug_date}.md
+title: {slug_date}-FINANCE-sofi-extract
+filename: {slug_date}-FINANCE-sofi-extract.md
 date: {today}
 statement-period: {period_str}
 statement-month: {slug_date}
@@ -280,19 +249,14 @@ tags:
 """
 
 
-# ── Slug date parser ───────────────────────────────────────────────────────────
+# ── Slug date ─────────────────────────────────────────────────────────────────
 
 def get_slug_date(pdf_stem, statement_period):
-    today = datetime.today().strftime('%Y-%m-%d')
-    slug_date = today.replace('-', '')[:6]
-    # Try filename first
     for fmt in ('%B-%y', '%b-%y', '%B %y', '%b %y', '%B-%Y', '%b-%Y', '%B %Y', '%b %Y'):
         try:
-            parsed = datetime.strptime(pdf_stem.strip(), fmt)
-            return parsed.strftime('%Y%m')
+            return datetime.strptime(pdf_stem.strip(), fmt).strftime('%Y%m')
         except ValueError:
             continue
-    # Fall back to statement period end date
     if statement_period:
         end_m = re.search(
             r'(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s+(\d{4})\s*$',
@@ -300,14 +264,13 @@ def get_slug_date(pdf_stem, statement_period):
         )
         if end_m:
             try:
-                parsed = datetime.strptime(f"{end_m.group(1)} {end_m.group(2)}", '%b %Y')
-                return parsed.strftime('%Y%m')
+                return datetime.strptime(f"{end_m.group(1)} {end_m.group(2)}", '%b %Y').strftime('%Y%m')
             except ValueError:
                 pass
-    return slug_date
+    return datetime.today().strftime('%Y%m')
 
 
-# ── File routing ─────────────────────────────────────────────────────────────
+# ── File routing ──────────────────────────────────────────────────────────────
 
 def archive_pdf(pdf_path, vault_root):
     dest_dir = vault_root / "08-ATTACH" / "FINANCE" / "STATEMENTS"
@@ -319,11 +282,10 @@ def archive_pdf(pdf_path, vault_root):
     else:
         print(f"  PDF already archived at {dest.relative_to(vault_root)}")
 
-
-def write_extract(content, slug_date, pdf_stem, vault_root):
+def write_extract(content, slug_date, vault_root):
     inbox = vault_root / "00-INBOX"
     inbox.mkdir(parents=True, exist_ok=True)
-    output_file = inbox / f"FINANCE-EXTRACT-SOFI-{slug_date}.md"
+    output_file = inbox / f"{slug_date}-FINANCE-sofi-extract.md"
     output_file.write_text(content, encoding='utf-8')
     print(f"  Extract → {output_file.relative_to(vault_root)}")
     return output_file
@@ -336,17 +298,13 @@ def process_pdf(pdf_path, vault_root):
     if not pdf_path.exists():
         print(f"  ERROR: File not found: {pdf_path}")
         return
-
     print(f"\nProcessing: {pdf_path.name}")
     accounts, acct_order, period = extract_sofi_statement(pdf_path)
     slug_date   = get_slug_date(pdf_path.stem, period)
     frontmatter = build_frontmatter(pdf_path.stem, period, acct_order, slug_date)
     body        = format_body(accounts, acct_order, period, slug_date)
-    content     = frontmatter + body
-
     archive_pdf(pdf_path, vault_root)
-    write_extract(content, slug_date, pdf_path.stem, vault_root)
-
+    write_extract(frontmatter + body, slug_date, vault_root)
     print(f"  Period: {period or '[not found]'}")
     print(f"  Accounts: {', '.join(acct_order) or '[none]'}")
     print(f"  Transactions: {sum(len(accounts[a]['transactions']) for a in acct_order)}")
@@ -355,15 +313,12 @@ def process_pdf(pdf_path, vault_root):
 
 if __name__ == '__main__':
     vault_root = Path(__file__).parent.resolve()
-
     if len(sys.argv) < 2:
         print("Usage:")
         print("  Single file:  python sofi_extract.py 'June 25.pdf'")
         print("  Folder:       python sofi_extract.py 08-ATTACH/FINANCE/STATEMENTS/")
         sys.exit(1)
-
     target = Path(sys.argv[1])
-
     if target.is_dir():
         pdfs = sorted(target.glob("*.pdf"))
         if not pdfs:
