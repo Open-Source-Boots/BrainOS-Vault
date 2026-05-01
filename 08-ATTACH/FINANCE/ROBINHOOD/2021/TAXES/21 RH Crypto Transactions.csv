@@ -1,0 +1,35 @@
+Provider: Robinhood Crypto LLC,,,
+Disclaimer: ,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+ASSET NAME,RECEIVED DATE,COST BASIS(USD),DATE SOLD,PROCEEDS,AMOUNT SOLD,DURATION,NONCOVERED,BASIS REPORTED
+DOGE,05/08/21,77.19,05/08/21,76.22,120.00,short,true,false
+DOGE,05/08/21,73.07,05/08/21,72.41,114.00,short,true,false
+DOGE,05/10/21,163.71,05/10/21,153.72,301.00,short,true,false
+DOGE,05/08/21,150.10,05/09/21,147.34,233.00,short,true,false
+DOGE,05/09/21,94.35,05/09/21,104.22,189.00,short,true,false
+DOGE,05/09/21,31.93,05/09/21,35.29,64.00,short,true,false
+DOGE,05/08/21,162.53,05/08/21,154.05,225.00,short,true,false
+DOGE,05/13/21,43.12,05/13/21,43.84,104.99,short,true,false
+DOGE,05/14/21,6.64,05/17/21,6.16,12.49,short,true,false
+DOGE,05/18/21,4.00,05/19/21,3.32,8.26,short,true,false
+DOGE,05/21/21,25.97,05/21/21,25.36,70.13,short,true,false
+DOGE,06/22/21,25.22,06/22/21,28.00,146.83,short,true,false
+DOGE,07/14/21,193.47,07/14/21,191.37,965.63,short,true,false
+DOGE,08/19/21,7.01,08/24/21,6.80,22.77,short,true,false
+DOGE,11/25/21,9.00,11/26/21,8.42,41.29,short,true,false
+DOGE,12/13/21,0.40,12/14/21,0.45,2.52,short,true,false
+ETC,05/09/21,161.49,05/10/21,165.91,1.29,short,true,false
+ETC,05/08/21,153.68,05/08/21,152.13,1.27,short,true,false
+ETH,05/09/21,161.97,05/09/21,161.55,0.04,short,true,false
+ETH,05/09/21,20.00,05/09/21,20.19,0.01,short,true,false
+ETH,05/13/21,519.56,05/13/21,518.29,0.13,short,true,false
+ETH,05/27/21,879.90,05/27/21,872.30,0.31,short,true,false
+ETH,05/27/21,119.25,05/27/21,118.21,0.04,short,true,false
+ETH,06/02/21,1314.87,06/02/21,1311.50,0.50,short,true,false
+ETH,06/02/21,1055.00,06/02/21,1044.64,0.40,short,true,false
+ETH,06/02/21,1315.00,06/02/21,1302.09,0.50,short,true,false
+ETH,06/02/21,1315.00,06/02/21,1302.10,0.50,short,true,false
+LTC,05/09/21,161.58,05/09/21,161.49,0.42,short,true,false
