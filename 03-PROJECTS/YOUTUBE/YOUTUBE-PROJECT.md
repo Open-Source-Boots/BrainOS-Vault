@@ -5,7 +5,7 @@ updated: 2026-04-30
 status: ACTIVE
 domain: YOUTUBE
 priority: 2
-tags: youtube, braydondon, faceless, content, commongrounds, brainos, local-ai, video, piper-tts, whisper, n8n
+tag: youtube, braydondon, faceless, content, commongrounds, brainos, local-ai, video, piper-tts, whisper, n8n
 canonical_file: ACTIVE-PROJECTS.md
 cross-references:
   - ACTIVE-PROJECTS.md
