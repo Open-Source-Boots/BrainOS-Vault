@@ -10,7 +10,8 @@ superseded_by: none
 canonical_file: FINANCIAL-SNAPSHOT.md
 generated_by_skill: manual
 tags: []
-notes: Superseded by Entry 007; behavioral note: fear of change + anti-perfectionism confirmed in this thread
+notes: 
+Superseded by Entry 007; behavioral note: fear of change + anti-perfectionism confirmed in this thread
 open_questions:
   - id: OQ-20260224-001
     question: "None — superseded"
