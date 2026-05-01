@@ -1,7 +1,7 @@
 # ============================================================
 # BRAINOS VAULT — .gitignore
 # Device-aware: Desktop/PC, Laptop, iPhone, iPad
-# Last updated: 2026-04-27
+# Last updated: 2026-05-01
 # ============================================================
 
 # ------------------------------------------------------------
@@ -16,35 +16,29 @@
 
 # ------------------------------------------------------------
 # OBSIDIAN SYNC CONFLICTS (all devices)
-# Obsidian Sync and third-party sync tools both produce these
 # ------------------------------------------------------------
 .obsidian/*.sync-conflict-*.json
 
 # ------------------------------------------------------------
 # OBSIDIAN WORKSPACE STATE
-# workspace.json and workspace-mobile.json are per-device UI
-# state — committing them causes constant noise and conflicts
-# between Desktop, Laptop, iPhone, and iPad views
+# Per-device UI state — never commit, causes constant noise
 # ------------------------------------------------------------
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 
 # ------------------------------------------------------------
 # OBSIDIAN PLUGIN DATA (selective)
-# Plugin config that is machine-specific or contains tokens
 # ------------------------------------------------------------
 .obsidian/plugins/google-drive-sync/
 .obsidian/plugins/smart-connections/
 
 # ------------------------------------------------------------
 # SMART CONNECTIONS CACHE
-# Rebuilt automatically — large, device-specific index
 # ------------------------------------------------------------
 .smart-env/
 
 # ------------------------------------------------------------
 # GOOGLE DRIVE TEMP UPLOADS
-# Staging artifacts from Google Drive desktop client
 # ------------------------------------------------------------
 .tmp.driveupload/
 
@@ -58,8 +52,6 @@ ehthumbs.db
 
 # ------------------------------------------------------------
 # MACOS / IPHONE / IPAD ARTIFACTS
-# .DS_Store appears on macOS, iPhone Files app, and iPad
-# ._* are AppleDouble resource fork files from macOS/iOS sync
 # ------------------------------------------------------------
 .DS_Store
 **/.DS_Store
@@ -71,7 +63,6 @@ ehthumbs.db
 
 # ------------------------------------------------------------
 # IPHONE / IPAD — iCloud Drive artifacts
-# These appear when vault is accessed via iCloud on iOS
 # ------------------------------------------------------------
 *.icloud
 .iCloud
@@ -104,3 +95,15 @@ build/
 05-INDEX/backfill_frontmatter_log.txt
 05-INDEX/inject_open_questions_log.txt
 05-INDEX/review_financial_questions_log.txt
+
+# ------------------------------------------------------------
+# FINANCIAL DOCUMENTS — PDFs tracked via Drive, not Git
+# Raw statements, pay stubs, debt docs are binary files.
+# Git is not suited for binary history. Drive is the archive.
+# Extracted .md files in 00-INBOX ARE committed (text only).
+# ------------------------------------------------------------
+08-ATTACH/FINANCE/STATEMENTS/*.pdf
+08-ATTACH/FINANCE/PAYSTUBS/*.pdf
+08-ATTACH/FINANCE/DEBT/*.pdf
+08-ATTACH/FINANCE/LEGAL/*.pdf
+08-ATTACH/FINANCE/PROCESSED/*.pdf
