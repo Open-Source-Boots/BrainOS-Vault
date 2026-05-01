@@ -1,5 +1,0 @@
-# This directory is a Syncthing folder marker.
-# Do not delete.
-
-folderID: bfdhs-defzk
-created: 2026-04-27T04:04:10Z
