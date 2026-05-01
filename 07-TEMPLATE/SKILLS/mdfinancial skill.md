@@ -1,6 +1,6 @@
 ---
 name: mdfinance
-version: 2.2
+version: 2.3
 updated: 2026-05-01
 domain: FINANCE
 status: ACTIVE
@@ -264,16 +264,40 @@ Next Overdraft Risk:        [date] or NONE
 
 #### Overdraft Risk Windows
 
-List any date in the 30-day window where projected balance goes negative
-before a paycheck clears:
-
 `⚠️ RISK: [date] — balance drops to $[amount] before [payee -$amount] posts. Next paycheck clears [date].`
 
 If no risk windows exist: `✅ No overdraft risk in 30-day window.`
 
 > **Note:** This projection assumes all bills post on their canonical due dates
-> and all paychecks clear Thursday morning. Actual timing may vary. Flag any
-> known autopay timing mismatches in Section 6.
+> and all paychecks clear Thursday morning. Actual timing may vary.
+
+---
+
+### SECTION 10 — PERIOD-OVER-PERIOD DELTA
+
+This section is **optional**. Only populate it when a prior extract for the
+same account exists in the vault (check `05-INDEX/FINANCE-REGISTER.md`).
+If no prior extract exists, write:
+`[PRIOR PERIOD UNAVAILABLE — skip this section. Will populate after second statement is processed.]`
+
+When prior period data is available, compare this statement to the immediately
+preceding statement for the same account.
+
+| Category | This Period | Prior Period | Change | Direction |
+|----------|-------------|--------------|--------|-----------|
+| Total Income | $X,XXX.XX | $X,XXX.XX | $[+/-XX.XX] | [↑ / ↓ / ↔] |
+| Total Recurring Bills | -$X,XXX.XX | -$X,XXX.XX | $[+/-XX.XX] | [↑ / ↓ / ↔] |
+| Fast Food | -$XX.XX | -$XX.XX | $[+/-XX.XX] | [↑ / ↓ / ↔] |
+| Gas / Fuel | -$XX.XX | -$XX.XX | $[+/-XX.XX] | [↑ / ↓ / ↔] |
+| Grocery | -$XX.XX | -$XX.XX | $[+/-XX.XX] | [↑ / ↓ / ↔] |
+| Entertainment | -$XX.XX | -$XX.XX | $[+/-XX.XX] | [↑ / ↓ / ↔] |
+| Total Variable Spend | -$X,XXX.XX | -$X,XXX.XX | $[+/-XX.XX] | [↑ / ↓ / ↔] |
+| Net Change (Income - All Spend) | $[XX.XX] | $[XX.XX] | $[+/-XX.XX] | [↑ / ↓ / ↔] |
+
+**Direction key:** ↑ = increased spend or decreased income (worse) ↓ = decreased spend or increased income (better) ↔ = no change
+
+> Notable shifts (any category change > $20.00): call out explicitly below the table.
+> Example: `⚠️ Fast Food increased $34.50 period-over-period (Mar: $67.20 → Apr: $101.70)`
 
 ---
 
@@ -300,6 +324,14 @@ vault_path: 00-INBOX/
 Files go into `00-INBOX/` until the canonical update is confirmed applied,
 then move to `08-ATTACH/` for archival.
 
+**After archival, add one row to `05-INDEX/FINANCE-REGISTER.md`:**
+
+```
+| [Institution] | [Checking/Savings] | [Last 4] | [Mon YYYY] | $[closing balance] | [[filename]] | ✅ | [any notes] |
+```
+
+Commit: `FINANCE register add [institution] [account-type] [YYYYMM]`
+
 ---
 
 ## MULTI-ACCOUNT SESSIONS
@@ -310,10 +342,10 @@ account, in the order they appear in the document. Label each block clearly:
 
 ```
 === ACCOUNT: [Type] - [Last 4] ===
-[Full output sections 1–9]
+[Full output sections 1–10]
 
 === ACCOUNT: [Type] - [Last 4] ===
-[Full output sections 1–9]
+[Full output sections 1–10]
 ```
 
 Then produce a combined SECTION 8 CANONICAL UPDATE BLOCK and a combined
@@ -324,6 +356,7 @@ SECTION 9 PROJECTION BLOCK at the end that covers all accounts in the session.
 ## WHAT THIS SKILL DOES NOT DO
 
 - Does not update FINANCIAL-SNAPSHOT.md directly — that requires the primary BrainOS AI session
+- Does not update FINANCE-REGISTER.md directly — that is a manual step after confirmation
 - Does not calculate debt payoff timelines — use FINANCIAL-SNAPSHOT.md context for that
 - Does not categorize transactions where the merchant is ambiguous — mark those as `Other` and flag
 - Does not give financial advice, but can identify abstract financial opportunities
