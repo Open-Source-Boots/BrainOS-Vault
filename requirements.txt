@@ -1,0 +1,9 @@
+# BrainOS Vault — Python Dependencies
+# Install on any device with: pip install -r requirements.txt
+# Last updated: 2026-05-01
+
+# — Financial document extraction —
+pdfplumber
+
+# — pdfplumber image rendering (optional but recommended) —
+pillow
