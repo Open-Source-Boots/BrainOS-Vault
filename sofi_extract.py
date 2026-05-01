@@ -35,7 +35,8 @@ skip_patterns = re.compile(
     r'2021 SoFi|SoFi Technologies|Annual Percentage Yield Earned|'
     r'accrues daily|Customer Agreement|rate sheet|Travel Vault|'
     r'Primary Account Holder|Member since|Account Number|Monthly Statement Period|'
-    r'Website|www\.so|855|Cottonwood|Utah)',
+    r'Website|www\.so|855|Cottonwood|Utah|'
+    r'DATE\s+TYPE\s+DESCRIPTION)',  # skip repeat table headers on continuation pages
     re.IGNORECASE
 )
 
@@ -44,8 +45,10 @@ skip_patterns = re.compile(
 
 def extract_sofi_statement(pdf_path):
     results = []
-    accounts_found = []
+    accounts_found = []       # ordered list, may contain duplicates across pages
+    seen_accounts = set()     # track unique accounts for frontmatter
     statement_period = None
+    current_account = None    # tracks which account is active RIGHT NOW
     in_transactions = False
 
     with pdfplumber.open(pdf_path) as pdf:
@@ -54,7 +57,6 @@ def extract_sofi_statement(pdf_path):
             if not text:
                 continue
 
-            # Grab statement period from first page
             if statement_period is None:
                 m = period_pattern.search(text)
                 if m:
@@ -67,29 +69,43 @@ def extract_sofi_statement(pdf_path):
                 if skip_patterns.search(line):
                     continue
 
-                # Account section header
+                # — Account header detection —
                 m = acct_header.match(line)
                 if m:
                     acct_name = f"{m.group(1)} - {m.group(2)}"
-                    accounts_found.append(acct_name)
+
+                    if acct_name == current_account:
+                        # Continuation page for the same account:
+                        # stay in transaction mode, do NOT reset, do NOT re-emit header
+                        continue
+
+                    # New account section
+                    current_account = acct_name
+                    if acct_name not in seen_accounts:
+                        seen_accounts.add(acct_name)
+                        accounts_found.append(acct_name)
+
                     results.append(f"\n## {acct_name}")
+                    # Reset transaction mode — wait for first txn row or summary fields
                     in_transactions = False
                     continue
 
-                # Balance summary fields
-                if balance_labels.match(line):
+                # — Balance summary fields (only before transactions start) —
+                if not in_transactions and balance_labels.match(line):
                     results.append(line)
                     continue
 
-                # Transaction table header
-                if re.match(r'^DATE\s+TYPE\s+DESCRIPTION', line, re.IGNORECASE):
-                    results.append("\nDATE | TYPE | DESCRIPTION | AMOUNT | BALANCE")
-                    results.append("-----|------|-------------|--------|--------")
-                    in_transactions = True
-                    continue
-
-                # Transaction rows
-                if in_transactions and txn_row.match(line):
+                # — Transaction rows —
+                # Turn on in_transactions the moment we see the first dated row
+                # This handles both:
+                #   (a) pages that have the DATE/TYPE/DESCRIPTION header (already skipped above)
+                #   (b) continuation pages that jump straight into transactions
+                if current_account and txn_row.match(line):
+                    if not in_transactions:
+                        # First transaction row for this account — emit table header once
+                        results.append("\nDATE | TYPE | DESCRIPTION | AMOUNT | BALANCE")
+                        results.append("-----|------|-------------|--------|--------")
+                        in_transactions = True
                     results.append(line)
                     continue
 
@@ -102,21 +118,20 @@ def extract_sofi_statement(pdf_path):
 def build_frontmatter(pdf_stem, statement_period, accounts_found):
     today = datetime.today().strftime('%Y-%m-%d')
 
-    # Derive YYYYMM slug from pdf filename (e.g. "April-25" → 202504)
-    # Fall back to today if not parseable
     slug_date = today.replace('-', '')[:6]
-    for fmt in ('%B-%y', '%b-%y', '%B-%Y', '%b-%Y'):
+    for fmt in ('%B-%y', '%b-%y', '%B %y', '%b %y', '%B-%Y', '%b-%Y', '%B %Y', '%b %Y'):
         try:
-            parsed = datetime.strptime(pdf_stem, fmt)
+            parsed = datetime.strptime(pdf_stem.strip(), fmt)
             slug_date = parsed.strftime('%Y%m')
             break
         except ValueError:
             continue
 
-    acct_tags = [a.replace(' ', '-').lower() for a in accounts_found]
+    unique_accounts = list(dict.fromkeys(accounts_found))  # preserve order, deduplicated
+    acct_tags = [a.replace(' ', '-').lower() for a in unique_accounts]
     tags_yaml = '\n'.join(f'  - {t}' for t in ['finance', 'statement', 'sofi', slug_date] + acct_tags)
 
-    accts_str = ', '.join(accounts_found) if accounts_found else '[UNCONFIRMED]'
+    accts_str = ', '.join(unique_accounts) if unique_accounts else '[UNCONFIRMED]'
     period_str = statement_period if statement_period else '[UNCONFIRMED]'
 
     frontmatter = f"""---
@@ -145,7 +160,6 @@ tags:
 # ── File routing ─────────────────────────────────────────────────────────────
 
 def archive_pdf(pdf_path, vault_root):
-    """Copy raw PDF to 08-ATTACH/FINANCE/STATEMENTS/ for permanent archival."""
     dest_dir = vault_root / "08-ATTACH" / "FINANCE" / "STATEMENTS"
     dest_dir.mkdir(parents=True, exist_ok=True)
     dest = dest_dir / pdf_path.name
@@ -157,7 +171,6 @@ def archive_pdf(pdf_path, vault_root):
 
 
 def write_extract(frontmatter, body, pdf_stem, vault_root):
-    """Write extracted .md to 00-INBOX/."""
     inbox = vault_root / "00-INBOX"
     inbox.mkdir(parents=True, exist_ok=True)
     output_file = inbox / f"FINANCE-EXTRACT-SOFI-{pdf_stem}.md"
@@ -191,7 +204,7 @@ if __name__ == '__main__':
 
     if len(sys.argv) < 2:
         print("Usage:")
-        print("  Single file:  python sofi_extract.py April-25.pdf")
+        print("  Single file:  python sofi_extract.py 'June 25.pdf'")
         print("  Folder:       python sofi_extract.py 08-ATTACH/FINANCE/STATEMENTS/")
         sys.exit(1)
 
