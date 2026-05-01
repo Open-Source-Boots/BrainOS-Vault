@@ -1,11 +1,11 @@
 ---
 name: mdfinance
-version: 2.0
-updated: 2026-04-30
+version: 2.1
+updated: 2026-05-01
 domain: FINANCE
 status: ACTIVE
 canonical_file: FINANCIAL-SNAPSHOT.md
-vault_path: 07-TEMPLATE/SKILL-MDFINANCE.md
+vault_path: 07-TEMPLATE/SKILLS/mdfinancial skill.md
 description: >
   Self-contained instruction set for parsing financial documents
   (bank statements, pay stubs, receipts) into BrainOS-compatible
@@ -14,6 +14,11 @@ description: >
 
 # SKILL: mdfinance
 ## Financial Document Parser — BrainOS Compatible
+
+> **Local model instruction:** Disable thinking/reasoning mode before running this skill.
+> Output must be deterministic structured markdown. Thinking tokens pollute table formatting.
+> In LM Studio / Qwen 3.5: set `thinking: off` or begin the system prompt with:
+> `You are a structured data extraction tool. Do not use <think> blocks.`
 
 You are operating as a financial document parser inside a structured personal
 finance system called BrainOS. Your job is to extract clean, structured data
@@ -67,6 +72,7 @@ in the document, but do not reorder sections that do exist.
 
 ### SECTION 1 — STATEMENT HEADER
 
+```
 Institution: [Bank Name]
 Account Type: [Checking / Savings / Credit]
 Account Last 4: [XXXX]
@@ -74,7 +80,7 @@ Statement Period: [Mon DD, YYYY – Mon DD, YYYY]
 Opening Balance: $[X,XXX.XX]
 Closing Balance: $[X,XXX.XX]
 Net Change: $[+/- X,XXX.XX]
-
+```
 
 ---
 
@@ -107,7 +113,7 @@ etc.), insurance, utilities, subscriptions with recurring patterns.
 Non-recurring out-of-pocket spending. Group by category.
 
 | Category | Line Items | Total |
-|----------|-----------|-------|
+|----------|------------|-------|
 | Fast Food | [list of merchants] | -$XX.XX |
 | Gas / Fuel | [list] | -$XX.XX |
 | Grocery | [list] | -$XX.XX |
@@ -127,7 +133,7 @@ Transfers between your own accounts (e.g., Savings → Checking). Do not count
 these as income or spending. List them for completeness only.
 
 | Date | From | To | Amount |
-|------|----|------|--------|
+|------|------|----|--------|
 | Mon DD, YYYY | Savings -XXXX | Checking -XXXX | $XXX.XX |
 
 ---
@@ -143,8 +149,7 @@ Any of the following triggers a `⚠️ FLAG:` entry:
 - Any charge from a smoke shop, gambling platform, or liquor store (flag
   without judgment — just surface it for awareness)
 
-⚠️ FLAG: [Raw fact from document — date, payee, amount, reason flagged]
-
+`⚠️ FLAG:` [Raw fact from document — date, payee, amount, reason flagged]
 
 ---
 
@@ -166,65 +171,130 @@ open_questions:
     status: OPEN
 ```
 
-
 Use the statement end date as the YYYYMMDD in the OQ ID.
 All questions from a financial document target FINANCIAL-SNAPSHOT.md.
-Questions must be specific — no vague questions like “Is this accurate?”
+Questions must be specific — no vague questions like "Is this accurate?"
+
 Good question examples:
-•	“Is the Best Egg account closed, rolled into DMP, or still active as of [date]?”
-•	“What is the current Affirm loan balance for the account paying $99.62/month?”
-•Why was the Apr 2 paycheck $179.44 instead of the expected $658.39?”
+- "Is the Best Egg account closed, rolled into DMP, or still active as of [date]?"
+- "What is the current Affirm loan balance for the account paying $99.62/month?"
+- "Why was the Apr 2 paycheck $179.44 instead of the expected $658.39?"
 
 ---
-**SECTION 8 — CANONICAL UPDATE BLOCK**
+
+### SECTION 8 — CANONICAL UPDATE BLOCK
+
 A compact summary of what should change in FINANCIAL-SNAPSHOT.md based on
 this document. The primary AI will use this to perform the actual update.
 
+```
 CANONICAL UPDATE — FINANCIAL-SNAPSHOT.md
 Statement: [Institution] [Account Type] [Last 4] [Period]
 
 UPDATE: Account balance — [Account Last 4] closing balance $XX.XX as of [date]
 UPDATE: Income — [X] paychecks from [Employer], total $X,XXX.XX, period [dates]
-ADD: [New payee not currently in bills table] — $XX.XX, [due date pattern if visible]
+ADD:    [New payee not currently in bills table] — $XX.XX, [due date pattern if visible]
 RECONCILE: [Payee] — amount in statement ($XX.XX) differs from canonical ($XX.XX)
 FLAG FOR CONFIRMATION: [Any [UNCONFIRMED] item that needs Brayden to fill]
+```
 
 ---
-OBSIDIAN INDEXING RULES
+
+### SECTION 9 — PROJECTION BLOCK
+
+This section is **forward-looking only**. Use the closing balance from Section 1
+and the confirmed bill schedule from FINANCIAL-SNAPSHOT.md to project the
+next 30 days. Do not invent figures — use only what is in this document plus
+the canonical bill schedule provided in context.
+
+If FINANCIAL-SNAPSHOT.md is not provided in context, write:
+`[CONTEXT MISSING — paste FINANCIAL-SNAPSHOT.md bill schedule to generate projections]`
+and skip the tables below.
+
+#### 30-Day Cash Flow Projection
+
+| Date | Event | Amount | Projected Balance |
+|------|-------|--------|-------------------|
+| [closing date] | Statement close | — | $[closing balance] |
+| [next Thursday] | GoodLife paycheck | +$600.00 | $[calculated] |
+| [bill due date] | [Payee] | -$[amount] | $[calculated] |
+
+Sort by date ascending. Include every known bill due in the next 30 days from
+the statement close date. Include every Thursday paycheck in the window.
+
+#### Summary
+
+```
+Closing Balance:            $[X,XXX.XX]
+Projected Income (30 days): $[X,XXX.XX]   ([X] paychecks)
+Projected Bills (30 days):  -$[X,XXX.XX]
+Projected End Balance:      $[X,XXX.XX]
+Lowest Projected Balance:   $[X,XXX.XX]   (on [date] — overdraft risk if negative)
+Next Overdraft Risk:        [date] or NONE
+```
+
+#### Overdraft Risk Windows
+
+List any date in the 30-day window where projected balance goes negative
+before a paycheck clears:
+
+`⚠️ RISK: [date] — balance drops to $[amount] before [payee -$amount] posts. Next paycheck clears [date].`
+
+If no risk windows exist: `✅ No overdraft risk in 30-day window.`
+
+> **Note:** This projection assumes all bills post on their canonical due dates
+> and all paychecks clear Thursday morning. Actual timing may vary. Flag any
+> known autopay timing mismatches in Section 6.
+
+---
+
+## OBSIDIAN INDEXING RULES
+
 If this output is saved as a file in the vault, use this frontmatter:
 
-***
+```yaml
 title: FINANCE-EXTRACT-[INSTITUTION]-[ACCOUNT]-[YYYYMM]
-filename: FINANCE-EXTRACT-[INSTITUTION]-[ACCOUNT]-[YYYYMM].md
+filename: [YYYYMM]-FINANCE-[institution-slug]-[account-type]-extract.md
 date: [Statement end date YYYY-MM-DD]
 domain: FINANCE
 status: PENDING-UPDATE
 canonical_file: FINANCIAL-SNAPSHOT.md
-tags: [finance, statement, [institution-slug], [YYYYMM]]
+tags:
+  - finance
+  - statement
+  - [institution-slug]
+  - [YYYYMM]
+  - [account-type]
 vault_path: 00-INBOX/
-***
+```
 
-Files go into  00-INBOX/  until the canonical update is confirmed applied,
-then move to  08-ATTACH/  for archival.
+Files go into `00-INBOX/` until the canonical update is confirmed applied,
+then move to `08-ATTACH/` for archival.
 
 ---
-MULTI-ACCOUNT SESSIONS
+
+## MULTI-ACCOUNT SESSIONS
+
 If multiple statements are provided in a single session (e.g., checking +
 savings from same institution in one PDF), produce one output block per
 account, in the order they appear in the document. Label each block clearly:
+
+```
 === ACCOUNT: [Type] - [Last 4] ===
-[Full output sections 1–8]
+[Full output sections 1–9]
 
 === ACCOUNT: [Type] - [Last 4] ===
-[Full output sections 1–8]
-Then produce a combined SECTION 8 CANONICAL UPDATE BLOCK at the end
-that covers all accounts in the session.
+[Full output sections 1–9]
+```
+
+Then produce a combined SECTION 8 CANONICAL UPDATE BLOCK and a combined
+SECTION 9 PROJECTION BLOCK at the end that covers all accounts in the session.
+
 ---
-WHAT THIS SKILL DOES NOT DO
-•	Does not update FINANCIAL-SNAPSHOT.md directly — that requires the
-primary BrainOS AI session
-•	Does not calculate debt payoff timelines — use FINANCIAL-SNAPSHOT.md
-context for that
-•	Does not categorize transactions where the merchant is ambiguous —
-mark those as  Other  and flag
-•	Does not give financial advice, but can identify abstract financial opportunities
+
+## WHAT THIS SKILL DOES NOT DO
+
+- Does not update FINANCIAL-SNAPSHOT.md directly — that requires the primary BrainOS AI session
+- Does not calculate debt payoff timelines — use FINANCIAL-SNAPSHOT.md context for that
+- Does not categorize transactions where the merchant is ambiguous — mark those as `Other` and flag
+- Does not give financial advice, but can identify abstract financial opportunities
