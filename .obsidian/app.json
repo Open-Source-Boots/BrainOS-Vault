@@ -28,5 +28,6 @@
     "command-palette:open"
   ],
   "propertiesInDocument": "source",
-  "openBehavior": "daily"
+  "openBehavior": "daily",
+  "promptDelete": false
 }
