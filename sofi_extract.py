@@ -210,14 +210,3 @@ if __name__ == '__main__':
     else:
         print(f"ERROR: {target} is not a PDF or directory.")
         sys.exit(1)
-<<<<<<< HEAD
-    
-    pdf_file = Path(sys.argv[1])
-    vault_root = Path(__file__).parent
-    output_file = vault_root / "00-INBOX" / (pdf_file.stem + ".md")
-    extracted = extract_sofi_statement(pdf_file)
-    output_file.write_text(extracted)
-    print(f"Extracted to: {output_file}")
-    print(extracted)
-=======
->>>>>>> origin/main
