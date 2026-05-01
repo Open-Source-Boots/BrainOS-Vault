@@ -81,7 +81,7 @@ open_questions:
 - `log_dedup.py` found 29 duplicate OQ IDs across 54 total unique IDs in 06-ANSWERS
 - 7 malformed YAML files identified — all unresolved, queued for tomorrow
 - `vault_health_check.py` found 49 files missing required frontmatter fields, 7 malformed YAML, 7 orphaned OQs
-- All orphaned OQs target either `GOODLIFE-UNION.md` (dead) or `GLWC-PROJECT.md` (dead) — correct target is `ACTIVE-PROJECTS.md`
+- All orphaned OQs target either `GLWC-PROJECT.md` (dead) or `GLWC-PROJECT.md` (dead) — correct target is `ACTIVE-PROJECTS.md`
 - Final commit of session: `cd253a2` — untracked `workspace.json` and `event_logs.ajson` from Git
 
 ## TIMELINE MARKERS

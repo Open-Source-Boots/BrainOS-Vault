@@ -7,7 +7,7 @@ priority: 1
 compilation_status: pending
 supersedes: none
 superseded_by: none
-canonical_file: GOODLIFE-UNION.md
+canonical_file: GLWC-PROJECT.md
 generated_by_skill: manual
 tags: []
 notes: Highest personal exposure GLWC document — treat with same sensitivity as Two-Hat principle

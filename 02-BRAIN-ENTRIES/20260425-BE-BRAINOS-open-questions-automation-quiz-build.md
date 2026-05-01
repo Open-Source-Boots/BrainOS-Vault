@@ -14,7 +14,7 @@ open_questions:
     canonical_target: BRAINOS-SYSTEM.md
     status: CLOSED
   - id: OQ-20260425-002
-    question: "Has GOODLIFE-UNION.md been renamed to GLWC-PROJECT.md on disk?"
+    question: "Has GLWC-PROJECT.md been renamed to GLWC-PROJECT.md on disk?"
     canonical_target: GLWC-PROJECT.md
     status: CLOSED
   - id: OQ-20260425-003
@@ -99,7 +99,7 @@ open_questions:
 
 ### Architecture Decisions Confirmed This Session
 - Financial data handled separately — bank statements and pay stubs feed inbox pipeline when ready; no manual number entry
-- GOODLIFE-UNION.md canonical file to be renamed GLWC-PROJECT.md — all future references use GLWC-PROJECT
+- GLWC-PROJECT.md canonical file to be renamed GLWC-PROJECT.md — all future references use GLWC-PROJECT
 - 06-ANSWERS/ is a temporary staging layer only — destination is always canonical files; folder dissolves when n8n Workflow 3 automates routing
 - 99-SCRIPTS/ folder to be created — home for inject_open_questions.py, review_questions.py, and all future utility scripts
 - CommonGrounds vision confirmed: local LLM per residential care home logging staff subjective experiences for continuity of care — distinct from BrainOS, care-sector knowledge management system
@@ -136,7 +136,7 @@ open_questions:
   - Add: Templater v2.19.3 configured — folder 07-TEMPLATE/, folder template on 02-BRAIN-ENTRIES/
   - Add: OPEN-QUESTIONS.md Dataview query — GROUP BY file.path, excludes 07-TEMPLATE/ and FINANCIAL
   - Add: Financial data pipeline vision — inbox → Ollama parse → canonical injection; no manual numbers
-  - Add: GOODLIFE-UNION.md → GLWC-PROJECT.md rename pending
+  - Add: GLWC-PROJECT.md → GLWC-PROJECT.md rename pending
 
 - **BRAYDEN-IDENTITY.md:**
   - Add: CommonGrounds vision (verbatim from Block 2 answers)

@@ -7,7 +7,7 @@ priority: 2
 compilation_status: pending
 supersedes: none
 superseded_by: none
-canonical_file: GOODLIFE-UNION.md
+canonical_file: GLWC-PROJECT.md
 generated_by_skill: manual
 tags: []
 notes: iLink = GoodLife proprietary care management tech; Kansas AFL-CIO and SEIU Healthcare flagged as contacts

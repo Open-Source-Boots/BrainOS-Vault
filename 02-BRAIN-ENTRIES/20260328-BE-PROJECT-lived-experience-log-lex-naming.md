@@ -7,7 +7,7 @@ priority: 2
 compilation_status: pending
 supersedes: none
 superseded_by: none
-canonical_file: GOODLIFE-UNION.md
+canonical_file: GLWC-PROJECT.md
 generated_by_skill: manual
 tags: []
 notes: LEX = Lived Experience — naming convention is canonical for all GLWC documentation going forward
