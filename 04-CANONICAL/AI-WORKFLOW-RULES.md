@@ -1,7 +1,7 @@
 ---
 title: AI Workflow Rules
 filename: AI-WORKFLOW-RULES.md
-updated: 2026-04-30
+updated: 2026-05-02
 status: CANONICAL
 domain: BRAINOS-SYSTEM
 note: This is a canonical file. Rules flow INTO it from brain entries, not out of it. Every rule must have an origin.
@@ -20,6 +20,56 @@ These are the non-negotiable standing rules for every AI session inside BrainOS.
 3. **Checkpoint every 2–3 actions.** Especially in browser automation or multi-step file operations. Stop and confirm before continuing.
 4. **Prefer reversible actions.** If an action cannot be undone, stop and reassess. Ask before proceeding.
 5. **Never fabricate.** If a fact is not in canonical files or confirmed in the current thread, it does not exist. Do not fill gaps with plausible-sounding data.
+
+---
+
+## System Prompt Architecture
+
+Origin: 2026-05-02 thread (laptop optimization + LM Studio session)
+
+### Rule: System prompts are behavioral directives only
+- A system prompt must contain **only** role definition, output format rules, and standing constraints.
+- Background knowledge, domain context, and reference data are **not** system prompt content — they are injected as user-turn context or attached files.
+- Target ceiling: **≤500 tokens** for any system prompt used in LM Studio at 4,096 context.
+- Violating this consumes context that belongs to the document being processed.
+
+### Rule: Token budget is tiered
+At 4,096 context on the laptop, allocate as follows:
+
+| Tier | Budget | Content |
+|---|---|---|
+| Tier 1 — System Prompt | ≤500 tokens | Behavioral rules, output format, standing constraints |
+| Tier 2 — Document / Input | ~2,500–3,000 tokens | Attached statement, file, or pasted content |
+| Tier 3 — Response | ~500–1,000 tokens | Model output |
+
+- If Tier 2 + Tier 3 would exceed the window, chunk the input — never shrink Tier 1 to compensate.
+- At higher context (8,192+), these ratios scale proportionally.
+
+### Rule: Compressed prompts are the LM Studio standard
+- The compressed mdFinancial prompt (~420 tokens) is the canonical system prompt for all financial document extraction on the laptop.
+- File location: `07-TEMPLATE/compressed-mdfinancial.md`
+- The full-length reference skill (`07-TEMPLATE/SKILL-MDFINANCE.md`) is for reading and editing — never paste the full skill into LM Studio.
+- When new document types require extraction (debt statements, pay stubs, Robinhood), create a dedicated compressed variant in `07-TEMPLATE/` following the same pattern. Do not modify the base compressed-mdfinancial prompt to handle multiple document types.
+
+---
+
+## LM Studio Session Rules
+
+Origin: 2026-05-02 thread
+
+- **One document per session.** Do not attach multiple statements in one LM Studio chat — context will truncate early documents silently.
+- **Pre-convert large PDFs to plain text** before attaching. PDF-converted token cost is significantly higher than equivalent plain text.
+- **Chunk long statements by week or transaction type** if a single statement exceeds ~2,500 tokens of content.
+- **LM Studio produces the extract only.** The structured markdown output gets copied into a Perplexity BrainOS session for canonical file updates — LM Studio does not update vault files directly.
+- **Document type → prompt variant mapping:**
+
+| Document Type | Prompt to Use | Notes |
+|---|---|---|
+| Bank statements (SoFi, checking, savings) | `compressed-mdfinancial.md` | Full coverage |
+| Debt statements (credit card, loan) | `compressed-mddebt.md` (create when needed) | Needs APR, minimum due, payoff amount fields |
+| Pay stubs | `compressed-mdpaystub.md` (create when needed) | Needs gross/net/YTD, deductions |
+| Receipts | `compressed-mdfinancial.md` | Only Section 4 (variable spending) will populate |
+| Robinhood / investment statements | `compressed-mdinvest.md` (create when needed) | Entirely different schema — do not use bank prompt |
 
 ---
 
@@ -112,3 +162,9 @@ Origin: BE-20260301 (Shopify era), still canonical.
 | Path verification before any file write | BE-20260430 |
 | PowerShell BOM / WriteAllText rule | BE-20260430 |
 | iPad Air 5th gen correction | BE-20260430 |
+| System prompt ≤500 tokens / behavioral only | 2026-05-02 laptop-optimization thread |
+| Tiered token budget (Tier 1/2/3) | 2026-05-02 laptop-optimization thread |
+| Compressed prompt as LM Studio standard | 2026-05-02 laptop-optimization thread |
+| One document per LM Studio session | 2026-05-02 laptop-optimization thread |
+| LM Studio extracts only / Perplexity updates vault | 2026-05-02 laptop-optimization thread |
+| Document type → compressed prompt variant mapping | 2026-05-02 laptop-optimization thread |
