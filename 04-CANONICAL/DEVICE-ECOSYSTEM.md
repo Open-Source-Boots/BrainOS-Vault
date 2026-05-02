@@ -1,7 +1,7 @@
 ---
 title: Device Ecosystem
 filename: DEVICE-ECOSYSTEM.md
-updated: 2026-05-01
+updated: 2026-05-02
 status: CANONICAL
 domain: BRAINOS-SYSTEM
 ---
@@ -28,7 +28,7 @@ domain: BRAINOS-SYSTEM
 | Software                 | Status                  | Notes                                                                                                 |
 | ------------------------ | ----------------------- | ----------------------------------------------------------------------------------------------------- |
 | Obsidian 1.12.7          | ✅ Installed             | Real vault live, past test stage                                                                      |
-| LM Studio 0.4.9          | ✅ Installed             | See LM Studio section below for models and settings                                                   |
+| LM Studio 0.4.12         | ✅ Installed             | Updated from 0.4.12 confirmed 2026-05-02. See LM Studio section below for models and settings        |
 | Ollama                   | ✅ Installed             | Confirmed installed, not fully configured                                                             |
 | n8n v2.17.6              | ✅ Installed             | Local REST API active — zero workflows built                                                          |
 | Node.js                  | ✅ Installed             | Required for n8n                                                                                      |
@@ -42,56 +42,73 @@ domain: BRAINOS-SYSTEM
 | Möbius Sync              | ✅ Active                | iPhone Obsidian sync confirmed                                                                        |
 | LibreOffice              | ⚠️ Installed            | Installed only to laptop currently, no setup yet                                                      |
 | ComfyUI                  | ❌ Not installed         | Planned for desktop                                                                                   |
+| brainos-laptop-optimize.ps1 | ✅ Run 2026-05-02     | PowerShell optimizer script — disabled Intel DSA, Lenovo Vantage, OneDrive startup, gaming launchers, and non-essential services. Stored at C:\Users\brayd\Desktop. Move to utils/ for vault tracking. |
 
 ---
 
 ## LM Studio — Laptop
 
-### Installed Models (as of 2026-05-01)
+### Installed Models (as of 2026-05-02)
 
-| Model                | Quantization             | Use Case                                                      | Status      |
-| -------------------- | ------------------------ | ------------------------------------------------------------- | ----------- |
-| Gemma 4 E4B Instruct | Q4_K_M                   | General BrainOS sessions, reasoning, future multimodal        | ✅ Installed |
-| Qwen 3.5 9B          | Q4_K_M                   | Structured output — mdfinancial, mdlegal, document extraction | ✅ Installed |
+| Model                        | Quantization | Use Case                                                                     | Status           |
+| ---------------------------- | ------------ | ---------------------------------------------------------------------------- | ---------------- |
+| Qwen2.5-7B-Instruct          | Q4_K_M       | Primary model — BrainOS sessions, Brain Entries, structured output, planning | ✅ Installed, active |
+| Gemma 3 1B Instruct          | QAT Q4       | Fast lightweight responses, quick lookups, low-RAM fallback                  | ✅ Installed      |
 
-**Primary model for structured tasks:** Qwen 3.5 9B Q4_K_M
-**Primary model for general sessions:** Gemma 4 E4B Instruct Q4_K_M
+**Primary model (all tasks):** Qwen2.5-7B-Instruct Q4_K_M  
+**Fallback / speed model:** Gemma 3 1B QAT Q4  
+
+> Note: DEVICE-ECOSYSTEM previously listed Qwen 3.5 9B and Gemma 4 E4B — these were from a prior session projection. Confirmed installed models as of 2026-05-02 are above. Update this table after each model change.
 
 ---
 
 ### LM Studio Advanced Settings — Laptop Canonical Config
 
-These are the confirmed optimized settings for running local models on the laptop
-(8GB RAM, Intel Iris Xe integrated GPU, no discrete VRAM).
+These are the confirmed optimized settings for running local models on the laptop  
+(8GB RAM, Intel Iris Xe integrated GPU, no discrete VRAM).  
 Do not exceed these without confirming available memory first.
 
-| Setting | Canonical Value | Notes |
-|---|---|---|
-| Context Length | 4,096 | Single biggest memory driver. 4k covers all BrainOS tasks. 8k max if needed for long docs. |
-| GPU Offload Layers | 0 | Iris Xe is integrated — shares system RAM. Offloading does not free memory. Run fully on CPU. |
-| CPU Thread Pool Size | 4 | Set to logical cores minus 1. Confirm in Task Manager → Performance → Logical processors. |
-| Evaluation Batch Size | 128 | Larger = faster but more RAM. 128 is the 8GB sweet spot. |
-| Max Concurrent Predictions | 1 | Solo use only. Each additional multiplies KV cache usage. |
-| Unified KV Cache | On | Required for integrated GPU setup. |
-| RoPE Frequency Base | Auto | Correct for Qwen 3.5 and Gemma 4. Do not override. |
-| RoPE Frequency Scale | Auto | Correct for Qwen 3.5 and Gemma 4. Do not override. |
-| Offload KV Cache to GPU | Off | Integrated GPU — no benefit, adds overhead. |
-| Keep Model in Memory | On | Prevents reload penalty between sessions. |
-| Try mmap() | On | Memory-mapped loading — more efficient on low-RAM systems. |
-| Flash Attention | On | Reduces attention memory footprint. Critical on 8GB. Keep on. |
-| K Cache Quantization | Q4_0 | Cuts KV cache memory by ~50-75%. Second biggest memory lever after context length. |
-| V Cache Quantization | Q4_0 | Apply same as K cache. |
-| Random Seed | Random | No change needed. |
+| Setting                    | Canonical Value | Notes                                                                                                  |
+| -------------------------- | --------------- | ------------------------------------------------------------------------------------------------------ |
+| Context Length             | 4,096           | Single biggest memory driver. 4k covers all BrainOS tasks. 8k max if needed for long docs.            |
+| GPU Offload Layers         | 0               | Iris Xe is integrated — shares system RAM. Offloading does not free memory. Run fully on CPU.          |
+| CPU Thread Pool Size       | 4               | UI slider max is 4. Can type 6 manually — 6 leaves 2 threads for OS/background (recommended by AI 2026-05-02). Test both; use whichever produces higher t/s without thermal throttle. |
+| Evaluation Batch Size      | 128             | Larger = faster but more RAM. 128 is the 8GB sweet spot.                                               |
+| Max Concurrent Predictions | 1               | Solo use only. Each additional multiplies KV cache usage.                                              |
+| Unified KV Cache           | On              | Required for integrated GPU setup.                                                                     |
+| RoPE Frequency Base        | Auto            | Correct for Qwen 2.5. Do not override.                                                                 |
+| RoPE Frequency Scale       | Auto            | Correct for Qwen 2.5. Do not override.                                                                 |
+| Offload KV Cache to GPU    | Off             | Integrated GPU — no benefit, adds overhead.                                                            |
+| Keep Model in Memory       | On              | Prevents reload penalty between sessions.                                                              |
+| Try mmap()                 | On              | Memory-mapped loading — more efficient on low-RAM systems.                                             |
+| Flash Attention            | On              | Reduces attention memory footprint. Critical on 8GB. Keep on.                                         |
+| K Cache Quantization       | Q4_0            | Cuts KV cache memory by ~50–75%. Second biggest memory lever after context length.                     |
+| V Cache Quantization       | Q4_0            | Apply same as K cache.                                                                                 |
+| Random Seed                | Random          | No change needed.                                                                                      |
 
-**Estimated memory usage at these settings:** ~3.5–5GB (within 8GB ceiling with OS headroom)
+**Estimated memory usage at these settings:** ~4.6–5.0 GB for Qwen2.5-7B (within 8GB ceiling with OS headroom)  
+**System pagefile (virtual memory):** Recommended Initial 4,096 MB / Max 16,384 MB on C: drive — set 2026-05-02  
 **Previous misconfigured usage:** 16.80GB (context 262k, 13 GPU layers, no KV quantization — do not use)
+
+---
+
+### LM Studio Generation Parameters — Laptop Presets
+
+| Preset Name          | Temperature | Top P | Max Tokens | Use Case                                    |
+| -------------------- | ----------- | ----- | ---------- | ------------------------------------------- |
+| BrainOS-Structured   | 0.2         | 0.90  | 2048       | Brain Entries, financial, mdlegal           |
+| BrainOS-Chat         | 0.7         | 0.95  | 1024       | General planning, Q&A                       |
+| BrainOS-Creative     | 0.85        | 0.95  | 2048       | YouTube scripts, CommonGrounds writing      |
+| BrainOS-Code         | 0.1         | 0.90  | 2048       | n8n workflows, Python automation            |
+
+**Context Overflow Policy:** Truncate middle (preserves system prompt + most recent turns)
 
 ---
 
 ## Desktop — Nothing Installed Yet
 
-Desktop is owned and powered — no BrainOS software installed as of April 25, 2026.
-Hostname: unknown (confirm when first accessed).
+Desktop is owned and powered — no BrainOS software installed as of April 25, 2026.  
+Hostname: unknown (confirm when first accessed).  
 First install priority when ready: Ollama → LM Studio → Obsidian → Git → n8n (point to existing laptop workflows).
 
 ---
