@@ -28,17 +28,17 @@ Brayden is pursuing an electrician trade path through Peaslee Tech, with a targe
 ## Current Status
 - [ ] Application submitted or in progress — **[CONFIRM STATUS]**
 - [ ] Financial aid / funding plan confirmed — **[CONFIRM]**
-- [ ] Schedule conflicts with GLWC roles assessed
+- [ ] Schedule conflicts with GL roles assessed
 - [ ] Tools / equipment needs identified
 
 ## Timeline
-| Milestone | Target Date | Status |
-|---|---|---|
-| Peaslee Tech application | [UNCONFIRMED] | ⬜ |
-| Acceptance / enrollment confirmed | [UNCONFIRMED] | ⬜ |
-| Cohort start | October 2026 | ⬜ |
-| Program completion | [UNCONFIRMED] | ⬜ |
-| Apprenticeship start | [UNCONFIRMED] | ⬜ |
+| Milestone                         | Target Date   | Status |
+| --------------------------------- | ------------- | ------ |
+| Peaslee Tech application          | [UNCONFIRMED] | ⬜      |
+| Acceptance / enrollment confirmed | [UNCONFIRMED] | ⬜      |
+| Cohort start                      | October 2026  | ⬜      |
+| Program completion                | [UNCONFIRMED] | ⬜      |
+| Apprenticeship start              | [UNCONFIRMED] | ⬜      |
 
 ## Income Projections
 - Apprentice electrician starting wage: roughly $18–25/hr (Kansas range) — **[CONFIRM LOCAL RATES]**
@@ -48,7 +48,7 @@ Brayden is pursuing an electrician trade path through Peaslee Tech, with a targe
 ## Open Questions
 - Has the Peaslee Tech application been submitted?
 - What is the exact cohort start date and application deadline?
-- How does the program schedule interact with current GLWC hours?
+- How does the program schedule interact with current GL hours?
 - Is there financial aid, employer support, or grants available?
 
 ## Cross-References
