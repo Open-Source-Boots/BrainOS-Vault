@@ -64,3 +64,15 @@
 **Question:** confirm Robotics internship availability with Peaslee directly
 **Answer:** [SAVE FOR LATER]
 **Status:** LATER
+
+## OQ-20260225-001 — 2026-05-01 20:09
+**Source:** 20260225-BE-MIXED-peaslee-followup.md
+**Question:** Call Phyllis/Gingette at Lawrence Workforce Center 785-840-9675 for WIOA
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
+
+## OQ-20260225-002 — 2026-05-01 20:09
+**Source:** 20260225-BE-MIXED-peaslee-followup.md
+**Question:** confirm Peaslee Tech replied to Feb 25 email
+**Answer:** [SAVE FOR LATER]
+**Status:** LATER
