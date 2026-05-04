@@ -5,3 +5,8 @@
 /.obsidian/community-plugins.json
 /.obsidian/workspace.json
 /.obsidian/workspace-mobile.json
+.trash
+desktop.ini
+Desktop.ini
+.DS_Store
+*.sync-conflict-*

@@ -3,7 +3,7 @@
   "newFileFolderPath": "01-DAILY",
   "attachmentFolderPath": "08-ATTACH",
   "alwaysUpdateLinks": true,
-  "showUnsupportedFiles": false,
+  "showUnsupportedFiles": true,
   "mobileToolbarCommands": [
     "editor:undo",
     "editor:redo",
