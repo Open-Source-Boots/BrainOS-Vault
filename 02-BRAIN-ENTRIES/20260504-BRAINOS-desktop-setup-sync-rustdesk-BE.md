@@ -1,6 +1,6 @@
 ---
-title: "BBs_PC Desktop BrainOS Setup — Obsidian, Git, Syncthing, Google Drive, RustDesk"
-filename: "BE-20260504-BRAINOS-desktop-setup-sync-rustdesk.md"
+title: BBs_PC Desktop BrainOS Setup — Obsidian, Git, Syncthing, Google Drive, RustDesk
+filename: 20260504-BRAINOS-desktop-setup-sync-rustdesk-BE.md
 date: 2026-05-04
 domain: BRAINOS-SYSTEM
 slug: desktop-setup-sync-rustdesk
@@ -21,55 +21,55 @@ tags:
   - device-ecosystem
 open_questions:
   - id: OQ-20260504-001
-    question: "Was RustDesk successfully installed and a permanent password set on BBs_PC?"
+    question: Was RustDesk successfully installed and a permanent password set on BBs_PC?
     canonical_target: DEVICE-ECOSYSTEM.md
     status: OPEN
   - id: OQ-20260504-002
-    question: "Is Syncthing on the laptop confirmed 'Up to Date' with BBs_PC after pairing?"
+    question: Is Syncthing on the laptop confirmed 'Up to Date' with BBs_PC after pairing?
     canonical_target: DEVICE-ECOSYSTEM.md
     status: OPEN
   - id: OQ-20260504-003
-    question: "What is the local IPv4 address of BBs_PC for direct LAN RustDesk connection?"
+    question: What is the local IPv4 address of BBs_PC for direct LAN RustDesk connection?
     canonical_target: DEVICE-ECOSYSTEM.md
     status: OPEN
   - id: OQ-20260504-004
-    question: "Are two GitHub accounts (Open-Source-Boots and BraydenBoots) both intentionally active, or should one be consolidated as the canonical identity for all vault commits?"
+    question: Are two GitHub accounts (Open-Source-Boots and BraydenBoots) both intentionally active, or should one be consolidated as the canonical identity for all vault commits?
     canonical_target: DEVICE-ECOSYSTEM.md
     status: OPEN
   - id: OQ-20260504-005
-    question: "Has the existing Syncthing conflict file BE-20260425-BRAINOS-triage-shiftmind-founding.sync-conflict-20260425-230026-QH2DFIH.md been compared, resolved, and deleted from the repo?"
+    question: Has the existing Syncthing conflict file BE-20260425-BRAINOS-triage-shiftmind-founding.sync-conflict-20260425-230026-QH2DFIH.md been compared, resolved, and deleted from the repo?
     canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260504-006
-    question: "Is Google Drive for Desktop on BBs_PC set to 'Stream files' mode or 'Mirror files' mode, and has the vault folder been confirmed excluded from My Drive sync?"
+    question: Is Google Drive for Desktop on BBs_PC set to 'Stream files' mode or 'Mirror files' mode, and has the vault folder been confirmed excluded from My Drive sync?
     canonical_target: DEVICE-ECOSYSTEM.md
     status: OPEN
   - id: OQ-20260504-007
-    question: "What is the exact local path of the BrainOS-Vault clone on BBs_PC (e.g. C:\\Users\\brayd\\BrainOS-Vault)?"
+    question: What is the exact local path of the BrainOS-Vault clone on BBs_PC (e.g. C:\Users\brayd\BrainOS-Vault)?
     canonical_target: DEVICE-ECOSYSTEM.md
     status: OPEN
   - id: OQ-20260504-008
-    question: "Does the Obsidian Git plugin on BBs_PC use the Open-Source-Boots PAT, and when does that PAT expire?"
+    question: Does the Obsidian Git plugin on BBs_PC use the Open-Source-Boots PAT, and when does that PAT expire?
     canonical_target: DEVICE-ECOSYSTEM.md
     status: OPEN
   - id: OQ-20260504-009
-    question: "Can the BrainOS system determine whether a decision reached under cognitive load or time pressure is more or less likely to align with stated long-term values than one made in a calm planning session?"
+    question: Can the BrainOS system determine whether a decision reached under cognitive load or time pressure is more or less likely to align with stated long-term values than one made in a calm planning session?
     canonical_target: BRAYDEN-IDENTITY.md
     status: OPEN
   - id: OQ-20260504-010
-    question: "If two sync layers (Git and Syncthing) are both active and a file is modified on both devices simultaneously before either syncs, which layer wins and what is the correct recovery protocol?"
+    question: If two sync layers (Git and Syncthing) are both active and a file is modified on both devices simultaneously before either syncs, which layer wins and what is the correct recovery protocol?
     canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260504-011
-    question: "Is there a meaningful difference in long-term vault integrity between using merge vs. rebase as the Obsidian Git sync method across two active devices?"
+    question: Is there a meaningful difference in long-term vault integrity between using merge vs. rebase as the Obsidian Git sync method across two active devices?
     canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
   - id: OQ-20260504-012
-    question: "What software still needs to be installed on BBs_PC to reach full BrainOS parity with the laptop (Ollama, LM Studio, ComfyUI, n8n)?"
+    question: What software still needs to be installed on BBs_PC to reach full BrainOS parity with the laptop (Ollama, LM Studio, ComfyUI, n8n)?
     canonical_target: DEVICE-ECOSYSTEM.md
     status: OPEN
   - id: OQ-20260504-013
-    question: "Has desktop.ini pollution in vault subdirectories been fully purged from the Git repo history, or only blocked going forward via .gitignore?"
+    question: Has desktop.ini pollution in vault subdirectories been fully purged from the Git repo history, or only blocked going forward via .gitignore?
     canonical_target: BRAINOS-SYSTEM.md
     status: OPEN
 ---
