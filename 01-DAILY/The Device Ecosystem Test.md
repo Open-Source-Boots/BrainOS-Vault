@@ -10,3 +10,4 @@ Back to laptop. lag could have come from smart connections, indexing files, the 
 
 iPhone is getting data quickly and accurately. iPad isn’t connecting or updating but says it is up-to-date in mobius sync.
 
+Able to get laptop/iphone updates to desktop, then git commit, then git push and it works without error.
