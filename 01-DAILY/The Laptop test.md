@@ -3,3 +3,5 @@ Ok I want to make this file, I want to read on all devices, but I'm noticing a h
 Let's see. Closing now, checking the different devices.
 
 iPhone, has a copy, adding this entry from iPhone. 
+
+I see this far on the desktop: laptop, and iphone are sending files to the desktop, and here I am, writing another line on this file.
