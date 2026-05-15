@@ -1,7 +1,7 @@
 ---
 title: Device Ecosystem
 filename: DEVICE-ECOSYSTEM.md
-updated: 2026-05-02
+updated: 2026-05-14
 status: CANONICAL
 domain: BRAINOS-SYSTEM
 ---
@@ -14,6 +14,7 @@ domain: BRAINOS-SYSTEM
 | ------------------------ | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
 | Desktop                  | AMD Ryzen 7 7700X, RTX 3060 12GB VRAM, 64GB RAM, Windows 11                    | Owned — nothing installed for BrainOS yet. When setup is done, this will be the 1st highest-priority device   |
 | Laptop                   | Intel Core i5-1135G7 @ 2.40GHz, Intel Iris Xe integrated GPU, 8GB RAM, Windows | Hostname: DESKTOP-QS71AHN.<br>Once desktop is established, the laptop will be the 2nd highest-priority device |
+| MSA1 Mini PC             | [UNCONFIRMED — confirm specs on arrival] Intel N100 or similar low-power CPU, expected 8–16GB RAM, SSD | **INBOUND** — ordered 2026-05-14 from Newegg Outlet clearance. Intended role: always-on BrainOS homelab node. First boot priorities: Git clone vault → Obsidian → Syncthing peer → Ollama small model → one n8n workflow (daily vault backup commit). Will become 2nd highest-priority device once desktop is established; replaces Hostinger VPS as local automation host. |
 | iPhone 15                | 128GB                                                                          | Obsidian node live via Möbius Sync; 3rd highest-priority device                                               |
 | iPad Air (5th gen, 2017) | 64GB, A9 chip (assumed — not mini or air)                                      | Spacedesk working as second monitor; some apps installed; will always be the 4th highest-priority device      |
 | External HDD 1           | 2TB                                                                            | Undetermined purpose at this time                                                                             |
@@ -42,7 +43,7 @@ domain: BRAINOS-SYSTEM
 | Möbius Sync              | ✅ Active                | iPhone Obsidian sync confirmed                                                                        |
 | LibreOffice              | ⚠️ Installed            | Installed only to laptop currently, no setup yet                                                      |
 | ComfyUI                  | ❌ Not installed         | Planned for desktop                                                                                   |
-| brainos-laptop-optimize.ps1 | ✅ Run 2026-05-02     | PowerShell optimizer script — disabled Intel DSA, Lenovo Vantage, OneDrive startup, gaming launchers, and non-essential services. Stored at C:\Users\brayd\Desktop. Move to utils/ for vault tracking. |
+| brainos-laptop-optimize.ps1 | ✅ Run 2026-05-02     | PowerShell optimizer script — disabled Intel DSA, Lenovo Vantage, OneDrive startup, gaming launchers, and non-essential services. Stored at C:\\Users\\brayd\\Desktop. Move to utils/ for vault tracking. |
 
 ---
 
@@ -123,5 +124,5 @@ First install priority when ready: Ollama → LM Studio → Obsidian → Git →
 
 ## API Keys & Credentials
 - No API keys created as of April 17, 2026
-- GitHub PAT: iPhone PAT expires **May 22, 2026** — renew before that date
+- GitHub PAT: iPhone PAT expires **2026-05-22** — ⚠️ RENEW BEFORE THIS DATE (8 days from 2026-05-14)
 - No paid AI subscriptions active beyond Perplexity
